@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#P#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_ingot"
+        },
+        "P": {
+            "item": "minecraft:damaged_anvil"
+        }
+    },
+    "result": {
+        "item": "minecraft:chipped_anvil",
+        "count": 1
+    }
+}
