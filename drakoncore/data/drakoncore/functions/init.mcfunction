@@ -9,6 +9,7 @@ scoreboard objectives add dc_yPos dummy "Y"
 scoreboard objectives add dc_zPos dummy "Z"
 scoreboard objectives add dc_health health {"text":"❤","color":"red"}
 scoreboard objectives add dc_deathCount deathCount "Deaths"
+scoreboard objectives add dc_recentDeath deathCount "Recently Died"
 scoreboard objectives add dc_playerKills playerKillCount "Player Kills"
 
 # Base commands

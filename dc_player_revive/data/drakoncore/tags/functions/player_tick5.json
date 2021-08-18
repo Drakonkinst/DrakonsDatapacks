@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "dc_template:hooks/player_tick"
+        "dc_player_revive:hooks/player_tick5"
     ]
 }
