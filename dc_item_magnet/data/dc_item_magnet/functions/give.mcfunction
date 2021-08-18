@@ -1,0 +1,3 @@
+clear @s minecraft:skeleton_spawn_egg 1
+give @s minecraft:iron_ingot{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],HideFlags:1,display:{Name:'[{"text":"Item Magnet","italic":false,"color":"green"}]',Lore:['[{"text":"Attracts nearby items within a 6 block radius.","color":"light_purple","italic":false},{"text":"","color":"light_purple","italic":false}]','[{"text":"","color":"light_purple"}]','[{"text":"Can be equipped in main hand or offhand.","color":"blue","italic":false}]']},Tags:["ItemMagnet"]} 1
+tag @s add dc_crafted_item

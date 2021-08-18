@@ -1,0 +1,18 @@
+{
+    "parent": "drakoncore:crafting",
+    "criteria": {
+        "craft_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skeleton_spawn_egg"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "drakoncore:items/schedule_crafting_update"
+    }
+}

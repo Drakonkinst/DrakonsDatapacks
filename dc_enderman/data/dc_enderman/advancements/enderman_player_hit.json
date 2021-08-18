@@ -1,0 +1,15 @@
+{
+    "rewards": {
+        "function": "dc_enderman:on_hit"
+    },
+    "criteria": {
+        "enderman_player_hurt": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"dc_enderman_player\"]}"
+                }
+            }
+        }
+    }
+}

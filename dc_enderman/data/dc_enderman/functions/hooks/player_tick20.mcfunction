@@ -1,0 +1,1 @@
+execute if entity @s[tag=dc_enderman_player] run function dc_enderman:update_enderman_player

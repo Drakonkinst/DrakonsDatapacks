@@ -1,0 +1,5 @@
+tellraw @s ["",{"text":"Commands List:","color":"blue"}]
+tellraw @s ["",{"text":"/trigger help","color":"green","clickEvent":{"action":"run_command","value":"/trigger help"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to run this command!","color":"gold"}]}},{"text":" - ","color":"gray"},{"text":"Displays this help menu.","color":"dark_purple"}]
+tellraw @s ["",{"text":"/trigger mods","color":"green","clickEvent":{"action":"run_command","value":"/trigger mods"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to run this command!","color":"gold"}]}},{"text":" - ","color":"gray"},{"text":"Displays a list of loaded datapacks.","color":"dark_purple"}]
+tellraw @s ["",{"text":"/trigger config","color":"green","clickEvent":{"action":"run_command","value":"/trigger config"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to run this command!","color":"gold"}]}},{"text":" - ","color":"gray"},{"text":"Displays the config menu.","color":"dark_purple"}]
+function #drakoncore:help_list

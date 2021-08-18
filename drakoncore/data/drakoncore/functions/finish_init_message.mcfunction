@@ -1,0 +1,1 @@
+tellraw @s {"text":"Drakon's Datapacks loaded!","color":"green"}

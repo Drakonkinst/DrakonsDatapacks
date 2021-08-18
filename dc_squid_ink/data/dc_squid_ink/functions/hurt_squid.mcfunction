@@ -1,0 +1,2 @@
+execute at @s if entity @e[type=squid,nbt={HurtTime:10s},distance=..3,limit=1] if block ~ ~1.6 ~ minecraft:water run function dc_squid_ink:give_blindness
+advancement revoke @s only dc_squid_ink:hurt_squid

@@ -1,0 +1,2 @@
+function drakoncore:finish_init_message
+tellraw @s ["",{"text":"I'm not detecting an admin online. To make this message print to only to you, click ","color":"blue"},{"text":"here","bold":true,"underlined":true,"color":"gold","clickEvent":{"action":"run_command","value":"/tag @s add dc_admin"}},{"text":" to add yourself as an admin! (Requires op)","color":"blue"}]
