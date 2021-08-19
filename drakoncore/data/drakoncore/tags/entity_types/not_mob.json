@@ -1,0 +1,22 @@
+{
+    "values": [
+        "minecraft:player",
+        "minecraft:boat",
+        "minecraft:item",
+        "minecraft:experience_orb",
+        "minecraft:eye_of_ender",
+        "minecraft:tnt",
+        "minecraft:falling_block",
+        "minecraft:fishing_bobber",
+        "minecraft:leash_knot",
+        "minecraft:painting",
+        "minecraft:armor_stand",
+        "minecraft:end_crystal",
+        "minecraft:evoker_fangs",
+        "minecraft:marker",
+        "minecraft:lightning_bolt",
+        "#drakoncore:item_frame",
+        "#drakoncore:minecart",
+        "#drakoncore:projectiles"
+    ]
+}

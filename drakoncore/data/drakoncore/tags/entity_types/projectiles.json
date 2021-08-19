@@ -1,0 +1,16 @@
+{
+    "values": [
+        "minecraft:fireball",
+        "minecraft:small_fireball",
+        "minecraft:wither_skull",
+        "minecraft:dragon_fireball",
+        "minecraft:shulker_bullet",
+        "#minecraft:arrows",
+        "minecraft:trident",
+        "minecraft:snowball",
+        "minecraft:egg",
+        "minecraft:llama_spit",
+        "minecraft:ender_pearl",
+        "minecraft:firework_rocket"
+    ]
+}
