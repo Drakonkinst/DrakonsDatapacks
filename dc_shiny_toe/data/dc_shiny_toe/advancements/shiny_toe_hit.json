@@ -1,0 +1,16 @@
+{
+    "rewards": {
+        "function": "dc_shiny_toe:on_hurt"
+    },
+    "criteria": {
+        "player_hurt_shiny_toe": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "nbt": "{DeathLootTable:\"dc_shiny_toe:shiny_toe\"}"
+                }
+            }
+        }
+    }
+}

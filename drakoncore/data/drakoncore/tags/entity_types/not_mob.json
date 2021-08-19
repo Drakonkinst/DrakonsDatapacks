@@ -15,8 +15,8 @@
         "minecraft:evoker_fangs",
         "minecraft:marker",
         "minecraft:lightning_bolt",
-        "#drakoncore:item_frame",
-        "#drakoncore:minecart",
+        "#drakoncore:item_frames",
+        "#drakoncore:minecarts",
         "#drakoncore:projectiles"
     ]
 }

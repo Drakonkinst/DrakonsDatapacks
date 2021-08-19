@@ -1,0 +1,330 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 12
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Old Bandages",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "name": "minecraft:rotten_flesh"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potato"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.025,
+                    "looting_multiplier": 0.01
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.99
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Shiny Toe's Helmet",
+                                "color": "green",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{color:3868470}}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 5
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.085,
+                    "looting_multiplier": 0.01
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.99
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Shiny Toe's Chestplate",
+                                "color": "green",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{color:3868470}}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 5
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.085,
+                    "looting_multiplier": 0.01
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.99
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Shiny Toe's Leggings",
+                                "color": "green",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{color:3868470}}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 5
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.085,
+                    "looting_multiplier": 0.01
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.99
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text": "Shiny Toes",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Slot:\"feet\",Amount:0.02,Operation:0,UUIDLeast:382868,UUIDMost:452697}]}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.025,
+                    "looting_multiplier": 0.01
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.99
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.085,
+                    "looting_multiplier": 0.01
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{pages:[\"{\\\"text\\\":\\\"The latest horror of the undead, known as Shiny Toes, remains largely unknown to my order. The survivors among us seem familiar with this sort of creature, but they do not share their knowledge easily. What little we have learned is detailed here.\\\"}\",\"{\\\"text\\\":\\\"It is clear that Shiny Toes are far quicker, stronger, and more durable than the average zombie. Most striking is their glowing armor\\\\u2014how they came to possess such magic is beyond me. Perhaps it\\\\u2019s a blessing from Agni.\\\"}\",\"{\\\"text\\\":\\\"Despite their inferior armaments, even our best knights have trouble fighting these creatures. They are astoundingly mobile\\\\u2014I could swear that at times they moved faster than the eye could track. I tremble at the thought of facing more than one at once.\\\"}\",\"{\\\"text\\\":\\\"They tend to stay above ground, but as I learned on the trek to Afthonia, can catch your scent from a very long distance. They are relentless hunters, and seem more adept than most of the shambling dead at catching their opponent unawares.\\\"}\",\"{\\\"text\\\":\\\"Finally, while observing skirmishes I have occasionally witnessed some unseen force shoving our combatants into the Shiny Toe\\\\u2019s reach. How this is accomplished is entirely a mystery, much like the creature itself.\\\"}\",\"{\\\"text\\\":\\\"One thing we do know with absolute certainty\\\\u2014they came from the north.\\\"}\"],title:\"§5Research Log 22\",author:\"Bavel, the Eclipsed\",generation:3,display:{Lore:[\"{\\\"text\\\":\\\"Lore Item\\\",\\\"color\\\":\\\"purple\\\",\\\"italic\\\":\\\"false\\\"}\"]}}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:killed_by_player"
+                        },
+                        {
+                            "condition": "minecraft:random_chance_with_looting",
+                            "chance": 0.025,
+                            "looting_multiplier": 0.01
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
