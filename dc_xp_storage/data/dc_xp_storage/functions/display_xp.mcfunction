@@ -1,0 +1,2 @@
+execute unless score @s dc_storedXP matches -999.. run scoreboard players add @s dc_storedXP 0
+title @s actionbar ["",{"text":"Stored Experience: ","color":"green"},{"score":{"name":"@s","objective":"dc_storedXP"},"color":"green","bold":true},{"text":" Points","color":"green"}]

@@ -1,0 +1,1 @@
+scoreboard objectives add dc_storedXP dummy "Stored XP"
