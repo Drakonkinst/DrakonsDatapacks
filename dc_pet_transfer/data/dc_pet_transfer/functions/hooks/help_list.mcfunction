@@ -1,0 +1,2 @@
+# Display help submenu
+tellraw @s ["",{"text":"/trigger pettransfer","color":"green","clickEvent":{"action":"run_command","value":"/trigger pettransfer"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to run this command!","color":"gold"}]}},{"text":" - ","color":"gray"},{"text":"Manifests a book that can transfer pet ownership.","color":"dark_purple"}]

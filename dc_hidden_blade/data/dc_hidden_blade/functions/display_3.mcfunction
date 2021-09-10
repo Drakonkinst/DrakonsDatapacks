@@ -1,0 +1,2 @@
+title @s title ["",{"text":"<","color":"yellow","bold":true},{"text":"<","color":"gold","bold":true},{"text":"< ","color":"red","bold":true},{"score":{"name":"#HiddenBladeDamage","objective":"dc_value"},"color":"yellow","bold":true},{"text":" >","color":"red","bold":true},{"text":">","color":"gold","bold":true},{"text":">","color":"yellow","bold":true}]
+execute if score @s dc_HB_prevDmg matches ..29 run playsound minecraft:block.beacon.power_select voice @s ~ ~ ~ 10 2

@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "dc_throwable_torch:hooks/init"
+        "dc_hidden_blade:hooks/init"
     ]
 }

@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "dc_template:hooks/check_crafting"
+        "dc_hidden_blade:hooks/mod_info"
     ]
 }

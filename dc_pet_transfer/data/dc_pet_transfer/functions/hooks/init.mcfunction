@@ -1,0 +1,1 @@
+scoreboard objectives add pettransfer trigger "Pet Transfer"

@@ -1,0 +1,1 @@
+tellraw @s {"text":"There is already another player accepting pet transfers! You must wait for them to finish the transaction first.","color":"red"}

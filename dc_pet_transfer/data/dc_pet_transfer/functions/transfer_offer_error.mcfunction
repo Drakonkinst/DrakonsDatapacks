@@ -1,0 +1,1 @@
+tellraw @s {"text":"No one is currently accepting pet transfers! You must wait for the other party to begin accepting pet transfers first.","color":"red"}
