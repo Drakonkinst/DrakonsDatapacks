@@ -1,0 +1,1 @@
+particle minecraft:campfire_cosy_smoke ~ ~1 ~ 2 1 2 0.05 50

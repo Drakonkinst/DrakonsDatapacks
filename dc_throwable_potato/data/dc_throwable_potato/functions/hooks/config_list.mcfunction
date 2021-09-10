@@ -1,0 +1,2 @@
+# Display config submenu
+tellraw @s {"text":"Throwable Bomb Config","underlined":true,"color":"green","clickEvent":{"action":"run_command","value":"/trigger config set 100"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to navigate to the config for this datapack!","color":"gold"}]}}

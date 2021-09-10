@@ -1,0 +1,1 @@
+execute if entity @s[tag=!on_ground] if predicate drakoncore:on_ground run function dc_throwable_potato:blast/hit_ground

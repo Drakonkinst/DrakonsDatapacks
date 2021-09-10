@@ -1,0 +1,8 @@
+{
+    "values": [
+        "minecraft:redstone_wire",
+        "minecraft:repeater",
+        "minecraft:redstone_torch",
+        "minecraft:comparator"
+    ]
+}

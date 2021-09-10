@@ -1,0 +1,16 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:kelp_plant",
+                    "minecraft:kelp",
+                    "minecraft:tall_seagrass",
+                    "minecraft:seagrass",
+                    "minecraft:water"
+                ]
+            }
+        }
+    }
+]

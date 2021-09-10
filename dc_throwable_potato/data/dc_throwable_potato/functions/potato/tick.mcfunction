@@ -1,0 +1,1 @@
+execute if entity @s[tag=!on_ground,nbt={OnGround:1b}] run function dc_throwable_potato:potato/hit_ground
