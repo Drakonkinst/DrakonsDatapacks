@@ -1,0 +1,1 @@
+execute unless score @s manhunt matches 0 run function dc_manhunt_compass:roles/manhunt

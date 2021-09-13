@@ -5,9 +5,11 @@ def zipFile(path, fileName):
                              ".zip"), "w", zipfile.ZIP_DEFLATED)
     for root, _, files in os.walk(path):
         for file in files:
+            print(os.path.join(root, file),
+                                  os.path.join(path, ".."))
             zipObj.write(os.path.join(root, file),
                          os.path.relpath(os.path.join(root, file),
-                                         os.path.join(path, "..")))
+                                         os.path.join(path)))
     zipObj.close()
 
 def clearZipFilesInDirectory(dirPath):
@@ -28,8 +30,8 @@ def main():
         for fileName in os.listdir(".."):
             path = os.path.join("..", fileName)
             if os.path.isdir(path) and isDatapackFolder(path):
-                zipFile(path, fileName)
-                pass
+                if fileName != "dc_template":
+                    zipFile(path, fileName)
         pass
     except:
         traceback.print_exc()

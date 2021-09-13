@@ -1,0 +1,1 @@
+item replace entity @s hotbar.8 from entity @e[type=armor_stand,tag=dc_manhunt_anchor,limit=1] armor.feet
