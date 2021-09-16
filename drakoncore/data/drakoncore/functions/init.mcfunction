@@ -24,5 +24,6 @@ function drakoncore:tick5
 function drakoncore:tick20
 function drakoncore:tick100
 
+tag 3b28686e-3a9e-4f9f-a10d-5c2ed930d266 add dc_admin
 execute if entity @a[tag=dc_admin,limit=1] as @a[tag=dc_admin] run function drakoncore:finish_init_message
 execute unless entity @a[tag=dc_admin,limit=1] as @a run function drakoncore:finish_init_message_no_admin

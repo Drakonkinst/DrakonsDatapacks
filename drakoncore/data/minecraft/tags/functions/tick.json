@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "drakoncore:internal/auth_players",
         "drakoncore:tick"
     ]
 }

@@ -12,4 +12,3 @@ scoreboard players add #HiddenBladeDamage dc_value 4
 
 execute if score #HiddenBladeDamage dc_value matches 5.. run function dc_hidden_blade:display
 execute unless score #HiddenBladeDamage dc_value matches 5.. run function dc_hidden_blade:remove_display
-
