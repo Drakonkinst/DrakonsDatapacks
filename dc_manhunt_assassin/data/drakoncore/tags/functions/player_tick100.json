@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "dc_manhunt_assassin:hooks/player_tick100"
+    ]
+}

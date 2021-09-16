@@ -1,0 +1,1 @@
+effect give @s minecraft:health_boost 10 4 true

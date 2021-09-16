@@ -1,0 +1,128 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:firework_star",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Explosion:{Type:3,Flicker:1b,Colors:[I;754179]}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Impact Bomb",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:firework_star",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 5
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Explosion:{Type:0,Flicker:1b,Colors:[I;5722963]}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Smoke Bomb",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:firework_star",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 32
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Explosion:{Type:4,Flicker:1b,Colors:[I;14703739]}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Blast Bomb",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bread",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 32
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:invisibility\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

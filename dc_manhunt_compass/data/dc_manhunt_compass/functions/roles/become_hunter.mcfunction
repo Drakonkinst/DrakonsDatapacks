@@ -9,3 +9,5 @@ title @s actionbar {"text":"Follow the compass to your prey","color":"red","bold
 playsound minecraft:block.beacon.power_select player @s ~ ~ ~ 0.5 1.5
 execute as @a at @s run playsound minecraft:entity.evoker.prepare_summon voice @s ~ ~ ~ 0.5 2
 tellraw @a ["",{"selector":"@s","color":"aqua"},{"text":" has chosen to be a ","color":"blue"},{"text":"Hunter","color":"red"}]
+
+function #dc_manhunt_compass:become_hunter

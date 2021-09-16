@@ -13,3 +13,5 @@ title @s actionbar {"text":"If you die once, you lose","color":"red","bold":true
 playsound minecraft:entity.wither.ambient player @s ~ ~ ~ 0.2 1.5
 execute as @a at @s run playsound minecraft:block.bell.use master @s ~ ~ ~ 0.5 0
 tellraw @a ["",{"selector":"@s","color":"aqua"},{"text":" has chosen to be the ","color":"blue"},{"text":"Speedrunner","color":"green"}]
+
+function #dc_manhunt_compass:become_speedrunner
