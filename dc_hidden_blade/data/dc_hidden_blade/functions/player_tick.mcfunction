@@ -11,4 +11,4 @@ scoreboard players operation #HiddenBladeDamage dc_value *= @s dc_HB_assassin
 scoreboard players add #HiddenBladeDamage dc_value 4
 
 execute if score #HiddenBladeDamage dc_value matches 5.. run function dc_hidden_blade:display
-execute unless score #HiddenBladeDamage dc_value matches 5.. run function dc_hidden_blade:remove_display
+execute if entity @s[tag=empoweredHiddenBlade] unless score #HiddenBladeDamage dc_value matches 5.. run function dc_hidden_blade:remove_display

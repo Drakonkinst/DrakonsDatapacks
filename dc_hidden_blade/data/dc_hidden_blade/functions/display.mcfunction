@@ -1,6 +1,6 @@
 tag @s add empoweredHiddenBlade
-title @s times 0 10 10
-execute if score #HiddenBladeDamage dc_value matches 4..19 run function dc_hidden_blade:display_1
+execute if score #HiddenBladeDamage dc_value matches 5.. run title @s times 0 10 20
+execute if score #HiddenBladeDamage dc_value matches 5..19 run function dc_hidden_blade:display_1
 execute if score #HiddenBladeDamage dc_value matches 20..29 run function dc_hidden_blade:display_2
 execute if score #HiddenBladeDamage dc_value matches 30.. run function dc_hidden_blade:display_3
 

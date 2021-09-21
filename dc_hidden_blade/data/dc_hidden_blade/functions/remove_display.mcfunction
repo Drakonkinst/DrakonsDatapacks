@@ -1,4 +1,6 @@
-title @s title ""
+# Instantly clear title
+#title @s title ""
+
 tag @s remove empoweredHiddenBlade
 scoreboard players set @s dc_HB_prevDmg 0
 

@@ -8,3 +8,6 @@ give @s minecraft:crossbow{display:{Name:'{"text":"Assassin\'s Crossbow","color"
 loot give @s loot dc_manhunt_assassin:assassin_cache
 give @s minecraft:barrel{display:{Name:'{"text":"Assassin Cache","color":"red","italic":false}'},BlockEntityTag:{LootTable:"dc_manhunt_assassin:assassin_cache"}} 4
 give @s minecraft:red_wool 4
+
+function dc_manhunt_assassin:apply_aura
+effect give @s minecraft:instant_health 1 5
