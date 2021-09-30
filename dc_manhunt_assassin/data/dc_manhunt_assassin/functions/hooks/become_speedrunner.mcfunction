@@ -8,3 +8,8 @@ give @s minecraft:red_wool 4
 # Adds status effects and equips armor
 clear @s #dc_manhunt_assassin:assassin_armor_types
 function dc_manhunt_assassin:start_assassin_aura
+
+title @s title {"text":"You are the Assassin.","color":"green"}
+title @s subtitle {"text":"Objective: Survive.","color":"yellow"}
+title @s actionbar {"text":"If you die 3 times, you lose","color":"red","bold":true}
+tag @s add dc_introduced
