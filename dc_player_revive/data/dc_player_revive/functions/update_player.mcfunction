@@ -4,5 +4,8 @@ execute as @e[tag=grave,type=armor_stand] run function dc_player_revive:locate_m
 tag @s remove dc_seekingGrave
 
 execute unless entity @e[tag=dc_locatedGrave,type=armor_stand,limit=1] run tag @s remove dc_hasGrave
+
+# This should really use the new on_player_respawn hook, but update_player has two separate success conditions
+# plus I'm lazy so this will stay as is
 execute unless predicate drakoncore:is_player_dead run function dc_player_revive:on_player_respawn
 execute if entity @s[tag=dc_hasGrave] at @e[tag=dc_locatedGrave,type=armor_stand,limit=1] run function dc_player_revive:update_grave

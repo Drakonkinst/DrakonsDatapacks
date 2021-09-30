@@ -1,6 +1,6 @@
-tellraw @a[distance=..3,tag=!dc_revivingPlayer,tag=!dc_dead] ["",{"text":"Reviving ","color":"dark_aqua"},{"selector":"@s","color":"dark_aqua"},{"text":"...","color":"dark_aqua"}]
-execute if entity @a[distance=..3,tag=!dc_revivingPlayer,tag=!dc_dead,limit=1] run tellraw @s ["",{"selector":"@a[distance=..3,tag=!dc_revivingPlayer,tag=!dc_dead]","color":"dark_aqua"},{"text":" has started to revive you, don't Respawn yet!","color":"dark_aqua"}]
-tag @a[distance=..3,tag=!dc_revivingPlayer,tag=!dc_dead] add dc_revivingPlayer
+tellraw @a[distance=..3,tag=!dc_revivingPlayer,tag=!dc_dead_player] ["",{"text":"Reviving ","color":"dark_aqua"},{"selector":"@s","color":"dark_aqua"},{"text":"...","color":"dark_aqua"}]
+execute if entity @a[distance=..3,tag=!dc_revivingPlayer,tag=!dc_dead_player,limit=1] run tellraw @s ["",{"selector":"@a[distance=..3,tag=!dc_revivingPlayer,tag=!dc_dead_player]","color":"dark_aqua"},{"text":" has started to revive you, don't Respawn yet!","color":"dark_aqua"}]
+tag @a[distance=..3,tag=!dc_revivingPlayer,tag=!dc_dead_player] add dc_revivingPlayer
 
 execute at @a[distance=..3,tag=dc_revivingPlayer] run scoreboard players add @s dc_reviveTick 1
 tag @s add dc_reviving
