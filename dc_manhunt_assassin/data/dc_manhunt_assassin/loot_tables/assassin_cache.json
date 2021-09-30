@@ -123,6 +123,26 @@
                     ]
                 }
             ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:strong_healing\"}"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

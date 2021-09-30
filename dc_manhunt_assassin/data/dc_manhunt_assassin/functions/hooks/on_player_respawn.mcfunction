@@ -1,0 +1,1 @@
+execute if entity @s[tag=dc_speedrunner] run function dc_manhunt_assassin:start_assassin_aura
