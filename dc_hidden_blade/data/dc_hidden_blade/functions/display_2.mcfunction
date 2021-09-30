@@ -1,3 +1,1 @@
-#title @s title ["",{"text":"<","color":"gray"},{"text":"<","color":"gold","bold":true},{"text":"< ","color":"red","bold":true},{"score":{"name":"#HiddenBladeDamage","objective":"dc_value"},"color":"gold"},{"text":" >","color":"red","bold":true},{"text":">","color":"gold","bold":true},{"text":">","color":"gray"}]
-title @s title ["",{"text":"<","color":"gray"},{"text":"<","color":"gold","bold":true},{"text":"< ","color":"red","bold":true},{"text":" ","color":"gold"},{"text":" >","color":"red","bold":true},{"text":">","color":"gold","bold":true},{"text":">","color":"gray"}]
-execute if score @s dc_HB_prevDmg matches ..19 run playsound minecraft:entity.blaze.hurt voice @s ~ ~ ~ 10 0
+title @s title ["",{"text":"<","color":"gray"},{"text":"<","color":"gold","bold":false},{"text":"< ","color":"red","bold":true},{"text":" ","color":"gold"},{"text":" >","color":"red","bold":true},{"text":">","color":"gold","bold":false},{"text":">","color":"gray"}]
