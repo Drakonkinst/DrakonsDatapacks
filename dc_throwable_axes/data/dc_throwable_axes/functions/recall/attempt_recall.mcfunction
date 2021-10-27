@@ -4,8 +4,8 @@ execute store result score #AxeThrower dc_temp_id run data get entity @s UUID[0]
 execute as @e[type=armor_stand,tag=dc_thrownAxe,tag=!dc_recallAxe,distance=..200] if data entity @s HandItems[0].tag.Returning run function dc_throwable_axes:recall/tag_armorstand_if_match
 tag @e[type=armor_stand,tag=dc_thrownAxe,tag=dc_matchingAxe] add dc_recallAxe
 
-# Embedded axes
-execute as @e[type=armor_stand,tag=dc_te_model,distance=..200] if data entity @s HandItems[0].tag.Returning run function dc_throwable_axes:recall/tag_armorstand_if_match
+# Embedded axes, ignoring ones you're already right next to
+execute as @e[type=armor_stand,tag=dc_te_model,distance=1.1..200] if data entity @s HandItems[0].tag.Returning run function dc_throwable_axes:recall/tag_armorstand_if_match
 execute as @e[type=armor_stand,tag=dc_te_model,tag=dc_matchingAxe] run function dc_throwable_axes:recall/embed_to_model
 
 # Item axes
