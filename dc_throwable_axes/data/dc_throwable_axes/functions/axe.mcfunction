@@ -41,6 +41,8 @@ execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 unless e
 # cut cuttable blocks:
 execute positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:cuttable run setblock ~ ~ ~ air destroy
 
+execute positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:water_cuttable run setblock ~ ~ ~ water destroy
+
 # cut mineable blocks:
 execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:mineable run function dc_throwable_axes:cut_axe_mineable
 

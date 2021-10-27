@@ -1,1 +1,1 @@
-execute if predicate drakoncore:is_sneaking run effect give @e[type=armor_stand,tag=dc_throwable_model,distance=..100] glowing 15 0
+execute if predicate drakoncore:is_sneaking run function dc_throwable_axes:glow_nearby_axes
