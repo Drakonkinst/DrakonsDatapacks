@@ -1,0 +1,1 @@
+execute if predicate drakoncore:is_sneaking unless data entity @s SelectedItem run function dc_throwable_axes:recall/attempt_recall

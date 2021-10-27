@@ -1,0 +1,21 @@
+{
+	"values": [
+		"minecraft:item",
+		"minecraft:experience_orb",
+		"#minecraft:arrows",
+		"minecraft:trident",
+		"minecraft:area_effect_cloud",
+		"minecraft:command_block_minecart",
+		"minecraft:armor_stand",
+		"minecraft:egg",
+		"minecraft:snowball",
+		"minecraft:potion",
+		"minecraft:experience_bottle",
+		"minecraft:ender_pearl",
+		"minecraft:evoker_fangs",
+		"minecraft:firework_rocket",
+		"minecraft:lightning_bolt",
+		"minecraft:llama_spit",
+		"minecraft:marker"
+	]
+}
