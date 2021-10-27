@@ -53,6 +53,11 @@ execute if entity @s[tag=dc_axeFireAspect] if block ~ ~ ~ #minecraft:candles[lit
 # hit block:
 execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 unless block ~ ~ ~ #dc_throwable_axes:passable positioned ~ ~-0.5 ~ run function dc_throwable_axes:drop/check
 
+# cause a block update: swap between air and cave air
+execute if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:void_air replace
+execute if block ~ ~ ~ minecraft:cave_air run setblock ~ ~ ~ minecraft:air replace
+execute if block ~ ~ ~ minecraft:void_air run setblock ~ ~ ~ minecraft:cave_air replace
+
 # drop if out of world y level:
 execute store result score @s dc_yPos run data get entity @s Pos[1]
 execute unless entity @s[scores={dc_yPos=-70..350}] run function dc_throwable_axes:drop/check
