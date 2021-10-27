@@ -1,0 +1,1 @@
+execute positioned ^-0.2 ^ ^ if block ~ ~0.45 ~ #drakoncore:air run function dc_tool_embed:pickup_item
