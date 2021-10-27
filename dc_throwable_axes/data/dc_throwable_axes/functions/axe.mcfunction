@@ -27,7 +27,7 @@ playsound minecraft:entity.phantom.flap player @a ~ ~ ~ 1 2
 # hit entity:
 execute unless entity @s[tag=dc_recallAxe] if data entity @s HandItems.[{id:"minecraft:wooden_axe"}] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_currentAxeThrower,tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0,sort=nearest,limit=1] run function dc_throwable_axes:weak_axe_hit
 execute unless entity @s[tag=dc_recallAxe] unless data entity @s HandItems.[{id:"minecraft:wooden_axe"}] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_currentAxeThrower,tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0,sort=nearest,limit=1] run function dc_throwable_axes:strong_axe_hit
-execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 run function dc_throwable_axes:drop/check
+execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,type=!enderman,dx=0] positioned ~0.5 ~0.5 ~0.5 run function dc_throwable_axes:drop/check
 
 # hit while recalling, with a little larger radius:
 execute if entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_currentAxeThrower,tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=1,dz=1,dy=1,sort=nearest,limit=1] positioned ~0.5 ~0.5 ~0.5 run function dc_throwable_axes:weak_axe_hit
