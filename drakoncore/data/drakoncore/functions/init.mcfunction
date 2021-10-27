@@ -17,6 +17,10 @@ scoreboard objectives add help trigger "DrakonCore Help"
 scoreboard objectives add mods trigger "DrakonCore Modlist"
 scoreboard objectives add config trigger "DrakonCore Config"
 
+# Teams
+team add color_aqua "Aqua"
+team modify color_aqua color aqua
+
 function #drakoncore:init
 
 # Begin clock ticking
