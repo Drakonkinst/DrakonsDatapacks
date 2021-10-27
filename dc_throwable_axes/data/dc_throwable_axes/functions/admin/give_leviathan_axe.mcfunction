@@ -1,0 +1,1 @@
+give @s diamond_axe{display:{Name:'{"text":"Leviathan Axe","color":"gold","italic":false}',Lore:['{"text":"Throwable","color":"gold","italic":false}','{"text":"Returning","color":"gold","italic":false}']},Unbreakable:1b,Throwable:1b,Returning:1b,Enchantments:[{}]} 1
