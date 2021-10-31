@@ -36,6 +36,7 @@
 		"minecraft:small_dripleaf",
 		"minecraft:glow_lichen",
 		"minecraft:hanging_roots",
-		"#dc_throwable_axes:bamboo"
+		"#dc_throwable_axes:bamboo",
+		"minecraft:tripwire"
 	]
 }

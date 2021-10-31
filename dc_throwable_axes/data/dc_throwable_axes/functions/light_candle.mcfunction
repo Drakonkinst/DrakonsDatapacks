@@ -1,4 +1,4 @@
-playsound minecraft:block.fire.extinguish block @a ~ ~ ~ 0.1 2
+playsound minecraft:item.firecharge.use block @a ~ ~ ~ 0.5 2
 
 execute if block ~ ~ ~ candle[candles=1] run setblock ~ ~ ~ candle[lit=true,candles=1]
 execute if block ~ ~ ~ candle[candles=2] run setblock ~ ~ ~ candle[lit=true,candles=2]
