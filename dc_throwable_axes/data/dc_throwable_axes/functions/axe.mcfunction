@@ -53,10 +53,10 @@ execute unless entity @s[tag=dc_axeFireAspect] if block ~ ~ ~ #minecraft:candles
 execute if entity @s[tag=dc_axeFireAspect] if block ~ ~ ~ #minecraft:candles[lit=false] run function dc_throwable_axes:light_candle
 
 # put out campfires:
-execute unless entity @s[tag=dc_axeFireAspect] if block ~ ~ ~ #minecraft:campfires[lit=true] run function dc_throwable_axes:put_out_campfire
+execute unless entity @s[tag=dc_axeFireAspect] if block ~ ~-0.5 ~ #minecraft:campfires[lit=true] positioned ~ ~-0.5 ~ run function dc_throwable_axes:put_out_campfire
 
 # light campfires
-execute if entity @s[tag=dc_axeFireAspect] if block ~ ~ ~ #minecraft:campfires[lit=false] run function dc_throwable_axes:light_campfire
+execute if entity @s[tag=dc_axeFireAspect] if block ~ ~-0.5 ~ #minecraft:campfires[lit=false] positioned ~ ~-0.5 ~ run function dc_throwable_axes:light_campfire
 
 # hit block:
 execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 unless block ~ ~ ~ #dc_throwable_axes:passable positioned ~ ~-0.5 ~ run function dc_throwable_axes:drop/check
