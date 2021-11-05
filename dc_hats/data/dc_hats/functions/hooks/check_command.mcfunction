@@ -1,0 +1,1 @@
+execute unless score @s hat matches 0 run function dc_hats:hat
