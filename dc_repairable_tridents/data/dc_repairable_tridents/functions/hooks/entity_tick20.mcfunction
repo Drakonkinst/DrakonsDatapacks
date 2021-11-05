@@ -1,0 +1,2 @@
+# Runs once per second on each entity
+execute if predicate dc_repairable_tridents:is_prismarine_shard if block ~ ~-0.2 ~ #minecraft:anvil if entity @p[level=1..,distance=..5] run function dc_repairable_tridents:check_for_trident
