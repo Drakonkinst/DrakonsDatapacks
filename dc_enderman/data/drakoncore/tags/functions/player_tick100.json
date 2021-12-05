@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "dc_enderman:hooks/player_tick100"
+    ]
+}

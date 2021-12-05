@@ -1,0 +1,7 @@
+{
+    "values": [
+        "minecraft:water",
+        "#drakoncore:always_waterlogged",
+        "minecraft:water_cauldron"
+    ]
+}

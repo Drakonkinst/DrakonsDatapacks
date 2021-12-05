@@ -1,0 +1,1 @@
+team join dc_enderman @s[tag=dc_enderman_player,team=!dc_enderman] 
