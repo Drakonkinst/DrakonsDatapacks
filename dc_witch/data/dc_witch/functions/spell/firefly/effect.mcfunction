@@ -1,0 +1,1 @@
+particle minecraft:end_rod ~ ~ ~ 3 1 3 0.05 1 normal

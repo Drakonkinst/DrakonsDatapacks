@@ -20,6 +20,8 @@ scoreboard objectives add config trigger "DrakonCore Config"
 # Teams
 team add color_aqua "Aqua"
 team modify color_aqua color aqua
+team add no_collision "No Collision"
+team modify no_collision collisionRule never
 
 function #drakoncore:init
 

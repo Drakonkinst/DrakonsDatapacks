@@ -1,0 +1,2 @@
+execute as @e[type=item,limit=1,tag=dc_targetPotion] run function dc_witch:brewing/store_count
+execute unless score @e[type=item,limit=1,tag=dc_targetPotion] dc_value matches 2.. run function dc_witch:brewing/apply_brewing

@@ -1,0 +1,1 @@
+summon husk ~ ~5 ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,IsBaby:1b,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}],Team:"no_collision",Tags:["dc_outcastFear"]}

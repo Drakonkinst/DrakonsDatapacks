@@ -1,0 +1,2 @@
+execute anchored eyes positioned ^ ^ ^20 unless entity @e[type=item,distance=..20,limit=1] at @s run function dc_witch:spell/fail_no_target
+execute anchored eyes positioned ^ ^ ^20 if entity @e[type=item,distance=..20,limit=1] run function dc_witch:spell/summon/teleport_all_nearby
