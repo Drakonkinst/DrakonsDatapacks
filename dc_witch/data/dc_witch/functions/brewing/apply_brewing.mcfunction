@@ -30,7 +30,6 @@ execute if predicate dc_witch:potion/conduit_power run data modify entity @e[typ
 execute if predicate dc_witch:potion/dolphins_grace run data modify entity @e[type=item,tag=dc_targetPotion,limit=1] Item.tag.CustomPotionEffects append value {Id:30b,Amplifier:0b,Duration:2400}
 
 # Extra potion types
-#execute if predicate dc_witch:potion/awkward run data modify entity @e[type=item,tag=dc_targetPotion,limit=1] Item.tag.CustomPotionEffects append value {Id:1b,Amplifier:0b,Duration:2400}
 execute if predicate dc_witch:potion/replenish run data modify entity @e[type=item,tag=dc_targetPotion,limit=1] Item.tag.CustomPotionEffects append value {Id:32b,Amplifier:0b,Duration:60}
 
 execute as @e[type=item,limit=1,tag=dc_targetPotion] run function dc_witch:brewing/store_count
