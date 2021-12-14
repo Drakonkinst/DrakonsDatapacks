@@ -20,4 +20,4 @@ execute if score @s dc_value matches 3 if score #DC_POTATO_BOMB dc_value matches
 execute if score @s dc_value matches 4 if score #DC_BLAST_BOMB dc_value matches 1 run tag @s add type_blast
 
 tag @s add throwable_potato
-playsound minecraft:entity.tnt.primed voice @a ~ ~ ~ 2 2
+playsound minecraft:entity.tnt.primed player @a ~ ~ ~ 2 2

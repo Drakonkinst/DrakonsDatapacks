@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #dc_enderman:enderman_nonstealable run function dc_enderman:silk_hands/attempt_mine_block

@@ -1,0 +1,1 @@
+execute if block ~ ~1 ~ #drakoncore:air if block ~ ~2 ~ #drakoncore:air align xyz positioned ~0.5 ~1 ~0.5 run function dc_enderman:teleport/tp_to_block

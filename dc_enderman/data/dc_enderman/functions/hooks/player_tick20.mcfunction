@@ -1,1 +1,1 @@
-execute if entity @s[tag=dc_enderman] run function dc_enderman:update_enderman_player
+execute if entity @s[tag=dc_enderman] run function dc_enderman:enderman_tick20

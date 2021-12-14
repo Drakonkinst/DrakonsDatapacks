@@ -29,8 +29,7 @@
 		"minecraft:spore_blossom",
 		"minecraft:moss_carpet",
 		"minecraft:fire",
-		"minecraft:water",
-		"minecraft:lava",
+		"#drakoncore:fluid",
 		"minecraft:snow"
 	]
 }

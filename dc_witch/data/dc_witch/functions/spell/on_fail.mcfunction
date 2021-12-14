@@ -1,2 +1,1 @@
-playsound minecraft:entity.blaze.hurt voice @s ~ ~ ~ 0.5 2
-# TODO: Particle effect
+playsound minecraft:entity.blaze.hurt player @s ~ ~ ~ 0.5 2
