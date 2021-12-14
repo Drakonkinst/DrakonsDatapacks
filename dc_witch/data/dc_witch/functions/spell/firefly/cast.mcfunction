@@ -1,3 +1,3 @@
-execute anchored eyes positioned ^ ^ ^1 unless block ~ ~ ~ #drakoncore:air unless block ~ ~ ~ minecraft:lantern run function dc_witch:spell/fail_no_space
+execute anchored eyes positioned ^ ^ ^1 unless block ~ ~ ~ #drakoncore:air unless block ~ ~ ~ #dc_witch:lanterns run function dc_witch:spell/fail_no_space
 execute anchored eyes positioned ^ ^ ^1 if block ~ ~ ~ #drakoncore:air run function dc_witch:spell/firefly/summon_swarm
-execute anchored eyes positioned ^ ^ ^1 if block ~ ~ ~ minecraft:lantern unless entity @e[type=marker,tag=dc_fireflies,limit=1,distance=..5] run function dc_witch:spell/firefly/create_lantern
+execute anchored eyes positioned ^ ^ ^1 if block ~ ~ ~ #dc_witch:lanterns unless entity @e[type=marker,tag=dc_fireflies,limit=1,distance=..5] run function dc_witch:spell/firefly/create_lantern
