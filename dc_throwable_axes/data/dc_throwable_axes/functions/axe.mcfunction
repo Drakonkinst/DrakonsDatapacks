@@ -16,8 +16,8 @@ execute unless entity @s[tag=dc_recallAxe] positioned ~ ~-1.5 ~ positioned ^0.37
 execute if entity @s[tag=dc_recallAxe] positioned ~ ~-1.5 ~ positioned ^0.375 ^ ^ facing entity @a[tag=dc_currentAxeThrower,limit=1] feet run tp @s ^ ^ ^3
 
 # apply fire to hit entity:
-execute if entity @s[tag=dc_axeFireAspect] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=1,dz=1,dy=1,sort=nearest,limit=1] run data merge entity @s {Fire:80s}
-execute if entity @s[tag=dc_axeFireAspect1] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=1,dz=1,dy=1,sort=nearest,limit=1] run data merge entity @s {Fire:40s}
+execute if entity @s[tag=dc_axeFireAspect] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_thrownAxe,tag=!dc_marker,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=1,dz=1,dy=1,sort=nearest,limit=1] run data merge entity @s {Fire:80s}
+execute if entity @s[tag=dc_axeFireAspect1] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_thrownAxe,tag=!dc_marker,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=1,dz=1,dy=1,sort=nearest,limit=1] run data merge entity @s {Fire:40s}
 
 # particles and effects
 execute if entity @s[tag=dc_axeFireAspect] run particle minecraft:flame ~ ~0.5 ~ 0 0 0 0 1 force
@@ -25,26 +25,26 @@ execute if entity @s[tag=dc_axeSharpness] run particle minecraft:enchanted_hit ~
 playsound minecraft:entity.phantom.flap player @a ~ ~ ~ 1 2
 
 # hit entity:
-execute unless entity @s[tag=dc_recallAxe] if data entity @s HandItems.[{id:"minecraft:wooden_axe"}] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_currentAxeThrower,tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0,sort=nearest,limit=1] run function dc_throwable_axes:weak_axe_hit
-execute unless entity @s[tag=dc_recallAxe] unless data entity @s HandItems.[{id:"minecraft:wooden_axe"}] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_currentAxeThrower,tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0,sort=nearest,limit=1] run function dc_throwable_axes:strong_axe_hit
-execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,type=!enderman,dx=0] positioned ~0.5 ~0.5 ~0.5 run function dc_throwable_axes:drop/check
+execute unless entity @s[tag=dc_recallAxe] if data entity @s HandItems.[{id:"minecraft:wooden_axe"}] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_currentAxeThrower,tag=!dc_thrownAxe,tag=!damageDelay,tag=!dc_marker,type=!#dc_throwable_axes:non_damageable,dx=0,sort=nearest,limit=1] run function dc_throwable_axes:weak_axe_hit
+execute unless entity @s[tag=dc_recallAxe] unless data entity @s HandItems.[{id:"minecraft:wooden_axe"}] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_currentAxeThrower,tag=!dc_thrownAxe,tag=!damageDelay,tag=!dc_marker,type=!#dc_throwable_axes:non_damageable,dx=0,sort=nearest,limit=1] run function dc_throwable_axes:strong_axe_hit
+execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=!dc_thrownAxe,tag=!dc_marker,tag=!dc_enderman,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,type=!enderman,dx=0] positioned ~0.5 ~0.5 ~0.5 run function dc_throwable_axes:drop/check
 
 # hit while recalling, with a little larger radius:
-execute if entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_currentAxeThrower,tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=1,dz=1,dy=1,sort=nearest,limit=1] positioned ~0.5 ~0.5 ~0.5 run function dc_throwable_axes:weak_axe_hit
+execute if entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!dc_currentAxeThrower,tag=!dc_marker,tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=1,dz=1,dy=1,sort=nearest,limit=1] positioned ~0.5 ~0.5 ~0.5 run function dc_throwable_axes:weak_axe_hit
 
 # pick up if recalling and you are the thrower:
 execute if entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[tag=dc_currentAxeThrower,distance=..2] positioned ~0.5 ~0.5 ~0.5 run function dc_throwable_axes:drop/drop
 
 # cut single cuttable blocks and drop:
-execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:single_cuttable run function dc_throwable_axes:cut_single_block
+execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!dc_marker,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:single_cuttable run function dc_throwable_axes:cut_single_block
 
 # cut cuttable blocks:
-execute positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:cuttable run setblock ~ ~ ~ air destroy
+execute positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!dc_marker,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:cuttable run setblock ~ ~ ~ air destroy
 
-execute positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:water_cuttable run setblock ~ ~ ~ water destroy
+execute positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!dc_marker,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:water_cuttable run setblock ~ ~ ~ water destroy
 
 # cut mineable blocks:
-execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:mineable run function dc_throwable_axes:cut_axe_mineable
+execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!dc_marker,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ #dc_throwable_axes:mineable run function dc_throwable_axes:cut_axe_mineable
 
 # put out candles:
 execute unless entity @s[tag=dc_axeFireAspect] if block ~ ~ ~ #minecraft:candles[lit=true] run function dc_throwable_axes:put_out_candle
@@ -59,7 +59,7 @@ execute unless entity @s[tag=dc_axeFireAspect] if block ~ ~-0.5 ~ #minecraft:cam
 execute if entity @s[tag=dc_axeFireAspect] if block ~ ~-0.5 ~ #minecraft:campfires[lit=false] positioned ~ ~-0.5 ~ run function dc_throwable_axes:light_campfire
 
 # hit block:
-execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 unless block ~ ~ ~ #dc_throwable_axes:passable positioned ~ ~-0.5 ~ run function dc_throwable_axes:drop/check
+execute unless entity @s[tag=dc_recallAxe] positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[tag=!dc_thrownAxe,tag=!dc_marker,tag=!damageDelay,type=!#dc_throwable_axes:non_damageable,dx=0] positioned ~0.5 ~0.5 ~0.5 unless block ~ ~ ~ #dc_throwable_axes:passable positioned ~ ~-0.5 ~ run function dc_throwable_axes:drop/check
 
 # cause a block update: swap between air and cave air
 execute if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ minecraft:void_air replace

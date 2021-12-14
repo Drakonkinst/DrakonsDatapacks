@@ -93,4 +93,4 @@ execute if block ~ ~ ~ black_candle[candles=2] run setblock ~ ~ ~ black_candle[l
 execute if block ~ ~ ~ black_candle[candles=3] run setblock ~ ~ ~ black_candle[lit=true,candles=3]
 execute if block ~ ~ ~ black_candle[candles=4] run setblock ~ ~ ~ black_candle[lit=true,candles=4]
 
-execute at @s anchored eyes positioned ^ ^ ^1.5 run function dc_witch:spell/flame/on_success
+function dc_witch:spell/flame/on_success

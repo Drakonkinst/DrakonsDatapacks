@@ -39,7 +39,6 @@
         "#minecraft:beds",
         "#minecraft:doors",
         "minecraft:fire",
-        "minecraft:turtle_egg",
-        "#minecraft:shulker_boxes"
+        "minecraft:turtle_egg"
     ]
 }
