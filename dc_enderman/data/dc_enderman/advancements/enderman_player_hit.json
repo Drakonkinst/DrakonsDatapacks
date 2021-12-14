@@ -8,6 +8,9 @@
             "conditions": {
                 "player": {
                     "nbt": "{Tags:[\"dc_enderman\"]}"
+                },
+                "damage": {
+                    "blocked": false
                 }
             }
         }

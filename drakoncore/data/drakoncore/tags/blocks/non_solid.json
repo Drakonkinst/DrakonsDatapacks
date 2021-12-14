@@ -7,6 +7,8 @@
         "#minecraft:saplings",
         "#minecraft:signs",
         "#minecraft:small_flowers",
+        "minecraft:twisting_vines",
+        "minecraft:weeping_vines",
         "minecraft:fire",
         "minecraft:torch",
         "minecraft:wall_torch",
@@ -35,10 +37,8 @@
         "minecraft:sugar_cane",
         "minecraft:sweet_berry_bush",
         "minecraft:snow",
-        "minecraft:air",
-        "minecraft:cave_air",
-        "minecraft:void_air",
-        "minecraft:water",
+        "#drakoncore:air",
+        "#drakoncore:fluid",
         "minecraft:azalea",
         "minecraft:flowering_azalea",
         "minecraft:moss_carpet",
@@ -46,6 +46,9 @@
         "minecraft:big_dripleaf",
         "minecraft:small_dripleaf",
         "minecraft:glow_lichen",
-        "minecraft:spore_blossom"
+        "minecraft:nether_wart",
+        "minecraft:spore_blossom",
+        "minecraft:crimson_fungus",
+        "minecraft:warped_fungus"
     ]
 }
