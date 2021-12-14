@@ -257,7 +257,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Slot:\"feet\",Amount:0.02,Operation:0,UUIDLeast:382868,UUIDMost:452697}]}"
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.02,Slot:feet,Name:\"generic.movement_speed\",UUID:[I;-1211114,13877,131216,-27754]}]}"
                         }
                     ]
                 }
