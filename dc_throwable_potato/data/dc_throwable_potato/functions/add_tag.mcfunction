@@ -1,6 +1,4 @@
-# TODO: Config checks
-# TODO: Optimization: if only based on type, store this in a score to avoid NBT checks
-# Also store Flicker and Trail, which are the only other differentiating factors in #FireworkStarType, #FireworkStarFlicker, #FireworkStarTrail
+# TODO Also store Flicker and Trail, which are the only other differentiating factors in #FireworkStarType, #FireworkStarFlicker, #FireworkStarTrail
 
 execute store result score @s dc_value run data get entity @s Item.tag.Explosion.Type
 
