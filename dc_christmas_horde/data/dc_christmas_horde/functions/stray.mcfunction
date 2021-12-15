@@ -1,0 +1,2 @@
+data merge entity @s {ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.25f],ArmorItems: [{}, {}, {}, {id: "minecraft:player_head", Count: 1b, tag: {display:{Name:"{\"text\":\"Christmas Stray Head\",\"color\":\"yellow\",\"italic\":\"false\"}"},SkullOwner:{Id:[I;897122561,-767212417,-1961793495,-20943070],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU5NDI1NWJhNzY0ZDcyOGMwNzQwMGY4YmY4NjE5NWVkOGJiNTUyYjQ4NTc1YzQxOWYyNTY5N2RmNmQwN2E2MyJ9fX0="}]}}}}]}
+tag @s add dc_mob_transformed

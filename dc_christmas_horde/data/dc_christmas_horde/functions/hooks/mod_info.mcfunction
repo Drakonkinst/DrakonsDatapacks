@@ -1,0 +1,2 @@
+# Display mod info
+tellraw @s ["",{"text":"- ","color":"gray"},{"text":"Christmas Horde","underlined":true,"color":"dark_purple","clickEvent":{"action":"open_url","value":"https://sites.google.com/view/drakons-datapacks/datapacks/mobs/christmas-horde"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click here to go to this datapack's page!","color":"gold"}]}}]
