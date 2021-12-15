@@ -7,6 +7,8 @@
         "#minecraft:saplings",
         "#minecraft:signs",
         "#minecraft:small_flowers",
+        "#drakoncore:air",
+        "#drakoncore:fluid",
         "minecraft:twisting_vines",
         "minecraft:weeping_vines",
         "minecraft:fire",
@@ -39,8 +41,6 @@
         "minecraft:sugar_cane",
         "minecraft:sweet_berry_bush",
         "minecraft:snow",
-        "#drakoncore:air",
-        "#drakoncore:fluid",
         "minecraft:azalea",
         "minecraft:flowering_azalea",
         "minecraft:moss_carpet",
@@ -51,6 +51,17 @@
         "minecraft:nether_wart",
         "minecraft:spore_blossom",
         "minecraft:crimson_fungus",
-        "minecraft:warped_fungus"
+        "minecraft:warped_fungus",
+        "#minecraft:wooden_pressure_plates",
+        "#minecraft:carpets",
+        "#minecraft:candles",
+        "minecraft:sea_pickle",
+        "minecraft:stone_pressure_plate",
+        "minecraft:polished_blackstone_pressure_plate",
+        "minecraft:light_weighted_pressure_plate",
+        "minecraft:heavy_weighted_pressure_plate",
+        "minecraft:redstone_wall_torch",
+        "minecraft:lily_pad",
+        "minecraft:snow"
     ]
 }

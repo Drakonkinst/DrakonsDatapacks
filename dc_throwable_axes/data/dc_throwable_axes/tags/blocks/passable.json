@@ -1,35 +1,6 @@
 {
 	"values": [
-		"#drakoncore:air",
-		"#dc_throwable_axes:cuttable",
-		"#minecraft:buttons",
-		"#minecraft:wooden_pressure_plates",
-		"#minecraft:signs",
-		"#minecraft:banners",
-		"#minecraft:carpets",
-		"#minecraft:rails",
-		"#minecraft:candles",
-		"minecraft:brown_mushroom",
-		"minecraft:red_mushroom",
-		"minecraft:sea_pickle",
-		"minecraft:lever",
-		"minecraft:stone_pressure_plate",
-		"minecraft:polished_blackstone_pressure_plate",
-		"minecraft:light_weighted_pressure_plate",
-		"minecraft:heavy_weighted_pressure_plate",
-		"minecraft:tripwire_hook",
-		"minecraft:tripwire",
-		"minecraft:torch",
-		"minecraft:wall_torch",
-		"minecraft:redstone_torch",
-		"minecraft:redstone_wall_torch",
-		"minecraft:redstone_wire",
-		"minecraft:ladder",
-		"minecraft:lily_pad",
-		"minecraft:spore_blossom",
-		"minecraft:moss_carpet",
-		"minecraft:fire",
-		"#drakoncore:fluid",
-		"minecraft:snow"
+		"#drakoncore:non_solid",
+		"#dc_throwable_axes:cuttable"
 	]
 }

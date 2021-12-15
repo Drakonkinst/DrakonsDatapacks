@@ -1,7 +1,6 @@
 {
 	"values": [
 		"#minecraft:flowers",
-		"#minecraft:flower_pots",
 		"#minecraft:crops",
 		"#minecraft:saplings",
 		"minecraft:brown_mushroom",
@@ -23,10 +22,8 @@
 		"minecraft:weeping_vines_plant",
 		"minecraft:weeping_vines",
 		"minecraft:scaffolding",
-		"minecraft:tinted_glass",
 		"minecraft:cave_vines",
 		"minecraft:cave_vines_plant",
-		"minecraft:pointed_dripstone",
 		"minecraft:small_amethyst_bud",
 		"minecraft:medium_amethyst_bud",
 		"minecraft:large_amethyst_bud",
