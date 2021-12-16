@@ -1,4 +1,20 @@
-{
-    "condition": "minecraft:weather_check",
-    "raining": true
-}
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "drakoncore:is_dimension_raining"
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:is_dry_biome"
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:is_snowy_biome"
+        }
+    }
+]

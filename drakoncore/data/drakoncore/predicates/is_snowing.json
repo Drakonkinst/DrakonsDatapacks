@@ -1,0 +1,10 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "drakoncore:is_snowy_biome"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "drakoncore:is_dimension_raining"
+    }
+]

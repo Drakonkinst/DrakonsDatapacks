@@ -1,0 +1,12 @@
+[
+    {
+        "condition": "minecraft:weather_check",
+        "raining": true
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "dimension": "minecraft:overworld"
+        }
+    }
+]
