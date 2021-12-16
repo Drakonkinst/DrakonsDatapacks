@@ -1,0 +1,9 @@
+{
+    "values": [
+        "#drakoncore:non_solid",
+        "#drakoncore:glass",
+        "#drakoncore:glass_panes",
+        "minecraft:nether_portal",
+        "minecraft:barrier"
+    ]
+}
