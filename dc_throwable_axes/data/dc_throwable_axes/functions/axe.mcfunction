@@ -68,6 +68,6 @@ execute if block ~ ~ ~ minecraft:void_air run setblock ~ ~ ~ minecraft:cave_air 
 
 # drop if out of world y level:
 execute store result score @s dc_yPos run data get entity @s Pos[1]
-execute unless entity @s[scores={dc_yPos=-70..350}] run function dc_throwable_axes:drop/check
+execute unless score @s dc_yPos matches -128..372 run function dc_throwable_axes:drop/check
 
 tag @a remove dc_currentAxeThrower
