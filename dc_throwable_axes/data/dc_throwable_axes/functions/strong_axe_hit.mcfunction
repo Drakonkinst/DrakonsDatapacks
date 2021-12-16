@@ -3,7 +3,7 @@ scoreboard players set @s dc_damageDelay 5
 
 # send player death message if player is going to die:
 execute if entity @s[type=player,gamemode=!creative,gamemode=!spectator,tag=!dc_enderman] if score @s dc_health matches 1..12 if predicate dc_throwable_axes:just_hurt run function dc_throwable_axes:print_death_message
-execute if entity @s[type=player,gamemode=!creative,gamemode=!spectator,tag=dc_enderman] run function dc_enderman:teleport/random
+execute if entity @s[type=player,gamemode=!creative,gamemode=!spectator,tag=dc_enderman] if predicate drakoncore:under_sky run function dc_enderman:teleport/random
 execute unless entity @s[type=player,tag=dc_enderman] unless entity @s[type=enderman] run particle minecraft:sweep_attack ~ ~ ~ 0 0 0 0 1 normal
 
 execute if entity @s[type=enderman] run function dc_throwable_axes:on_enderman_hit

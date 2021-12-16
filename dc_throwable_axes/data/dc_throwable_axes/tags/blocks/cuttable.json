@@ -34,6 +34,7 @@
 		"minecraft:glow_lichen",
 		"minecraft:hanging_roots",
 		"#dc_throwable_axes:bamboo",
-		"minecraft:tripwire"
+		"minecraft:tripwire",
+		"minecraft:cobweb"
 	]
 }
