@@ -1,5 +1,7 @@
 {
     "values": [
+        "#minecraft:trapdoors",
+        "#minecraft:doors",
         "#drakoncore:non_solid",
         "#drakoncore:glass",
         "#drakoncore:glass_panes",
