@@ -1,8 +1,8 @@
-tag @s add is_self
-execute as @a[tag=dc_speedrunner,tag=!is_self] run function dc_manhunt_compass:roles/remove_speedrunner
+tag @s add dc_is_self
+execute as @a[tag=dc_speedrunner,tag=!dc_is_self] run function dc_manhunt_compass:roles/remove_speedrunner
 tag @s add dc_speedrunner
 execute if entity @s[tag=dc_hunter] run function dc_manhunt_compass:roles/remove_hunter
-tag @s remove is_self
+tag @s remove dc_is_self
 
 function dc_manhunt_compass:summon_anchor
 
