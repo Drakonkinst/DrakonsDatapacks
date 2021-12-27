@@ -3,6 +3,17 @@
     "entity": "this",
     "predicate": {
         "type": "minecraft:armor_stand",
-        "nbt": "{HandItems:[{tag:{Enchantments:[{lvl:3s,id:\"minecraft:unbreaking\"}]}}]}"
+        "equipment": {
+            "mainhand": {
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:unbreaking",
+                        "levels": {
+                            "min": 3
+                        }
+                    }
+                ]
+            }
+        }
     }
 }

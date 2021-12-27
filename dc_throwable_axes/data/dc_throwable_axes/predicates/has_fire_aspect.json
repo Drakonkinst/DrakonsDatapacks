@@ -3,6 +3,14 @@
     "entity": "this",
     "predicate": {
         "type": "minecraft:armor_stand",
-        "nbt": "{HandItems:[{tag:{Enchantments:[{id:\"minecraft:fire_aspect\"}]}}]}"
+        "equipment": {
+            "mainhand": {
+                "enchantments": [
+                    {
+                        "enchantment": "minecraft:fire_aspect"
+                    }
+                ]
+            }
+        }
     }
 }
