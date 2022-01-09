@@ -1,0 +1,22 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "mainhand": {
+                    "enchantments": [
+                        {
+                            "enchantment": "minecraft:unbreaking",
+                            "levels": 2
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "drakoncore:durability/unbreaking_2_tool_chance"
+    }
+]

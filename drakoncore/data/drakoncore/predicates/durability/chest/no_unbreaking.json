@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "chest": {
+                    "enchantments": [
+                        {
+                            "enchantment": "minecraft:unbreaking",
+                            "levels": {
+                                "min": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

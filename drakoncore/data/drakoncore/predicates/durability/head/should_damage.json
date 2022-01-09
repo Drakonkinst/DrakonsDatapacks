@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/head/no_unbreaking"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/head/unbreaking_1"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/head/unbreaking_2"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/head/unbreaking_3"
+        }
+    ]
+}

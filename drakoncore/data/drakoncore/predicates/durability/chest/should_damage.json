@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/chest/no_unbreaking"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/chest/unbreaking_1"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/chest/unbreaking_2"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/chest/unbreaking_3"
+        }
+    ]
+}

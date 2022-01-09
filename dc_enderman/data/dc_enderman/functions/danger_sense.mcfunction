@@ -1,5 +1,5 @@
-execute unless data entity @s RootVehicle.Entity{id:"minecraft:boat"} unless entity @e[type=boat,limit=1,distance=..1] if block ~ ~ ~ #dc_enderman:water_type run tag @s add dc_in_water
-execute unless data entity @s RootVehicle.Entity{id:"minecraft:boat"} unless entity @e[type=boat,limit=1,distance=..1] if block ~ ~ ~ #drakoncore:waterloggable[waterlogged=true] run tag @s add dc_in_water
+execute unless data entity @s RootVehicle.Entity{id:"minecraft:boat"} unless entity @e[type=boat,limit=1,distance=..1.5] if block ~ ~ ~ #dc_enderman:water_type run tag @s add dc_in_water
+execute unless data entity @s RootVehicle.Entity{id:"minecraft:boat"} unless entity @e[type=boat,limit=1,distance=..1.5] if block ~ ~ ~ #drakoncore:waterloggable[waterlogged=true] run tag @s add dc_in_water
 execute if block ~ ~1 ~ #dc_enderman:water_type run tag @s add dc_in_water
 execute if block ~ ~1 ~ #drakoncore:waterloggable[waterlogged=true] run tag @s add dc_in_water
 execute if predicate drakoncore:is_raining run tag @s add dc_in_water

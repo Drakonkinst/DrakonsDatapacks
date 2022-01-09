@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+        "type": "storage",
+        "source": "drakoncore:durability_damage"
+    },
+    "ops": [
+        {
+            "source": "Damage",
+            "target": "Damage",
+            "op": "replace"
+        }
+    ]
+}

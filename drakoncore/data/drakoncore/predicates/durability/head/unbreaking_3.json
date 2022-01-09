@@ -1,0 +1,24 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "head": {
+                    "enchantments": [
+                        {
+                            "enchantment": "minecraft:unbreaking",
+                            "levels": {
+                                "min": 3
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "drakoncore:durability/unbreaking_3_armor_chance"
+    }
+]

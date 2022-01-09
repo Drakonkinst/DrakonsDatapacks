@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/feet/no_unbreaking"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/feet/unbreaking_1"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/feet/unbreaking_2"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/feet/unbreaking_3"
+        }
+    ]
+}

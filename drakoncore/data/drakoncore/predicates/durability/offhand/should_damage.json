@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/offhand/no_unbreaking"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/offhand/unbreaking_1"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/offhand/unbreaking_2"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "drakoncore:durability/offhand/unbreaking_3"
+        }
+    ]
+}
