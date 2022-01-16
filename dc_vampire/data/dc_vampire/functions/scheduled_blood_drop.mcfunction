@@ -1,0 +1,1 @@
+execute as @a[tag=dc_blood_target,limit=1] at @s run function dc_vampire:blood_drops

@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"dc_vampire\"]}"
+                },
+                "entity": {
+                    "nbt": "{Tags:[\"dc_living_mob\"]}"
+                },
+                "killing_blow": {
+                    "is_explosion": false,
+                    "is_fire": false,
+                    "is_magic": false,
+                    "is_projectile": false,
+                    "is_lightning": false
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_vampire:killed_living_mob"
+    }
+}

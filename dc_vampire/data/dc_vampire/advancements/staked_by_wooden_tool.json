@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"dc_vampire\"]}"
+                },
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_magic": false,
+                        "is_projectile": false,
+                        "is_lightning": false,
+                        "direct_entity": {
+                            "equipment": {
+                                "mainhand": {
+                                    "tag": "dc_vampire:wooden_tools"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_vampire:immobilized_wooden_tool"
+    }
+}

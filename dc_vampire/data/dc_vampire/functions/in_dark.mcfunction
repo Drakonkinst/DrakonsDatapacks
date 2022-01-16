@@ -1,0 +1,2 @@
+execute if score @s dc_bloodLevel matches 361.. if predicate drakoncore:is_sneaking run effect give @s minecraft:invisibility 2 0 true
+execute if score @s dc_bloodLevel matches 601.. run function dc_vampire:overflowing_effects
