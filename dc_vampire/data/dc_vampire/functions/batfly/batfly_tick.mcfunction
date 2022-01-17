@@ -5,15 +5,19 @@ tag @s remove dc_batflyAnchor
 
 # Kill bat if it doesn't find a matching player
 execute unless entity @a[tag=dc_batflyPlayer,limit=1] run tag @s add dc_deadBatfly
+#execute unless entity @a[tag=dc_batflyPlayer,limit=1] run say No matching player found
 
-# Move bat
-execute at @s rotated as @a[tag=dc_batflyPlayer,limit=1] run tp @a[tag=dc_batflyPlayer,limit=1] ~ ~-1 ~ ~ ~
-execute at @a[tag=dc_batflyPlayer,limit=1] anchored eyes positioned ~ ~1 ~ run tp ^ ^ ^0.4
+# Execute different flight logic based on settings
+execute unless score #VampireOldBatfly dc_value matches 1.. run function dc_vampire:batfly/fly_new
+execute if score #VampireOldBatfly dc_value matches 1.. run function dc_vampire:batfly/fly_old
 
 # Kill batfly conditions
 execute if predicate dc_vampire:bat_damaged run tag @s add dc_deadBatfly
+#execute if predicate dc_vampire:bat_damaged run say Bat damaged
 execute at @a[tag=dc_batflyPlayer,limit=1] anchored eyes positioned ~ ~1 ~ unless block ^ ^ ^0.4 #drakoncore:non_solid run tag @s add dc_deadBatfly
+#execute at @a[tag=dc_batflyPlayer,limit=1] anchored eyes positioned ~ ~1 ~ unless block ^ ^ ^0.4 #drakoncore:non_solid run say Bat ran into block
 execute unless predicate dc_vampire:is_dark run tag @s add dc_deadBatfly
+#execute unless predicate dc_vampire:is_dark run say Bat is not in dark
 execute unless score @a[tag=dc_batflyPlayer,limit=1] dc_bloodLevel matches 1.. run tag @s add dc_deadBatfly
 
 # Kill batfly

@@ -5,7 +5,7 @@ tag @s remove dc_batfly0
 tag @s remove dc_batfly1
 tag @s remove dc_batfly2
 tag @s remove dc_inBatfly
-execute align y run tp @s ~ ~1 ~
+execute align y run tp @s ~ ~ ~
 tag @s add dc_vampireFloat
 
 # Effects

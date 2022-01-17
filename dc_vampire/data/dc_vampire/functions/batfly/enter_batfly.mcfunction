@@ -1,4 +1,4 @@
-summon bat ~ ~ ~ {NoAI:1b,Tags:["new","dc_batfly"]}
+summon bat ~ ~ ~ {NoAI:1b,Tags:["new","dc_batfly"],PersistenceRequired:1b}
 execute store result score @e[type=bat,tag=dc_batfly,tag=new,limit=1] dc_temp_id run data get entity @s UUID[0]
 tag @e[type=bat,tag=dc_batfly] remove new
 tag @s add dc_inBatfly
