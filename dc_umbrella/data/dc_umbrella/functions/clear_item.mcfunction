@@ -1,0 +1,16 @@
+execute if score @s dc_selectedUmbrella matches -1 run clear @s minecraft:white_dye 1
+execute if score @s dc_selectedUmbrella matches -2 run clear @s minecraft:orange_dye 1
+execute if score @s dc_selectedUmbrella matches -3 run clear @s minecraft:magenta_dye 1
+execute if score @s dc_selectedUmbrella matches -4 run clear @s minecraft:light_blue_dye 1
+execute if score @s dc_selectedUmbrella matches -5 run clear @s minecraft:yellow_dye 1
+execute if score @s dc_selectedUmbrella matches -6 run clear @s minecraft:lime_dye 1
+execute if score @s dc_selectedUmbrella matches -7 run clear @s minecraft:pink_dye 1
+execute if score @s dc_selectedUmbrella matches -8 run clear @s minecraft:gray_dye 1
+execute if score @s dc_selectedUmbrella matches -9 run clear @s minecraft:light_gray_dye 1
+execute if score @s dc_selectedUmbrella matches -10 run clear @s minecraft:cyan_dye 1
+execute if score @s dc_selectedUmbrella matches -11 run clear @s minecraft:purple_dye 1
+execute if score @s dc_selectedUmbrella matches -12 run clear @s minecraft:blue_dye 1
+execute if score @s dc_selectedUmbrella matches -13 run clear @s minecraft:brown_dye 1
+execute if score @s dc_selectedUmbrella matches -14 run clear @s minecraft:green_dye 1
+execute if score @s dc_selectedUmbrella matches -15 run clear @s minecraft:red_dye 1
+execute if score @s dc_selectedUmbrella matches -16 run clear @s minecraft:black_dye 1
