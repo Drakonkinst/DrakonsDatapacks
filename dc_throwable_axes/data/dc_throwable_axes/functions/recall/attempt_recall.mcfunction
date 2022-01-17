@@ -11,7 +11,8 @@ execute as @e[type=armor_stand,tag=dc_te_model,tag=dc_matchingAxe] run function 
 # Item axes
 execute as @e[type=item,distance=..200] if data entity @s Item.tag.Throwable if data entity @s Item.tag.Returning if data entity @s Item.tag.Thrower run function dc_throwable_axes:recall/tag_item_if_match
 # Gotta do this while the item's still alive
-execute if entity @e[tag=dc_matchingAxe,limit=1] run tag @s add dc_axeFound
+execute if entity @e[type=item,tag=dc_matchingAxe,limit=1] run tag @s add dc_axeFound
+execute if entity @e[type=armor_stand,tag=dc_matchingAxe,limit=1] run tag @s add dc_axeFound
 execute as @e[type=item,tag=dc_matchingAxe] at @s run function dc_throwable_axes:recall/item_to_model
 #execute at @s run function dc_throwable_axes:recall/item_to_model
 

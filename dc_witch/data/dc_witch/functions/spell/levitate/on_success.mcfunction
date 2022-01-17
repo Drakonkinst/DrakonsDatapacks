@@ -1,4 +1,4 @@
-effect give @e[tag=dc_filter,limit=1] levitation 10 1 false
+effect give @e[type=!#drakoncore:not_mob,tag=dc_filter,limit=1] levitation 10 1 false
 tag @s add dc_success
 
 scoreboard players set @s dc_witchCooldown 30
