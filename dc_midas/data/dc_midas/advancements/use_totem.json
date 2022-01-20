@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"dc_midas\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_midas:events/on_use_totem"
+    }
+}

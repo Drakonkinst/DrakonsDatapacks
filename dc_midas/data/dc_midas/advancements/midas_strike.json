@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"dc_midas\"]}"
+                },
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_magic": false,
+                        "is_projectile": false,
+                        "is_lightning": false
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_midas:events/on_midas_strike"
+    }
+}

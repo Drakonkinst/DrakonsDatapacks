@@ -1,0 +1,57 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "feet": {
+                "items": [
+                    "minecraft:apple",
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots",
+                    "minecraft:carrot",
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate",
+                    "minecraft:deepslate_iron_ore",
+                    "minecraft:deepslate_copper_ore",
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet",
+                    "minecraft:iron_horse_armor",
+                    "minecraft:diamond_horse_armor",
+                    "minecraft:leather_horse_armor",
+                    "minecraft:iron_ingot",
+                    "minecraft:copper_ingot",
+                    "minecraft:diamond",
+                    "minecraft:netherite_ingot",
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings",
+                    "minecraft:melon_slice",
+                    "minecraft:iron_block",
+                    "minecraft:copper_block",
+                    "minecraft:diamond_block",
+                    "minecraft:netherite_block",
+                    "minecraft:iron_nugget",
+                    "minecraft:raw_iron_block",
+                    "minecraft:raw_copper_block",
+                    "minecraft:raw_iron",
+                    "minecraft:raw_copper",
+                    "minecraft:iron_ore",
+                    "minecraft:copper_ore",
+                    "minecraft:diamond_block"
+                ]
+            }
+        }
+    }
+}

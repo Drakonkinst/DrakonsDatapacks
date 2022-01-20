@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "minecraft:iron_block",
+                    "minecraft:copper_block",
+                    "minecraft:diamond_block",
+                    "minecraft:netherite_block"
+                ]
+            }
+        }
+    }
+}

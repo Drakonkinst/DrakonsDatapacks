@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "minecraft:iron_horse_armor",
+                    "minecraft:diamond_horse_armor",
+                    "minecraft:leather_horse_armor"
+                ]
+            }
+        }
+    }
+}
