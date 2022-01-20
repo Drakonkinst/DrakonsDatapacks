@@ -7,6 +7,10 @@ tag @s[gamemode=creative] add dc_batfly1
 tag @s[gamemode=adventure] add dc_batfly2
 gamemode spectator @s
 
+# Enable emergency stop
+scoreboard players enable @s dc_vampireStop
+tellraw @s {"text":"Click HERE to stop bat flight","bold":true,"underlined":true,"color":"red","clickEvent":{"action":"run_command","value":"/trigger dc_vampireStop"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to leave bat flight!","color":"red"}]}}
+
 # Effects
 particle minecraft:dust 1 0 0 10 ~ ~1 ~ 0.4 0.4 0.4 0 15
 playsound minecraft:entity.bat.takeoff player @a ~ ~ ~ 1 1

@@ -8,3 +8,4 @@ tag @s remove dc_batflyAnchor
 execute unless entity @e[type=bat,tag=dc_matchBatfly,limit=1] run function dc_vampire:batfly/leave_batfly
 #execute unless entity @e[type=bat,tag=dc_matchBatfly,limit=1] run say No matching bat found
 tag @e[type=bat,tag=dc_batfly] remove dc_matchBatfly
+execute if score @s dc_vampireStop matches 1.. run function dc_vampire:batfly/leave_batfly

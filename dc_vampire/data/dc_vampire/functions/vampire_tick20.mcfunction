@@ -1,4 +1,4 @@
-execute unless entity @s[tag=dc_holdingUmbrella] if predicate dc_vampire:is_day if predicate drakoncore:under_sky run function dc_vampire:in_daylight
+execute unless entity @s[tag=dc_holdingUmbrella] if predicate drakoncore:in_overworld if predicate dc_vampire:is_day if predicate drakoncore:under_sky run function dc_vampire:in_daylight
 
 # Tag nearby living mobs with a tag so it's easier to detect when they're killed
 execute positioned ~-64 ~-64 ~-64 run tag @e[type=#drakoncore:living_mobs,dx=128,dy=128,dz=128] add dc_living_mob
@@ -21,5 +21,5 @@ effect give @s[tag=dc_vampireFloat] minecraft:slow_falling 1 0 true
 execute if predicate drakoncore:on_ground run tag @s remove dc_vampireFloat
 
 # Display
-execute if entity @s[gamemode=!spectator] if predicate dc_vampire:ghast_tear_mainhand run function dc_vampire:show_blood_level
-execute if entity @s[tag=dc_inBatfly] run function dc_vampire:show_blood_level
+execute if entity @s[gamemode=!spectator] if predicate dc_vampire:ghast_tear_mainhand run function dc_vampire:display/show_blood_level
+execute if entity @s[tag=dc_inBatfly] run function dc_vampire:display/show_blood_level

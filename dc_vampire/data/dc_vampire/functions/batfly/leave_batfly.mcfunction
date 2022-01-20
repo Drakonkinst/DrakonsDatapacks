@@ -7,6 +7,7 @@ tag @s remove dc_batfly2
 tag @s remove dc_inBatfly
 execute align y run tp @s ~ ~ ~
 tag @s add dc_vampireFloat
+scoreboard players reset @s dc_vampireStop
 
 # Effects
 execute at @s run particle minecraft:dust 1 0 0 10 ~ ~1 ~ 0.4 0.4 0.4 0 15
