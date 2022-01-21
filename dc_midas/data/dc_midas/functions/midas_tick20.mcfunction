@@ -15,5 +15,5 @@ execute if predicate dc_midas:holding/goldified_mainhand run effect give @s mine
 
 # Enchant Golden Apples
 tag @s add dc_midasAnchor
-execute if entity @s[level=30..] as @e[type=item,distance=..5] at @s if block ~ ~-0.1 ~ minecraft:enchanting_table if predicate dc_midas:golden_apple_entity run function dc_midas:enchant_apple
+execute if entity @s[level=30..] as @e[type=item,distance=..5] at @s if block ~ ~-0.1 ~ minecraft:enchanting_table if predicate dc_midas:golden_apple_entity run function dc_midas:enchant/enchant_apple
 tag @s remove dc_midasAnchor

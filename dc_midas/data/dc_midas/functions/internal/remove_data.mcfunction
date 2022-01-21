@@ -1,5 +1,5 @@
 # If Enchanted Golden Apple, give some xp back
-execute if predicate dc_midas:holding/exactly/enchanted_golden_apple at @e[tag=dc_midasAnchor,limit=1] run summon minecraft:experience_orb ~ ~ ~ {Value:1000}
+execute if predicate dc_midas:holding/exactly/enchanted_golden_apple at @e[tag=dc_midasAnchor,limit=1] run function dc_midas:enchant/start_xp_return
 
 execute if data entity @s HandItems[0].tag.Damage run function dc_midas:durability/set_gold_a
 execute if data entity @s HandItems[0].tag.MidasTouch run tag @e[tag=dc_midasAnchor,limit=1] add dc_midasHealed
