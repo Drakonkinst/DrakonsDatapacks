@@ -7,9 +7,14 @@ tag @s remove dc_batflyAnchor
 execute unless entity @a[tag=dc_batflyPlayer,limit=1] run tag @s add dc_deadBatfly
 #execute unless entity @a[tag=dc_batflyPlayer,limit=1] run say No matching player found
 
+execute if block ~ ~ ~ #drakoncore:water_type run tag @s add dc_inWater
+execute if block ~ ~ ~ #drakoncore:waterloggable[waterlogged=true] run tag @s add dc_inWater
+
 # Execute different flight logic based on settings
 execute unless score #VampireOldBatfly dc_value matches 1.. run function dc_vampire:batfly/fly_new
 execute if score #VampireOldBatfly dc_value matches 1.. run function dc_vampire:batfly/fly_old
+
+tag @s remove dc_inWater
 
 # Kill batfly conditions
 execute if predicate dc_vampire:bat_damaged run tag @s add dc_deadBatfly

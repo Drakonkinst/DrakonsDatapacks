@@ -61,6 +61,10 @@
         "minecraft:light_weighted_pressure_plate",
         "minecraft:heavy_weighted_pressure_plate",
         "minecraft:redstone_wall_torch",
-        "minecraft:snow"
+        "minecraft:snow",
+        "minecraft:kelp",
+        "minecraft:kelp_plant",
+        "minecraft:seagrass",
+        "minecraft:tall_seagrass"
     ]
 }
