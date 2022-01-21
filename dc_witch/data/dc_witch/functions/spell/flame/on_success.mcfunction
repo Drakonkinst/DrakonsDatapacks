@@ -1,5 +1,5 @@
 scoreboard players set @s dc_witchCooldown 15
-xp add @s -2 levels
+xp add @s -1 levels
 tag @s add dc_cast_success
 playsound minecraft:entity.illusioner.cast_spell player @a ~ ~ ~ 0.3 0.9
 playsound minecraft:block.amethyst_block.fall player @a ~ ~ ~ 1 1
