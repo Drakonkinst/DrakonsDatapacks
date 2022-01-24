@@ -11,6 +11,7 @@ scoreboard objectives add dc_health health {"text":"❤","color":"red"}
 scoreboard objectives add dc_deathCount deathCount "Deaths"
 scoreboard objectives add dc_recentDeath deathCount "Recently Died"
 scoreboard objectives add dc_playerKills playerKillCount "Player Kills"
+scoreboard objectives add dc_playTime minecraft.custom:minecraft.play_time "Total Playtime"
 
 # Base commands
 scoreboard objectives add help trigger "DrakonCore Help"

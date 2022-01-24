@@ -1,2 +1,2 @@
 # Display mod info
-tellraw @s ["",{"text":"- ","color":"gray"},{"text":"Manhunt Trophies","underlined":true,"color":"dark_purple","clickEvent":{"action":"open_url","value":"https://sites.google.com/view/drakons-datapacks/datapacks/drakoncore"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click here to go to this datapack's page!","color":"gold"}]}}]
+tellraw @s ["",{"text":"- ","color":"gray"},{"text":"Manhunt Trophies","underlined":false,"color":"dark_purple","hoverEvent":{"action":"show_text","contents":[{"text":"This is a custom pack and will not be published","color":"gold"}]}}]
