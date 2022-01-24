@@ -15,6 +15,8 @@ data remove entity @s HandItems[0].tag.MidasOldItem
 data remove entity @s HandItems[0].tag.MidasTouch
 
 # Check if tag:{} is empty to make sure weird stacking doesn't happen
-# Thank you https://www.reddit.com/r/MinecraftCommands/comments/mvdzsq/help_with_removing_empty_nbt_tags/gvbc306/
-execute store success score #SUCCESS dc_value run data modify entity @s HandItems[0].tag set value {}
+# This is a bit funky and might result in the entire item's tags getting deleted sometimes
+# Sorry
+scoreboard players set #SUCCESS dc_value -1
+execute unless data entity @s HandItems[0].tag.Damage unless data entity @s HandItems[0].tag.Enchantments unless data entity @s HandItems[0].tag.display store success score #SUCCESS dc_value run data modify entity @s HandItems[0].tag set value {}
 execute if score #SUCCESS dc_value matches 0 run data remove entity @s HandItems[0].tag

@@ -9,7 +9,7 @@ execute if predicate dc_midas:wearing/goldified_chestplate run scoreboard player
 execute if predicate dc_midas:wearing/goldified_leggings run scoreboard players add @s dc_value 1
 execute if predicate dc_midas:wearing/goldified_boots run scoreboard players add @s dc_value 1
 
-execute if score @s dc_value matches 2.. run effect give @s minecraft:regeneration 2 0 true
+execute if score @s dc_value matches 2.. unless predicate dc_midas:has_regeneration run effect give @s minecraft:regeneration 3 0 true
 execute if score @s dc_value matches 4.. run effect give @s minecraft:resistance 2 0 true
 execute if predicate dc_midas:holding/goldified_mainhand run effect give @s minecraft:haste 2 1 true
 
