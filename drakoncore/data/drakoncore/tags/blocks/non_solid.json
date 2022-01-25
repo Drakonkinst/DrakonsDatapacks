@@ -65,6 +65,8 @@
         "minecraft:kelp",
         "minecraft:kelp_plant",
         "minecraft:seagrass",
-        "minecraft:tall_seagrass"
+        "minecraft:tall_seagrass",
+        "minecraft:warped_roots",
+        "minecraft:crimson_roots"
     ]
 }
