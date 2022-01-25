@@ -10,6 +10,7 @@
         "minecraft:drowned",
         "minecraft:piglin_brute",
         "minecraft:zombified_piglin",
-        "minecraft:wither_skeleton"
+        "minecraft:wither_skeleton",
+        "minecraft:armor_stand"
     ]
 }
