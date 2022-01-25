@@ -1,7 +1,19 @@
 {
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:knowledge_book"
+                        ]
+                    }
+                ]
+            }
         }
+    },
+    "rewards": {
+        "function": "drakoncore:items/schedule_crafting_update"
     }
 }

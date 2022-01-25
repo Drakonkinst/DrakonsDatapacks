@@ -1,2 +1,2 @@
-tag @s[gamemode=!creative,gamemode=!spectator] add dc_check_crafting
-advancement revoke @s from drakoncore:crafting
+tag @s add dc_check_crafting
+advancement revoke @s only drakoncore:crafting

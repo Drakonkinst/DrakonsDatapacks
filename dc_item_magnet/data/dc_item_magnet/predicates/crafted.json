@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "player": {
+            "recipes": {
+                "dc_item_magnet:item_magnet": true
+            }
+        }
+    }
+}
