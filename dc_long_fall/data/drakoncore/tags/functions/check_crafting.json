@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "dc_long_fall:hooks/check_crafting"
+    ]
+}
