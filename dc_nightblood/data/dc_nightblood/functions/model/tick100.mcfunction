@@ -1,0 +1,1 @@
+execute if predicate dc_nightblood:chance_talk_others run function dc_nightblood:model/talk

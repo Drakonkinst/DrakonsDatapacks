@@ -1,0 +1,1 @@
+execute at @a[tag=dc_nbActive,limit=1] run playsound minecraft:entity.player.burp player @a ~ ~ ~ 2 0.8

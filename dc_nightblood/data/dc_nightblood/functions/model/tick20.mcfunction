@@ -1,0 +1,1 @@
+execute unless data entity @s CustomName run function dc_nightblood:model/set_data

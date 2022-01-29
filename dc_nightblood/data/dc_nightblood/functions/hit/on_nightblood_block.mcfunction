@@ -1,0 +1,1 @@
+advancement revoke @s only dc_nightblood:nightblood_block

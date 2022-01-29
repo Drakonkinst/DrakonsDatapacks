@@ -1,2 +1,2 @@
 # Runs once per second on each player
-execute unless predicate drakoncore:is_sneaking positioned ~ ~-0.5 ~ if entity @e[type=armor_stand,tag=dc_te_model,limit=1,distance=..1] run title @s actionbar "Press Sneak to pick up"
+execute unless predicate drakoncore:is_sneaking positioned ~ ~-0.5 ~ if entity @e[type=armor_stand,tag=dc_te_model,tag=!dc_te_nopickup,limit=1,distance=..1] run title @s actionbar "Press Sneak to pick up"
