@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"dc_enderman\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_enderman:on_pickup"
+    }
+}

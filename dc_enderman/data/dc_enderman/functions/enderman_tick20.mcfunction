@@ -8,3 +8,4 @@ execute unless predicate drakoncore:in_nether if score @s dc_EM_sneakTime matche
 execute if score @s dc_EM_sneakTime matches 3.. if predicate dc_enderman:enderpearl_mainhand run function dc_enderman:teleport/attempt_raycast
 
 execute unless predicate dc_enderman:has_water_breathing run function dc_enderman:water_allergy
+tag @s remove dc_emGrace
