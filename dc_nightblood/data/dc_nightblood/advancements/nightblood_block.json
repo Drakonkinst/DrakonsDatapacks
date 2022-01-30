@@ -1,7 +1,7 @@
 {
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:player_hurt_entity",
+            "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {
                     "blocked": true,

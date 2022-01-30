@@ -1,3 +1,3 @@
-execute as @a[distance=..5,tag=!dc_holdingNb] if predicate dc_nightblood:chance_talk_musings run function dc_nightblood:talk/other
-execute if entity @e[distance=..5,tag=!dc_holdingNb,type=!#drakoncore:not_mob,limit=1] if predicate dc_nightblood:chance_talk_musings run function dc_nightblood:talk/mob
-execute unless entity @e[distance=..5,tag=!dc_holdingNb,type=!#drakoncore:not_mob,limit=1] if predicate dc_nightblood:chance_talk_musings run function dc_nightblood:talk/musing
+execute as @a[distance=..5,tag=!dc_holdingNb] if predicate dc_nightblood:chance_talk_ambient run function dc_nightblood:talk/other
+execute if entity @e[distance=..5,tag=!dc_holdingNb,type=!#drakoncore:not_mob,limit=1] if predicate dc_nightblood:chance_talk_ambient run function dc_nightblood:talk/mob
+execute unless entity @e[distance=..5,tag=!dc_holdingNb,type=!#drakoncore:not_mob,limit=1] if predicate dc_nightblood:chance_talk_ambient run function dc_nightblood:talk/musing

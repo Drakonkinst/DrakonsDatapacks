@@ -1,2 +1,2 @@
-#execute if entity @s[tag=dc_nbActive] if predicate dc_nightblood:chance_talk_active run function dc_nightblood:talk/active
+execute if entity @s[tag=dc_nbActive] if predicate dc_nightblood:chance_talk_ambient run function dc_nightblood:talk/active
 execute if entity @s[tag=!dc_nbActive] run function dc_nightblood:sheathed/musings
