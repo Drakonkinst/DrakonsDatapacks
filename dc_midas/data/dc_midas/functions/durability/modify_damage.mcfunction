@@ -10,7 +10,7 @@ scoreboard players operation @s dc_value *= #MAX_B dc_value
 scoreboard players operation @s dc_value /= #MAX_A dc_value
 
 # Add penalty as long as it does not break weapon
-scoreboard players add @s dc_value 1
+execute unless score @s dc_value matches 0 run scoreboard players add @s dc_value 1
 execute if score @s dc_value > #MAX_B dc_value run scoreboard players operation @s dc_value = #MAX_B dc_value
 
 execute store result entity @s HandItems[0].tag.Damage int 1 run scoreboard players get @s dc_value
