@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:blue_ice"
+        },
+        {
+            "tag": "dc_throwable_axes:coral_blocks"
+        },
+        {
+            "item": "minecraft:magma_block"
+        },
+        {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        {
+            "item": "minecraft:netherite_scrap"
+        },
+        {
+            "item": "minecraft:blaze_rod"
+        },
+        {
+            "item": "minecraft:sponge"
+        },
+        {
+            "item": "minecraft:soul_sand"
+        },
+        {
+            "item": "minecraft:crying_obsidian"
+        }
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

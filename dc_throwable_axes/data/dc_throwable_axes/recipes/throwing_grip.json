@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABA",
+        "CDC",
+        "CEC"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:quartz"
+        },
+        "B": {
+            "item": "minecraft:leather"
+        },
+        "C": {
+            "item": "minecraft:diamond"
+        },
+        "D": {
+            "item": "minecraft:stick"
+        },
+        "E": {
+            "item": "minecraft:feather"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

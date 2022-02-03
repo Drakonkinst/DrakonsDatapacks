@@ -3,7 +3,7 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "Throwable",
+        "text": "Recalling",
         "color": "gold",
         "italic": false
       }
@@ -11,14 +11,7 @@
     "replace": false
   },
   {
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "minecraft:lure": 1
-    },
-    "add": true
-  },
-  {
     "function": "minecraft:set_nbt",
-    "tag": "{Throwable:1b}"
+    "tag": "{Returning:1b}"
   }
 ]

@@ -3,7 +3,7 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "Returning",
+        "text": "Throwing",
         "color": "gold",
         "italic": false
       }
@@ -11,14 +11,7 @@
     "replace": false
   },
   {
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "minecraft:loyalty": 1
-    },
-    "add": true
-  },
-  {
     "function": "minecraft:set_nbt",
-    "tag": "{Returning:1b}"
+    "tag": "{Throwable:1b}"
   }
 ]

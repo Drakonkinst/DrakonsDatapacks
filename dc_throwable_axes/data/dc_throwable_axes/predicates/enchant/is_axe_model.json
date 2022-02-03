@@ -1,0 +1,47 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{HandItems:[{id:\"minecraft:wooden_axe\"}]}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{HandItems:[{id:\"minecraft:stone_axe\"}]}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{HandItems:[{id:\"minecraft:golden_axe\"}]}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{HandItems:[{id:\"minecraft:iron_axe\"}]}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{HandItems:[{id:\"minecraft:diamond_axe\"}]}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{HandItems:[{id:\"minecraft:netherite_axe\"}]}"
+            }
+        }
+    ]
+}
