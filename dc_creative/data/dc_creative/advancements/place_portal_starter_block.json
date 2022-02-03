@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:oak_sapling",
+                "location": {
+                    "dimension": "minecraft:overworld"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_creative:portal/creation/starter_block/player_placed_block"
+    }
+}

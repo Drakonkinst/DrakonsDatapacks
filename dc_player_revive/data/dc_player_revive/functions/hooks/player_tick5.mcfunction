@@ -1,2 +1,2 @@
 # Runs 4 times per second on each player
-execute if entity @s[tag=dc_revivingPlayer] unless entity @e[type=armor_stand,tag=grave,distance=..3,limit=1] run function dc_player_revive:stop_reviving_player
+execute if entity @s[tag=dc_revivingPlayer] unless entity @e[type=armor_stand,tag=dc_grave,distance=..3,limit=1] run function dc_player_revive:stop_reviving_player

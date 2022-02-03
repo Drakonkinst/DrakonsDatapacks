@@ -1,0 +1,12 @@
+{
+  "type": "dc_creative:creative_world",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1947644297,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "minecraft:overworld"
+    }
+  }
+}

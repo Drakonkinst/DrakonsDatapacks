@@ -1,0 +1,2 @@
+advancement revoke @s only dc_creative:place_portal_starter_block
+execute at @s[predicate=!dc_creative:dimension/portal_creation_blacklisted] anchored eyes positioned ^ ^ ^ anchored feet run function dc_creative:portal/creation/starter_block/ray_start

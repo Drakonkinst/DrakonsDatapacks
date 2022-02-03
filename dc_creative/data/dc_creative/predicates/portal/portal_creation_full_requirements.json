@@ -1,0 +1,19 @@
+[
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:reference",
+                "name": "dc_creative:portal/lodestone_west_east"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "dc_creative:portal/lodestone_south_north"
+            }
+        ]
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "dc_creative:portal/amethyst_blocks_circle"
+    }
+]

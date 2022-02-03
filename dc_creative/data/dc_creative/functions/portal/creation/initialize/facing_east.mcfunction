@@ -1,0 +1,1 @@
+summon marker ~0.5 ~ ~0.5 {Tags:["dc_portal","dc_portal_facing_east","dc_in_creation","dc_amethyst_not_absorbed","dc_current"]}

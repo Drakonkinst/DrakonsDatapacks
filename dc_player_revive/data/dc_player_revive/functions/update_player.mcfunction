@@ -1,6 +1,6 @@
 execute store result score @s dc_temp_id run data get entity @s UUID[0]
 tag @s add dc_seekingGrave
-execute as @e[type=armor_stand,tag=grave] run function dc_player_revive:locate_matching_grave
+execute as @e[type=armor_stand,tag=dc_grave] run function dc_player_revive:locate_matching_grave
 tag @s remove dc_seekingGrave
 
 execute unless entity @e[type=armor_stand,tag=dc_locatedGrave,limit=1] run tag @s remove dc_hasGrave

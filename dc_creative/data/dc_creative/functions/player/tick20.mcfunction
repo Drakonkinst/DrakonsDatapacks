@@ -1,0 +1,4 @@
+execute if predicate dc_creative:holding/texture_mainhand run function dc_creative:player_head/texture_mainhand
+execute if predicate dc_creative:holding/texture_offhand run function dc_creative:player_head/texture_offhand
+execute if predicate dc_creative:holding/name_mainhand run function dc_creative:player_head/name_mainhand
+execute if predicate dc_creative:holding/name_offhand run function dc_creative:player_head/name_offhand

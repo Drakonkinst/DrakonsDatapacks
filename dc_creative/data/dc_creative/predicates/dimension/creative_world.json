@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "location": {
+            "dimension": "dc_creative:creative_world"
+        }
+    }
+}
