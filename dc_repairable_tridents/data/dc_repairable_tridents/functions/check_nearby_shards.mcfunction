@@ -7,5 +7,5 @@ execute if entity @e[type=item,tag=dc_prismarineShard,limit=1] as @p[distance=..
 execute if entity @a[tag=dc_anvilCrafting] run function dc_repairable_tridents:repair_trident
 
 # Reset
-execute unless entity @a[tag=dc_anvilCrafting] run tag @e[type=item,dx=0] remove dc_prismarineShard
+tag @e[type=item,dx=0] remove dc_prismarineShard
 tag @a remove dc_anvilCrafting

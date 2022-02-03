@@ -1,5 +1,5 @@
-# Rermove 1 shard
-execute as @e[type=item,tag=dc_prismarineShard,limit=1] run function dc_repairable_tridents:remove_1_shard
+# Remove 1 shard
+execute as @e[type=item,tag=dc_prismarineShard,limit=1] run function drakoncore:items/remove_1_item_entity
 
 # Repair trident
 scoreboard players remove @s dc_value 63
