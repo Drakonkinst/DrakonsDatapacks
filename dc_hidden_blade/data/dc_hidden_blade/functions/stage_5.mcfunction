@@ -1,2 +1,3 @@
 title @s title ["",{"text":"<","color":"yellow","bold":true},{"text":"<","color":"gold","bold":true},{"text":"< ","color":"red","bold":true},{"text":" ","color":"yellow"},{"text":" >","color":"red","bold":true},{"text":">","color":"gold","bold":true},{"text":">","color":"yellow","bold":true}]
-execute if score @s dc_HB_prevDmg matches ..29 run playsound minecraft:block.beacon.power_select player @s ~ ~ ~ 10 2
+execute if score @s dc_hb_prevStage matches 4 run playsound minecraft:block.beacon.power_select player @s ~ ~ ~ 10 2
+effect give @s strength 1 9 true

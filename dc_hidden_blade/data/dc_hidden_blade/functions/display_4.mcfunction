@@ -1,1 +1,0 @@
-title @s title ["",{"text":"<","color":"yellow","bold":false},{"text":"<","color":"gold","bold":true},{"text":"< ","color":"red","bold":true},{"text":" ","color":"yellow"},{"text":" >","color":"red","bold":true},{"text":">","color":"gold","bold":true},{"text":">","color":"yellow","bold":false}]
