@@ -7,7 +7,7 @@
                 "items": [
                     "minecraft:iron_sword"
                 ],
-                "nbt": "{Tags:[\"HiddenBlade\"]}"
+                "nbt": "{HiddenBlade:1b}"
             }
         }
     }

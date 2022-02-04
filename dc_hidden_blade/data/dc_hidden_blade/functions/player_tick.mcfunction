@@ -1,14 +1,10 @@
-execute store result score @s dc_HB_fallen run data get entity @s FallDistance 10.0
-scoreboard players set @s dc_HB_assassin 0
-execute if score @s dc_HB_fallen matches 45..94 run scoreboard players add @s dc_HB_assassin 1
-execute if score @s dc_HB_fallen matches 95..144 run scoreboard players add @s dc_HB_assassin 2
-execute if score @s dc_HB_fallen matches 145..194 run scoreboard players add @s dc_HB_assassin 3
-execute if score @s dc_HB_fallen matches 195.. run scoreboard players add @s dc_HB_assassin 4
-execute if score @s dc_HB_sneak matches 3.. run scoreboard players add @s dc_HB_assassin 1
+execute store result score #DistanceFallen dc_value run data get entity @s FallDistance 10.0
+scoreboard players set @s dc_value 0
+execute if score #DistanceFallen dc_value matches 45..94 run scoreboard players set @s dc_value 1
+execute if score #DistanceFallen dc_value matches 95..144 run scoreboard players set @s dc_value 2
+execute if score #DistanceFallen dc_value matches 145..194 run scoreboard players set @s dc_value 3
+execute if score #DistanceFallen dc_value matches 195.. run scoreboard players set @s dc_value 4
+execute if score @s dc_hb_sneak matches 3.. run scoreboard players add @s dc_value 1
 
-scoreboard players set #HiddenBladeDamage dc_value 6
-scoreboard players operation #HiddenBladeDamage dc_value *= @s dc_HB_assassin
-scoreboard players add #HiddenBladeDamage dc_value 4
-
-execute if score #HiddenBladeDamage dc_value matches 5.. run function dc_hidden_blade:display
-execute if entity @s[tag=empoweredHiddenBlade] unless score #HiddenBladeDamage dc_value matches 5.. run function dc_hidden_blade:remove_display
+execute if score @s dc_value matches 1.. run function dc_hidden_blade:apply
+execute if entity @s[tag=dc_hb_active] unless score @s dc_value matches 1.. run function dc_hidden_blade:remove_display
