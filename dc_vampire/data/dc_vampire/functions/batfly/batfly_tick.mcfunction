@@ -19,7 +19,7 @@ tag @s remove dc_inWater
 # Kill batfly conditions
 execute if predicate dc_vampire:bat_damaged run tag @s add dc_deadBatfly
 #execute if predicate dc_vampire:bat_damaged run say Bat damaged
-execute at @a[tag=dc_batflyPlayer,limit=1] anchored eyes positioned ~ ~1 ~ unless block ^ ^ ^0.4 #drakoncore:non_solid run tag @s add dc_deadBatfly
+execute at @a[tag=dc_batflyPlayer,limit=1] anchored eyes positioned ~ ~1 ~ unless block ^ ^ ^0.5 #drakoncore:non_solid run tag @s add dc_deadBatfly
 #execute at @a[tag=dc_batflyPlayer,limit=1] anchored eyes positioned ~ ~1 ~ unless block ^ ^ ^0.4 #drakoncore:non_solid run say Bat ran into block
 execute unless predicate dc_vampire:is_dark run tag @s add dc_deadBatfly
 #execute unless predicate dc_vampire:is_dark run say Bat is not in dark

@@ -5,7 +5,8 @@ tag @s remove dc_batfly0
 tag @s remove dc_batfly1
 tag @s remove dc_batfly2
 tag @s remove dc_inBatfly
-execute align y run tp @s ~ ~ ~
+execute align xyz run tp @s ~0.5 ~ ~0.5
+function drakoncore:utils/unstuck
 tag @s add dc_vampireFloat
 scoreboard players reset @s dc_vampireStop
 
