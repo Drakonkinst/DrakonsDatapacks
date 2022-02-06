@@ -6,5 +6,5 @@ execute if entity @s[type=zombie,tag=!dc_transformed] run function #drakoncore:o
 # Easter egg
 execute if entity @s[tag=!dc_transformed,type=zombie,nbt={IsBaby:1b}] if predicate drakoncore:zombie_easter_egg_chance run data modify entity @s CustomName set value "\"Ph1LzA\""
 
-execute if entity @s[tag=dc_mob_removed] run function drakoncore:internal/clear_entity
+execute if entity @s[tag=dc_mob_removed] run function drakoncore:utils/clear_entity
 tag @s add dc_mob_spawned
