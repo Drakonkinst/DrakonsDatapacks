@@ -1,7 +1,6 @@
 {
     "values": [
         "minecraft:piglin",
-        "minecraft:player",
         "minecraft:zombie",
         "minecraft:zombie_villager",
         "minecraft:husk",

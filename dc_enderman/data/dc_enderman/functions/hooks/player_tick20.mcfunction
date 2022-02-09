@@ -1,1 +1,1 @@
-execute if entity @s[tag=dc_enderman] run function dc_enderman:enderman_tick20
+execute if entity @s[tag=dc_enderman,gamemode=!spectator] run function dc_enderman:enderman_tick20
