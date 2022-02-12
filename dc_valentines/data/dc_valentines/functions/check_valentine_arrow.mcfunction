@@ -1,0 +1,2 @@
+execute unless data entity @s Potion unless predicate dc_valentines:is_infinity_arrow if predicate dc_valentines:chance_valentine_arrow run data merge entity @s {pickup:1b,damage:0.01d,PierceLevel:1b,CustomPotionEffects:[{Id:10b,Amplifier:1b,Duration:200}],Potion:"minecraft:strong_healing"}
+tag @s add dc_valentines

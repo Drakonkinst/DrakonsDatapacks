@@ -1,0 +1,2 @@
+execute if predicate dc_valentines:chance_capsule_drop run function dc_valentines:give_capsule
+advancement revoke @s only dc_valentines:kill_capsule_mob
