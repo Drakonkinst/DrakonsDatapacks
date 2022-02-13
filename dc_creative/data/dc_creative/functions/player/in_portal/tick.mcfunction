@@ -3,7 +3,7 @@ execute if entity @s[tag=dc_in_portal_facing_east] align xyz positioned ~ ~-2 ~ 
 execute if entity @s[tag=dc_in_portal_facing_north] align xyz positioned ~ ~-2 ~ unless entity @e[type=marker,distance=..2] run function dc_creative:player/in_portal/leave
 
 # Continuously give effect
-effect give @s nausea 4 0 true
+effect give @s[tag=!dc_noMotionSick] nausea 4 0 true
 
 # Prepare to teleport
 execute if entity @s[scores={dc_portalDelay2=0}] run function dc_creative:player/in_portal/prepare_to_teleport

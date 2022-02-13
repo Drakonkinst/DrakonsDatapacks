@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:potion"
+                    ],
+                    "potion": "minecraft:slow_falling"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_creative:player/on_drink_slow_falling"
+    }
+}
