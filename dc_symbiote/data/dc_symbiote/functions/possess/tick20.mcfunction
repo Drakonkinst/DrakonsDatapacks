@@ -1,5 +1,5 @@
 tag @s add dc_currentSymbiote
-tag @e[type=!#dc_symbiote:invalid_host,limit=1,tag=dc_symbioteHost,tag=!dc_currentSymbiote,sort=nearest] add dc_currentHost
+tag @e[type=!#dc_symbiote:invalid_host,limit=1,tag=dc_symbioteHost,tag=!dc_currentSymbiote,sort=nearest,distance=..10] add dc_currentHost
 execute if entity @e[type=#dc_symbiote:dolphins_grace,limit=1,tag=dc_currentHost] run effect give @s minecraft:dolphins_grace 30 0
 execute if entity @e[type=#dc_symbiote:fire_resistance,limit=1,tag=dc_currentHost] run effect give @s minecraft:fire_resistance 30 0
 execute if entity @e[type=#dc_symbiote:glowing,limit=1,tag=dc_currentHost] run effect give @s minecraft:glowing 30 0

@@ -8,3 +8,4 @@ execute if score @s dc_symbioteSneak matches 1..2 run function dc_symbiote:displ
 execute if score @s dc_symbioteSneak matches 3.. run function dc_symbiote:possess/attempt_possess
 
 execute if entity @s[tag=dc_symbiotePossess] run function dc_symbiote:possess/tick20
+execute if score @s[tag=!dc_symbiotePossess] dc_symbioteStop matches 1.. run scoreboard players reset @s dc_symbioteStop

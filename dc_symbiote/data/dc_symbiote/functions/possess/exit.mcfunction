@@ -8,9 +8,10 @@ gamemode adventure @s[tag=dc_possess2]
 tag @s remove dc_possess0
 tag @s remove dc_possess1
 tag @s remove dc_possess2
+scoreboard players reset @s dc_symbioteStop
 
 # Unstuck
-execute align xyz run tp @s ~0.5 ~ ~0.5
+execute at @s align xyz run tp @s ~0.5 ~ ~0.5
 function drakoncore:utils/unstuck
 
 execute as @e[type=!#dc_symbiote:invalid_host,limit=1,tag=dc_currentHost,sort=nearest] run function dc_symbiote:host/stop

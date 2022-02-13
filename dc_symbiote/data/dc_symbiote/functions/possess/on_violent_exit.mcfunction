@@ -4,3 +4,4 @@ playsound minecraft:entity.drowned.death_water player @a ~ ~ ~ 1 0.5
 playsound minecraft:entity.magma_cube.death player @a ~ ~ ~ 1 0
 playsound minecraft:block.bubble_column.whirlpool_inside player @a ~ ~ ~ 1 1
 effect give @s minecraft:regeneration 2 4 true
+function dc_symbiote:possess/exit
