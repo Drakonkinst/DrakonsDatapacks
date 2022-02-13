@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:blaze",
+        "minecraft:zombified_piglin",
+        "minecraft:strider",
+        "minecraft:zoglin",
+        "minecraft:wither_skeleton",
+        "minecraft:magma_cube"
+    ]
+}

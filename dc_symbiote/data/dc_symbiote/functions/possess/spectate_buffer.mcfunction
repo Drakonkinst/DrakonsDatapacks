@@ -1,0 +1,1 @@
+spectate @e[type=!#dc_symbiote:invalid_host,limit=1,tag=dc_symbioteHost,sort=nearest]

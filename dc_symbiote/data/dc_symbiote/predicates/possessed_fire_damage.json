@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Tags:[\"dc_symbioteHost\"]}",
+      "flags": {
+        "is_on_fire": true
+      }
+    }
+  }
+  

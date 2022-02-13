@@ -1,0 +1,1 @@
+execute unless entity @s[type=#dc_symbiote:fire_resistance] unless predicate dc_symbiote:has_fire_resistance if predicate dc_symbiote:is_on_fire run function dc_symbiote:host/on_fire

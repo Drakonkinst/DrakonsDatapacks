@@ -1,0 +1,3 @@
+execute if entity @e[type=!#dc_symbiote:invalid_host,tag=dc_filter,tag=dc_symbiote,limit=1] run tellraw @s {"text":"Cannot possess another Symbiote!","color":"red"}
+execute if entity @e[type=!#dc_symbiote:invalid_host,tag=dc_filter,tag=dc_symbioteHost,limit=1] run tellraw @s {"text":"Creature already has a Symbiote! Three's a crowd...","color":"red"}
+execute if entity @e[type=!#dc_symbiote:invalid_host,tag=dc_filter,tag=!dc_symbioteHost,tag=!dc_symbiote,limit=1] run function dc_symbiote:possess/on_success

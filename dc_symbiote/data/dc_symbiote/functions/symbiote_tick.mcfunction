@@ -1,0 +1,1 @@
+execute if entity @s[tag=dc_symbioteMoving] run function dc_symbiote:possess/moving

@@ -1,0 +1,1 @@
+execute if entity @s[tag=!dc_symbioteMaxHp] run function dc_symbiote:set_max_health
