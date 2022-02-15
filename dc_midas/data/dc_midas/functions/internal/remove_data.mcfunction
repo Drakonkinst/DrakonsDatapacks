@@ -20,3 +20,5 @@ data remove entity @s HandItems[0].tag.MidasTouch
 scoreboard players set #SUCCESS dc_value -1
 execute unless data entity @s HandItems[0].tag.Damage unless data entity @s HandItems[0].tag.Enchantments unless data entity @s HandItems[0].tag.display store success score #SUCCESS dc_value run data modify entity @s HandItems[0].tag set value {}
 execute if score #SUCCESS dc_value matches 0 run data remove entity @s HandItems[0].tag
+
+tag @s add dc_midasTransform

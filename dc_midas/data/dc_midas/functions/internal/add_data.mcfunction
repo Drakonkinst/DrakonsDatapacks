@@ -28,6 +28,8 @@ tag @e[tag=dc_midasAnchor,limit=1] add dc_midasTouched
 execute if data entity @s HandItems[0].tag.Damage run function dc_midas:durability/set_gold_b
 execute if data entity @s HandItems[0].tag.Damage if score #MAX_A dc_value matches 1.. if score #MAX_B dc_value matches 1.. run function dc_midas:durability/modify_damage
 
+tag @s add dc_midasTransform
+
 # Old damage implementation
 #execute if data entity @s HandItems[0].tag.Damage run data modify entity @s HandItems[0].tag.MidasOldDamage set from entity @s HandItems[0].tag.Damage
 #execute if data entity @s HandItems[0].tag.Damage run data modify entity @s HandItems[0].tag.Damage set value 0
