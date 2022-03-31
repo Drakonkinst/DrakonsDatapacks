@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "count": {
+                        "min": 1
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_easter_hunt:events/on_fishing"
+    }
+}

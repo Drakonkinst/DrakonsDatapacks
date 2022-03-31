@@ -1,0 +1,2 @@
+execute if predicate dc_easter_hunt:chance_tame_animal run function dc_easter_hunt:give_random_egg
+advancement revoke @s only dc_easter_hunt:tame_animal

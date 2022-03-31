@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:placed_block"
+        }
+    },
+    "rewards": {
+        "function": "dc_easter_hunt:events/on_place_block"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tame_animal"
+        }
+    },
+    "rewards": {
+        "function": "dc_easter_hunt:events/on_tame_animal"
+    }
+}

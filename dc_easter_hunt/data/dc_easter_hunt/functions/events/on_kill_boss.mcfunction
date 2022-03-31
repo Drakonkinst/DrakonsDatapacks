@@ -1,0 +1,6 @@
+function dc_easter_hunt:give_random_egg
+function dc_easter_hunt:give_random_egg
+function dc_easter_hunt:give_random_egg
+function dc_easter_hunt:spawn_rare_egg
+tag @s remove dc_receivedEgg
+advancement revoke @s only dc_easter_hunt:kill_boss
