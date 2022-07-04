@@ -7,11 +7,21 @@ execute at @s[type=boat,nbt={Type:"birch"}] run loot spawn ~ ~ ~ loot dc_throwab
 execute at @s[type=boat,nbt={Type:"jungle"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:jungle_boat
 execute at @s[type=boat,nbt={Type:"acacia"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:acacia_boat
 execute at @s[type=boat,nbt={Type:"dark_oak"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:dark_oak_boat
+execute at @s[type=boat,nbt={Type:"mangrove"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:mangrove_boat
+
+execute at @s[type=chest_boat,nbt={Type:"oak"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:oak_chest_boat
+execute at @s[type=chest_boat,nbt={Type:"spruce"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:spruce_chest_boat
+execute at @s[type=chest_boat,nbt={Type:"birch"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:birch_chest_boat
+execute at @s[type=chest_boat,nbt={Type:"jungle"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:jungle_chest_boat
+execute at @s[type=chest_boat,nbt={Type:"acacia"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:acacia_chest_boat
+execute at @s[type=chest_boat,nbt={Type:"dark_oak"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:dark_oak_chest_boat
+execute at @s[type=chest_boat,nbt={Type:"mangrove"}] run loot spawn ~ ~ ~ loot dc_throwable_axes:mangrove_chest_boat
 
 execute at @s[type=minecart] run loot spawn ~ ~ ~ loot dc_throwable_axes:minecart
 execute at @s[type=chest_minecart] run loot spawn ~ ~ ~ loot dc_throwable_axes:chest_minecart
 execute at @s[type=hopper_minecart] run loot spawn ~ ~ ~ loot dc_throwable_axes:hopper_minecart
 execute at @s[type=furnace_minecart] run loot spawn ~ ~ ~ loot dc_throwable_axes:furnace_minecart
+execute at @s[type=tnt_minecart] run loot spawn ~ ~ ~ loot dc_throwable_axes:tnt_minecart
 
 # play entity-specific sounds:
 execute at @s[type=painting] run playsound minecraft:entity.painting.break ambient @a
@@ -22,11 +32,8 @@ execute at @s[type=shulker_bullet] run playsound minecraft:entity.shulker_bullet
 
 # kill other entities:
 kill @s[type=painting]
-kill @s[type=boat]
-kill @s[type=minecart]
-kill @s[type=chest_minecart]
-kill @s[type=hopper_minecart]
-kill @s[type=furnace_minecart]
+kill @s[type=#drakoncore:boats]
+kill @s[type=#drakoncore:minecarts]
 kill @s[type=fireball]
 kill @s[type=small_fireball]
 kill @s[type=dragon_fireball]

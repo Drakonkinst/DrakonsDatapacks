@@ -1,6 +1,5 @@
 {
     "values": [
-        "minecraft:boat",
         "minecraft:item",
         "minecraft:experience_orb",
         "minecraft:eye_of_ender",
@@ -14,6 +13,7 @@
         "minecraft:evoker_fangs",
         "minecraft:marker",
         "minecraft:lightning_bolt",
+        "#drakoncore:boats",
         "#drakoncore:item_frames",
         "#drakoncore:minecarts",
         "#drakoncore:projectiles"

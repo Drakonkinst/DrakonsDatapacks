@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:furnace_minecart"
+          "name": "minecraft:tnt_minecart"
         }
       ]
     }
