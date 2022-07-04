@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_scrap"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_ingot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:coal"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lapis_lazuli"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:redstone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glowstone_dust"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:obsidian"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crying_obsidian"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sea_lantern"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_carrot"
+                }
+            ]
+        }
+    ]
+}
