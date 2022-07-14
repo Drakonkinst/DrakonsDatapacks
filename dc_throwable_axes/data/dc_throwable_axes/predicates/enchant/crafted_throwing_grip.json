@@ -2,7 +2,8 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "player": {
+        "type_specific": {
+            "type": "player",
             "recipes": {
                 "dc_throwable_axes:throwing_grip": true
             }
