@@ -12,6 +12,8 @@ scoreboard objectives add dc_deathCount deathCount "Deaths"
 scoreboard objectives add dc_recentDeath deathCount "Recently Died"
 scoreboard objectives add dc_playerKills playerKillCount "Player Kills"
 scoreboard objectives add dc_playTime minecraft.custom:minecraft.play_time "Total Playtime"
+scoreboard objectives add dc_interact minecraft.custom:minecraft.talked_to_villager "Interact"
+scoreboard objectives add dc_interactCd dummy "Interact Cooldown"
 
 # Base commands
 scoreboard objectives add help trigger "DrakonCore Help"

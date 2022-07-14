@@ -1,0 +1,1 @@
+execute positioned ~ ~-1.7 ~ unless entity @e[type=villager,tag=dc_interact,distance=..0.1,limit=1] run function drakoncore:entities/interact/summon
