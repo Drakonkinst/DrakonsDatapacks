@@ -1,0 +1,1 @@
+execute if entity @s[type=marker,tag=dc_worldReset_pickup] run function dc_world_reset:pickup_tick100

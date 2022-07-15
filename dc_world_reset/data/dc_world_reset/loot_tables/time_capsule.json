@@ -1,0 +1,101 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pink_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:magenta_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_blue_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cyan_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lime_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:yellow_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:red_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:brown_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gray_shulker_box"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:white_shulker_box"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "text": "Time Capsule",
+                            "color": "light_purple",
+                            "italic": false
+                        },
+                        {
+                            "text": "Do not change the name of this item!",
+                            "color": "dark_gray",
+                            "italic": false
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:set_name",
+                    "entity": "this",
+                    "name": {
+                        "selector": "@s",
+                        "color": "gold",
+                        "italic": false,
+                        "bold": true
+                    }
+                }
+            ]
+        }
+    ]
+}

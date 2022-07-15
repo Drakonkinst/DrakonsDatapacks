@@ -1,0 +1,1 @@
+execute at @s as @e[type=item,distance=..2] if predicate drakoncore:on_ground if predicate drakoncore:is_single_item at @s run function dc_world_reset:tp_item

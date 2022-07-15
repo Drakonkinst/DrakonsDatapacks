@@ -1,0 +1,3 @@
+execute if data entity @s Inventory[] run tellraw @s {"text":"You still have items in your inventory. Move them elsewhere or they will be lost forever (a very long time)!","color":"red"}
+execute if data entity @s EnderItems[] run tellraw @s {"text":"You still have items in your Ender Chest. Move them elsewhere or they will be lost forever (a very long time)!","color":"red"}
+execute if entity @s[tag=!dc_time_capsule] run tellraw @s {"text":"You have yet to claim your time capsule!","color":"red"}
