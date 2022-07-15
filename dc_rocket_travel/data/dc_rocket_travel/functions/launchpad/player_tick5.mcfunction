@@ -1,0 +1,2 @@
+#execute unless score @s dc_rocketCountdown matches 1.. run function dc_rocket_travel:launchpad/launch
+execute if score @s dc_rocketCountdown matches 1.. run function dc_rocket_travel:launchpad/countdown

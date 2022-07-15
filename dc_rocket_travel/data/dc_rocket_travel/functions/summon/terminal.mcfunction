@@ -1,0 +1,2 @@
+# TODO: dc_showName functionality to hide and unhide name
+execute at @s align xz run summon armor_stand ~0.5 ~ ~0.5 {CustomName:"{\"text\":\"Launchpad Terminal\"}",CustomNameVisible:1b,Invulnerable:1b,Invisible:1b,Tags:["dc_interactable","dc_rocketTerminal"],Marker:1b}
