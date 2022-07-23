@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:spider",
+                        "nbt": "{Tags:[\"dc_arachnid_broodmother\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_arachnid_broodmother:on_hit"
+    }
+}

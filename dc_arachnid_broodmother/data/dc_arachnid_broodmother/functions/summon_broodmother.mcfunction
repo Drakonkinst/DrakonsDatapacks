@@ -1,0 +1,2 @@
+summon spider ~ ~ ~ {Health:60f,Passengers:[{id:"minecraft:cave_spider",Health:6f,Tags:["dc_spiderling","dc_mob_transformed"],CustomName:'{"text":"Spiderling"}'}],CustomName:'{"text":"Arachnid Broodmother"}',ActiveEffects:[{Id:5,Amplifier:2b,Duration:999999,ShowParticles:1b}],Attributes:[{Name:generic.max_health,Base:60},{Name:generic.knockback_resistance,Base:0.6}],Tags:["dc_arachnid_broodmother","dc_mob_transformed"]}
+tag @s[type=spider] add dc_mob_removed

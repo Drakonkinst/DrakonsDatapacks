@@ -1,0 +1,2 @@
+# When a mob is spawned (not entity or player)
+execute if entity @s[type=spider,tag=!dc_mob_transformed] if predicate dc_arachnid_broodmother:chance_spawn run function dc_arachnid_broodmother:summon_broodmother

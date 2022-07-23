@@ -1,0 +1,3 @@
+function dc_arachnid_broodmother:progress_stage
+advancement revoke @s only dc_arachnid_broodmother:broodmother_hit
+advancement revoke @s only dc_arachnid_broodmother:spiderling_hit

@@ -1,0 +1,1 @@
+execute if entity @a[gamemode=!creative,gamemode=!spectator,distance=..7,limit=1] if predicate dc_arachnid_broodmother:chance_spiderlings run function dc_arachnid_broodmother:spawn
