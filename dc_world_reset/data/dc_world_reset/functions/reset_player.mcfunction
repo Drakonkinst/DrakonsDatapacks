@@ -46,3 +46,6 @@ tag @s remove dc_witch
 tellraw @s {"text":"Your progress has been reset. Time for a new beginning!","color":"green"}
 
 tag @s add dc_world_reset
+
+# Lock them out of getting the time capsule again
+tag @s add dc_time_capsule
