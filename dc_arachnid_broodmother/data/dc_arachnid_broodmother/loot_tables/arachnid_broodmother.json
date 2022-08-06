@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:string"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:fermented_spider_eye"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cobweb"
+                }
+            ]
+        }
+    ]
+}
