@@ -1,24 +1,21 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "ABA",
-        "CDC",
-        "CEC"
+        " # ",
+        "L/L",
+        " F "
     ],
     "key": {
-        "A": {
+        "#": {
             "item": "minecraft:quartz"
         },
-        "B": {
+        "L": {
             "item": "minecraft:leather"
         },
-        "C": {
-            "item": "minecraft:diamond"
-        },
-        "D": {
+        "/": {
             "item": "minecraft:stick"
         },
-        "E": {
+        "F": {
             "item": "minecraft:feather"
         }
     },

@@ -5,28 +5,28 @@
             "item": "minecraft:blue_ice"
         },
         {
-            "tag": "dc_throwable_axes:coral_blocks"
+            "item": "minecraft:brain_coral_block"
         },
         {
-            "item": "minecraft:magma_block"
-        },
-        {
-            "item": "minecraft:heart_of_the_sea"
-        },
-        {
-            "item": "minecraft:netherite_scrap"
-        },
-        {
-            "item": "minecraft:blaze_rod"
+            "item": "minecraft:crying_obsidian"
         },
         {
             "item": "minecraft:sponge"
         },
         {
+            "item": "minecraft:blaze_rod"
+        },
+        {
+            "item": "minecraft:glowstone"
+        },
+        {
+            "item": "minecraft:dark_prismarine"
+        },
+        {
             "item": "minecraft:soul_sand"
         },
         {
-            "item": "minecraft:crying_obsidian"
+            "item": "minecraft:nether_quartz_ore"
         }
     ],
     "result": {
