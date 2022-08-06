@@ -74,13 +74,43 @@
                     "entity": "this",
                     "lore": [
                         {
-                            "text": "Time Capsule",
+                            "text": "Packing Box",
+                            "color": "light_purple",
+                            "italic": false
+                        },
+                        {
+                            "text": "For all of your packing needs!",
+                            "color": "aqua",
+                            "italic": false
+                        },
+                        {
+                            "text": " ",
                             "color": "light_purple",
                             "italic": false
                         },
                         {
                             "text": "Do not change the name of this item!",
                             "color": "dark_gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "*Limited to one box per person.",
+                            "color": "dark_gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "**Timely delivery NOT guaranteed.",
+                            "color": "dark_gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "***Delivery NOT guaranteed.",
+                            "color": "dark_gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "Fulfilled by Snail Mail Packing Services.",
+                            "color": "aqua",
                             "italic": false
                         }
                     ]
