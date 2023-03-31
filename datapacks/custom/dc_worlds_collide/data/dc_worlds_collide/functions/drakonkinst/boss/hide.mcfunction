@@ -1,0 +1,2 @@
+bossbar set dc_worlds_collide:drakon_boss players
+bossbar set dc_worlds_collide:drakon_boss visible false

@@ -1,0 +1,34 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": [
+                                    "minecraft:shears"
+                                ]
+                            }
+                        }
+                    },
+                    "type": {
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_magic": false,
+                        "is_projectile": false,
+                        "is_lightning": false,
+                        "bypasses_armor": false,
+                        "bypasses_invulnerability": false,
+                        "bypasses_magic": false
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_worlds_collide:on_shears_hit"
+    }
+}

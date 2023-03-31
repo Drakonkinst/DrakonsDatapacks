@@ -1,0 +1,2 @@
+bossbar set dc_worlds_collide:dishonoredheir_boss players
+bossbar set dc_worlds_collide:dishonoredheir_boss visible false

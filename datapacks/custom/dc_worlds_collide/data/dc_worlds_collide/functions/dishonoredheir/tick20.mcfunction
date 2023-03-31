@@ -1,0 +1,1 @@
+execute if predicate dc_worlds_collide:no_balls run function dc_worlds_collide:dishonoredheir/check_balls

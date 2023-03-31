@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "dc_worlds_collide:hooks/rocket_travel/on_teleport"
+    ]
+}
