@@ -1,9 +1,10 @@
 import os
 import shutil
 
-templatePath = "../dc_template"
-def create_new_datapack_folder(name):
-    newPath = os.path.join("../", name)
+templatePath = "../datapacks/dc_template"
+outputPath = "../datapacks/"
+def createNewDatapackFolder(name):
+    newPath = os.path.join(outputPath, name)
     shutil.copytree(templatePath, newPath)
     os.rename(os.path.join(newPath, "data/dc_template"), os.path.join(newPath, "data/" + name))
     for path, dirs, files in os.walk(os.path.join(newPath, "data/drakoncore/tags/functions")):
@@ -15,10 +16,9 @@ def create_new_datapack_folder(name):
                 s = s.replace("dc_template", name)
                 with open(filepath, "w") as f:
                     f.write(s)
-                    
 def main():
     name = input("Enter a unique id for the datapack (i.e. dc_template, dc_xp_storage, etc.): ")
-    create_new_datapack_folder(name)
+    createNewDatapackFolder(name)
     print("New datapack with id \"" + name + "\" created.")
 
 if __name__ == '__main__':
