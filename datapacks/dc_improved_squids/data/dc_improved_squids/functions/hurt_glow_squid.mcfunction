@@ -1,0 +1,2 @@
+execute at @s if entity @e[type=glow_squid,nbt={HurtTime:10s},distance=..3,limit=1] if block ~ ~1.62 ~ #drakoncore:water run function dc_improved_squids:give_glowing
+advancement revoke @s only dc_improved_squids:hurt_glow_squid

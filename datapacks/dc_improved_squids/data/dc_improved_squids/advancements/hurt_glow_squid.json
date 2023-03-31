@@ -1,13 +1,13 @@
 {
     "rewards": {
-        "function": "dc_squid_ink:hurt_squid"
+        "function": "dc_improved_squids:hurt_glow_squid"
     },
     "criteria": {
         "player_hurt_squid": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:squid"
+                    "type": "minecraft:glow_squid"
                 }
             }
         }

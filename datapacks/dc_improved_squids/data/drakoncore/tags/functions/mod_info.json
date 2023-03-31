@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "dc_squid_ink:hooks/mod_info"
+        "dc_improved_squids:hooks/mod_info"
     ]
 }
