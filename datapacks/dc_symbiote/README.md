@@ -1,6 +1,6 @@
 # Symbiote Playable Class
 
-*This datapack is part of the [Playable Classes](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/Playable-Classes) collection.*
+> **Note**: *This datapack is part of the [Playable Classes](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/Playable-Classes) collection.*
 
 **Symbiote Playable Class** adds a playable class to the game, the **Symbiote**. Symbiotes are strange, alien creatures with **altered physiology**. They are **far less durable** than normal players and have a strong aversion to fire, but are also **immune** to most sicknesses and can eat any food with no ill effect. Symbiotes also have the unique power to **inhabit** any creature, which they can use to empower their host or escape dangerous situations.
 
