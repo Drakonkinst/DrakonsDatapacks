@@ -1,6 +1,6 @@
 # Witch Playable Class
 
-*This datapack is part of the [Playable Classes](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/Playable-Classes) collection.*
+> **Note**: *This datapack is part of the [Playable Classes](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/Playable-Classes) collection.*
 
 The **Witch Playable Class** adds a playable class to the game, the **Witch**. Witch players have two primary abilities, **Cauldron Brewing** and **Spell Casting**. The first allows them to augment potions with additional effects, while the second allows them to spend experience levels to cast powerful spells. The Witch's playstyle emphasizes methodical experimentation and preparation.
 
