@@ -1,6 +1,6 @@
 # Vampire Playable Class
 
-*This datapack is part of the [Playable Classes](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/Playable-Classes) collection.*
+> **Note**: *This datapack is part of the [Playable Classes](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/Playable-Classes) collection.*
 
 **Vampire Playable Class** adds a playable class to the game, the **Vampire**. Instead of eating, the Vampire must constantly drain blood from living creatures to sustain its **Blood level**. Higher Blood levels empower the Vampire with **additional powers**, such as Night Vision, Strength, Speed, and the ability to become **invisible** in dark places. They can also summon a swarm of **vampire bats** and **transform into a bat** themselves. However, Vampires wither in the daylight and have a strong distaste for wooden tools.
 
