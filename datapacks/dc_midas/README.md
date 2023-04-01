@@ -1,6 +1,6 @@
 # Midas Playable Class
 
-*This datapack is part of the [Playable Classes](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/Playable-Classes) collection.*
+> **Note**: *This datapack is part of the [Playable Classes](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/Playable-Classes) collection.*
 
 **Midas Playable Class** adds a playable class to the game, **Midas**. Midas players are cursed to turn anything they hold or wear into **gold**, which is only reversed by **water**. However, they gain **powerful buffs** through the use of their Midas-touched gear and may also turn other creatures' gear into gold. While gold is inherently fragile, Midas players can take advantage of its flexibility to open up new enchanting opportunities and use their wealth to achieve new heights.
 
