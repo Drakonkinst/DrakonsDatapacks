@@ -123,12 +123,12 @@ def zipDatapacksInFolder(folder):
 def main():
     global buildTarget, buildSettings
     args = sys.argv[1:]
-    start = time.time()
-    clearOutput(compiledPath)
     
     if len(args) >= 1:
         buildTarget = args[0]
     
+    start = time.time()
+    clearOutput(compiledPath)
     if buildTarget in validBuildTargets:
         buildSettings = validBuildTargets[buildTarget]
     else:

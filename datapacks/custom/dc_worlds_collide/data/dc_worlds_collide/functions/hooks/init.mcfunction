@@ -1,3 +1,19 @@
+difficulty easy
+gamerule commandBlockOutput false
+gamerule commandModificationBlockLimit 65536
+gamerule disableElytraMovementCheck true
+gamerule doInsomnia false
+gamerule mobExplosionDropDecay false
+gamerule playersSleepingPercentage 50
+gamerule snowAccumulationHeight 8
+gamerule forgiveDeadPlayers false
+gamerule universalAnger true
+
+gamerule keepInventory false
+gamerule mobGriefing true
+gamerule doMobSpawning true
+
+
 bossbar add dc_worlds_collide:drakon_boss ""
 bossbar set dc_worlds_collide:drakon_boss name {"text":"Drakon","bold":true,"color":"dark_purple"}
 bossbar set dc_worlds_collide:drakon_boss color purple

@@ -11,6 +11,8 @@
         "minecraft:egg",
         "minecraft:llama_spit",
         "minecraft:ender_pearl",
+        "minecraft:potion",
+        "minecraft:experience_bottle",
         "minecraft:firework_rocket"
     ]
 }
