@@ -1,6 +1,6 @@
 # Enderman Playable Class
 
-*This datapack is part of the [Playable Classes](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/Playable-Classes) collection.*
+> **Note**: *This datapack is part of the [Playable Classes](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/Playable-Classes) collection.*
 
 **Enderman Playable Class** adds a playable class to the game, the **Enderman**. Enderman players gain the Enderman's powerful abilities, including **teleportation** and ability to **pick up blocks** without breaking them. However, they are **damaged by water** and have an involuntary **Danger Sense**. The Enderman's playstyle is highly mobile and ideal for builders, though it suffers when underwater or in high-risk scenarios.
 
