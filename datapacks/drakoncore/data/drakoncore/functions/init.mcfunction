@@ -36,3 +36,7 @@ function drakoncore:tick100
 tag 3b28686e-3a9e-4f9f-a10d-5c2ed930d266 add dc_admin
 execute if entity @a[tag=dc_admin,limit=1] as @a[tag=dc_admin] run function drakoncore:finish_init_message
 execute unless entity @a[tag=dc_admin,limit=1] as @a run function drakoncore:finish_init_message_no_admin
+
+# Add utility armor stand in forceloaded chunk
+forceload add 0 0
+execute unless entity @e[type=armor_stand,tag=dc_utility] run summon armor_stand 0.5 -128 0.5 {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,ShowArms:1b,CustomName:"\"Utility\"",Tags:["dc_utility"]}

@@ -1,2 +1,2 @@
 # Runs 20 times per second on each entity
-execute if entity @s[type=item,tag=!dc_te_searched] if predicate drakoncore:is_single_item if predicate drakoncore:on_ground positioned ^-0.2 ^ ^ unless block ~ ~-0.1 ~ #drakoncore:air run function dc_tool_embed:check_item
+execute if entity @s[type=item,tag=!dc_te_searched] unless block ~ ~-0.1 ~ #drakoncore:non_solid if predicate drakoncore:is_single_item if predicate drakoncore:on_ground run function dc_tool_embed:check_item
