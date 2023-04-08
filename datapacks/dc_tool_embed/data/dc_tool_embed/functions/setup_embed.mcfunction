@@ -1,7 +1,7 @@
 # Add Item data
+data modify entity @s transformation set from storage dc_tool_embed:item_data ItemTransform
 data modify entity @s item set from storage dc_tool_embed:item_data Item
 data modify entity @s item.tag.Thrower set from storage dc_tool_embed:item_data Item.Thrower
-data modify entity @s transformation set from storage dc_tool_embed:item_data ItemTransform
 tag @s add dc_te_model
 
 # Add special tags

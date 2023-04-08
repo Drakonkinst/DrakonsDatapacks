@@ -2,7 +2,7 @@
 execute as @e[type=item,tag=dc_throwingGrip,limit=1] run function drakoncore:items/remove_1_item_entity
 
 # Add enchantment
-execute if entity @s[type=armor_stand] run item modify entity @s weapon.mainhand dc_throwable_axes:enchant_throwing
+execute if entity @s[type=item_display] run function dc_throwable_axes:enchant/enchant_throwing_embed
 execute if entity @s[type=item] run function dc_throwable_axes:enchant/enchant_throwing_item
 
 # Remove xp & play effects

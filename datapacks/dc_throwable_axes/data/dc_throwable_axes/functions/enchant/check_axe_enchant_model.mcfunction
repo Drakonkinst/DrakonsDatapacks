@@ -1,2 +1,3 @@
+say CHECK AXE ENCHANT MODEL
 execute unless predicate dc_throwable_axes:enchant/model_has_throwing run function dc_throwable_axes:enchant/check_nearby_throwing_grip
 execute unless predicate dc_throwable_axes:enchant/model_has_recalling run function dc_throwable_axes:enchant/check_nearby_frozen_flame

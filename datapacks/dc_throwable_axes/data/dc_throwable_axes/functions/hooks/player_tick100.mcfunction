@@ -1,1 +1,1 @@
-execute if predicate drakoncore:is_sneaking run function dc_throwable_axes:glow_nearby_axes
+execute if predicate drakoncore:is_sneaking unless data entity @s SelectedItem run function dc_throwable_axes:glow_nearby_axes

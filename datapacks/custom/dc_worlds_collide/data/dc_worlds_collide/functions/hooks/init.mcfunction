@@ -1,4 +1,4 @@
-difficulty easy
+difficulty normal
 gamerule commandBlockOutput false
 gamerule commandModificationBlockLimit 65536
 gamerule disableElytraMovementCheck true
