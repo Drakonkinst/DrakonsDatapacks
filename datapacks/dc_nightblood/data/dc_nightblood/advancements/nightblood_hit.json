@@ -6,14 +6,12 @@
                 "damage": {
                     "blocked": false,
                     "type": {
-                        "is_explosion": false,
-                        "is_fire": false,
-                        "is_magic": false,
-                        "is_projectile": false,
-                        "is_lightning": false,
-                        "bypasses_armor": false,
-                        "bypasses_invulnerability": false,
-                        "bypasses_magic": false,
+                        "tags": [
+                            {
+                                "id": "is_projectile",
+                                "expected": false
+                            }
+                        ],
                         "direct_entity": {
                             "type": "minecraft:player",
                             "nbt": "{SelectedItem:{tag:{Nightblood:1b}},Tags:[\"dc_nbActive\"]}"

@@ -7,7 +7,12 @@
                     "type": "#drakoncore:hostile_mobs"
                 },
                 "killing_blow": {
-                    "is_projectile": true
+                    "tags": [
+                        {
+                            "id": "is_projectile",
+                            "expected": false
+                        }
+                    ]
                 }
             }
         }

@@ -9,11 +9,36 @@
                 "damage": {
                     "blocked": false,
                     "type": {
-                        "is_explosion": false,
-                        "is_fire": false,
-                        "is_magic": false,
-                        "is_projectile": false,
-                        "is_lightning": false,
+                        "tags": [
+                            {
+                                "id": "is_drowning",
+                                "expected": false
+                            },
+                            {
+                                "id": "is_explosion",
+                                "expected": false
+                            },
+                            {
+                                "id": "is_fall",
+                                "expected": false
+                            },
+                            {
+                                "id": "is_fire",
+                                "expected": false
+                            },
+                            {
+                                "id": "is_freezing",
+                                "expected": false
+                            },
+                            {
+                                "id": "is_lightning",
+                                "expected": false
+                            },
+                            {
+                                "id": "is_projectile",
+                                "expected": false
+                            }
+                        ],
                         "direct_entity": {
                             "equipment": {
                                 "mainhand": {
