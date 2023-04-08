@@ -45,12 +45,12 @@ worldsCollideDatapacks = {
     
     # Custom
     "dc_world_reset",
-    "dc_worlds_collide"
+    "dc_worlds_collide",
     
     # Seasonal
     # "dc_valentines", # Valentines
-    # "dc_easter_hunt", # Easter
-    # "dc_wishing_well", # Easter
+    "dc_easter_hunt", # Easter
+    "dc_wishing_well", # Easter
     # "dc_christmas_horde", # Christmas
 }
 
