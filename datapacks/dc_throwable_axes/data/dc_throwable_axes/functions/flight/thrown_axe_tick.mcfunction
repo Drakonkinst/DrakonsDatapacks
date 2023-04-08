@@ -23,8 +23,10 @@ execute if entity @s[tag=dc_axeFireAspect] if block ~ ~-0.5 ~ #minecraft:campfir
 # On hit block events
 execute if block ~ ~ ~ #dc_throwable_axes:cuttable run setblock ~ ~ ~ air destroy
 execute if block ~ ~ ~ #dc_throwable_axes:water_cuttable run setblock ~ ~ ~ water destroy
-execute if block ~ ~ ~ #dc_throwable_axes:single_cuttable run function dc_throwable_axes:flight/cut_single_block
 execute if block ~ ~ ~ #dc_throwable_axes:mineable run function dc_throwable_axes:flight/cut_axe_mineable
+
+# Axe can only collide with blocks when not recalling
+execute unless entity @s[tag=dc_recallAxe] if block ~ ~ ~ #dc_throwable_axes:single_cuttable run function dc_throwable_axes:flight/cut_single_block
 execute unless entity @s[tag=dc_recallAxe] unless block ~ ~ ~ #dc_throwable_axes:passable run function dc_throwable_axes:drop/check_damage
 
 # On hit entity events - never hit the axe thrower
