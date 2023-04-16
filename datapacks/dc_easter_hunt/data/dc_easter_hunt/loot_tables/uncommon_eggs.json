@@ -13,7 +13,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Best not to bite into this one.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"37/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Best not to bite into this one.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"37/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -27,7 +27,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"What do you mean, \\\\\\\"made of sky?\\\\\\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"38/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"What do you mean, \\\\\\\"made of sky?\\\\\\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"38/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -41,7 +41,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Something's sloshing inside.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"39/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Something's sloshing inside.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"39/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -55,7 +55,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Smells like freshly sawed planks.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"40/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Smells like freshly sawed planks.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"40/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -69,7 +69,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Your planet probably started as one of these!\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"41/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Your planet probably started as one of these!\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"41/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -83,7 +83,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Don't you just want to dive face-first into it?\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"42/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Don't you just want to dive face-first into it?\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"42/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -97,7 +97,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"When dropped, still good for the next 6 seconds.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"43/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"When dropped, still good for the next 6 seconds.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"43/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -111,7 +111,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Crunchy.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"44/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Crunchy.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"44/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -125,7 +125,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"A strange figure just handed me this one day.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"61/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"A strange figure just handed me this one day.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"61/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -139,7 +139,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Made with green food coloring and love.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"62/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Made with green food coloring and love.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"62/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -153,7 +153,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"It's an egg! It's a dog!\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"63/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"It's an egg! It's a dog!\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"63/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -167,7 +167,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Spines not included.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"64/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Spines not included.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"64/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -181,7 +181,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"This creeper showed up for a party, and never made it home.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"65/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"This creeper showed up for a party, and never made it home.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"65/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -195,7 +195,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Very bouncy.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"66/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Very bouncy.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"66/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -209,7 +209,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Disclaimer: Not actually a human skull.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"67/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Disclaimer: Not actually a human skull.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"67/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -223,7 +223,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Caught this one outside my front porch.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"68/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Caught this one outside my front porch.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"68/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -237,7 +237,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Nice.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"69/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Nice.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"69/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -251,7 +251,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Villagers aren't a fan of the chocolate insides.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"70/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Villagers aren't a fan of the chocolate insides.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"70/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -265,7 +265,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Piglins love these!\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"71/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Piglins love these!\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"71/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -279,7 +279,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Starting to have doubts that these are all eggs...\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"72/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Starting to have doubts that these are all eggs...\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"72/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -293,7 +293,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"If only there were a better use for these...\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"73/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"If only there were a better use for these...\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"73/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -307,7 +307,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"This one's actually made of sweetberry juice.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"74/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"This one's actually made of sweetberry juice.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"74/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 },
@@ -321,7 +321,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Made from a rare gem, buried long ago.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2022\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"75/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
+                            "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Made from a rare gem, buried long ago.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"75/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
                 }
