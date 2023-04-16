@@ -8,4 +8,4 @@ execute unless data entity @a[tag=dc_currentAxeThrower,limit=1] SelectedItem run
 execute if data entity @a[tag=dc_currentAxeThrower,limit=1] SelectedItem run function dc_throwable_axes:drop/give_item
 
 # If currently nothing in hand, copy it into their mainhand
-execute unless data entity @a[tag=dc_currentAxeThrower,limit=1] SelectedItem as @e[type=minecraft:armor_stand,x=-1,y=-129,z=-1,dx=1,dy=1,dz=1,tag=dc_utility,limit=1] run function dc_throwable_axes:drop/copy_to_mainhand
+execute unless data entity @a[tag=dc_currentAxeThrower,limit=1] SelectedItem in minecraft:overworld as @e[type=minecraft:armor_stand,x=-1,y=-129,z=-1,dx=1,dy=1,dz=1,tag=dc_utility,limit=1] run function dc_throwable_axes:drop/copy_to_mainhand
