@@ -2,12 +2,12 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "#",
-        "D",
-        "/"
+        "/",
+        "D"
     ],
     "key": {
         "#": {
-            "tag": "minecraft:carpets"
+            "tag": "minecraft:wool_carpets"
         },
         "D": {
             "item": "minecraft:diamond"
