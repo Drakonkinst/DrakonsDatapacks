@@ -6,9 +6,15 @@
                 "player": {
                     "nbt": "{Tags:[\"dc_vampire\"]}"
                 },
-                "entity": {
-                    "nbt": "{Tags:[\"dc_living_mob\"]}"
-                },
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "#dc_vampire:gives_blood"
+                        }
+                    }
+                ],
                 "killing_blow": {
                     "tags": [
                         {

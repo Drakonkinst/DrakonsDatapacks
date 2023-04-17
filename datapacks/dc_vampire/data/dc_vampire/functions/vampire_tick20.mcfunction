@@ -1,8 +1,5 @@
 execute unless entity @s[tag=dc_holdingUmbrella] if dimension minecraft:overworld if predicate dc_vampire:is_day if predicate drakoncore:under_sky run function dc_vampire:in_daylight
 
-# Tag nearby living mobs with a tag so it's easier to detect when they're killed
-execute positioned ~-64 ~-64 ~-64 run tag @e[type=#drakoncore:living_mobs,tag=!dc_vampire_bat,dx=128,dy=128,dz=128] add dc_living_mob
-
 # If the player does not have a blood level score (first time becoming vampire), set it to some initial value
 execute unless score @s dc_bloodLevel matches -999.. run scoreboard players set @s dc_bloodLevel 121 
 
