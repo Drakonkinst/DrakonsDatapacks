@@ -1,0 +1,1 @@
+# Runs once per second on each entity
