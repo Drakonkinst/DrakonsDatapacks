@@ -1,1 +1,4 @@
 # Runs 20 times per second on each player
+execute if entity @s[tag=!dc_awaitingBoatLead] if predicate dc_boats:holding_lead anchored eyes facing entity @e[type=#drakoncore:boats,distance=..5,limit=1] feet anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 if entity @s[distance=..0.3] run function dc_boats:init_player_interact
+execute if entity @s[tag=dc_awaitingBoatLead] unless predicate dc_boats:holding_lead run function dc_boats:deinit_player_interact
+execute if entity @s[tag=dc_awaitingBoatLead] anchored eyes facing entity @e[type=#drakoncore:boats,distance=..5,limit=1] feet anchored feet positioned ^ ^ ^1 rotated as @s positioned ^ ^ ^-1 unless entity @s[distance=..0.3] run function dc_boats:deinit_player_interact

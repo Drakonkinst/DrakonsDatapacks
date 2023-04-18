@@ -14,6 +14,8 @@ scoreboard objectives add dc_playerKills playerKillCount "Player Kills"
 scoreboard objectives add dc_playTime minecraft.custom:minecraft.play_time "Total Playtime"
 scoreboard objectives add dc_interact minecraft.custom:minecraft.talked_to_villager "Interact"
 scoreboard objectives add dc_interactCd dummy "Interact Cooldown"
+scoreboard objectives add dc_awaitPlayerInteract dummy "Awaiting Player Interaction"
+scoreboard objectives add dc_playerId dummy "Player ID"
 
 # Base commands
 scoreboard objectives add help trigger "DrakonCore Help"
@@ -25,6 +27,8 @@ team add color_aqua "Aqua"
 team modify color_aqua color aqua
 team add no_collision "No Collision"
 team modify no_collision collisionRule never
+
+execute unless score #NextPlayerId dc_value matches 1.. run scoreboard players set #NextPlayerId dc_value 1
 
 function #drakoncore:init
 

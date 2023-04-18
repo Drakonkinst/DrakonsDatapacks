@@ -69,7 +69,11 @@ validBuildTargets = {
     "server": {
         "includePaths": [sourcePath, sourcePath + "/custom"],
         "includeOnly": worldsCollideDatapacks
-    }
+    },
+    "server_dev": {
+        "includePaths": [sourcePath, sourcePath + "/custom"],
+        "includeOnly": [*worldsCollideDatapacks, "dc_boats"]
+    }   
 }
 buildTarget = "standard"
 buildSettings = validBuildTargets[buildTarget]
