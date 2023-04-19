@@ -1,4 +1,2 @@
-say INTERACT WITH BOAT
-#scoreboard players operation #CurrentPlayer dc_playerId = @s dc_playerId
-#execute as @e[type=interaction,tag=dc_player_interact] if score @s dc_playerId = #CurrentPlayer dc_playerId run kill @s
-#execute on target run say @s
+execute if predicate dc_boats:holding_lead run function dc_boats:attach/get_target_boat
+execute if score #BoatFound dc_value matches 1 run function dc_boats:attach/on_attach
