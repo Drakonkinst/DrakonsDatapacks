@@ -1,6 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "dc_world_reset:hooks/entity_tick100"
-    ]
-}

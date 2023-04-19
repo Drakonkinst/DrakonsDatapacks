@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=dc_worldReset_pickup] at @s run function dc_world_reset:pickup_tick100
