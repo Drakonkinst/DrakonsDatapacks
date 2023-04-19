@@ -2,6 +2,6 @@
     "values": [
         "#drakoncore:boats",
         "minecraft:armor_stand",
-        "minecraft:block_display"
+        "minecraft:item_display"
     ]
 }

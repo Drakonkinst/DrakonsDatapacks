@@ -7,7 +7,7 @@ execute as @e[type=#drakoncore:boats,tag=dc_otherTargetedBoat,limit=1] on passen
 execute unless score #BoatConnectInvalid dc_value matches 1 if entity @s[type=chest_boat] run function dc_boats:attach/error/chest_boat_vehicle
 
 # Normal boat must have at least one passenger
-execute unless score #BoatConnectInvalid dc_value matches 1 if entity @s[type=boat] unless score #BoatPassengers dc_value matches 1.. run function dc_boats:attach/error/empty_vehicle
+execute unless score #BoatConnectInvalid dc_value matches 1 if entity @e[type=boat,tag=dc_otherTargetedBoat,limit=1] unless score #BoatPassengers dc_value matches 1.. run function dc_boats:attach/error/empty_vehicle
 
 # Can only have one Boat passenger
 execute unless score #BoatConnectInvalid dc_value matches 1 on passengers if entity @s[type=#drakoncore:boats] run function dc_boats:attach/error/max_boat_passengers
