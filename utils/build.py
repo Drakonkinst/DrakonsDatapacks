@@ -12,6 +12,7 @@ worldsCollideDatapacks = {
     
     "dc_armor_stand",
     "dc_arrow_salvage",
+    "dc_boats",
     "dc_improved_recipes",
     "dc_more_recipes",
     "dc_hats",
@@ -72,7 +73,7 @@ validBuildTargets = {
     },
     "server_dev": {
         "includePaths": [sourcePath, sourcePath + "/custom"],
-        "includeOnly": [*worldsCollideDatapacks, "dc_boats"]
+        "includeOnly": [*worldsCollideDatapacks]
     }   
 }
 buildTarget = "standard"
