@@ -1,0 +1,4 @@
+data modify storage drakoncore:item Item set from entity @s item
+summon item ~ ~ ~ {Item:{id:"minecraft:stick",Count:1b},Tags:["dc_newItem"]}
+execute as @e[type=item,tag=dc_newItem,limit=1,distance=..1] run function drakoncore:items/convert/setup_item
+kill @s[type=item_display]
