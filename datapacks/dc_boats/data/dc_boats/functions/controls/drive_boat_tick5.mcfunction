@@ -1,0 +1,3 @@
+execute store result score #Rotation dc_value run data get entity @s Rotation[1] 100
+execute if score #Rotation dc_value matches 9000 on vehicle if entity @s[tag=dc_activeBoat] run function dc_boats:controls/deactivate_boat
+execute if score #Rotation dc_value matches -9000 on vehicle if entity @s[tag=!dc_activeBoat] run function dc_boats:controls/activate_boat

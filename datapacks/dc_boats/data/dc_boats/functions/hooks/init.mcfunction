@@ -1,0 +1,1 @@
+scoreboard objectives add dc_numSails dummy "Number of Sails"

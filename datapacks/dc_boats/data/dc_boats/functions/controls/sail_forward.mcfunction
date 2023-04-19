@@ -1,12 +1,12 @@
 execute store result score #OldX dc_value run data get entity @s Pos[0] 1000
 execute store result score #OldY dc_value run data get entity @s Pos[1] 1000
 execute store result score #OldZ dc_value run data get entity @s Pos[2] 1000
-scoreboard players operation #TpTicks dc_value = #NumSails dc_value
+scoreboard players operation #TpTicks dc_value = @s dc_numSails
 function dc_boats:controls/tp_forward
 execute store result score #X dc_value run data get entity @s Pos[0] 1000
 execute store result score #Y dc_value run data get entity @s Pos[1] 1000
 execute store result score #Z dc_value run data get entity @s Pos[2] 1000
-scoreboard players operation #TpTicks dc_value = #NumSails dc_value
+scoreboard players operation #TpTicks dc_value = @s dc_numSails
 function dc_boats:controls/tp_backward
 scoreboard players operation #X dc_value -= #OldX dc_value
 scoreboard players operation #Y dc_value -= #OldY dc_value
