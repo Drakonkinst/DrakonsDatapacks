@@ -1,0 +1,1 @@
+execute as @e[type=item] if predicate dc_armor_stand:is_hand_upgrade if entity @s[tag=!dc_onGround] at @s run function dc_armor_stand:attempt_add_hands

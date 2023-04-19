@@ -1,0 +1,1 @@
+execute as @e[type=item,tag=throwable_potato] at @s run function dc_throwable_potato:check_remove

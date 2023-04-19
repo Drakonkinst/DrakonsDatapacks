@@ -1,0 +1,1 @@
+execute as @e[type=arrow] run function dc_arrow_salvage:check_arrow

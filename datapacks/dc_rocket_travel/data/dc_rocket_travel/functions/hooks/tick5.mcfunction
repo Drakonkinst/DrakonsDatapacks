@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=dc_launchpad,tag=dc_active] at @s run function dc_rocket_travel:launchpad/tick5

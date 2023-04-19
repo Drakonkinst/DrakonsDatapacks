@@ -1,6 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "dc_wither_plague:hooks/entity_tick100"
-    ]
-}

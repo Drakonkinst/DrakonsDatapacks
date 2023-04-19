@@ -1,0 +1,2 @@
+execute as @e[type=item] at @s if block ~ ~-0.2 ~ #minecraft:anvil if entity @a[distance=..5,limit=1] if predicate dc_throwable_axes:enchant/is_axe_item run function dc_throwable_axes:enchant/check_axe_enchant_item
+execute as @e[type=item_display,tag=dc_te_model] at @s if block ~ ~-0.2 ~ #minecraft:anvil if entity @a[distance=..5,limit=1] if predicate dc_throwable_axes:enchant/is_axe_model run function dc_throwable_axes:enchant/check_axe_enchant_model

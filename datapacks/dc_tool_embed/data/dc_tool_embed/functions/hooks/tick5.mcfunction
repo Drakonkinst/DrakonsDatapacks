@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=dc_te_model] at @s run function dc_tool_embed:embed_tick5

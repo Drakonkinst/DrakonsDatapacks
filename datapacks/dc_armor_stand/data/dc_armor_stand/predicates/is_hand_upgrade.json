@@ -3,7 +3,6 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-            "type": "minecraft:item",
             "nbt": "{Item:{id:\"minecraft:stick\",Count:2b},OnGround:1b}"
         }
     }

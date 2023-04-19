@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,tag=dc_umbrella] at @s run function dc_umbrella:check_existing_player
+execute as @e[type=armor_stand,tag=dc_umbrellaStand] at @s run function dc_umbrella:check_existing_player

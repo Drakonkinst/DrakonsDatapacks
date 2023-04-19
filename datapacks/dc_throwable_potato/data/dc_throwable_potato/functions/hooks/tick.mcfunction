@@ -1,0 +1,1 @@
+execute as @e[type=item] at @s run function dc_throwable_potato:check_item

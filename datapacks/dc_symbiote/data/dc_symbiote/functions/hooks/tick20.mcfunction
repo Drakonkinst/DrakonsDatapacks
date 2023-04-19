@@ -1,0 +1,1 @@
+execute as @e[type=!#dc_symbiote:invalid_host,tag=dc_symbioteHost] at @s run function dc_symbiote:host/tick20

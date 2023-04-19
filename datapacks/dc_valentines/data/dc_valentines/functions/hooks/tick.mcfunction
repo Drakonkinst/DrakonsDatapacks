@@ -1,0 +1,1 @@
+execute as @e[type=arrow,tag=!dc_valentines] at @s run function dc_valentines:check_valentine_arrow

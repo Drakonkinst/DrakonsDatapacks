@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "dc_rocket_travel:hooks/tick5"
+    ]
+}

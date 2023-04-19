@@ -1,0 +1,1 @@
+execute as @e[type=bat,tag=dc_batfly] at @s run function dc_vampire:batfly/batfly_tick
