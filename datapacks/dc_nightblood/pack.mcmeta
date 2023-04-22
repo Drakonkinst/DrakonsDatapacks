@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Nightblood by Drakonkinst"
+    "description": [
+      {
+        "text": "Nightblood by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

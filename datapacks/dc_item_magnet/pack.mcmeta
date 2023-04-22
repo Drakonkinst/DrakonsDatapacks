@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Item Magnet by Drakonkinst"
+    "description": [
+      {
+        "text": "Item Magnet by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

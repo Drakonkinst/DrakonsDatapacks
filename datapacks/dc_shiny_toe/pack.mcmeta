@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Shiny Toes by Drakonkinst"
+    "description": [
+      {
+        "text": "Shiny Toes by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

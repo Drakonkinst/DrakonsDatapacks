@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Armor Stand Utilities by Drakonkinst"
+    "description": [
+      {
+        "text": "Armor Stand Utilities by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Symbiote Playable Class by DrakonForge"
+    "description": [
+      {
+        "text": "Symbiote Playable Class by DrakonForge Studios",
+        "color": "blue"
+      }
+    ]
   }
 }

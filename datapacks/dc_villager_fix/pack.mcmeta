@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Villager Fix by Drakonkinst"
+    "description": [
+      {
+        "text": "Villager Fix by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Enderman Playable Class by Drakonkinst"
+    "description": [
+      {
+        "text": "Enderman Playable Class by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

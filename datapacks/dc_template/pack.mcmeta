@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Template by Drakonkinst"
+    "description": [
+      {
+        "text": "TEMPLATE_NAME by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

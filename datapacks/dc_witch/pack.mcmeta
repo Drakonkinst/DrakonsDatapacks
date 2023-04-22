@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Witch Playable Class by Drakonkinst"
+    "description": [
+      {
+        "text": "Witch Playable Class by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

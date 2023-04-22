@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Improved Recipes by Drakonkinst"
+    "description": [
+      {
+        "text": "Improved Recipes by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

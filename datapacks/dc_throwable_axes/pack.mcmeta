@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Throwable Axes by PvPqnda and Drakonkinst"
+    "description": [
+      {
+        "text": "Throwable Axes by PvPqnda and Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

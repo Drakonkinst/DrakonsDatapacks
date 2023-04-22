@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Manhunt Trophies by Drakonkinst"
+    "description": [
+      {
+        "text": "Manhunt Trophies by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

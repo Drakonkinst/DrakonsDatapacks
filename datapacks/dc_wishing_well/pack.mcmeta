@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Easter Egg Wishing Well by Drakonkinst"
+    "description": [
+      {
+        "text": "Easter Wishing Well by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

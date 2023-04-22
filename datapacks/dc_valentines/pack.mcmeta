@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Valentine's Day Event by Drakonkinst"
+    "description": [
+      {
+        "text": "Valentine's Day Event by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

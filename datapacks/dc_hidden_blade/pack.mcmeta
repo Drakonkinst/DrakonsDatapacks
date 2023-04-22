@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Hidden Blade by Drakonkinst"
+    "description": [
+      {
+        "text": "Hidden Blade by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

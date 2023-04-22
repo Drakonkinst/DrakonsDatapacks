@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Worlds Collide World Reset by Drakonkinst"
+    "description": [
+      {
+        "text": "Worlds Collide World Reset by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

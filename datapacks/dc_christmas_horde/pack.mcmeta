@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Christmas Horde by Drakonkinst"
+    "description": [
+      {
+        "text": "Christmas Horde by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

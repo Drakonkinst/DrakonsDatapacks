@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Tool Embedding by Drakonkinst"
+    "description": [
+      {
+        "text": "Tool Embed by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

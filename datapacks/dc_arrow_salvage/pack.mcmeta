@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Arrow Salvage by Drakonkinst"
+    "description": [
+      {
+        "text": "Arrow Salvage by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

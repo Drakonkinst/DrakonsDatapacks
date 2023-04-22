@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 9,
-    "description": "§9Easter Egg Hunt by Drakonkinst"
+    "description": [
+      {
+        "text": "Easter Egg Hunt by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

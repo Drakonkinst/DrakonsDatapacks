@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Assassin Versus Hunters by Drakonkinst"
+    "description": [
+      {
+        "text": "Assassin Versus Hunters by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Improved Squids by Drakonkinst"
+    "description": [
+      {
+        "text": "Improved Squids by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }

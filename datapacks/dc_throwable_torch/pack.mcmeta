@@ -1,6 +1,11 @@
 {
   "pack": {
     "pack_format": 12,
-    "description": "§9Throwable Torches by Drakonkinst"
+    "description": [
+      {
+        "text": "Throwable Torches by Drakonkinst",
+        "color": "blue"
+      }
+    ]
   }
 }
