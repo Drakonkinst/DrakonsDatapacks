@@ -6,8 +6,8 @@ execute if score @s dc_bloodLevel matches 361.. run function dc_vampire:summon_5
 execute if score @s dc_bloodLevel matches 601.. run function dc_vampire:summon_5_bats
 
 scoreboard players set @s dc_bloodLevel 60
-tellraw @s ["",{"text":"You are ","italic":true,"color":"dark_red","hoverEvent":{"action":"show_text","contents":[{"text":"Your blood level drains over time. Slay living creatures to refill blood.","italic":false,"color":"green"}]}},{"text":"hungry","bold":true,"italic":true,"color":"dark_red","hoverEvent":{"action":"show_text","contents":[{"text":"Your blood level drains over time. Slay living creatures to refill blood.","italic":false,"color":"green"}]}},{"text":"...","italic":true,"color":"dark_red","hoverEvent":{"action":"show_text","contents":[{"text":"Your blood level drains over time. Slay living creatures to refill blood.","italic":false,"color":"green"}]}}]
-effect give @s instant_damage 1 1 true
+tellraw @s ["",{"text":"Conjuring vampire bats has made you ","italic":true,"color":"dark_red","hoverEvent":{"action":"show_text","contents":[{"text":"Your blood level drains over time. Slay living creatures to refill blood.","italic":false,"color":"green"}]}},{"text":"hungry","bold":true,"italic":true,"color":"dark_red","hoverEvent":{"action":"show_text","contents":[{"text":"Your blood level drains over time. Slay living creatures to refill blood.","italic":false,"color":"green"}]}},{"text":"...","italic":true,"color":"dark_red","hoverEvent":{"action":"show_text","contents":[{"text":"Your blood level drains over time. Slay living creatures to refill blood.","italic":false,"color":"green"}]}}]
+damage @s 16 minecraft:starve
 tag @s remove dc_castBatSwarm
 
 # Effects

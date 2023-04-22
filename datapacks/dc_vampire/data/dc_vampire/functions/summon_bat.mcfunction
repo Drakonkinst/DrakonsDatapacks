@@ -1,1 +1,1 @@
-summon minecraft:bat ~ ~1 ~ {Tags:["dc_vampire_bat"],PersistenceRequired:1b}
+execute summon bat run function dc_vampire:setup_vampire_bat
