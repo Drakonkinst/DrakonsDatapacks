@@ -10,7 +10,6 @@ scoreboard players set #MissingBatMount dc_value 1
 execute on vehicle if entity @s[type=bat,tag=dc_matchBatfly] run scoreboard players reset #MissingBatMount dc_value
 
 # Teleport back to bat's position, if it still exists
-execute if score #MissingBatMount dc_value matches 1 at @e[type=bat,tag=dc_matchBatfly,limit=1] run say TP BACK
 execute if score #MissingBatMount dc_value matches 1 at @e[type=bat,tag=dc_matchBatfly,limit=1] run tp @s ~ ~ ~ ~ ~
 
 # Leave batfly
