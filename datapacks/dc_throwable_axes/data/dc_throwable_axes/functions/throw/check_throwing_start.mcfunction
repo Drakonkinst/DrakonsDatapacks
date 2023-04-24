@@ -1,25 +1,13 @@
-tag @s add dc_axeThrower
+# To throw an axe, must have just been holding a throwable axe AND
+# now have an empty hand - from this we assume the player has thrown
+# their axe with Q, not by dropping it from the inventory.
+execute if entity @s[tag=dc_holdingThrowableAxe] unless data entity @s SelectedItem run function dc_throwable_axes:throw/check_just_thrown
 
-# Wooden
-execute if score @s dc_throwWAxe matches 1.. as @e[type=item,predicate=dc_throwable_axes:new_wooden_axe,limit=1,distance=..5,sort=nearest] at @s run function dc_throwable_axes:throw/check_thrown_axe
+# Update throwable axe holding with a 1-tick delay
+tag @s remove dc_holdingThrowableAxe
+execute if predicate dc_throwable_axes:holding_throwable_axe run tag @s add dc_holdingThrowableAxe
 
-# Stone
-execute if score @s dc_throwSAxe matches 1.. as @e[type=item,predicate=dc_throwable_axes:new_stone_axe,limit=1,distance=..5,sort=nearest] at @s run function dc_throwable_axes:throw/check_thrown_axe
-
-# Iron
-execute if score @s dc_throwIAxe matches 1.. as @e[type=item,predicate=dc_throwable_axes:new_iron_axe,limit=1,distance=..5,sort=nearest] at @s run function dc_throwable_axes:throw/check_thrown_axe
-
-# Golden
-execute if score @s dc_throwGAxe matches 1.. as @e[type=item,predicate=dc_throwable_axes:new_golden_axe,limit=1,distance=..5,sort=nearest] at @s run function dc_throwable_axes:throw/check_thrown_axe
-
-# Diamond
-execute if score @s dc_throwDAxe matches 1.. as @e[type=item,predicate=dc_throwable_axes:new_diamond_axe,limit=1,distance=..5,sort=nearest] at @s run function dc_throwable_axes:throw/check_thrown_axe
-
-# Netherite
-execute if score @s dc_throwNAxe matches 1.. as @e[type=item,predicate=dc_throwable_axes:new_netherite_axe,limit=1,distance=..5,sort=nearest] at @s run function dc_throwable_axes:throw/check_thrown_axe
-
-# Reset scores
-tag @s remove dc_axeThrower
+# Reset scores so there are no accidental misfires
 scoreboard players reset @s dc_throwIAxe
 scoreboard players reset @s dc_throwWAxe
 scoreboard players reset @s dc_throwSAxe
