@@ -7,10 +7,6 @@ data modify entity @s HandItems[0].id set from entity @s HandItems[0].tag.MidasO
 execute if data entity @s HandItems[0].tag.Damage run function dc_midas:durability/set_b
 execute if data entity @s HandItems[0].tag.Damage if score #MAX_A dc_value matches 1.. if score #MAX_B dc_value matches 1.. run function dc_midas:durability/modify_damage
 
-# Old damage implementation
-#execute if data entity @s HandItems[0].tag.MidasOldDamage run data modify entity @s HandItems[0].tag.Damage set from entity @s HandItems[0].tag.MidasOldDamage
-#data remove entity @s HandItems[0].tag.MidasOldDamage
-
 data remove entity @s HandItems[0].tag.MidasOldItem
 data remove entity @s HandItems[0].tag.MidasTouch
 

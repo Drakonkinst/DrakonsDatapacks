@@ -1,1 +1,0 @@
-execute unless entity @s[gamemode=spectator] run summon minecraft:armor_stand ~ -100 ~ {Invisible:1b,Small:1b,Marker:1b,NoGravity:1b,Tags:["dc_midasHolder"]}
