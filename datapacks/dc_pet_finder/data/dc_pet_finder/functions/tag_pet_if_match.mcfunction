@@ -1,2 +1,3 @@
-execute store result score @s dc_temp_id run data get entity @s Owner[0]
-execute if score @s dc_temp_id = @a[limit=1,tag=dc_petSearchAnchor] dc_temp_id run effect give @s minecraft:glowing 6 0 true
+scoreboard players reset #OwnerId dc_playerId
+execute on owner run scoreboard players operation #OwnerId dc_playerId = @s dc_playerId
+execute if score #OwnerId dc_playerId = #CurrentId dc_playerId run effect give @s minecraft:glowing 6 0 true

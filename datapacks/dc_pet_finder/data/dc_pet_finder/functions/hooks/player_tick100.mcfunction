@@ -1,6 +1,6 @@
 # Runs once every 5 seconds on each player
 
-execute store result score @s dc_temp_id run data get entity @s UUID[0]
-execute if predicate dc_pet_finder:holding_bone run function dc_pet_finder:tag_nearby_wolves
-execute if predicate dc_pet_finder:holding_raw_fish run function dc_pet_finder:tag_nearby_cats
-execute if predicate dc_pet_finder:holding_seeds run function dc_pet_finder:tag_nearby_parrots
+scoreboard players operation #CurrentId dc_playerId = @s dc_playerId
+execute if predicate dc_pet_finder:holding_bone positioned ~-50 ~-50 ~-50 as @e[type=wolf,dx=101,dy=101,dz=101] run function dc_pet_finder:tag_pet_if_match
+execute if predicate dc_pet_finder:holding_raw_fish positioned ~-50 ~-50 ~-50 as @e[type=cat,dx=101,dy=101,dz=101] run function dc_pet_finder:tag_pet_if_match
+execute if predicate dc_pet_finder:holding_seeds positioned ~-50 ~-50 ~-50 as @e[type=parrot,dx=101,dy=101,dz=101] run function dc_pet_finder:tag_pet_if_match
