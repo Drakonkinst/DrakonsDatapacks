@@ -4,5 +4,5 @@ data merge entity @s {Invulnerable:1b,Invisible:1b,Tags:["dc_grave"],Pose:{Head:
 # Add y offset
 tp @s ~ ~-1.39 ~
 
-# Add UUID
-execute store result score @s dc_temp_id run data get entity @a[tag=dc_spawningGrave,limit=1] UUID[0]
+# Add ID
+scoreboard players operation @s dc_playerId = @a[tag=dc_spawningGrave,limit=1] dc_playerId
