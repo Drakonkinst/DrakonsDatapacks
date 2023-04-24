@@ -14,8 +14,8 @@ execute unless predicate drakoncore:is_sneaking if score @s dc_vampireSneak matc
 execute if score @s dc_vampireSneak matches 3.. unless data entity @s SelectedItem run function dc_vampire:absorb_bats
 execute if score @s dc_vampireSneak matches 3.. if predicate dc_vampire:ghast_tear_mainhand run function dc_vampire:attempt_bat_swarm
 
-effect give @s[tag=dc_vampireFloat] minecraft:slow_falling 1 0 true
 execute if predicate drakoncore:on_ground run tag @s remove dc_vampireFloat
+effect give @s[tag=dc_vampireFloat] minecraft:slow_falling 2 0 true
 
 # Display
 execute if entity @s[gamemode=!spectator] if predicate dc_vampire:ghast_tear_mainhand run function dc_vampire:display/show_blood_level
