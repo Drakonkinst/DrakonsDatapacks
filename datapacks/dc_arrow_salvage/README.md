@@ -12,7 +12,7 @@ The chance for an arrow to break is based on the entity who shot it:
 This feature increases overall arrow depletion, but rewards players for dodging or blocking enemy arrows with extra ammunition. With this feature, all arrows embedded into blocks can be picked up, which is more intuitive. Arrows have a chance to break to balance out the ability to harvest arrows from enemies.
 
 > **Note**
-> 
+>
 > **For developers**: To make this compatible with other datapacks that want to detect an arrow landing, this datapack actually destroys broken Arrows on the tick *after* it hits a block. This has no discernible gameplay differences, and should allow other datapacks to use embedded arrows on the tick before it's destroyed.
 
 ## Known Bugs
