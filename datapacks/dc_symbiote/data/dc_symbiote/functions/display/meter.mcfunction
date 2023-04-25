@@ -1,4 +1,4 @@
-title @s times 0 10 40
+title @s times 0 0.5s 2s
 execute if score @s dc_symbiotePossess matches ..24 run title @s subtitle {"text":"Leaving will harm your host","color":"red"}
 execute if score @s dc_symbiotePossess matches 25 run title @s subtitle {"text":"Leaving is now harmless","color":"green"}
 execute if score @s dc_symbiotePossess matches 1..2 run title @s title ["",{"text":"||||||||||||","color":"red"},{"text":"","color":"gray"}]

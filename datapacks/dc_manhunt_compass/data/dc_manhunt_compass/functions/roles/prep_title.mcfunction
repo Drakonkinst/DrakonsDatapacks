@@ -1,1 +1,1 @@
-title @s times 10 80 40
+title @s times 0.5s 4s 2s
