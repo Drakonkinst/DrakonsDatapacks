@@ -1,4 +1,4 @@
 tag @s remove dc_flyingBoat
-data modify entity @s NoGravity set value 0b
+data remove entity @s NoGravity
 say DEINIT FLY
 playsound minecraft:block.beacon.deactivate player @a

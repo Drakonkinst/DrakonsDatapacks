@@ -1,13 +1,10 @@
 tag @s add dc_axeInFlight
 
 # Add tag dc_currentAxeThrower to the one who threw the axe
-execute store result score #AxeThrower dc_temp_id run data get entity @s item.tag.Thrower[0]
-data modify storage dc_throwable_axes:axe_data FlyingAxe set from entity @s item
-execute as @a run function dc_throwable_axes:flight/tag_if_thrower
+scoreboard players operation #AxeThrowerId dc_playerId = @s dc_playerId
 
-# Add IsRecalling data - not needed yet
-# execute unless entity @s[tag=dc_recallAxe] run data modify storage dc_throwable_axes:axe_data IsRecalling set value 1b
-# execute if entity @s[tag=dc_recallAxe] run data modify storage dc_throwable_axes:axe_data IsRecalling set value 1b
+data modify storage dc_throwable_axes:axe_data FlyingAxe set from entity @s item
+execute as @a if score #AxeThrowerId dc_playerId = @s dc_playerId run tag @s add dc_currentAxeThrower
 
 execute unless entity @s[tag=dc_recallAxe] run function dc_throwable_axes:flight/fly_normal
 execute if entity @s[tag=dc_recallAxe] run function dc_throwable_axes:flight/fly_recall

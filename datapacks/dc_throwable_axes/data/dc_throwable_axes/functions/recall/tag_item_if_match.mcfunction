@@ -1,3 +1,4 @@
-execute store result score @s dc_temp_id run data get entity @s Item.tag.Thrower[0]
-execute if score @s dc_temp_id = #AxeThrower dc_temp_id run tag @s add dc_matchingAxe
-execute if score @s dc_temp_id = #AxeThrower dc_temp_id run data modify storage dc_throwable_axes:axe_data MatchingAxeFound set value 1b
+scoreboard players reset #ThrowerId dc_playerId
+execute on origin run scoreboard players operation #ThrowerId dc_playerId = @s dc_playerId
+execute if score #ThrowerId dc_playerId = #CurrentId dc_playerId run scoreboard players set #MatchingAxeFound dc_value 1
+execute if score #ThrowerId dc_playerId = #CurrentId dc_playerId run tag @s add dc_matchingAxe
