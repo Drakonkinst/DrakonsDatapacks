@@ -73,7 +73,7 @@ validBuildTargets = {
     },
     "server_dev": {
         "includePaths": [sourcePath, sourcePath + "/custom"],
-        "includeOnly": [*worldsCollideDatapacks]
+        "includeOnly": [*worldsCollideDatapacks, "dc_polar_bear"]
     }   
 }
 buildTarget = "standard"

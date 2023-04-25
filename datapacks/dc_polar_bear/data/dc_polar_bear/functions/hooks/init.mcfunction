@@ -1,0 +1,1 @@
+scoreboard objectives add dc_polarBearLunge dummy "Polar Bear Lunge"
