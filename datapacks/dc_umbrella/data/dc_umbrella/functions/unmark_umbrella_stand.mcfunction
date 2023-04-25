@@ -1,1 +1,0 @@
-tag @e[type=armor_stand] remove dc_matchingUmbrellaStand

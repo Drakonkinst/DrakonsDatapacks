@@ -1,6 +1,7 @@
-function dc_umbrella:mark_umbrella
+scoreboard players operation #CurrentId dc_playerId = @s dc_playerId
+execute as @e[type=armor_stand,tag=dc_umbrella] if score @s dc_playerId = #CurrentId dc_playerId run tag @s add dc_matchingUmbrella
+execute as @e[type=armor_stand,tag=dc_umbrellaStand] if score @s dc_playerId = #CurrentId dc_playerId run tag @s add dc_matchingUmbrellaStand
 execute unless entity @e[type=armor_stand,tag=dc_matchingUmbrella,limit=1] run function dc_umbrella:summon_umbrella
-function dc_umbrella:mark_umbrella_stand
 
 # Both should now be marked
 tp @e[type=armor_stand,tag=dc_matchingUmbrella,limit=1] ~ ~1 ~ ~ ~
@@ -9,5 +10,5 @@ execute if predicate drakoncore:is_sneaking run function dc_umbrella:while_sneak
 execute unless predicate dc_umbrella:moving_slowly run tag @s remove dc_holdingUmbrella
 
 # Reset
-function dc_umbrella:unmark_umbrella
-function dc_umbrella:unmark_umbrella_stand
+tag @e[type=armor_stand] remove dc_matchingUmbrella
+tag @e[type=armor_stand] remove dc_matchingUmbrellaStand

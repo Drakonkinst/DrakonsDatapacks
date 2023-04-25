@@ -1,5 +1,4 @@
-tag @s add dc_umbrellaAnchor
-execute as @a[distance=..20,gamemode=!spectator] run function dc_umbrella:mark_matching_player
-execute unless entity @a[tag=dc_umbrellaMatchP,limit=1] run kill @s
-tag @s remove dc_umbrellaAnchor
-tag @a remove dc_umbrellaMatchP
+scoreboard players operation #CurrentId dc_playerId = @s dc_playerId
+scoreboard players reset #PlayerFound dc_value
+execute as @a[distance=..20,gamemode=!spectator] if score @s dc_playerId = #CurrentId dc_playerId run scoreboard players set #PlayerFound dc_value 1
+execute unless score #PlayerFound dc_value matches 1.. run kill @s
