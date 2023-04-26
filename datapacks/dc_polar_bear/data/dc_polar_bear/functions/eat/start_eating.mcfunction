@@ -1,2 +1,2 @@
-# ceil(1.61s to eat * 20 ticks per second / 5 ticks per update) = 7
-scoreboard players set @s dc_polarBearEat 7
+# ceil((3s to eat + 1s cooldown) * 20 ticks per second / 5 ticks per update) = 16
+scoreboard players set @s dc_polarBearEat 16

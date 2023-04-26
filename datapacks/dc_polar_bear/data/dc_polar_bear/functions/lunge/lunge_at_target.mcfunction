@@ -19,6 +19,7 @@ scoreboard players operation #Z dc_value -= #OldZ dc_value
 execute if score #Y dc_value matches ..-10 positioned ~ ~-1 ~ run function dc_polar_bear:icebreaker
 execute if block ~ ~ ~ water if score #Y dc_value matches ..-10 run scoreboard players remove #Y dc_value 20
 execute if block ~ ~ ~ water if score #Y dc_value matches 10.. run scoreboard players add #Y dc_value 15
+execute if block ~ ~ ~ water run playsound minecraft:entity.generic.swim hostile @a ~ ~ ~ 1 1.25
 execute unless block ~ ~ ~ water if score #Y dc_value matches ..-21 run scoreboard players set #Y dc_value -20
 execute unless block ~ ~ ~ water if score #Y dc_value matches 21.. run scoreboard players set #Y dc_value 20
 
