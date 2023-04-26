@@ -5,3 +5,6 @@
 
 # To reduce the chance to stunlocking it, completely refresh dash cooldown
 execute if score @s dc_polarBearLunge matches 1..149 run scoreboard players remove @s dc_polarBearLunge 150
+
+# Cancel current food eating - the polar bear does not get this back
+scoreboard players reset @s dc_polarBearEat

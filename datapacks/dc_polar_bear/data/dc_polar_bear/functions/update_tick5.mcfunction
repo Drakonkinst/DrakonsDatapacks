@@ -11,6 +11,8 @@ execute if entity @s[tag=!dc_aggroThreat] if entity @e[type=#dc_polar_bear:threa
 #execute on target run effect give @s glowing 1 0 true
 #execute if entity @s[tag=dc_aggroThreat] unless data entity @s AngryAt run say NOT ANGRY BUT THREATENED
 
+execute if score @s dc_polarBearEat matches 1.. positioned ^ ^1 ^1 run function dc_polar_bear:eat/eat_tick5
+
 # Search for a new target
 execute unless data entity @s AngryAt run function dc_polar_bear:ai/search_for_target
 
