@@ -7,7 +7,7 @@ tag @s remove dc_aggroPrey
 execute unless score #AggroType dc_value matches 1.. as @e[type=#dc_polar_bear:threats,distance=..8,sort=furthest] unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] run function dc_polar_bear:ai/aggro_threat
 
 # Aggro at nearby prey
-execute unless score #AggroType dc_value matches 1.. as @e[type=#dc_polar_bear:prey,distance=..8,sort=nearest,limit=1] run function dc_polar_bear:ai/aggro_prey
+execute unless score #AggroType dc_value matches 1.. as @e[type=#dc_polar_bear:prey,distance=..12,sort=nearest,limit=1] run function dc_polar_bear:ai/aggro_prey
 
 # Aggro at nearby favorite prey
 execute unless score #AggroType dc_value matches 1.. as @e[type=#dc_polar_bear:favorite_prey,distance=..20,sort=nearest,limit=1] run function dc_polar_bear:ai/aggro_prey

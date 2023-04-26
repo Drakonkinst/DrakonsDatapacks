@@ -1,6 +1,10 @@
 {
     "values": [
         "#dc_polar_bear:can_aggro",
-        "#drakoncore:boats"
+        "#drakoncore:boats",
+        "minecraft:wolf",
+        "minecraft:cat",
+        "minecraft:parrot",
+        "minecraft:axolotl"
     ]
 }

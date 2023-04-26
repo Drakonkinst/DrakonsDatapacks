@@ -3,14 +3,14 @@ execute store result score #OldY dc_value run data get entity @s Pos[1] 50
 execute store result score #OldZ dc_value run data get entity @s Pos[2] 50
 
 # Get direction vector
-execute facing entity @e[tag=dc_polarBearTarget,limit=1,distance=..16] feet run tp ^ ^ ^1
+execute facing entity @e[tag=dc_polarBearTarget,limit=1,distance=..20] feet run tp ^ ^ ^1
 execute store result score #X dc_value run data get entity @s Pos[0] 50
 execute store result score #Y dc_value run data get entity @s Pos[1] 50
 execute store result score #Z dc_value run data get entity @s Pos[2] 50
-execute facing entity @e[tag=dc_polarBearTarget,limit=1,distance=..16] feet run tp ^ ^ ^-1
+execute facing entity @e[tag=dc_polarBearTarget,limit=1,distance=..20] feet run tp ^ ^ ^-1
 
 # Face target
-execute facing entity @e[tag=dc_polarBearTarget,limit=1,distance=..16] feet run tp @s ~ ~ ~ ~ ~
+execute facing entity @e[tag=dc_polarBearTarget,limit=1,distance=..20] feet run tp @s ~ ~ ~ ~ ~
 
 scoreboard players operation #X dc_value -= #OldX dc_value
 scoreboard players operation #Y dc_value -= #OldY dc_value
