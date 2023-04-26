@@ -1,6 +1,6 @@
 {
     "values": [
-        "#dc_polar_bear:aggro_any",
+        "#dc_polar_bear:can_aggro",
         "#drakoncore:boats"
     ]
 }

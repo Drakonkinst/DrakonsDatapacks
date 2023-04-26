@@ -1,0 +1,17 @@
+{
+    "values": [
+        "minecraft:villager",
+        "minecraft:wandering_trader",
+        "minecraft:llama",
+        "minecraft:trader_llama",
+        "minecraft:sheep",
+        "minecraft:cow",
+        "minecraft:pig",
+        "minecraft:chicken",
+        "minecraft:rabbit",
+        "minecraft:fox",
+        "minecraft:frog",
+        "minecraft:dolphin",
+        "minecraft:turtle"
+    ]
+}

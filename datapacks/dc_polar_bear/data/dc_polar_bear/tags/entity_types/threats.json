@@ -1,0 +1,15 @@
+{
+    "values": [
+        "minecraft:player",
+        "minecraft:snow_golem",
+        
+        "minecraft:spider",
+        "minecraft:cave_spider",
+        "minecraft:zombie",
+        "minecraft:husk",
+        "minecraft:drowned",
+        "minecraft:skeleton",
+        "minecraft:wither_skeleton",
+        "minecraft:stray"
+    ]
+}
