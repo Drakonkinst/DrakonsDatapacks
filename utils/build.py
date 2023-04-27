@@ -14,11 +14,13 @@ worldsCollideDatapacks = {
     "dc_arrow_salvage",
     "dc_boats",
     "dc_improved_recipes",
+    "dc_improved_squids",
     "dc_more_recipes",
     "dc_hats",
     "dc_pet_finder",
     "dc_pet_transfer",
     "dc_player_revive",
+    "dc_polar_bear",
     "dc_repairable_tridents",
     "dc_rocket_travel",
     "dc_shiny_toe",
@@ -73,7 +75,7 @@ validBuildTargets = {
     },
     "server_dev": {
         "includePaths": [sourcePath, sourcePath + "/custom"],
-        "includeOnly": [*worldsCollideDatapacks, "dc_polar_bear"]
+        "includeOnly": [*worldsCollideDatapacks]
     }   
 }
 buildTarget = "standard"
