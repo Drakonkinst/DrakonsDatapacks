@@ -2,6 +2,7 @@
     "values": [
         "minecraft:player",
         "minecraft:snow_golem",
+        "minecraft:iron_golem",
         "#drakoncore:pillagers",
         "#drakoncore:spiders",
         "#drakoncore:zombies",
