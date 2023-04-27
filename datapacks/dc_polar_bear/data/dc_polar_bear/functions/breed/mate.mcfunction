@@ -9,10 +9,10 @@ execute if entity @a[distance=..32,limit=1] run summon experience_orb ~ ~ ~ {Val
 
 # Mate effects
 function dc_polar_bear:breed/on_mate
-execute as @e[type=polar_bear,distance=..3,tag=dc_polarBearMate,limit=1] at @s run function dc_polar_bear:breed/on_mate
+execute as @e[type=polar_bear,distance=..5,tag=dc_polarBearMate,limit=1] at @s run function dc_polar_bear:breed/on_mate
 
 # Stop targeting, just in case
 function dc_polar_bear:ai/stop_targeting
 
 # Reset
-tag @e[type=polar_bear,distance=..3] remove dc_polarBearMate
+tag @e[type=polar_bear,distance=..5] remove dc_polarBearMate
