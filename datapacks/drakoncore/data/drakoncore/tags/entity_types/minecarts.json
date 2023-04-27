@@ -1,4 +1,5 @@
 {
+    "description": "Minecarts and their variants",
     "values": [
         "minecraft:minecart",
         "minecraft:tnt_minecart",

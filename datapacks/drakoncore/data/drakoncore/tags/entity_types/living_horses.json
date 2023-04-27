@@ -1,0 +1,8 @@
+{
+    "description": "Horse mob and their living variants",
+    "values": [
+        "minecraft:horse",
+        "minecraft:donkey",
+        "minecraft:mule"
+    ]
+}

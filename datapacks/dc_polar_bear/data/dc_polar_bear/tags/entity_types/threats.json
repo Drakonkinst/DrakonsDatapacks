@@ -2,14 +2,18 @@
     "values": [
         "minecraft:player",
         "minecraft:snow_golem",
-        
-        "minecraft:spider",
-        "minecraft:cave_spider",
-        "minecraft:zombie",
-        "minecraft:husk",
-        "minecraft:drowned",
-        "minecraft:skeleton",
-        "minecraft:wither_skeleton",
-        "minecraft:stray"
+        "#drakoncore:pillagers",
+        "#drakoncore:spiders",
+        "#drakoncore:zombies",
+        "#drakoncore:skeletons",
+        "#drakoncore:piglins",
+        "minecraft:endermite",
+        "minecraft:hoglin",
+        "minecraft:magma_cube",
+        "minecraft:shulker",
+        "minecraft:silverfish",
+        "minecraft:slime",
+        "minecraft:witch",
+        "minecraft:zoglin"
     ]
 }

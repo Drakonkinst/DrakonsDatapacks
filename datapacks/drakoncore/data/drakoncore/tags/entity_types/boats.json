@@ -1,4 +1,5 @@
 {
+    "description": "Boats and their variants",
     "values": [
         "minecraft:boat",
         "minecraft:chest_boat"

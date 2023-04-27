@@ -1,0 +1,7 @@
+{
+    "description": "Living Piglin mobs",
+    "values": [
+        "minecraft:piglin",
+        "minecraft:piglin_brute"
+    ]
+}

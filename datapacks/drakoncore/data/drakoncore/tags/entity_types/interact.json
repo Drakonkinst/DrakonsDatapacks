@@ -1,4 +1,5 @@
 {
+    "description": "Entities used in drakoncore's interact mechanic",
     "values": [
         "minecraft:marker",
         "minecraft:armor_stand"

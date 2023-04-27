@@ -1,17 +1,20 @@
 {
     "values": [
-        "minecraft:villager",
-        "minecraft:wandering_trader",
-        "minecraft:llama",
-        "minecraft:trader_llama",
-        "minecraft:sheep",
-        "minecraft:cow",
-        "minecraft:pig",
+        "#drakoncore:villagers",
+        "#drakoncore:llamas",
+        "#drakoncore:living_horses",
         "minecraft:chicken",
-        "minecraft:rabbit",
+        "minecraft:cow",
         "minecraft:fox",
         "minecraft:frog",
+        "minecraft:mooshroom",
+        "minecraft:ocelot",
+        "minecraft:pig",
+        "minecraft:rabbit",
+        "minecraft:sheep",
+        "minecraft:turtle",
         "minecraft:dolphin",
-        "minecraft:turtle"
+        "minecraft:goat",
+        "minecraft:panda"
     ]
 }

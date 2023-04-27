@@ -1,10 +1,6 @@
 {
-    "description": "Mobs that polar bears can target or can catch in the crossfire",
+    "description": "Neutral mobs as listed on Minecraft Wiki",
     "values": [
-        "#dc_polar_bear:can_aggro",
-        "#drakoncore:boats",
-        "#drakoncore:minecarts",
-        "#drakoncore:vanilla/passive_mobs",
         "minecraft:bee",
         "minecraft:cave_spider",
         "minecraft:dolphin",
@@ -14,10 +10,10 @@
         "minecraft:llama",
         "minecraft:panda",
         "minecraft:piglin",
+        "minecraft:polar_bear",
         "minecraft:spider",
         "minecraft:trader_llama",
         "minecraft:wolf",
-        "minecraft:zombified_piglin",
-        "#drakoncore:vanilla/hostile_mobs"
+        "minecraft:zombified_piglin"
     ]
 }

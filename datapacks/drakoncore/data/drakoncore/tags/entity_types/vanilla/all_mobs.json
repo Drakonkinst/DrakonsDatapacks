@@ -1,0 +1,8 @@
+{
+    "description": "All mobs as listed on Minecraft Wiki",
+    "values": [
+        "#drakoncore:vanilla/passive_mobs",
+        "#drakoncore:vanilla/neutral_mobs",
+        "#drakoncore:vanilla/hostile_mobs"
+    ]
+}

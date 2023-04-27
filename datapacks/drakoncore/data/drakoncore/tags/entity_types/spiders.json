@@ -1,0 +1,7 @@
+{
+	"description": "Spider mob and their variants",
+	"values": [
+		"minecraft:spider",
+		"minecraft:cave_spider"
+	]
+}
