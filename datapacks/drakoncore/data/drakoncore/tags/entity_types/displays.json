@@ -1,4 +1,5 @@
 {
+    "description": "All display entities",
     "values": [
         "minecraft:block_display",
         "minecraft:item_display",

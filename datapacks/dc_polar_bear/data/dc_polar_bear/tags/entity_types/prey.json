@@ -1,0 +1,20 @@
+{
+    "values": [
+        "#drakoncore:villagers",
+        "#drakoncore:llamas",
+        "#drakoncore:living_horses",
+        "minecraft:chicken",
+        "minecraft:cow",
+        "minecraft:fox",
+        "minecraft:frog",
+        "minecraft:mooshroom",
+        "minecraft:ocelot",
+        "minecraft:pig",
+        "minecraft:rabbit",
+        "minecraft:sheep",
+        "minecraft:turtle",
+        "minecraft:dolphin",
+        "minecraft:goat",
+        "minecraft:panda"
+    ]
+}

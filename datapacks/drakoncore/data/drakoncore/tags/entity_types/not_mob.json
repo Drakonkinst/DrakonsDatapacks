@@ -1,4 +1,5 @@
 {
+    "description": "Entities that are not mobs",
     "values": [
         "minecraft:item",
         "minecraft:experience_orb",

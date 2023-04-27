@@ -1,4 +1,5 @@
 {
+    "description": "Entities that are used solely for technical purposes and never appear in-game",
     "values": [
         "minecraft:marker",
         "#drakoncore:displays",

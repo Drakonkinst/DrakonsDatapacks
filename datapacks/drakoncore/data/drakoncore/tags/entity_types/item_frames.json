@@ -1,4 +1,5 @@
 {
+    "description": "Item frames and their variants",
     "values": [
         "minecraft:item_frame",
         "minecraft:glow_item_frame"

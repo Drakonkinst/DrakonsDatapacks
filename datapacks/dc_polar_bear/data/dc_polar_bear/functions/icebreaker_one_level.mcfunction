@@ -1,0 +1,9 @@
+execute if block ~-1 ~ ~-1 ice run setblock ~-1 ~ ~-1 water destroy
+execute if block ~-1 ~ ~ ice run setblock ~-1 ~ ~ water destroy
+execute if block ~-1 ~ ~1 ice run setblock ~-1 ~ ~1 water destroy
+execute if block ~ ~ ~-1 ice run setblock ~ ~ ~-1 water destroy
+execute if block ~ ~ ~ ice run setblock ~ ~ ~ water destroy
+execute if block ~ ~ ~1 ice run setblock ~ ~ ~1 water destroy
+execute if block ~1 ~ ~-1 ice run setblock ~1 ~ ~-1 water destroy
+execute if block ~1 ~ ~ ice run setblock ~1 ~ ~ water destroy
+execute if block ~1 ~ ~1 ice run setblock ~1 ~ ~1 water destroy

@@ -1,0 +1,20 @@
+{
+    "values": [
+        "minecraft:player",
+        "minecraft:snow_golem",
+        "minecraft:iron_golem",
+        "#drakoncore:pillagers",
+        "#drakoncore:spiders",
+        "#drakoncore:zombies",
+        "#drakoncore:skeletons",
+        "#drakoncore:piglins",
+        "minecraft:endermite",
+        "minecraft:hoglin",
+        "minecraft:magma_cube",
+        "minecraft:shulker",
+        "minecraft:silverfish",
+        "minecraft:slime",
+        "minecraft:witch",
+        "minecraft:zoglin"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "description": "Pillager-related mobs",
+    "values": [
+        "minecraft:pillager",
+        "minecraft:illusioner",
+        "minecraft:vindicator",
+        "minecraft:ravager",
+        "minecraft:evoker",
+        "minecraft:witch",
+        "minecraft:vex"
+    ]
+}

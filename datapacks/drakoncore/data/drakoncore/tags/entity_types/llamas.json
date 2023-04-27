@@ -1,0 +1,7 @@
+{
+    "description": "LLama mobs",
+    "values": [
+        "minecraft:llama",
+        "minecraft:trader_llama"
+    ]
+}

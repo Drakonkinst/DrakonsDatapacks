@@ -1,0 +1,7 @@
+{
+    "description": "Villager mob and their living variants",
+    "values": [
+        "minecraft:villager",
+        "minecraft:wandering_trader"
+    ]
+}

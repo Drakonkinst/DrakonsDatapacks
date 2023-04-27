@@ -1,0 +1,8 @@
+{
+    "description": "Horse mob and their variants",
+    "values": [
+        "#drakoncore:living_horses",
+        "minecraft:skeleton_horse",
+        "minecraft:zombie_horse"
+    ]
+}

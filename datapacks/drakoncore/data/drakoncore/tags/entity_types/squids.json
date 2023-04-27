@@ -1,0 +1,7 @@
+{
+    "description": "Squid mobs and their variants",
+    "values": [
+        "minecraft:squid",
+        "minecraft:glow_squid"
+    ]
+}
