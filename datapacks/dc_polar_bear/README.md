@@ -30,4 +30,4 @@ With **far more powerful** stats than before, an encounter with a Polar Bear is 
 
 Instead of fish, Polar Bears now drop their own **Polar Bear Meat**. This meat is **incredibly poisonous** if eaten raw, but can be eaten safely if cooked.
 
-For a design & technical deep dive into the Polar Bear's changes, check out **[this DevLog]()**! (Link Coming Soon)
+For a design & technical deep dive into the Polar Bear's changes, check out **[this DevLog](https://github.com/Drakonkinst/DrakonsDatapacks/wiki/DevLog:-Bringing-the-Polar-Bear-to-Life)**! (Warning: Very Long)
