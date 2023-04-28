@@ -1,3 +1,4 @@
+# Restore follow range to enable targeting again
 data merge entity @s {Attributes:[{Name:generic.follow_range,Base:20.0f}]}
 tag @s remove dc_polarBearStop
 
