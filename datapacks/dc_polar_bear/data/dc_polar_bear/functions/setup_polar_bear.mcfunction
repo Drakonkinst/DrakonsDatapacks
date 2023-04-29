@@ -10,4 +10,8 @@ execute if score #WorldDifficulty dc_value matches 1 run data merge entity @s {A
 execute if score #WorldDifficulty dc_value matches 2 run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:12}]}
 execute if score #WorldDifficulty dc_value matches 3 run data merge entity @s {Attributes:[{Name:generic.attack_damage,Base:18}]}
 
+# Make un-leashable by leashing to itself
+# However, this makes them drop leads when killed, so it's a no-go
+#data modify entity @s Leash.UUID set from entity @s UUID
+
 tag @s add dc_polarBear
