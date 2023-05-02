@@ -52,8 +52,8 @@ worldsCollideDatapacks = {
     
     # Seasonal
     # "dc_valentines", # Valentines
-    "dc_easter_hunt", # Easter
-    "dc_wishing_well", # Easter
+    # "dc_easter_hunt", # Easter
+    "dc_wishing_well", # Easter - this is always on since it allows Easter Eggs to be broken
     # "dc_christmas_horde", # Christmas
 }
 

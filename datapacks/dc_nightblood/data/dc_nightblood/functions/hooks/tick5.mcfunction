@@ -1,1 +1,1 @@
-execute as @e[type=armor_stand,tag=dc_te_nightblood] run function dc_nightblood:model/tick5
+execute as @e[type=item_display,tag=dc_te_nightblood] at @s run function dc_nightblood:model/tick5
