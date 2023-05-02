@@ -1,5 +1,5 @@
 # Remove 1 item from stack
-execute as @e[type=item,tag=dc_frozenFlame,limit=1] run function drakoncore:items/remove_1_item_entity
+execute as @e[type=item,tag=dc_frozenFlame,limit=1] run function drakoncore:api/remove_1_from_item_entity
 
 # Add enchantment
 execute if entity @s[type=item_display] run function dc_throwable_axes:enchant/enchant_recalling_embed
@@ -7,7 +7,7 @@ execute if entity @s[type=item] run function dc_throwable_axes:enchant/enchant_r
 
 # Remove xp & play effects
 experience add @a[tag=dc_anvilCrafting,limit=1,gamemode=!creative] -10 levels
-function drakoncore:items/anvil_crafting/on_success
+function drakoncore:api/anvil_success
 playsound minecraft:block.enchantment_table.use block @a ~ ~ ~ 1 1
 playsound minecraft:entity.player.levelup block @a ~ ~ ~ 1 0.25
 particle minecraft:enchant ~ ~1 ~ 0 0 0 1 50

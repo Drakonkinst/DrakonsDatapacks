@@ -12,7 +12,7 @@ scoreboard players reset @s dc_symbioteStop
 
 # Unstuck
 execute at @s align xyz run tp @s ~0.5 ~ ~0.5
-function drakoncore:utils/unstuck
+function drakoncore:api/unstuck
 
 execute as @e[type=!#dc_symbiote:invalid_host,limit=1,tag=dc_currentHost,sort=nearest] run function dc_symbiote:host/stop
 tag @s remove dc_symbiotePossess

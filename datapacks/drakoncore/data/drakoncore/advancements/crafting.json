@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "drakoncore:items/schedule_crafting_update"
+        "function": "drakoncore:internal/items/schedule_crafting_update"
     }
 }

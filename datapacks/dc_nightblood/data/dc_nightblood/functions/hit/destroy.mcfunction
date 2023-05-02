@@ -7,6 +7,6 @@ execute if predicate dc_nightblood:chance_burp run schedule function dc_nightblo
 
 gamerule showDeathMessages false
 tag @s add dc_nbDeathReason
-function drakoncore:utils/clear_entity
+function drakoncore:api/clear_entity
 tag @s remove dc_nbDeathReason
 gamerule showDeathMessages true

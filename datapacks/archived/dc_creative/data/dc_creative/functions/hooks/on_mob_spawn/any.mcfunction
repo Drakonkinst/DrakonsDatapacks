@@ -1,2 +1,2 @@
 # When a mob is spawned (not entity or player)
-execute if entity @s[type=#drakoncore:hostile_mobs] if predicate dc_creative:dimension/creative_world unless entity @a[distance=..16] run function drakoncore:utils/clear_entity
+execute if entity @s[type=#drakoncore:hostile_mobs] if predicate dc_creative:dimension/creative_world unless entity @a[distance=..16] run function drakoncore:api/clear_entity

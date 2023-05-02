@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "drakoncore:init"
+        "drakoncore:internal/init"
     ]
 }

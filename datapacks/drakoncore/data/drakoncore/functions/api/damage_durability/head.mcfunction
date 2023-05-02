@@ -1,0 +1,2 @@
+# Attempts to damage entity's head slot
+execute if data entity @s Inventory[{Slot:103b}].tag.Damage if predicate drakoncore:durability/head/should_damage run function drakoncore:internal/durability/head/modify

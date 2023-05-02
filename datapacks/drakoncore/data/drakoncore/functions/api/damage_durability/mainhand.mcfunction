@@ -1,0 +1,3 @@
+# Attempts to damage entity's mainhand slot
+execute if data entity @s[type=player] SelectedItem.tag.Damage if predicate drakoncore:durability/mainhand/should_damage run function drakoncore:internal/durability/mainhand/modify
+execute if data entity @s[type=armor_stand] HandItems[0].tag.Damage if predicate drakoncore:durability/mainhand/should_damage run function drakoncore:internal/durability/mainhand/modify

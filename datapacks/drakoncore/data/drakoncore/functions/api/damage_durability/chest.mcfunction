@@ -1,0 +1,2 @@
+# Attempts to damage entity's chest slot
+execute if data entity @s Inventory[{Slot:102b}].tag.Damage if predicate drakoncore:durability/chest/should_damage run function drakoncore:internal/durability/chest/modify

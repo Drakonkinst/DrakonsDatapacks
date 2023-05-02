@@ -1,2 +1,0 @@
-# Attempts to damage the player's helmet
-execute if data entity @s Inventory[{Slot:103b}].tag.Damage if predicate drakoncore:durability/head/should_damage run function drakoncore:items/durability/head/modify

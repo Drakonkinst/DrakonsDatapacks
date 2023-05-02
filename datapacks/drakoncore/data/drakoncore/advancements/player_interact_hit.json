@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "drakoncore:players/player_interact/on_hit"
+        "function": "drakoncore:internal/players/player_interact/on_hit"
     }
 }

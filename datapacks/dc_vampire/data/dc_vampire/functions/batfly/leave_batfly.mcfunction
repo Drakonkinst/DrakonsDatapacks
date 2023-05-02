@@ -8,7 +8,7 @@ tag @s remove dc_inBatfly
 
 # Align to the block and unstuck
 execute align xyz run tp @s ~0.5 ~ ~0.5
-function drakoncore:utils/unstuck
+function drakoncore:api/unstuck
 effect give @s minecraft:slow_falling 1 0 true
 tag @s add dc_vampireFloat
 

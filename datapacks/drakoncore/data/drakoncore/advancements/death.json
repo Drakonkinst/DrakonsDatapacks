@@ -16,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "drakoncore:players/on_player_death"
+        "function": "drakoncore:internal/players/on_player_death"
     }
 }

@@ -1,2 +1,0 @@
-execute unless score @s dc_interactCd matches 1.. if entity @e[type=#drakoncore:interact,tag=dc_interactable,limit=1,distance=..3] run function drakoncore:players/interact/interact
-scoreboard players reset @s dc_interact
