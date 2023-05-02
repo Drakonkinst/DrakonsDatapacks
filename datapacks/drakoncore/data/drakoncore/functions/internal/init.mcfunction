@@ -21,6 +21,12 @@ scoreboard objectives add help trigger "DrakonCore Help"
 scoreboard objectives add mods trigger "DrakonCore Modlist"
 scoreboard objectives add config trigger "DrakonCore Config"
 
+# Defining constants
+scoreboard players set #1000 dc_value 1000
+scoreboard players set #314159 dc_value 314159
+scoreboard players set #2718281 dc_value 2718281
+execute unless score #RNGSeed dc_value matches 0.. run scoreboard players set #RNGSeed dc_value 0
+
 # Teams
 team add color_aqua "Aqua"
 team modify color_aqua color aqua

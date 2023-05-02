@@ -1,4 +1,7 @@
-function dc_nightblood:talk/random
+scoreboard players set #RandomMin dc_value 1
+scoreboard players set #RandomMax dc_value 10
+function drakoncore:api/random_min_max
+tellraw @s ""
 execute if score @s dc_value matches 1 run tellraw @s {"text":"...Finally...","color":"red","italic":true}
 execute if score @s dc_value matches 2 run tellraw @s {"text":"...Yes...","color":"red","italic":true}
 execute if score @s dc_value matches 3 run tellraw @s {"text":"...At last...","color":"red","italic":true}
