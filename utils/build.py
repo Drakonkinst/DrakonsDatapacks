@@ -67,7 +67,7 @@ validBuildTargets = {
         "includePaths": [sourcePath]
     },
     "all": {
-        "includePaths": [sourcePath, sourcePath + "/all", sourcePath + "/custom"],
+        "includePaths": [sourcePath, sourcePath + "/archived", sourcePath + "/custom"],
     },
     "server": {
         "includePaths": [sourcePath, sourcePath + "/custom"],
@@ -82,8 +82,8 @@ buildTarget = "standard"
 buildSettings = validBuildTargets[buildTarget]
 
 # Zip the directory at the given path and place it in output folder
-def zipFile(path, fileName):
-    zipObj = zipfile.ZipFile(os.path.join(compiledPath, fileName +
+def zipFile(path, fileName, outPath):
+    zipObj = zipfile.ZipFile(os.path.join(outPath, fileName +
                              ".zip"), "w", zipfile.ZIP_DEFLATED)
     for root, _, files in os.walk(path):
         for file in files:
@@ -98,7 +98,7 @@ def clearOutput(dirPath):
     if not os.path.exists(dirPath):
         os.makedirs(dirPath)
     
-    # Remove zip files
+    # Remove zip files only
     for f in os.listdir(dirPath):
         if f.endswith(".zip"):
             os.remove(os.path.join(dirPath, f))
@@ -120,22 +120,26 @@ def isValidDatapack(path, fileName):
         return False
     return True
 
-def zipDatapacksInFolder(folder):
+def zipDatapacksInFolder(folder, outFile):
     for fileName in os.listdir(folder):
         path = os.path.join(folder, fileName)
         if os.path.isdir(path):
             if isValidDatapack(path, fileName):
-                zipFile(path, fileName)
+                zipFile(path, fileName, outFile)
 
 def main():
     global buildTarget, buildSettings
     args = sys.argv[1:]
     
+    outFile = compiledPath
+    
+    if len(args) >= 2:
+        outFile = args[1]
     if len(args) >= 1:
         buildTarget = args[0]
     
     start = time.time()
-    clearOutput(compiledPath)
+    clearOutput(outFile)
     if buildTarget in validBuildTargets:
         buildSettings = validBuildTargets[buildTarget]
     else:
@@ -144,7 +148,7 @@ def main():
     
     try:
         for folder in buildSettings["includePaths"]:
-            zipDatapacksInFolder(folder)
+            zipDatapacksInFolder(folder, outFile)
     except:
         traceback.print_exc()
         return
