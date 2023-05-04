@@ -2,6 +2,23 @@
 
 This folder contains **utility scripts** for Drakon's Datapacks development.
 
+## Build Script
+
+`build.py [buildTarget] [outPath]` populates the `outPath` directory (defaulting the `out` folder in the root of the repository) with zipped datapack files based on the given `buildTarget`. The build target determines the **goal** or **target audience** of the current build, which can change which datapacks we want to compile. This gives us a mechanism to control which datapacks are compiled, while keeping all datapacks in this repository.
+
+The available build targets are:
+
+* `standard`: Builds all datapacks in the `datapacks` repository, but **not** the datapacks in `datapacks/archived` or `datapacks/custom`.
+* `all`: Builds all datapacks in the `datapacks` repository, **including** the datapacks in `datapacks/archived` and `datapacks/custom`.
+* `server`: Builds all datapacks used by my private server, Worlds Collide. This is a **customized list** defined in `build.py`, and can be edited.
+* `server_dev`: Builds all datapacks used by my private server, Worlds Collide, as well as **any additional** datapacks specified in the list, which is useful for when testing development packs that are not part of Worlds Collide yet.
+
+`outPath` can be the path to your test world's datapacks folder (put in quotes for safety), which can save you the trouble of copying these files over.
+
+## New Datapack Script
+
+`new_datapack.py` can be run without arguments to start a prompt to create a template datapack. It uses `dc_template` as the template, but replaces all `dc_template` namespaces to the given namespace. This means the datapack includes all available hooks: **hooks that are not used should be deleted** (both the `.json` and `.mcfunction` file) once development is complete.
+
 ## Developing with Drakon's Datapacks
 
 I take a modular approach to my datapacks. While many of them are intended to work together,
