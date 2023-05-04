@@ -4,7 +4,7 @@ This folder contains **utility scripts** for Drakon's Datapacks development.
 
 ## Build Script
 
-`build.py [buildTarget] [outPath]` populates the `outPath` directory (defaulting the `out` folder in the root of the repository) with zipped datapack files based on the given `buildTarget`. The build target determines the **goal** or **target audience** of the current build, which can change which datapacks we want to compile. This gives us a mechanism to control which datapacks are compiled, while keeping all datapacks in this repository.
+`build.py [buildTarget] [outPath]` populates the `outPath` directory (defaulting the `out` folder in the root of the repository) with zipped datapack files based on the given `buildTarget`. The build target determines the **goal** or **target audience** of the current build, which can change which datapacks we want to compile. This gives us a mechanism to control which datapacks are compiled, while keeping all datapacks in this repository. (The `dc_template` datapack is never compiled.)
 
 The available build targets are:
 
