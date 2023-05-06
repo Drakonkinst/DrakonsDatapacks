@@ -99,9 +99,16 @@ def clearOutput(dirPath):
         os.makedirs(dirPath)
     
     # Remove zip files only
+    notRemoved = []
     for f in os.listdir(dirPath):
         if f.endswith(".zip"):
-            os.remove(os.path.join(dirPath, f))
+            try:
+                os.remove(os.path.join(dirPath, f))
+            except:
+                notRemoved.append(f)
+    
+    if len(notRemoved) > 0:
+        print("Warning:", len(notRemoved), "datapacks cannot be removed right now, make sure to delete any files that are not overwritten")
             
 # It is a datapack folder if it contains a pack.mcmeta file in the root
 def isDatapackFolder(folder):
@@ -121,11 +128,14 @@ def isValidDatapack(path, fileName):
     return True
 
 def zipDatapacksInFolder(folder, outFile):
+    numZipped = 0
     for fileName in os.listdir(folder):
         path = os.path.join(folder, fileName)
         if os.path.isdir(path):
             if isValidDatapack(path, fileName):
+                numZipped += 1
                 zipFile(path, fileName, outFile)
+    return numZipped
 
 def main():
     global buildTarget, buildSettings
@@ -146,15 +156,16 @@ def main():
         print("Unknown build target:", buildTarget)
         return
     
+    numZipped = 0
     try:
         for folder in buildSettings["includePaths"]:
-            zipDatapacksInFolder(folder, outFile)
+            numZipped += zipDatapacksInFolder(folder, outFile)
     except:
         traceback.print_exc()
         return
     
     end = time.time()
-    print("Took", round((end - start), 4), "seconds")
+    print("Built", numZipped, "datapacks in", round((end - start), 4), "seconds")
     
 if __name__ == '__main__':
     main()
