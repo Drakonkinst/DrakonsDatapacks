@@ -1,7 +1,4 @@
-function #drakoncore:on_mob_spawn/any
-
-# Add hooks as needed when multiple datapacks make use of this hook
-execute if entity @s[type=zombie,tag=!dc_transformed] run function #drakoncore:on_mob_spawn/zombie
+function #drakoncore:on_mob_spawn
 
 # Easter egg
 execute if entity @s[tag=!dc_transformed,type=zombie,nbt={IsBaby:1b}] if predicate drakoncore:zombie_easter_egg_chance run data modify entity @s CustomName set value "\"Ph1LzA\""

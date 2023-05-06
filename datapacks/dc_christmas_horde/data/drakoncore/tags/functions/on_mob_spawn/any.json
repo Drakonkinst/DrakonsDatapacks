@@ -1,6 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "dc_christmas_horde:hooks/on_mob_spawn/any"
-    ]
-}

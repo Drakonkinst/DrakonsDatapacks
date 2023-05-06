@@ -26,8 +26,7 @@ DrakonCore offers the following hooks. Note that when Executing Entity or Execut
 
 | Hook | Description | Executing Entity | Executing Position |
 | --- | --- | --- | --- |
-| `on_mob_spawn/any` | Run when any mob spawns. Does not include players or non-mob entities. **Soon to be deprecated and moved to `on_mob_spawn`.** | The mob that spawned. | The mob that spawned. |
-| `on_mob_spawn/zombie` | Run when a zombie spawns. Does not include zombie variants. **Soon to be deprecated.** | The zombie that spawned. | The zombie that spawned. |
+| `on_mob_spawn` | Run when any mob spawns. Does not include players or non-mob entities. | The mob that spawned. | The mob that spawned. |
 | `check_command` | Equivalent to `player_tick`, intended to check custom commands. **Soon to be deprecated.** | The player. | The player. |
 | `check_crafting` | Run the tick after crafting a Knowledge Book, indicating the player is crafting a custom recipe. **Deprecated in 1.20.** | The player. | N/A
 | `config_list` | Run when `/trigger config` is called with its default argument (`1`). **Soon to be deprecated.** | The player. | N/A |
