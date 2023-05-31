@@ -1,5 +1,3 @@
 stopsound @s player minecraft:item.elytra.flying
 tag @s remove dc_longFallSound
-playsound minecraft:block.crop.break player @a ~ ~ ~ 2 0
-playsound minecraft:block.anvil.land player @a ~ ~ ~ 0.2 1.5
-particle minecraft:block minecraft:quartz_block ~ ~ ~ 0 0 0 0 30
+execute unless block ~ ~ ~ #drakoncore:water unless block ~ ~ ~ #drakoncore:always_waterlogged unless block ~ ~ ~ #drakoncore:waterloggable[waterlogged=true] run function dc_long_fall:land_effects
