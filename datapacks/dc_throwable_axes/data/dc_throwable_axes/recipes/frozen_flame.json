@@ -2,35 +2,34 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:blue_ice"
-        },
-        {
-            "tag": "minecraft:coral_blocks"
-        },
-        {
-            "item": "minecraft:crying_obsidian"
-        },
-        {
-            "item": "minecraft:sponge"
-        },
-        {
-            "item": "minecraft:blaze_rod"
-        },
-        {
-            "item": "minecraft:glowstone"
-        },
-        {
-            "item": "minecraft:dark_prismarine"
+            "item": "minecraft:nether_quartz_ore"
         },
         {
             "item": "minecraft:soul_sand"
         },
         {
-            "item": "minecraft:nether_quartz_ore"
+            "item": "minecraft:dark_prismarine"
+        },
+        {
+            "item": "minecraft:glowstone"
+        },
+        {
+            "item": "minecraft:blaze_rod"
+        },
+        {
+            "item": "minecraft:sponge"
+        },
+        {
+            "item": "minecraft:crying_obsidian"
+        },
+        {
+            "tag": "dc_throwable_axes:coral_blocks"
+        },
+        {
+            "item": "minecraft:blue_ice"
         }
     ],
     "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
+        "item": "minecraft:knowledge_book"
     }
 }
