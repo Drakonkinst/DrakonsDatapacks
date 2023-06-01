@@ -6,6 +6,14 @@ ignoredDatapacks = {
     "dc_template"
 }
 
+ignoredFilesInDatapack = {
+    "README.md"
+}
+
+ignoredDirectoriesInDatapack = {
+    "resources"
+}
+
 # Datapacks for my personal SMP
 worldsCollideDatapacks = {
     "drakoncore", # Core pack required for most datapacks to function
@@ -82,14 +90,20 @@ buildTarget = "standard"
 buildSettings = validBuildTargets[buildTarget]
 
 # Zip the directory at the given path and place it in output folder
-def zipFile(path, fileName, outPath):
+def zipDatapackFolder(path, fileName, outPath):
     zipObj = zipfile.ZipFile(os.path.join(outPath, fileName +
                              ".zip"), "w", zipfile.ZIP_DEFLATED)
-    for root, _, files in os.walk(path):
+    for root, dirs, files in os.walk(path, topdown=True):
+        # Modify dirs in place to exclude certain directories
+        # https://stackoverflow.com/questions/19859840
+        # NOTE: This excludes ALL directories named in this list, regardless of whether they are nested or not
+        dirs[:] = [d for d in dirs if d not in ignoredDirectoriesInDatapack]
+        
         for file in files:
-            zipObj.write(os.path.join(root, file),
-                         os.path.relpath(os.path.join(root, file),
-                                         os.path.join(path)))
+            if file not in ignoredFilesInDatapack:
+                zipObj.write(os.path.join(root, file),
+                            os.path.relpath(os.path.join(root, file),
+                                            os.path.join(path)))
     zipObj.close()
 
 # Initialize output folder
@@ -133,8 +147,9 @@ def zipDatapacksInFolder(folder, outFile):
         path = os.path.join(folder, fileName)
         if os.path.isdir(path):
             if isValidDatapack(path, fileName):
+                # TODO: Check for resources
                 numZipped += 1
-                zipFile(path, fileName, outFile)
+                zipDatapackFolder(path, fileName, outFile)
     return numZipped
 
 def main():
@@ -149,7 +164,7 @@ def main():
         buildTarget = args[0]
     
     start = time.time()
-    clearOutput(outFile)
+    clearOutput(outFile + "/datapacks")
     if buildTarget in validBuildTargets:
         buildSettings = validBuildTargets[buildTarget]
     else:
@@ -159,7 +174,7 @@ def main():
     numZipped = 0
     try:
         for folder in buildSettings["includePaths"]:
-            numZipped += zipDatapacksInFolder(folder, outFile)
+            numZipped += zipDatapacksInFolder(folder, outFile + "/datapacks")
     except:
         traceback.print_exc()
         return
