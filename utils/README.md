@@ -35,9 +35,11 @@ You are free to use my datapacks as a reference for your own work, and modify th
 
 ### Adding Resource Packs
 
-Include an `assets` folder in your datapack to add resources (textures, models, lang files, sounds, etc.) to your datapack. When the build script is run, this assets folder will **not be included** in the zipped datapack and will instead be merged with other datapacks in the build target to create a **merged resource pack** at `<outPath>/resources.zip`.
+Include an `assets` folder in your datapack to add resources (textures, models, lang files, sounds, etc.) to your datapack. When the build script is run, this assets folder will **not be included** in the zipped datapack and will instead be merged with other datapacks in the build target to create a **merged resource pack** at `<outPath>/resources.zip`. **You do not need to include a pack.mcmeta.**
 
-When loaded into a singleplayer world, this should automatically load the textures as if they were bundled with the world. This must be manually be set as the server's resource pack in the case of servers.
+This `assets` folder can be automatically included with the `new_datapack.py` script by including `r` as an argument. For example, `python new_datapack.py r` will create template asset files in the newly created datapack.
+
+When loaded into a singleplayer world, this should automatically load the textures as if they were bundled with the world (you may need to exit and re-enter the world for changes to take effect). This must be manually be set as the server's resource pack in the case of servers.
 
 The merge order priority is **arbitrary** so textures may override one another. Namespaces should be used to prevent conflicts.
 
