@@ -17,7 +17,7 @@ Build targets can be configured or created in `build.py`. The default available 
 `outPath` can be the path to your test world's **root** folder (put in quotes for safety), which can save you the trouble of copying these files over. It will automatically create a **datapacks** folder.
 
 > **Warning**: Previous versions of this build script used the **datapacks** folder for `[outPath]`. Since this new script is intended to also handle resource packs, this should now be the **world folder**, which should also contain the **datapacks** folder.
-> 
+
 ## New Datapack Script
 
 `python new_datapack.py` can be run without arguments to start a prompt to create a template datapack. It uses `dc_template` as the template, but replaces all `dc_template` namespaces to the given namespace. This means the datapack includes all available hooks: **hooks that are not used should be deleted** (both the `.json` and `.mcfunction` file) once development is complete.
