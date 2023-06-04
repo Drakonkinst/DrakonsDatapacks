@@ -1,21 +1,28 @@
 # Imports
-import sys, os, time, traceback, zipfile
+import sys, os, time, traceback, zipfile, shutil, json
+
+# Constants
+
+# Directory paths, from the perspective of /utils folder
+# If this script doesn't work, check that you're running it from the utils folder
+SOURCE_PATH = "../datapacks"
+DEFAULT_OUT_PATH = "../out"
+TEMP_PATH = "../temp"
+RESOURCE_FOLDER_NAME = "assets"
 
 # Do not compile these datapacks
-ignoredDatapacks = {
-    "dc_template"
-}
+IGNORE_DATAPACKS = { "dc_template" }
 
-ignoredFilesInDatapack = {
-    "README.md"
-}
+# Do not add these files to compiled output
+IGNORE_FILES_IN_DATAPACK = { "README.md" }
 
-ignoredDirectoriesInDatapack = {
-    "resources"
-}
+# Do not add folders with these names to compiled output
+IGNORE_DIRECTORIES_IN_DATAPACK = { "resources" }
+
+###### START EDITING HERE ######
 
 # Datapacks for my personal SMP
-worldsCollideDatapacks = {
+SERVER_DATAPACKS = {
     "drakoncore", # Core pack required for most datapacks to function
     
     "dc_armor_stand",
@@ -38,6 +45,7 @@ worldsCollideDatapacks = {
     "dc_tool_embed",
     "dc_universal_dyeing",
     "dc_villager_fix",
+    "dc_wishing_well", # Easter - this is always on since it allows Easter Eggs to be broken
     "dc_xp_storage",
     
     # Custom Items
@@ -61,33 +69,49 @@ worldsCollideDatapacks = {
     # Seasonal
     # "dc_valentines", # Valentines
     # "dc_easter_hunt", # Easter
-    "dc_wishing_well", # Easter - this is always on since it allows Easter Eggs to be broken
     # "dc_christmas_horde", # Christmas
 }
 
-# Input and output paths, from the perspective of /utils folder
-sourcePath = "../datapacks"
-compiledPath = "../out"
-
 # Tasks
-validBuildTargets = {
+BUILD_TARGETS = {
+    # Standard build target that builds anything in the datapacks folder (not including nested datapacks)
     "standard": {
-        "includePaths": [sourcePath]
+        "includePaths": [SOURCE_PATH]
     },
+    # Builds all datapacks, including archived and custom
     "all": {
-        "includePaths": [sourcePath, sourcePath + "/archived", sourcePath + "/custom"],
+        "includePaths": [SOURCE_PATH, SOURCE_PATH + "/archived", SOURCE_PATH + "/custom"],
     },
+    # Builds only datapacks in the SERVER_DATPACKS list
     "server": {
-        "includePaths": [sourcePath, sourcePath + "/custom"],
-        "includeOnly": worldsCollideDatapacks
+        "includePaths": [SOURCE_PATH, SOURCE_PATH + "/custom"],
+        "includeOnly": SERVER_DATAPACKS
     },
+    # Builds datapacks from SERVER_DATAPACK in addition to others
     "server_dev": {
-        "includePaths": [sourcePath, sourcePath + "/custom"],
-        "includeOnly": [*worldsCollideDatapacks]
-    }   
+        "includePaths": [SOURCE_PATH, SOURCE_PATH + "/custom"],
+        # Add new datapacks to this list
+        "includeOnly": [
+            *SERVER_DATAPACKS,
+            # "dc_new_datapack"
+        ]
+    },
+    # Build only datapacks in the given list
+    "dev": {
+        "includePaths": [SOURCE_PATH],
+        # Add new datapacks to this list
+        "includeOnly": [
+            "drakoncore",
+            # "dc_new_datapack"
+        ]
+    }
 }
+
+###### STOP EDITING HERE (unless you know what you're doing) ######
+
+# Global variable defaults
 buildTarget = "standard"
-buildSettings = validBuildTargets[buildTarget]
+buildSettings = None
 
 # Zip the directory at the given path and place it in output folder
 def zipDatapackFolder(path, fileName, outPath):
@@ -97,20 +121,29 @@ def zipDatapackFolder(path, fileName, outPath):
         # Modify dirs in place to exclude certain directories
         # https://stackoverflow.com/questions/19859840
         # NOTE: This excludes ALL directories named in this list, regardless of whether they are nested or not
-        dirs[:] = [d for d in dirs if d not in ignoredDirectoriesInDatapack]
+        dirs[:] = [d for d in dirs if d not in IGNORE_DIRECTORIES_IN_DATAPACK]
         
         for file in files:
-            if file not in ignoredFilesInDatapack:
+            if file not in IGNORE_FILES_IN_DATAPACK:
                 zipObj.write(os.path.join(root, file),
                             os.path.relpath(os.path.join(root, file),
-                                            os.path.join(path)))
+                                            path))
     zipObj.close()
+
+# Create it if it doesn't exist
+def ensureDirectoryExists(dirPath):
+    for root, dirs, files in os.walk(dirPath):
+        for f in files:
+            os.unlink(os.path.join(root, f))
+        for d in dirs:
+            shutil.rmtree(os.path.join(root, d))
+
+def deleteDirectory(dirPath):
+    shutil.rmtree(dirPath)
 
 # Initialize output folder
 def clearOutput(dirPath):
-    # Create it if it doesn't exist
-    if not os.path.exists(dirPath):
-        os.makedirs(dirPath)
+    ensureDirectoryExists(dirPath)
     
     # Remove zip files only
     notRemoved = []
@@ -134,7 +167,7 @@ def isDatapackFolder(folder):
 def isValidDatapack(path, fileName):
     if not isDatapackFolder(path):
         return False
-    if fileName in ignoredDatapacks:
+    if fileName in IGNORE_DATAPACKS:
         return False
     includeOnlyFilter = buildSettings.get("includeOnly")
     if includeOnlyFilter is not None and fileName not in includeOnlyFilter:
@@ -147,16 +180,47 @@ def zipDatapacksInFolder(folder, outFile):
         path = os.path.join(folder, fileName)
         if os.path.isdir(path):
             if isValidDatapack(path, fileName):
-                # TODO: Check for resources
+                if not buildSettings.get("noResources"):
+                    extractDatapackResources(path, fileName)
                 numZipped += 1
                 zipDatapackFolder(path, fileName, outFile)
     return numZipped
+
+def extractDatapackResources(path, datapackId):
+    resourcePath = os.path.join(path, RESOURCE_FOLDER_NAME)
+    tempResourcePath = os.path.join(TEMP_PATH, RESOURCE_FOLDER_NAME)
+    if os.path.isdir(resourcePath):
+        shutil.copytree(resourcePath, tempResourcePath, dirs_exist_ok=True)
+        
+
+def zipResourcePack(outPath):
+    zipObj = zipfile.ZipFile(os.path.join(outPath, "resources.zip"), "w", zipfile.ZIP_DEFLATED)
+    for root, dirs, files in os.walk(TEMP_PATH):
+        for file in files:
+            zipObj.write(os.path.join(root, file),
+                os.path.relpath(os.path.join(root, file),
+                    TEMP_PATH))
+    zipObj.close()
+
+def buildResourcePack(outPath):
+    tempResourcePath = os.path.join(TEMP_PATH, RESOURCE_FOLDER_NAME)
+    if not os.path.isdir(tempResourcePath):
+        return 0
+    dirs = os.listdir(tempResourcePath)
+    if len(dirs) > 0:
+        # Add pack.mcmeta
+        shutil.copy("./pack.mcmeta", TEMP_PATH)
+        # Zip
+        zipResourcePack(outPath)
+    # Delete temp directory
+    deleteDirectory(TEMP_PATH)
+    return len(dirs)
 
 def main():
     global buildTarget, buildSettings
     args = sys.argv[1:]
     
-    outFile = compiledPath
+    outFile = DEFAULT_OUT_PATH
     
     if len(args) >= 2:
         outFile = args[1]
@@ -164,23 +228,29 @@ def main():
         buildTarget = args[0]
     
     start = time.time()
-    clearOutput(outFile + "/datapacks")
-    if buildTarget in validBuildTargets:
-        buildSettings = validBuildTargets[buildTarget]
+    outputDatapacks = os.path.join(outFile, "datapacks")
+    clearOutput(outputDatapacks)
+    ensureDirectoryExists(os.path.join(TEMP_PATH, RESOURCE_FOLDER_NAME))
+    if buildTarget in BUILD_TARGETS:
+        buildSettings = BUILD_TARGETS[buildTarget]
     else:
         print("Unknown build target:", buildTarget)
         return
     
     numZipped = 0
+    numResourcePacksMerged = 0
     try:
         for folder in buildSettings["includePaths"]:
-            numZipped += zipDatapacksInFolder(folder, outFile + "/datapacks")
+            numZipped += zipDatapacksInFolder(folder, outputDatapacks)
+        numResourcePacksMerged = buildResourcePack(outFile)
     except:
         traceback.print_exc()
         return
     
     end = time.time()
-    print("Built", numZipped, "datapacks in", round((end - start), 4), "seconds")
+    print("Built", numZipped, "datapack(s) in", round((end - start), 4), "seconds")
+    if numResourcePacksMerged > 0:
+        print("* Also merged", numResourcePacksMerged, "resource pack(s)")
     
 if __name__ == '__main__':
     main()
