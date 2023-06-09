@@ -1,6 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "dc_manhunt_compass:hooks/check_command"
-    ]
-}

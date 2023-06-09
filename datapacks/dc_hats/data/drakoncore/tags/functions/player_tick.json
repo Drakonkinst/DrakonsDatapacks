@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "dc_pet_transfer:hooks/check_command"
+        "dc_hats:hooks/player_tick"
     ]
 }

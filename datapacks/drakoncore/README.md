@@ -27,7 +27,6 @@ DrakonCore offers the following hooks. Note that when Executing Entity or Execut
 | Hook | Description | Executing Entity | Executing Position |
 | --- | --- | --- | --- |
 | `on_mob_spawn` | Run when any mob spawns. Does not include players or non-mob entities. | The mob that spawned. | The mob that spawned. |
-| `check_command` | Equivalent to `player_tick`, intended to check custom commands. **Soon to be deprecated.** | The player. | The player. |
 | `config` | Run when `/trigger help` is called with any argument. | The player. | N/A |
 | `help` | Run when `/trigger help` is called with any argument. | The player. | N/A |
 | `init` | Run when `/reload` is called. Equivalent to the `#minecraft:load` function. | N/A | N/A

@@ -1,1 +1,0 @@
-execute unless score @s umbrella matches 0 run function dc_umbrella:color_command
