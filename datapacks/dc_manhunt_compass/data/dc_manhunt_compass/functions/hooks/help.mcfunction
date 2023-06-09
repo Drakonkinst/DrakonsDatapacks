@@ -1,0 +1,2 @@
+# Display help submenu
+execute if score @s help matches 1 run tellraw @s ["",{"text":"/trigger manhunt","color":"green","clickEvent":{"action":"run_command","value":"/trigger config"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to run this command!","color":"gold"}]}},{"text":" - ","color":"gray"},{"text":"Displays the manhunt menu.","color":"dark_purple"}]
