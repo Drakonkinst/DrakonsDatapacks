@@ -1,1 +1,0 @@
-# When help command is run

@@ -1,1 +1,0 @@
-execute if predicate dc_long_fall:crafted run function dc_long_fall:craft_item

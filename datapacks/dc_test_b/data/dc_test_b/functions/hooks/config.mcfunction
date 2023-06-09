@@ -1,1 +1,0 @@
-# When config command is run

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "dc_long_fall:item"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_long_fall:check_craft"
+    }
+}

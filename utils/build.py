@@ -132,11 +132,8 @@ def zipDatapackFolder(path, fileName, outPath):
 
 # Create it if it doesn't exist
 def ensureDirectoryExists(dirPath):
-    for root, dirs, files in os.walk(dirPath):
-        for f in files:
-            os.unlink(os.path.join(root, f))
-        for d in dirs:
-            shutil.rmtree(os.path.join(root, d))
+    if not os.path.isdir(dirPath):
+        os.makedirs(dirPath)
 
 def deleteDirectory(dirPath):
     shutil.rmtree(dirPath)

@@ -1,1 +1,0 @@
-execute if predicate dc_item_magnet:crafted run function dc_item_magnet:craft_item

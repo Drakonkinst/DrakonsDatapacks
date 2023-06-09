@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "dc_item_magnet:item"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_item_magnet:check_craft"
+    }
+}

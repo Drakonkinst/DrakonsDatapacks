@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "dc_umbrella:item",
+                "ingredients": [
+                    {
+                        "items": [
+                            "minecraft:red_carpet"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_umbrella:craft/check_red"
+    }
+}
