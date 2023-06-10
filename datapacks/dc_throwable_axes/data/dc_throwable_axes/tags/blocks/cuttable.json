@@ -1,6 +1,7 @@
 {
 	"values": [
-		"#minecraft:flowers",
+		"#minecraft:small_flowers",
+		"#minecraft:tall_flowers",
 		"#minecraft:crops",
 		"#minecraft:saplings",
 		"minecraft:brown_mushroom",

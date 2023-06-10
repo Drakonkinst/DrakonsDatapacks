@@ -3,6 +3,7 @@
     "values": [
         "minecraft:player",
         "minecraft:bat",
+        "minecraft:camel",
         "minecraft:cat",
         "minecraft:chicken",
         "minecraft:cod",
@@ -20,6 +21,7 @@
         "minecraft:rabbit",
         "minecraft:salmon",
         "minecraft:sheep",
+        "minecraft:sniffer",
         "minecraft:snow_golem",
         "minecraft:squid",
         "minecraft:strider",

@@ -5,8 +5,9 @@
         "#minecraft:buttons",
         "#minecraft:rails",
         "#minecraft:saplings",
-        "#minecraft:signs",
+        "#minecraft:all_signs",
         "#minecraft:small_flowers",
+        "#minecraft:tall_flowers",
         "#drakoncore:air",
         "#drakoncore:fluid",
         "minecraft:twisting_vines",
@@ -67,6 +68,7 @@
         "minecraft:seagrass",
         "minecraft:tall_seagrass",
         "minecraft:warped_roots",
-        "minecraft:crimson_roots"
+        "minecraft:crimson_roots",
+        "minecraft:pink_petals"
     ]
 }

@@ -17,4 +17,4 @@ execute if data entity @s ThrownItemData.tag.Enchantments[{id:"minecraft:sharpne
 # Modify transformation to match standard thrown axes
 #data modify entity @s interpolation_duration set value 0
 #data modify entity @s start_interpolation set value 0
-data modify entity @s transformation set value {scale:[0.8f,0.8f,0.8f],left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.354f, 0.612f, 0.354f, 0.612f],translation:[0.0f,0f,0.0f]}
+data modify entity @s transformation set value {scale:[0.8f,0.8f,0.8f],left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.354f, -0.612f, -0.354f, 0.612f],translation:[0.0f,0f,0.0f]}
