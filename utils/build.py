@@ -94,6 +94,7 @@ BUILD_TARGETS = {
         "includeOnly": [
             *SERVER_DATAPACKS,
             # "dc_new_datapack"
+            "dc_enderknife"
         ]
     },
     # Build only datapacks in the given list
