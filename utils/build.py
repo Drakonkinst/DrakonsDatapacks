@@ -32,6 +32,7 @@ SERVER_DATAPACKS = {
     "dc_improved_squids",
     "dc_more_recipes",
     "dc_hats",
+    "dc_parachute",
     "dc_pet_finder",
     "dc_pet_transfer",
     "dc_player_revive",
