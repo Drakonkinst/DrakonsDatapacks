@@ -1,3 +1,8 @@
+# Since vampire is about to enter spectator, hostile mobs nearby will immediately despawn
+# Make them persistent and if the vampire is still near them, make them not persistent again
+# Actually, this list includes more than hostile mobs - so we'll just make it work for all mobs
+execute as @e[type=#drakoncore:vanilla/all_mobs,distance=..64] unless predicate dc_vampire:is_persistent run function dc_vampire:persistent/make_persistent
+
 tag @s[gamemode=survival] add dc_batfly0
 tag @s[gamemode=creative] add dc_batfly1
 tag @s[gamemode=adventure] add dc_batfly2
