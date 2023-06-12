@@ -1,0 +1,22 @@
+{
+    "description": "Mobs that are evil and would be tempted to use Nightblood (must have hands in some fashion)",
+    "values": [
+        "minecraft:drowned",
+        "minecraft:enderman",
+        "minecraft:husk",
+        "minecraft:illusioner",
+        "minecraft:pillager",
+        "minecraft:skeleton",
+        "minecraft:stray",
+        "minecraft:vex",
+        "minecraft:vindicator",
+        "minecraft:evoker",
+        "minecraft:witch",
+        "minecraft:wither_skeleton",
+        "minecraft:zombie",
+        "minecraft:zombie_villager",
+        "minecraft:zombified_piglin",
+        "minecraft:piglin",
+        "minecraft:piglin_brute"
+    ]
+}
