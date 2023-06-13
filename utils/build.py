@@ -95,6 +95,7 @@ BUILD_TARGETS = {
         # Add new datapacks to this list
         "includeOnly": [
             *SERVER_DATAPACKS,
+            "dc_spyglass_study"
             # "dc_new_datapack"
         ]
     },

@@ -1,0 +1,40 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "#drakoncore:vanilla/all_mobs",
+                                    "distance": {
+                                        "absolute": {
+                                            "min": 0,
+                                            "max": 128
+                                        }
+                                    }
+                                }
+                            },
+                            "flags": {
+                                "is_sneaking": true
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:spyglass"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_spyglass_study:on_look_at"
+    }
+}

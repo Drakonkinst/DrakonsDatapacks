@@ -1,1 +1,1 @@
-title @s actionbar "Press Right Click to Attach"
+title @s actionbar ["","Press ",{"keybind":"key.use"}," to attach"]

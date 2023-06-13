@@ -22,6 +22,8 @@ scoreboard objectives add mods trigger "DrakonCore Modlist"
 scoreboard objectives add config trigger "DrakonCore Config"
 
 # Defining constants
+scoreboard players set #2 dc_value 2
+scoreboard players set #256 dc_value 256
 scoreboard players set #1000 dc_value 1000
 scoreboard players set #314159 dc_value 314159
 scoreboard players set #2718281 dc_value 2718281
