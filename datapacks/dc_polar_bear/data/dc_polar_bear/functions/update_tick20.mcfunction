@@ -1,5 +1,5 @@
 # Prevent polar bear from getting stuck in ice
-execute if block ~ ~ ~ water run function dc_polar_bear:icebreaker
+execute if predicate drakoncore:in_water run function dc_polar_bear:icebreaker
 
 execute as @e[type=item,tag=!dc_polarBearChecked,distance=..20] run function dc_polar_bear:eat/check_item
 

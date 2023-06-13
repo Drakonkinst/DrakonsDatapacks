@@ -1,6 +1,6 @@
 # Goldify
-execute unless entity @s[tag=dc_isRaining] unless block ~ ~ ~ #drakoncore:water_type unless block ~ ~ ~ #drakoncore:waterloggable[waterlogged=true] run function dc_midas:goldify/lower_half
-execute unless entity @s[tag=dc_isRaining] unless block ~ ~1 ~ #drakoncore:water_type unless block ~ ~1 ~ #drakoncore:waterloggable[waterlogged=true] run function dc_midas:goldify/upper_half_and_held
+execute unless entity @s[tag=dc_isRaining] unless predicate drakoncore:in_water_or_cauldron run function dc_midas:goldify/lower_half
+execute unless entity @s[tag=dc_isRaining] positioned ~ ~1 ~ unless predicate drakoncore:in_water_or_cauldron positioned ~ ~-1 ~ run function dc_midas:goldify/upper_half_and_held
 
 # Give effects
 scoreboard players set @s dc_value 0

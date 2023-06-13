@@ -11,9 +11,7 @@ execute unless entity @a[tag=dc_batflyPlayer,limit=1] run tag @s add dc_deadBatf
 
 # Rotate to match player
 execute at @s rotated as @a[tag=dc_batflyPlayer,limit=1] run tp @s ~ ~ ~ ~ ~
-
-execute if block ~ ~ ~ #drakoncore:water_type run tag @s add dc_inWater
-execute if block ~ ~ ~ #drakoncore:waterloggable[waterlogged=true] run tag @s add dc_inWater
+execute if predicate drakoncore:in_water run tag @s add dc_inWater
 
 # Flight logic
 execute at @s[tag=!dc_inWater] rotated as @a[tag=dc_batflyPlayer,limit=1] run tp ^ ^ ^0.4

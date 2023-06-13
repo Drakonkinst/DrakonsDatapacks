@@ -1,7 +1,7 @@
 # Select targets every 5 seconds if applicable
 
 # Polar bears can breathe for 3+ minutes underwater
-execute unless block ~ ~ ~ water run data modify entity @s Air set value 3600
+execute unless predicate drakoncore:in_water run data modify entity @s Air set value 3600
 
 # Mark current target
 scoreboard players reset #HasTarget dc_value
