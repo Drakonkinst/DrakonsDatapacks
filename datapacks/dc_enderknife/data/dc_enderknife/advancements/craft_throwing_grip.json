@@ -3,11 +3,11 @@
         "requirement": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "dc_throwable_axes:throwing_grip"
+                "recipe_id": "dc_enderknife:throwing_grip"
             }
         }
     },
     "rewards": {
-        "function": "dc_throwable_axes:craft/check_throwing_grip"
+        "function": "dc_enderknife:craft/check_throwing_grip"
     }
 }
