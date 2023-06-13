@@ -3,11 +3,11 @@
         "requirement": {
             "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "recipe_id": "dc_throwable_axes:void_eye"
+                "recipe_id": "dc_enderknife:void_eye"
             }
         }
     },
     "rewards": {
-        "function": "dc_throwable_axes:craft/check_void_eye"
+        "function": "dc_enderknife:craft/check_void_eye"
     }
 }
