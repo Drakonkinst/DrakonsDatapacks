@@ -1,1 +1,0 @@
-# When a mob is spawned (not entity or player)
