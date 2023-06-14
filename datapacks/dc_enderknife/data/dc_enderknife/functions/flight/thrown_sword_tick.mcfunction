@@ -21,7 +21,6 @@ execute if block ~ ~ ~ #dc_enderknife:cuttable run setblock ~ ~ ~ air destroy
 execute if block ~ ~ ~ #dc_enderknife:water_cuttable run setblock ~ ~ ~ water destroy
 execute if block ~ ~ ~ #dc_enderknife:mineable run function dc_enderknife:flight/cut_sword_mineable
 
-# Sword can only collide with blocks when not recalling
 execute if block ~ ~ ~ #dc_enderknife:single_cuttable run function dc_enderknife:flight/cut_single_block
 execute unless block ~ ~ ~ #dc_enderknife:passable run function dc_enderknife:drop/check_damage
 
