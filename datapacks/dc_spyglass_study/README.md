@@ -5,7 +5,7 @@
   <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/32/Steve_scoping_Spyglass_JE2.png/revision/latest?cb=20201125214427" width=100>
 </p>
 
-**Mob Studying** allows you to **study** mobs looking at a mob with a **Spyglass** while **sneaking**! Studying the mob for an extended period reveals **information** about them, which varies depending on the mob!
+**Mob Studying** allows you to **study** mobs looking at a mob with a **Spyglass** while **sneaking**! Studying the mob for an extended period reveals **information** about them, which varies depending on the mob! The mob you are looking at also glows, which can be used to point out the mob to other players.
 
 <p align="center">
   <img src="https://github.com/Drakonkinst/DrakonsDatapacks/assets/11655960/e4c9af88-c992-4ef7-bc4c-5bff390aa609">
