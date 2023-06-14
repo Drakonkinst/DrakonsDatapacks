@@ -1,0 +1,2 @@
+execute store result score #ItemsCollected dc_value run data get entity @s Inventory[0].Count
+tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Items Collected","color":"gray"},{"text":": ","color":"dark_gray"},{"score":{"name":"#ItemsCollected","objective":"dc_value"}}]

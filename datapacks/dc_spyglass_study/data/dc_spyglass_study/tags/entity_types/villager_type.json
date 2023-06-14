@@ -1,0 +1,7 @@
+{
+    "description": "Mobs that have villager data like profession, variant, etc.",
+    "values": [
+        "minecraft:villager",
+        "minecraft:zombie_villager"
+    ]
+}

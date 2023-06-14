@@ -1,0 +1,7 @@
+execute if data entity @s {MainGene:"normal"} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Normal","color":"white"}]
+execute if data entity @s {MainGene:"lazy"} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Lazy","color":"white"}]
+execute if data entity @s {MainGene:"worried"} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Worried","color":"white"}]
+execute if data entity @s {MainGene:"playful"} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Playful","color":"white"}]
+execute if data entity @s {MainGene:"brown"} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Brown","color":"white"}]
+execute if data entity @s {MainGene:"weak"} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Weak","color":"white"}]
+execute if data entity @s {MainGene:"aggressive"} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Aggressive","color":"white"}]

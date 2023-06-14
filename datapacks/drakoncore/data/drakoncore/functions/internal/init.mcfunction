@@ -25,7 +25,9 @@ scoreboard objectives add config trigger "DrakonCore Config"
 scoreboard players set #2 dc_value 2
 scoreboard players set #256 dc_value 256
 scoreboard players set #1000 dc_value 1000
+scoreboard players set #65536 dc_value 65536
 scoreboard players set #314159 dc_value 314159
+scoreboard players set #16777216 dc_value 16777216
 scoreboard players set #2718281 dc_value 2718281
 execute unless score #RNGSeed dc_value matches 0.. run scoreboard players set #RNGSeed dc_value 0
 

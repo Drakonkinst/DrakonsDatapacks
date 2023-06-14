@@ -1,0 +1,9 @@
+execute store result score #Variant dc_value run data get entity @s RabbitType
+execute if entity @s[name=Toast] run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Toast"}]
+execute unless entity @s[name=Toast] if score #Variant dc_value matches 0 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Brown"}]
+execute unless entity @s[name=Toast] if score #Variant dc_value matches 1 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"White"}]
+execute unless entity @s[name=Toast] if score #Variant dc_value matches 2 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Black"}]
+execute unless entity @s[name=Toast] if score #Variant dc_value matches 3 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Black and White"}]
+execute unless entity @s[name=Toast] if score #Variant dc_value matches 4 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Gold"}]
+execute unless entity @s[name=Toast] if score #Variant dc_value matches 5 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Salt and Pepper"}]
+execute unless entity @s[name=Toast] if score #Variant dc_value matches 99 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"???","color":"dark_red"}]

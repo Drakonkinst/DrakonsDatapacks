@@ -1,0 +1,2 @@
+execute if data entity @s {PlayerCreated:1b} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Village Spawned","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"No"}]
+execute unless data entity @s {IsScreamingGoat:1b} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Village Spawned","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Yes"}]

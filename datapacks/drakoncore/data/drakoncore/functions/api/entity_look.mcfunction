@@ -1,3 +1,7 @@
+# Note: This will cause tag leakage for dc_entityLook.result and dc_entityLook.in_filter
+# This is not a major issue, as these tags should not be used anywhere else
+# and help this code to be more optimal
+
 #declare score_holder #MaxScore The highest entity score
 scoreboard players set #MaxScore dc_value 0
 #declare tag dc_entityLook.candidate
