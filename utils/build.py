@@ -41,6 +41,7 @@ SERVER_DATAPACKS = {
     "dc_repairable_tridents",
     "dc_rocket_travel",
     "dc_shiny_toe",
+    "dc_spyglass_study",
     "dc_throwable_axes",
     "dc_throwable_potato",
     "dc_throwable_torch",

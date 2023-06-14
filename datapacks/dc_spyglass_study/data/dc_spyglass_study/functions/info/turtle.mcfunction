@@ -1,0 +1,1 @@
+execute if data entity @s {HasEgg:1b} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Has Eggs","color":"gray","italic":true}]

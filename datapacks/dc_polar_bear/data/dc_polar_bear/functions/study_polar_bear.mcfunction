@@ -1,0 +1,12 @@
+execute if entity @s[tag=dc_aggroPrey] run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Status","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Hunting"}]
+execute if entity @s[tag=dc_aggroThreat,tag=!dc_aggroPrey] run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Status","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Attacking"}]
+execute if entity @s[tag=!dc_aggroPrey,tag=!dc_aggroThreat] if score @s dc_polarBearEat matches 1.. run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Status","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Eating"}]
+execute if entity @s[tag=!dc_aggroPrey,tag=!dc_aggroThreat] unless score @s dc_polarBearEat matches 1.. run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Status","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Idle"}]
+
+execute if score @s dc_polarBearFood matches ..7 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Stored Food","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⬤⬤⬤⬤⬤⬤","color":"dark_gray"}]
+execute if score @s dc_polarBearFood matches 8..15 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Stored Food","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⬤","color":"white"},{"text":"⬤⬤⬤⬤⬤","color":"dark_gray"}]
+execute if score @s dc_polarBearFood matches 16..23 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Stored Food","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⬤⬤","color":"white"},{"text":"⬤⬤⬤⬤","color":"dark_gray"}]
+execute if score @s dc_polarBearFood matches 24..31 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Stored Food","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⬤⬤⬤","color":"white"},{"text":"⬤⬤⬤","color":"dark_gray"}]
+execute if score @s dc_polarBearFood matches 32..39 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Stored Food","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⬤⬤⬤⬤","color":"white"},{"text":"⬤⬤","color":"dark_gray"}]
+execute if score @s dc_polarBearFood matches 40..47 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Stored Food","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⬤⬤⬤⬤⬤","color":"white"},{"text":"⬤","color":"dark_gray"}]
+execute if score @s dc_polarBearFood matches 48.. run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Stored Food","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⬤⬤⬤⬤⬤⬤","color":"white"}]

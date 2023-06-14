@@ -1,0 +1,16 @@
+{
+    "description": "Mobs sufficiently small or fast-flying that they can be studied quickly.",
+    "values": [
+        "minecraft:cod",
+        "minecraft:salmon",
+        "minecraft:tropical_fish",
+        "minecraft:pufferfish",
+        "minecraft:parrot",
+        "minecraft:bat",
+        "minecraft:axolotl",
+        "minecraft:vex",
+        "minecraft:allay",
+        "minecraft:bee",
+        "minecraft:tadpole"
+    ]
+}

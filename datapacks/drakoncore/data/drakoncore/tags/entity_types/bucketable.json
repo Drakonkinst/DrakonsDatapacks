@@ -1,0 +1,8 @@
+{
+    "description": "Aquatic mobs that can be placed in a bucket",
+    "values": [
+        "#drakoncore:fish",
+        "minecraft:axolotl",
+        "minecraft:tadpole"
+    ]
+}

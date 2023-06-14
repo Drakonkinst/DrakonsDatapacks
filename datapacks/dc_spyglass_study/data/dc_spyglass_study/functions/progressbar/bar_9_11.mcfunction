@@ -1,0 +1,3 @@
+execute if score @s dc_studyTime matches 9 run title @a[tag=dc_spyglassAnchor,limit=1] actionbar ["","Studying ",{"selector":"@s"},{"text":" [","color":"dark_gray"},{"text":"|||||||||","color":"yellow"},{"text":"]","color":"dark_gray"}]
+#execute if score @s dc_studyTime matches 10 run title @a[tag=dc_spyglassAnchor,limit=1] actionbar ["","Studying ",{"selector":"@s"},{"text":" [","color":"dark_gray"},{"text":"||||||||||","color":"yellow"},{"text":"|","color":"gray"},{"text":"]","color":"dark_gray"}]
+#execute if score @s dc_studyTime matches 11 run title @a[tag=dc_spyglassAnchor,limit=1] actionbar ["","Studying ",{"selector":"@s"},{"text":" [","color":"dark_gray"},{"text":"|||||||||||","color":"yellow"},{"text":"]","color":"dark_gray"}]

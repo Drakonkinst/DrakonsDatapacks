@@ -1,0 +1,2 @@
+execute if data entity @s {Type:"red"} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Red","color":"#a51012"}]
+execute if data entity @s {Type:"brown"} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Variant","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Brown","color":"#947050"}]

@@ -1,0 +1,2 @@
+execute if data entity @s {Trusting:1b} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Trusting","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"Yes"}]
+execute unless data entity @s {Trusting:1b} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Trusting","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"No"}]
