@@ -41,6 +41,7 @@ SERVER_DATAPACKS = {
     "dc_repairable_tridents",
     "dc_rocket_travel",
     "dc_shiny_toe",
+    "dc_spyglass_study",
     "dc_throwable_axes",
     "dc_throwable_potato",
     "dc_throwable_torch",
@@ -95,7 +96,6 @@ BUILD_TARGETS = {
         # Add new datapacks to this list
         "includeOnly": [
             *SERVER_DATAPACKS,
-            "dc_spyglass_study"
             # "dc_new_datapack"
         ]
     },
