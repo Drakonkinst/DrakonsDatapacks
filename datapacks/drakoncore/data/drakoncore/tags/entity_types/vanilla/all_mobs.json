@@ -1,5 +1,5 @@
 {
-    "description": "All mobs as listed on Minecraft Wiki",
+    "description": "All mobs as listed on Minecraft Wiki. Does NOT include player.",
     "values": [
         "#drakoncore:vanilla/passive_mobs",
         "#drakoncore:vanilla/neutral_mobs",
