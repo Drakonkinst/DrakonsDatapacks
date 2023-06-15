@@ -3,8 +3,7 @@ execute if data storage dc_enderknife:sword_data {DropType:"collision"} run data
 data modify entity @s Item set from storage dc_enderknife:item_data DroppedItemData
 data modify entity @s Thrower set from storage dc_enderknife:item_data DroppedItemData.tag.Thrower
 
-# If recalling, attempt to drop directly into mainhand
-# unecessary due to lack of recall function
-# execute if data storage dc_throwable_axes:axe_data {DropType:"recall"} run function dc_throwable_axes:drop/drop_in_mainhand
+# If blinking, attempt to drop directly into mainhand
+execute if data storage dc_enderknife:sword_data {DropType:"blinking"} run function dc_enderknife:drop/drop_in_mainhand
 
 tag @s remove dc_new
