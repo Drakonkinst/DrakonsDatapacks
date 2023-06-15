@@ -17,6 +17,8 @@ execute if entity @s[type=player,gamemode=!spectator,tag=dc_enderman] if predica
 
 # Deal damage
 execute unless entity @s[type=enderman] unless entity @s[type=player,tag=dc_enderman] unless entity @s[type=player,gamemode=spectator] run function dc_enderknife:damage/deal_damage
+# detecting mob hit
+scoreboard players set #HitMob dc_value 1
 # If hit a target, drop the sword
 execute unless entity @s[type=enderman] unless entity @s[type=player,tag=dc_enderman] unless entity @s[type=player,gamemode=spectator] as @e[type=item_display,limit=1,tag=dc_swordInFlight] run function dc_enderknife:drop/check_damage
 

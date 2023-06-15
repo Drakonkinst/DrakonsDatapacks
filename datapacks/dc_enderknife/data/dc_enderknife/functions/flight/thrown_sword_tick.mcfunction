@@ -22,6 +22,8 @@ execute if block ~ ~ ~ #dc_enderknife:water_cuttable run setblock ~ ~ ~ water de
 execute if block ~ ~ ~ #dc_enderknife:mineable run function dc_enderknife:flight/cut_sword_mineable
 
 execute if block ~ ~ ~ #dc_enderknife:single_cuttable run function dc_enderknife:flight/cut_single_block
+
+scoreboard players set #HitMob dc_value 0
 execute unless block ~ ~ ~ #dc_enderknife:passable run function dc_enderknife:drop/check_damage
 
 # On hit entity events - never hit the sword thrower

@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=dc_swordInFlight] run function dc_enderknife:blinking/blink
