@@ -38,6 +38,7 @@ SERVER_DATAPACKS = {
     "dc_player_revive",
     "dc_polar_bear",
     "dc_repairable_tridents",
+    "dc_revenant",
     "dc_rocket_travel",
     "dc_shiny_toe",
     "dc_spyglass_study",

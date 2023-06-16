@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "#dc_revenant:projectile_can_embed",
+      "nbt": "{inGround:1b}"
+    }
+  }
+}

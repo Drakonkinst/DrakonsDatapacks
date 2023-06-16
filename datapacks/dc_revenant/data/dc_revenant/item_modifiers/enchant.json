@@ -1,0 +1,13 @@
+[
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{Trim:{material:\"minecraft:quartz\",pattern:\"minecraft:tide\"}}"
+    },
+    {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+            "minecraft:projectile_protection": 10
+        },
+        "add": true
+    }
+]

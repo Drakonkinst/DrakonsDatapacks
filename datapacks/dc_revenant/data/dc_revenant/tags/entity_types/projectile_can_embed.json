@@ -1,0 +1,7 @@
+{
+    "description": "Projectiles that can embed into blocks and need to be checked",
+    "values": [
+        "#minecraft:arrows",
+        "minecraft:trident"
+    ]
+}

@@ -1,0 +1,5 @@
+data merge entity @s {DeathLootTable:"dc_revenant:revenant",CanPickUpLoot:0b,Health:60f,Tags:["dc_revenant","dc_mob_transformed"],CustomName:'{"text":"Revenant","color":"aqua"}',HandDropChances:[-327.670F,0.085F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b,tag:{Trim:{material:"minecraft:iron",pattern:"minecraft:tide"}}},{},{id:"minecraft:chainmail_chestplate",Count:1b,tag:{Trim:{material:"minecraft:iron",pattern:"minecraft:tide"}}},{id:"minecraft:iron_helmet",Count:1b}],ArmorDropChances:[-327.670F,-327.670F,-327.670F,-327.670F],Attributes:[{Name:generic.max_health,Base:60},{Name:generic.movement_speed,Base:0.4},{Name:generic.attack_damage,Base:0}]}
+
+item replace entity @s armor.head with player_head{SkullOwner:{Id:[I;1898654647,-370520581,-1994569282,-710270136],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE0YzI5OTA4YTYyNWUxNWZhZDE4NThlODVlMTRhNDBhY2Y5Zjc5Yjc1NjNkZWVjNDQxMmM0ZmFmMWFhNTZlMyJ9fX0="}]}}}
+item replace entity @s weapon.mainhand with bow{Enchantments:[{id:"minecraft:power",lvl:1s}]} 1
+effect give @s invisibility infinite 0 true
