@@ -37,7 +37,6 @@ SERVER_DATAPACKS = {
     "dc_pet_transfer",
     "dc_player_revive",
     "dc_polar_bear",
-    "dc_reforest",
     "dc_repairable_tridents",
     "dc_rocket_travel",
     "dc_shiny_toe",
