@@ -8,9 +8,7 @@ While holding the Umbrella (appearing as an Enchanted Stick) in your mainhand or
 
 ## Crafting
 
-Umbrellas can be crafted with a Carpet of any color, a Diamond, and a Stick.
-
-> **Warning**: The color of the carpet used to craft the umbrella **does not have an effect on its color**, and the umbrella must be re-colored afterwards.
+Umbrellas can be crafted with a Carpet of any color, a Diamond, and a Stick. The color of the Carpet used is automatically applied to the Umbrella.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/11655960/230742366-598d3d00-02c5-4b92-b676-c730639105df.png">

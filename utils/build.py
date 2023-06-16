@@ -53,7 +53,6 @@ SERVER_DATAPACKS = {
     
     # Custom Items
     "dc_hidden_blade",
-    "dc_item_magnet",
     "dc_long_fall",
     "dc_nightblood",
     
