@@ -3,12 +3,353 @@
     "pools": [
         {
             "rolls": 1,
+            "bonus_rolls": 0,
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:stone"
+                    "name": "minecraft:bone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 3
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 2,
+                                "max": 5
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:slowness"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{SkullOwner:{Id:[I;1898654647,-370520581,-1994569282,-710270136],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE0YzI5OTA4YTYyNWUxNWZhZDE4NThlODVlMTRhNDBhY2Y5Zjc5Yjc1NjNkZWVjNDQxMmM0ZmFmMWFhNTZlMyJ9fX0=\"}]}}}"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:projectile_protection": 10
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.armor",
+                                    "name": "armor",
+                                    "amount": 2,
+                                    "operation": "addition",
+                                    "id": "f61cc5c8-68cc-44ad-9494-c83209433b99",
+                                    "slot": "head"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Revenant Skull",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance_with_looting",
+                            "chance": 0.025,
+                            "looting_multiplier": 0.01
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.99
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:tide\"}}"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:projectile_protection": 10
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Revenant's Mail",
+                                "color": "green",
+                                "italic": false
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance_with_looting",
+                            "chance": 0.085,
+                            "looting_multiplier": 0.01
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.99
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Revenant's Sabaton",
+                                "color": "green",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:projectile_protection": 10
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:tide\"}}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance_with_looting",
+                            "chance": 0.085,
+                            "looting_multiplier": 0.01
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.99
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Revenant's Bow",
+                                "color": "green",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:power": 1
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance_with_looting",
+                            "chance": 0.085,
+                            "looting_multiplier": 0.01
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{BlockEntityTag:{id:\"minecraft:banner\",Patterns:[{Pattern:\"sku\",Color:7}],Base:0}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Revenant's Shield",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.99
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:unbreaking": 3
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance_with_looting",
+                            "chance": 0.025,
+                            "looting_multiplier": 0.01
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Revenant's Blade",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.01,
+                                "max": 0.99
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:sharpness": {
+                                    "min": 0,
+                                    "max": 2
+                                }
+                            },
+                            "add": true
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:knockback": {
+                                    "min": 0,
+                                    "max": 3
+                                }
+                            },
+                            "add": true
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:unbreaking": {
+                                    "min": 1,
+                                    "max": 3
+                                }
+                            },
+                            "add": true
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.085,
+                    "looting_multiplier": 0.01
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "dc_revenant:revenant"
 }
