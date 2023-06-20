@@ -1,14 +1,14 @@
-## Improved Recipes
+# Improved Recipes
 
 **Improved Recipes** adds more efficient crafting recipes for certain existing items.
 
-### More Efficient
+## More Efficient
 * Lanterns and Soul Lanterns craft 4 instead of 1
 * Stairs craft 6 instead of 4, making them just as efficient as Stonecutters
 * Wood Variants craft 4 instead of 3
 * Chains craft 4 instead of 1
 
-### New Recipes
+## New Recipes
 * Added cheaper alternate recipes for crafting a single Lantern or Soul Lantern
 
 <p align="center">
