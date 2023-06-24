@@ -50,4 +50,3 @@ Rotten flesh can be **dried** in a Furnace or Campfire to recycle it into **Rabb
 ## Charcoal Dye
 
 **Charcoal** can be crafted into **Black Dye**.
-

@@ -17,4 +17,3 @@ Long Fall Boots can be crafted with the following recipe. In-game, Long Fall Boo
 ## Known Bugs
 
 * While falling, taking damage (especially under damage-over-time effects like Poison or Wither) may send you flying into the air. However, rest assured that the Long Fall Boots will protect you either way, even if your trip down is longer than anticipated.
-
