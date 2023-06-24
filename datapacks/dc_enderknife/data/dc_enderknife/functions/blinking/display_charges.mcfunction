@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text":"Ender Charges: ","color":"dark_purple"},{"score":{"name":"@s","objective":"dc_enderCharges"},"color":"dark_green","bold":true}]

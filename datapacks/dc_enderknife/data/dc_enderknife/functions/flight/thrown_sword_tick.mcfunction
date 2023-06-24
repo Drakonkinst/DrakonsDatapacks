@@ -32,7 +32,7 @@ execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=!#dc_enderknife:non_damageable,t
 # Particles and effects
 execute if entity @s[tag=dc_swordFireAspect] run particle minecraft:flame ~ ~0.5 ~ 0 0 0 0 1 force
 execute if entity @s[tag=dc_swordSharpness] run particle minecraft:enchanted_hit ~ ~0.5 ~ 0 0 0 0 1 force
-playsound minecraft:entity.phantom.flap player @a ~ ~ ~ 1 2
+# playsound minecraft:entity.phantom.flap player @a ~ ~ ~ 1 2
 
 # Drop if out of world y level
 execute store result score @s dc_yPos run data get entity @s Pos[1]
