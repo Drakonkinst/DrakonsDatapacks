@@ -1,2 +1,2 @@
-execute unless predicate dc_enderknife:enchant/model_has_throwing run function dc_enderknife:enchant/check_nearby_throwing_grip
+execute unless predicate dc_enderknife:enchant/model_has_throwing run function dc_enderknife:enchant/check_nearby_throwing_hilt
 execute unless predicate dc_enderknife:enchant/model_has_blinking run function dc_enderknife:enchant/check_nearby_void_eye

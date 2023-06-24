@@ -1,5 +1,5 @@
 # Remove 1 item from stack
-execute as @e[type=item,tag=dc_throwingGrip,limit=1] run function drakoncore:api/remove_1_from_item_entity
+execute as @e[type=item,tag=dc_throwingHilt,limit=1] run function drakoncore:api/remove_1_from_item_entity
 
 # Add enchantment
 execute if entity @s[type=item_display] run function dc_enderknife:enchant/enchant_throwing_embed

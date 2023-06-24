@@ -22,15 +22,15 @@ This teleport effect can only be used once your sword has been charged. You can 
 
 ## Obtaining Enchantments
 
-To obtain the Throwing and Blinking enchantments, you must first craft a **Throwing Grip** or a **Void Eye** (respectively) in a crafting bench. This uses **custom crafting**, so the output will appear as a green Knowledge Book—this should transform into the correct item upon entering your inventory.
+To obtain the Throwing and Blinking enchantments, you must first craft a **Throwing Hilt** or a **Void Eye** (respectively) in a crafting bench. This uses **custom crafting**, so the output will appear as a green Knowledge Book—this should transform into the correct item upon entering your inventory.
 
 Then, the items may be applied using custom **anvil forging**: drop the Sword and the enchantment item **on top of an anvil** (not in the anvil GUI) to combine them together. This also requires **10 experience levels** to enchant the item.
 
 > **Warning**: These enchantments are **not part of the Vanilla enchantment system**, and are created by modifying the item's NBT (similar to an item's name and lore). Therefore, it **may be lost** if crafted with another item or used as the secondary item in an Anvil.
 
-### Throwing Grip
+### Throwing Hilt
 
-The **Throwing Grip**, which grants the Throwing enchantment, is designed to be accessible from a relatively early stage.
+The **Throwing Hilt**, which grants the Throwing enchantment, is designed to be accessible from a relatively early stage.
 
 > **Recipe**: 2x Leather, 1x Nether Quartz, 1x Feather, and 1x Stick. 
 

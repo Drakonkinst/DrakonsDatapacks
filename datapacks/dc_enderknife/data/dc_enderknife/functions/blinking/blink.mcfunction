@@ -5,6 +5,6 @@ execute as @a[tag=dc_currentSwordThrower,limit=1] run function drakoncore:api/un
 
 execute at @a[tag=dc_currentSwordThrower,limit=1] run function dc_enderknife:blinking/blink_effects
 
-execute if entity @a[tag=dc_currentSwordThrower,limit=1] as @s run function dc_enderknife:drop/drop_blinking
+execute unless score #IsBroken dc_value matches 1 as @s run function dc_enderknife:drop/drop_blinking
 
 execute as @a[tag=dc_currentSwordThrower,limit=1] run function dc_enderknife:blinking/blink_sideeffects

@@ -1,2 +1,3 @@
 execute unless score #IsBroken dc_value matches 1 unless score @a[tag=dc_currentSwordThrower,limit=1] dc_enderCharges matches 1.. run function dc_enderknife:drop/drop_survive
+execute unless score #IsBroken dc_value matches 1 unless score @a[tag=dc_currentSwordThrower,limit=1] dc_enderCharges matches 1.. run tellraw @p {"text":"Your blade's Ender Charges are depleted. Refill it by slaying Endermen or holding Ender Pearls in your offhand while holding the blade.","italic":true,"color":"dark_aqua"}
 execute as @e[type=item_display,tag=dc_swordInFlight] if score @a[tag=dc_currentSwordThrower,limit=1] dc_enderCharges matches 1.. run function dc_enderknife:blinking/blink
