@@ -3,7 +3,7 @@
 # their sword with Q, not by dropping it from the inventory.
 execute if entity @s[tag=dc_holdingThrowableSword] unless data entity @s SelectedItem run function dc_enderknife:throw/check_just_thrown
 
-# Update throwable axe holding with a 1-tick delay
+# Update throwable sword holding with a 1-tick delay
 tag @s remove dc_holdingThrowableSword
 execute if predicate dc_enderknife:holding_throwable_sword run tag @s add dc_holdingThrowableSword
 

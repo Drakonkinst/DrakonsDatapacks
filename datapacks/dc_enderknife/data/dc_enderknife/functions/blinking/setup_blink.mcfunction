@@ -1,1 +1,2 @@
-execute as @e[type=item_display,tag=dc_swordInFlight] run function dc_enderknife:blinking/blink
+execute unless score #IsBroken dc_value matches 1 unless score @a[tag=dc_currentSwordThrower,limit=1] dc_enderCharges matches 1.. run function dc_enderknife:drop/drop_survive
+execute as @e[type=item_display,tag=dc_swordInFlight] if score @a[tag=dc_currentSwordThrower,limit=1] dc_enderCharges matches 1.. run function dc_enderknife:blinking/blink

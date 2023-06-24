@@ -1,0 +1,1 @@
+give @s netherite_sword{display:{Name:'{"text":"Ender Knife","color":"gold","italic":false}',Lore:['{"text":"Throwing","color":"gold","italic":false}','{"text":"Blinking","color":"gold","italic":false}']},Unbreakable:1b,Throwable:1b,Blinking:1b,Enchantments:[{}]} 1

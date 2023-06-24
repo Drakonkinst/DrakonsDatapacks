@@ -1,7 +1,7 @@
 # Remove 1 item from stack
 execute as @e[type=item,tag=dc_voidEye,limit=1] run function drakoncore:api/remove_1_from_item_entity
 
-# Add enchantment
+# Add enchantment and initialize scoreboards for charging
 execute if entity @s[type=item_display] run function dc_enderknife:enchant/enchant_blinking_embed
 execute if entity @s[type=item] run function dc_enderknife:enchant/enchant_blinking_item
 

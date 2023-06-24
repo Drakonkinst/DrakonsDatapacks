@@ -12,5 +12,8 @@ data modify entity @s Rotation set from entity @a[tag=dc_swordThrower,limit=1] R
 execute if data storage dc_enderknife:item_data ThrownItemData.tag.Enchantments[{id:"minecraft:fire_aspect"}] run tag @s add dc_swordFireAspect
 execute if data storage dc_enderknife:item_data ThrownItemData.tag.Enchantments[{id:"minecraft:sharpness"}] run tag @s add dc_swordSharpness
 
+# Edit lighting for visibility and continuity purposes
+data modify entity @s brightness set value {block:15,sky:15}
+
 # Add tag to begin movement
 tag @s add dc_thrownSword
