@@ -42,8 +42,11 @@ The **Throwing Grip**, which grants the Throwing enchantment, is designed to be 
 
 The **Void Eye**, which grants the Blinking enchantment, is designed to be a late-game upgrade that turns your Sword into the ultimate weapon. It requires five dark and mysterious materials.
 
-> **Recipe**: 2x Obsidian, 1x Ender Chest, 1x Crying Obsidian, and 1x End Crystal. 
+> **Recipe**: 2x Obsidian, 1x Ender Chest, 1x Crying Obsidian, and 1x End Crystal.
 
+<p align="center">
+  <img src="https://github.com/Drakonkinst/DrakonsDatapacks/assets/56020099/17136895-25ef-4bd9-9dba-f98de779d42b">
+</p>
 
 ## Tool Embed
 
