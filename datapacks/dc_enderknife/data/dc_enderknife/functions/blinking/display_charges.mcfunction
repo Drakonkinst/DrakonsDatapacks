@@ -1,0 +1,2 @@
+execute if score @s dc_enderCharges matches 1.. run title @s actionbar ["",{"text":"Ender Charges: ","color":"dark_purple"},{"score":{"name":"@s","objective":"dc_enderCharges"},"color":"dark_green","bold":true}]
+execute unless score @s dc_enderCharges matches 1.. run title @s actionbar ["",{"text":"Ender Charges: ","color":"dark_purple"},{"text":"Empty","color":"red"}]

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "dc_enderknife:void_eye"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_enderknife:craft/check_void_eye"
+    }
+}

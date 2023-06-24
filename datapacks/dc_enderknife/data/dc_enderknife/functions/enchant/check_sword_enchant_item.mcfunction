@@ -1,0 +1,2 @@
+execute unless predicate dc_enderknife:enchant/item_has_throwing run function dc_enderknife:enchant/check_nearby_throwing_hilt
+execute unless predicate dc_enderknife:enchant/item_has_blinking run function dc_enderknife:enchant/check_nearby_void_eye

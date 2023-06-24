@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Throwing",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    "replace": false
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Throwable:1b}"
+  }
+]

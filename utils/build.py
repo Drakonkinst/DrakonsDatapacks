@@ -28,6 +28,7 @@ SERVER_DATAPACKS = {
     "dc_armor_stand",
     "dc_arrow_salvage",
     "dc_boats",
+    "dc_enderknife",
     "dc_improved_recipes",
     "dc_improved_squids",
     "dc_more_recipes",
