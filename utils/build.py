@@ -28,6 +28,7 @@ SERVER_DATAPACKS = {
     "dc_armor_stand",
     "dc_arrow_salvage",
     "dc_boats",
+    "dc_enderknife",
     "dc_improved_recipes",
     "dc_improved_squids",
     "dc_more_recipes",
@@ -97,7 +98,6 @@ BUILD_TARGETS = {
         "includeOnly": [
             *SERVER_DATAPACKS,
             # "dc_new_datapack"
-            "dc_enderknife"
         ]
     },
     # Build only datapacks in the given list
