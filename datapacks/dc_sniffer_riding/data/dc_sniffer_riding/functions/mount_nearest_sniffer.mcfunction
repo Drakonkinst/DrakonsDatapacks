@@ -1,0 +1,1 @@
+ride @s mount @e[type=sniffer,tag=dc_snifferMount,tag=!dc_snifferMountFull,distance=..3,limit=1,sort=nearest]

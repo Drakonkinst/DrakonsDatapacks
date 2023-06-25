@@ -97,6 +97,7 @@ BUILD_TARGETS = {
         # Add new datapacks to this list
         "includeOnly": [
             *SERVER_DATAPACKS,
+            "dc_sniffer_riding"
             # "dc_new_datapack"
         ]
     },

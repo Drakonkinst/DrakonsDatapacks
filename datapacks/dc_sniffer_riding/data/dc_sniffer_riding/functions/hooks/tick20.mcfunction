@@ -1,0 +1,2 @@
+# Runs once every second globally
+execute as @e[type=sniffer,tag=!dc_snifferMount] at @s if entity @e[type=item,predicate=dc_sniffer_riding:is_dropped_saddle,distance=..2,limit=1] run function dc_sniffer_riding:equip_saddle
