@@ -22,6 +22,9 @@ execute if block ~ ~ ~ #dc_throwable_axes:cuttable run setblock ~ ~ ~ air destro
 execute if block ~ ~ ~ #dc_throwable_axes:water_cuttable run setblock ~ ~ ~ water destroy
 execute if block ~ ~ ~ #dc_throwable_axes:mineable run function dc_throwable_axes:flight/cut_axe_mineable
 
+# Permanently mark as soggy if it came into contact with water
+execute if entity @s[tag=!dc_thrownSoggy] if predicate drakoncore:in_water run tag @s add dc_thrownSoggy
+
 # Axe can only collide with blocks when not recalling
 execute unless entity @s[tag=dc_recallAxe] if block ~ ~ ~ #dc_throwable_axes:single_cuttable run function dc_throwable_axes:flight/cut_single_block
 execute unless entity @s[tag=dc_recallAxe] unless block ~ ~ ~ #dc_throwable_axes:passable run function dc_throwable_axes:drop/check_damage

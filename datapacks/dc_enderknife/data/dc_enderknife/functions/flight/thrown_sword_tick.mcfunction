@@ -23,6 +23,9 @@ execute if block ~ ~ ~ #dc_enderknife:mineable run function dc_enderknife:flight
 
 execute if block ~ ~ ~ #dc_enderknife:single_cuttable run function dc_enderknife:flight/cut_single_block
 
+# Permanently mark as soggy if it came into contact with water
+execute if entity @s[tag=!dc_thrownSoggy] if predicate drakoncore:in_water run tag @s add dc_thrownSoggy
+
 scoreboard players set #HitMob dc_value 0
 execute unless block ~ ~ ~ #dc_enderknife:passable run function dc_enderknife:drop/check_damage
 
@@ -32,7 +35,6 @@ execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=!#dc_enderknife:non_damageable,t
 # Particles and effects
 execute if entity @s[tag=dc_swordFireAspect] run particle minecraft:flame ~ ~0.5 ~ 0 0 0 0 1 force
 execute if entity @s[tag=dc_swordSharpness] run particle minecraft:enchanted_hit ~ ~0.5 ~ 0 0 0 0 1 force
-# playsound minecraft:entity.phantom.flap player @a ~ ~ ~ 1 2
 
 # Drop if out of world y level
 execute store result score @s dc_yPos run data get entity @s Pos[1]

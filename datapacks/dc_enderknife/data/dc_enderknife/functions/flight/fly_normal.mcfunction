@@ -4,3 +4,4 @@
 # when thrown straight up, which feels weird but is kept as a feature.
 execute run tp @s ^ ^ ^.5
 execute at @s run tp @s ~ ~ ~ ~ ~.75
+execute if entity @s[tag=dc_thrownSoggy] at @s run tp @s ~ ~ ~ ~ ~1.25
