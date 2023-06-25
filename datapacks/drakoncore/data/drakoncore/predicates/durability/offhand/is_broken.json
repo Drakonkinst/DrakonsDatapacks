@@ -5,7 +5,7 @@
         "equipment": {
             "offhand": {
                 "durability": {
-                    "max": -1
+                    "max": 0
                 }
             }
         }
