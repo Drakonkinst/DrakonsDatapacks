@@ -43,6 +43,7 @@ SERVER_DATAPACKS = {
     "dc_rocket_travel",
     "dc_roomba",
     "dc_shiny_toe",
+    "dc_sniffer_riding",
     "dc_spyglass_study",
     "dc_throwable_axes",
     "dc_throwable_potato",
@@ -97,7 +98,6 @@ BUILD_TARGETS = {
         # Add new datapacks to this list
         "includeOnly": [
             *SERVER_DATAPACKS,
-            "dc_sniffer_riding"
             # "dc_new_datapack"
         ]
     },
