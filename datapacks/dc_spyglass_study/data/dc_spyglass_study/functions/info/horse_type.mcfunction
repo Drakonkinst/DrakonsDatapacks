@@ -10,7 +10,7 @@ execute if score #Speed dc_value matches ..1582 run tellraw @a[tag=dc_spyglassAn
 execute if score #Speed dc_value matches 1583..1940 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Speed","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐","color":"#fcd53f"},{"text":"⭐⭐⭐⭐","color":"dark_gray"}]
 execute if score #Speed dc_value matches 1941..2298 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Speed","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐⭐","color":"#fcd53f"},{"text":"⭐⭐⭐","color":"dark_gray"}]
 execute if score #Speed dc_value matches 2299..2656 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Speed","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐⭐⭐","color":"#fcd53f"},{"text":"⭐⭐","color":"dark_gray"}]
-execute if score #Speed dc_value matches 2657..3014 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Speed","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐⭐⭐⭐","color":"#fcd53f"},{"text":"⭐⭐","color":"dark_gray"}]
+execute if score #Speed dc_value matches 2657..3014 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Speed","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐⭐⭐⭐","color":"#fcd53f"},{"text":"⭐","color":"dark_gray"}]
 execute if score #Speed dc_value matches 3015.. run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Speed","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐⭐⭐⭐⭐","color":"#fcd53f"}]
 
 # Horse jump strength ranges from 0.4 - 1.0, average of 0.7 (3 blocks).
@@ -22,5 +22,5 @@ execute if score #JumpStrength dc_value matches ..4236 run tellraw @a[tag=dc_spy
 execute if score #JumpStrength dc_value matches 4237..5592 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Jump Strength","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐","color":"#fcd53f"},{"text":"⭐⭐⭐⭐","color":"dark_gray"}]
 execute if score #JumpStrength dc_value matches 5593..6948 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Jump Strength","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐⭐","color":"#fcd53f"},{"text":"⭐⭐⭐","color":"dark_gray"}]
 execute if score #JumpStrength dc_value matches 6949..8304 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Jump Strength","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐⭐⭐","color":"#fcd53f"},{"text":"⭐⭐","color":"dark_gray"}]
-execute if score #JumpStrength dc_value matches 8305..9660 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Jump Strength","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐⭐⭐⭐","color":"#fcd53f"},{"text":"⭐⭐","color":"dark_gray"}]
+execute if score #JumpStrength dc_value matches 8305..9660 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Jump Strength","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐⭐⭐⭐","color":"#fcd53f"},{"text":"⭐","color":"dark_gray"}]
 execute if score #JumpStrength dc_value matches 9661.. run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Jump Strength","color":"gray"},{"text":": ","color":"dark_gray"},{"text":"⭐⭐⭐⭐⭐","color":"#fcd53f"}]
