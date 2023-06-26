@@ -1,0 +1,9 @@
+{
+    "description": "Arthropod mobs that can be stomped by the player.",
+    "values": [
+        "minecraft:spider",
+        "minecraft:cave_spider",
+        "minecraft:silverfish",
+        "minecraft:endermite"
+    ]
+}
