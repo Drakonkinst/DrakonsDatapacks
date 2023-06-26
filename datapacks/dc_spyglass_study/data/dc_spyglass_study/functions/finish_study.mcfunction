@@ -4,14 +4,18 @@ tellraw @a[tag=dc_spyglassAnchor] ""
 tellraw @a[tag=dc_spyglassAnchor,limit=1] {"selector":"@s","bold":true}
 
 # Health
-# No easy way to get max health, so this will have to do
 execute store result score #Health dc_value run data get entity @s Health
 scoreboard players operation #HealthRemainder dc_value = #Health dc_value
 scoreboard players operation #HealthRemainder dc_value %= #2 dc_value
 scoreboard players operation #Health dc_value /= #2 dc_value
+execute store result score #MaxHealth dc_value run attribute @s minecraft:generic.max_health get
+scoreboard players operation #MaxHealthRemainder dc_value %= #2 dc_value
+scoreboard players operation #MaxHealth dc_value /= #2 dc_value
 # {"text":" × ","color":"red"}
-execute if score #HealthRemainder dc_value matches 1 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"score":{"name":"#Health","objective":"dc_value"},"color":"red"},{"text":".5 ","color":"red"},{"text":"❤","color":"#F61111"}]
-execute unless score #HealthRemainder dc_value matches 1 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"score":{"name":"#Health","objective":"dc_value"},"color":"red"},{"text":" ","color":"red"},{"text":"❤","color":"#F61111"}]
+execute if score #HealthRemainder dc_value matches 1 if score #MaxHealthRemainder dc_value matches 1 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"❤ ","color":"#F61111"},{"score":{"name":"#Health","objective":"dc_value"},"color":"red"},{"text":".5 / ","color":"red"},{"score":{"name":"#MaxHealth","objective":"dc_value"},"color":"red"},{"text":".5","color":"red"}]
+execute if score #HealthRemainder dc_value matches 1 unless score #MaxHealthRemainder dc_value matches 1 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"❤ ","color":"#F61111"},{"score":{"name":"#Health","objective":"dc_value"},"color":"red"},{"text":".5 / ","color":"red"},{"score":{"name":"#MaxHealth","objective":"dc_value"},"color":"red"}]
+execute unless score #HealthRemainder dc_value matches 1 if score #MaxHealthRemainder dc_value matches 1 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"❤ ","color":"#F61111"},{"score":{"name":"#Health","objective":"dc_value"},"color":"red"},{"text":" / ","color":"red"},{"score":{"name":"#MaxHealth","objective":"dc_value"},"color":"red"},{"text":".5","color":"red"}]
+execute unless score #HealthRemainder dc_value matches 1 unless score #MaxHealthRemainder dc_value matches 1 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"❤ ","color":"#F61111"},{"score":{"name":"#Health","objective":"dc_value"},"color":"red"},{"text":" / ","color":"red"},{"score":{"name":"#MaxHealth","objective":"dc_value"},"color":"red"}]
 
 execute store result score #Age dc_value run data get entity @s Age
 execute if score #Age dc_value matches ..-1 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Baby","color":"gray","italic":true}]
