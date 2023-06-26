@@ -119,6 +119,7 @@ BUILD_TARGETS = {
 buildTarget = "standard"
 buildSettings = None
 optimize = False
+noResources = True
 
 # Zip the directory at the given path and place it in output folder
 def zipDatapackFolder(path, fileName, outPath):
@@ -219,7 +220,7 @@ def zipDatapacksInFolder(folder, outFile):
         path = os.path.join(folder, fileName)
         if os.path.isdir(path):
             if isValidDatapack(path, fileName):
-                if not buildSettings.get("noResources"):
+                if not noResources:
                     extractDatapackResources(path, fileName)
                 numZipped += 1
                 zipDatapackFolder(path, fileName, outFile)
@@ -256,7 +257,7 @@ def buildResourcePack(outPath):
     return len(dirs)
 
 def main():
-    global buildTarget, buildSettings, optimize
+    global buildTarget, buildSettings, optimize, noResources
     start = time.time()
     
     args = sys.argv[1:]
@@ -265,6 +266,9 @@ def main():
     for arg in args:
         if arg == "-o":
             optimize = True
+            args.remove(arg)
+        if arg == "-r":
+            noResources = False
             args.remove(arg)
     
     outFile = DEFAULT_OUT_PATH
@@ -275,6 +279,7 @@ def main():
         buildTarget = args[0]
         
     outputDatapacks = os.path.join(outFile, "datapacks")
+    clearOutput(outFile)
     clearOutput(outputDatapacks)
     ensureDirectoryExists(os.path.join(TEMP_PATH, RESOURCE_FOLDER_NAME))
     if buildTarget in BUILD_TARGETS:
