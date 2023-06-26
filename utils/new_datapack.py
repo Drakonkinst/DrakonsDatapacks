@@ -23,7 +23,7 @@ def main():
     includeResourcePackTemplate = False
 
     args = sys.argv[1:]
-    if "r" in args:
+    if "-r" in args:
         includeResourcePackTemplate = True
     
     name = input("Enter a unique id for the datapack (i.e. dc_template, dc_xp_storage, etc.): ")

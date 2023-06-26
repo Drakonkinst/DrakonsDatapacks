@@ -263,13 +263,12 @@ def main():
     args = sys.argv[1:]
     
     # Check for flags
-    for arg in args:
-        if arg == "-o":
-            optimize = True
-            args.remove(arg)
-        if arg == "-r":
-            noResources = False
-            args.remove(arg)
+    if "-o" in args:
+        optimize = True
+        args.remove("-o")
+    if "-r" in args:
+        noResources = False
+        args.remove("-r")
     
     outFile = DEFAULT_OUT_PATH
     
