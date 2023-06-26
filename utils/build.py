@@ -1,13 +1,13 @@
 # Imports
-import sys, os, time, traceback, zipfile, shutil, json
+import sys, os, time, traceback, zipfile, shutil, json, re
 
 # Constants
 
 # Directory paths, from the perspective of /utils folder
 # If this script doesn't work, check that you're running it from the utils folder
-SOURCE_PATH = "../datapacks"
-DEFAULT_OUT_PATH = "../out"
-TEMP_PATH = "../temp"
+SOURCE_PATH = os.path.join("..", "datapacks")
+DEFAULT_OUT_PATH = os.path.join("..", "out")
+TEMP_PATH = os.path.join("..", "temp")
 RESOURCE_FOLDER_NAME = "assets"
 
 # Do not compile these datapacks
@@ -118,6 +118,7 @@ BUILD_TARGETS = {
 # Global variable defaults
 buildTarget = "standard"
 buildSettings = None
+optimize = False
 
 # Zip the directory at the given path and place it in output folder
 def zipDatapackFolder(path, fileName, outPath):
@@ -129,11 +130,46 @@ def zipDatapackFolder(path, fileName, outPath):
         # NOTE: This excludes ALL directories named in this list, regardless of whether they are nested or not
         dirs[:] = [d for d in dirs if d not in IGNORE_DIRECTORIES_IN_DATAPACK]
         
+        if optimize:
+            ensureDirectoryExists(os.path.join(TEMP_PATH, "json"))
+            ensureDirectoryExists(os.path.join(TEMP_PATH, "mcfunction"))
+        
         for file in files:
-            if file not in IGNORE_FILES_IN_DATAPACK:
-                zipObj.write(os.path.join(root, file),
-                            os.path.relpath(os.path.join(root, file),
-                                            path))
+            if file in IGNORE_FILES_IN_DATAPACK:
+                continue
+            
+            done = False
+            sourcePath = os.path.join(root, file)
+            relPath = os.path.relpath(os.path.join(root, file), path)
+                
+            if optimize:
+                if file.endswith(".json"):
+                    # Optimize JSON file by minifying it
+                    with open(sourcePath, "r", encoding="utf8") as jsonFile:
+                        jsonContent = json.load(jsonFile)
+                    minifiedContent = json.dumps(jsonContent, separators=(',', ':'))
+                    newSourcePath = os.path.join(TEMP_PATH, "json", file)
+                    
+                    with open(newSourcePath, "w", encoding="utf8") as outfile:
+                        outfile.write(minifiedContent)
+                    sourcePath = newSourcePath
+                elif file.endswith(".mcfunction"):
+                    # Optimize mcfunction by removing comments and blank lines
+                    # Use UTF-8 encoding due to https://stackoverflow.com/a/53046644
+                    minifiedContent = ""
+                    with open(sourcePath, "r", encoding="utf8") as mcfunctionFile:
+                        minifiedLines = []
+                        lines = mcfunctionFile.read().split("\n")
+                        for line in lines:
+                            trimmed = line.strip()
+                            if not (trimmed == "" or trimmed.startswith("#")):
+                                minifiedLines.append(line)
+                        minifiedContent = "\n".join(minifiedLines)
+                    newSourcePath = os.path.join(TEMP_PATH, "mcfunction", file)
+                    with open(newSourcePath, "w", encoding="utf8") as outfile:
+                        outfile.write(minifiedContent)
+                    sourcePath = newSourcePath
+            zipObj.write(sourcePath, relPath)
     zipObj.close()
 
 # Create it if it doesn't exist
@@ -220,8 +256,16 @@ def buildResourcePack(outPath):
     return len(dirs)
 
 def main():
-    global buildTarget, buildSettings
+    global buildTarget, buildSettings, optimize
+    start = time.time()
+    
     args = sys.argv[1:]
+    
+    # Check for flags
+    for arg in args:
+        if arg == "-o":
+            optimize = True
+            args.remove(arg)
     
     outFile = DEFAULT_OUT_PATH
     
@@ -229,8 +273,7 @@ def main():
         outFile = args[1]
     if len(args) >= 1:
         buildTarget = args[0]
-    
-    start = time.time()
+        
     outputDatapacks = os.path.join(outFile, "datapacks")
     clearOutput(outputDatapacks)
     ensureDirectoryExists(os.path.join(TEMP_PATH, RESOURCE_FOLDER_NAME))
