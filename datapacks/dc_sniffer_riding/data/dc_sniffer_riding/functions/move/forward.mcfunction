@@ -1,5 +1,6 @@
 execute rotated as @a[tag=dc_snifferDriver,limit=1] run tp @s ~ ~ ~ ~ 0
 execute at @s unless block ^ ^ ^2.1 #drakoncore:non_solid run function dc_sniffer_riding:move/up
+execute at @s unless block ^ ^ ^2.1 #drakoncore:non_solid unless block ~ ~3.2 ~ #drakoncore:non_solid run function dc_sniffer_riding:move/down
 
 # Tick twice to make base speed faster
 execute at @s if block ^ ^ ^2.1 #drakoncore:non_solid run tp @s ^ ^ ^0.1

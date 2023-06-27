@@ -3,6 +3,8 @@
     "entity": "this",
     "predicate": {
         "type": "minecraft:polar_bear",
-        "nbt": "{Age:0}"
+        "flags": {
+            "is_baby": false
+        }
     }
 }
