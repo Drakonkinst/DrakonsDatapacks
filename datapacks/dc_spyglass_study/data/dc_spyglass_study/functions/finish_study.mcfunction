@@ -5,10 +5,13 @@ tellraw @a[tag=dc_spyglassAnchor,limit=1] {"selector":"@s","bold":true}
 
 # Health
 execute store result score #Health dc_value run data get entity @s Health
+execute store result score #MaxHealth dc_value run attribute @s minecraft:generic.max_health get
+# Fix horse health mismatch found in https://bugs.mojang.com/browse/MC-14097
+execute if score #Health dc_value > #MaxHealth dc_value run scoreboard players operation #Health dc_value = #MaxHealth dc_value
 scoreboard players operation #HealthRemainder dc_value = #Health dc_value
 scoreboard players operation #HealthRemainder dc_value %= #2 dc_value
 scoreboard players operation #Health dc_value /= #2 dc_value
-execute store result score #MaxHealth dc_value run attribute @s minecraft:generic.max_health get
+scoreboard players operation #MaxHealthRemainder dc_value = #MaxHealth dc_value
 scoreboard players operation #MaxHealthRemainder dc_value %= #2 dc_value
 scoreboard players operation #MaxHealth dc_value /= #2 dc_value
 # {"text":" × ","color":"red"}
