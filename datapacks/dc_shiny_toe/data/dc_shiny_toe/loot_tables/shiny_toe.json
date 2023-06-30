@@ -256,8 +256,23 @@
                             "levels": 30
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Amount:0.02,Slot:feet,Name:\"generic.movement_speed\",UUID:[I;-1211114,13877,131216,-27754]}]}"
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:mending": 1
+                            },
+                            "add": true
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.movement_speed",
+                                    "name": "",
+                                    "amount": 0.7,
+                                    "operation": "multiply_base",
+                                    "slot": "feet"
+                                }
+                            ]
                         }
                     ]
                 }

@@ -1,0 +1,1 @@
+loot give @s loot dc_shiny_toe:shiny_toe_boots
