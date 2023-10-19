@@ -1,0 +1,7 @@
+{
+    "description": "All mobs and players.",
+    "values": [
+        "#drakoncore:vanilla/all_mobs",
+        "minecraft:player"
+    ]
+}

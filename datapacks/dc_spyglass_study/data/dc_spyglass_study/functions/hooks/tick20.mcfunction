@@ -1,1 +1,1 @@
-execute as @e[type=#drakoncore:vanilla/all_mobs] run function dc_spyglass_study:decrement_study
+execute as @e[type=#dc_spyglass_study:can_study] run function dc_spyglass_study:decrement_study

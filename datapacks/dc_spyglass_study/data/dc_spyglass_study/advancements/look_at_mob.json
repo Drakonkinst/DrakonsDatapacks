@@ -11,7 +11,7 @@
                             "type_specific": {
                                 "type": "player",
                                 "looking_at": {
-                                    "type": "#drakoncore:vanilla/all_mobs",
+                                    "type": "#dc_spyglass_study:can_study",
                                     "distance": {
                                         "absolute": {
                                             "min": 0,

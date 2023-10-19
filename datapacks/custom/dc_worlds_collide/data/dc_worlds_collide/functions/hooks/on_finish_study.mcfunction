@@ -1,0 +1,1 @@
+execute if entity @s[type=player] at @s run function dc_worlds_collide:study/player_specific

@@ -13,6 +13,8 @@ gamerule keepInventory false
 gamerule mobGriefing true
 gamerule doMobSpawning true
 
+scoreboard objectives add dc_torchesPlaced minecraft.used:minecraft.torch "Torches Placed"
+scoreboard objectives add dc_tradersKilled minecraft.killed:minecraft.wandering_trader "Traders Slain"
 
 bossbar add dc_worlds_collide:drakon_boss ""
 bossbar set dc_worlds_collide:drakon_boss name {"text":"Drakon","bold":true,"color":"dark_purple"}
