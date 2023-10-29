@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "dc_restful_sleep:hooks/mod_info"
+    ]
+}
