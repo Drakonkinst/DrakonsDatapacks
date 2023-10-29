@@ -65,8 +65,8 @@ SERVER_DATAPACKS = {
     
     # Playable Classes
     "dc_enderman",
-    "dc_midas",
-    "dc_symbiote",
+    # "dc_midas",
+    # "dc_symbiote",
     "dc_vampire",
     "dc_witch",
     "dc_umbrella",
