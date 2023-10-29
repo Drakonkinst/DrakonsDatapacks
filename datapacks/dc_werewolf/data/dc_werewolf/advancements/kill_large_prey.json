@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "#dc_werewolf:large_prey"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_werewolf:events/on_kill_large_prey"
+    }
+}

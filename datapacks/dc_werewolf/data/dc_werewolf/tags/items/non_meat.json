@@ -1,0 +1,20 @@
+{
+    "description": "Non-meat foods, excluding things you can drink and things that are already poisonous and cake",
+    "values": [
+        "minecraft:enchanted_golden_apple",
+        "minecraft:golden_apple",
+        "minecraft:golden_carrot",
+        "minecraft:baked_potato",
+        "minecraft:beetroot",
+        "minecraft:bread",
+        "minecraft:carrot",
+        "minecraft:apple",
+        "minecraft:chorus_fruit",
+        "minecraft:dried_kelp",
+        "minecraft:melon",
+        "minecraft:pumpkin_pie",
+        "minecraft:sweet_berries",
+        "minecraft:cookie",
+        "minecraft:glow_berries"
+    ]
+}
