@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "tag": "dc_worlds_collide:sushi"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc_worlds_collide:on_eat_sushi"
+    }
+}

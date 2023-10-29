@@ -15,6 +15,8 @@ gamerule doMobSpawning true
 
 scoreboard objectives add dc_torchesPlaced minecraft.used:minecraft.torch "Torches Placed"
 scoreboard objectives add dc_tradersKilled minecraft.killed:minecraft.wandering_trader "Traders Slain"
+scoreboard objectives add dc_sushiEaten dummy "Sushi Eaten"
+scoreboard objectives add dc_piesEaten dummy "Pies Eaten"
 
 bossbar add dc_worlds_collide:drakon_boss ""
 bossbar set dc_worlds_collide:drakon_boss name {"text":"Drakon","bold":true,"color":"dark_purple"}
