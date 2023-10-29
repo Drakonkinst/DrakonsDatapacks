@@ -24,6 +24,9 @@ execute store result score #Age dc_value run data get entity @s Age
 execute if score #Age dc_value matches ..-1 run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Baby","color":"gray","italic":true}]
 execute if data entity @s {IsBaby:1b} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Baby","color":"gray","italic":true}]
 
+execute if entity @s[gamemode=creative] run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Immortal","color":"gray","italic":true}]
+execute unless entity @s[gamemode=creative] if data entity @s {Invulnerable:1b} run tellraw @a[tag=dc_spyglassAnchor,limit=1] ["  ",{"text":"Immortal","color":"gray","italic":true}]
+
 # Mob-specific
 execute if entity @s[type=#drakoncore:horses] run function dc_spyglass_study:info/horse_type
 execute if entity @s[type=#drakoncore:llamas] run function dc_spyglass_study:info/llama_type
