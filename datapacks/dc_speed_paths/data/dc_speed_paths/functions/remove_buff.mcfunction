@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.movement_speed modifier remove 466383e9-b824-4a3e-8cf5-26e56635156d

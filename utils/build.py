@@ -46,6 +46,7 @@ SERVER_DATAPACKS = {
     "dc_roomba",
     "dc_shiny_toe",
     "dc_sniffer_riding",
+    "dc_speed_paths",
     "dc_spider_stomp",
     "dc_spyglass_study",
     "dc_throwable_axes",
