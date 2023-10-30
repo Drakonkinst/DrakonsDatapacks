@@ -13,3 +13,5 @@ playsound minecraft:entity.player.attack.crit player @a ~ ~ ~ 1 0.5
 function dc_werewolf:play_sound_for_stage
 
 execute if score @s dc_werewolfBones matches 1.. run tag @s add dc_werewolfNeedsBones
+# Leave werewolf team
+team leave @s

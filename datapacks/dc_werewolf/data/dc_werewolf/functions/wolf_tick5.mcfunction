@@ -12,7 +12,6 @@ execute as @e[type=wolf,tag=dc_werewolfModel,distance=..10] if score @s dc_playe
 execute unless entity @e[type=wolf,tag=dc_targetWerewolfModel,limit=1,distance=..10] run function dc_werewolf:model/summon_wolf_model
 execute if entity @e[type=wolf,tag=dc_targetWerewolfModel,limit=1,distance=..10,tag=dc_werewolfSit] run tag @s add dc_werewolfSit
 
-
 # Add default attribute modifiers
 function dc_werewolf:buffs/apply_default_buffs
 
@@ -26,7 +25,9 @@ execute unless score @s dc_werewolfRage matches 24.. if entity @s[tag=dc_werewol
 execute if score @s dc_werewolfRage matches 48.. unless entity @s[tag=dc_werewolfBuff3] run function dc_werewolf:buffs/apply_stage_3_buffs
 execute unless score @s dc_werewolfRage matches 48.. if entity @s[tag=dc_werewolfBuff3] run function dc_werewolf:buffs/clear_stage_3_buffs
 
-function dc_werewolf:meter/display_meter
+# Show meter unless at 0 rage and sitting
+execute if score @s dc_werewolfRage matches 1.. run function dc_werewolf:meter/display_meter
+execute unless score @s dc_werewolfRage matches 1.. unless entity @s[tag=dc_werewolfSit] run function dc_werewolf:meter/display_meter
 
 # Auto-attack
 execute if score @s dc_werewolfRage matches 48.. run function dc_werewolf:enraged_tick5
