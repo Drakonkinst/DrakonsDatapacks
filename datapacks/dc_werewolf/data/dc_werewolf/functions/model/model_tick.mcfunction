@@ -10,6 +10,6 @@ execute if entity @a[tag=dc_targetWerewolf,limit=1,nbt={HurtTime:9s}] run functi
 tp @s @a[tag=dc_targetWerewolf,limit=1]
 
 # Cleanup
-execute if entity @s[tag=dc_shouldDelete] run function drakoncore:api/clear_entity
+execute if entity @s[tag=dc_shouldDelete] run function dc_werewolf:model/model_clear
 
 tag @a remove dc_targetWerewolf

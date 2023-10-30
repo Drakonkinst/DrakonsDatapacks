@@ -1,0 +1,1 @@
+scoreboard players add @s dc_werewolfRage 20
