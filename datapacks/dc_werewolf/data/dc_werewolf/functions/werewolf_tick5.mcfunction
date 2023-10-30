@@ -7,3 +7,6 @@ execute if entity @s[tag=dc_werewolfNeedsBones] run function dc_werewolf:check_r
 
 # Transformation logic
 execute if entity @s[tag=dc_werewolfTransformed] run function dc_werewolf:wolf_tick5
+
+# Display rage meter
+execute unless entity @s[tag=dc_werewolfTransformed] if predicate dc_werewolf:holding_bones unless predicate drakoncore:is_sneaking unless score @s dc_werewolfChange matches ..-1 run function dc_werewolf:meter/display_meter

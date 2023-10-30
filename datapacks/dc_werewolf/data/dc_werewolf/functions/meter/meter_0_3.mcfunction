@@ -1,0 +1,4 @@
+execute if score @s dc_werewolfRage matches ..0 run title @s actionbar ["","Calm",{"text":" [","color":"dark_gray"},{"text":"■■■■■■■■■","color":"gray"},{"text":"]","color":"dark_gray"}]
+execute if score @s dc_werewolfRage matches 1..11 run title @s actionbar ["","Calm",{"text":" [","color":"dark_gray"},{"text":"■","color":"yellow"},{"text":"■■■■■■■■","color":"gray"},{"text":"]","color":"dark_gray"}]
+execute if score @s dc_werewolfRage matches 12..17 run title @s actionbar ["","Calm",{"text":" [","color":"dark_gray"},{"text":"■■","color":"yellow"},{"text":"■■■■■■■","color":"gray"},{"text":"]","color":"dark_gray"}]
+execute if score @s dc_werewolfRage matches 18..23 run title @s actionbar ["","Calm",{"text":" [","color":"dark_gray"},{"text":"■■■","color":"yellow"},{"text":"■■■■■■","color":"gray"},{"text":"]","color":"dark_gray"}]

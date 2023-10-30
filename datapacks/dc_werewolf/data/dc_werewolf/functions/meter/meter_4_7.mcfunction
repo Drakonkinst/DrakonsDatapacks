@@ -1,0 +1,4 @@
+execute if score @s dc_werewolfRage matches 24..29 run title @s actionbar ["",{"text":"Excited","color":"gold"},{"text":" [","color":"dark_gray"},{"text":"■■■■","color":"gold"},{"text":"■■■■■","color":"gray"},{"text":"]","color":"dark_gray"}]
+execute if score @s dc_werewolfRage matches 30..35 run title @s actionbar ["",{"text":"Excited","color":"gold"},{"text":" [","color":"dark_gray"},{"text":"■■■■■","color":"gold"},{"text":"■■■■","color":"gray"},{"text":"]","color":"dark_gray"}]
+execute if score @s dc_werewolfRage matches 36..41 run title @s actionbar ["",{"text":"Excited","color":"gold"},{"text":" [","color":"dark_gray"},{"text":"■■■■■■","color":"gold"},{"text":"■■■","color":"gray"},{"text":"]","color":"dark_gray"}]
+execute if score @s dc_werewolfRage matches 42..47 run title @s actionbar ["",{"text":"Excited","color":"gold"},{"text":" [","color":"dark_gray"},{"text":"■■■■■■■","color":"gold"},{"text":"■■","color":"gray"},{"text":"]","color":"dark_gray"}]

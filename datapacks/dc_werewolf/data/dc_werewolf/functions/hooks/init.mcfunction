@@ -1,5 +1,6 @@
 team add dc_werewolf "Werewolf"
 team modify dc_werewolf collisionRule never
+# This doesn't actually seem to work, so making them invulnerable
 team modify dc_werewolf friendlyFire false
 team modify dc_werewolf seeFriendlyInvisibles false
 

@@ -24,6 +24,8 @@ execute unless score @s dc_werewolfRage matches 24.. if entity @s[tag=dc_werewol
 execute if score @s dc_werewolfRage matches 48.. unless entity @s[tag=dc_werewolfBuff3] run function dc_werewolf:buffs/apply_stage_3_buffs
 execute unless score @s dc_werewolfRage matches 48.. if entity @s[tag=dc_werewolfBuff3] run function dc_werewolf:buffs/clear_stage_3_buffs
 
+function dc_werewolf:meter/display_meter
+
 # Check conditions to leave werewolf form
 execute if data entity @s SelectedItem run tag @s add dc_werewolfCancel
 execute if score @s dc_health matches ..0 run tag @s add dc_werewolfCancel
