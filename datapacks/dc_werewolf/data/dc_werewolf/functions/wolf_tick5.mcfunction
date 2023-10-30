@@ -12,11 +12,13 @@ execute unless entity @e[type=wolf,tag=dc_targetWerewolfModel,limit=1,distance=.
 
 # Add attribute modifiers
 attribute @s minecraft:generic.attack_damage modifier add c7aa4d57-6ff7-478b-beb2-927732c9bc9e "Werewolf Strength" 5 add
+attribute @s minecraft:generic.armor modifier add 0c0905e9-bbe5-4756-8d1c-3899517a5d69 "Werewolf Armor 1" 12 add
 effect give @s invisibility infinite 0 true
 tag @s add dc_werewolfBuff
 
 # Check conditions to leave werewolf form
 execute if data entity @s SelectedItem run tag @s add dc_werewolfCancel
+execute if score @s dc_health matches ..0 run tag @s add dc_werewolfCancel
 execute if entity @s[tag=dc_werewolfCancel] run function dc_werewolf:untransform_wolf
 
 # Cleanup
