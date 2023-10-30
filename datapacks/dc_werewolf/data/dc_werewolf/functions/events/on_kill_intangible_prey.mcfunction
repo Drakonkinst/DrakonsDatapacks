@@ -1,2 +1,6 @@
-execute if entity @s[tag=dc_werewolf] run function dc_werewolf:defeat_intangible_prey
+# Same as medium prey
+scoreboard players add @s dc_werewolfRage 6
+function dc_werewolf:meter/display_meter
+function dc_werewolf:play_sound_for_stage
+
 advancement revoke @s only dc_werewolf:kill_intangible_prey

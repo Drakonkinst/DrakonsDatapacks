@@ -26,6 +26,9 @@ execute unless score @s dc_werewolfRage matches 48.. if entity @s[tag=dc_werewol
 
 function dc_werewolf:meter/display_meter
 
+# Auto-attack
+execute if score @s dc_werewolfRage matches 48.. run function dc_werewolf:enraged_tick5
+
 # Check conditions to leave werewolf form
 execute if score @s dc_health matches ..0 run tag @s add dc_werewolfCancel
 execute if predicate dc_werewolf:wearing_equipment run function dc_werewolf:handle_equipment

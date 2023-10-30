@@ -1,0 +1,1 @@
+#execute as @e[type=wolf,tag=dc_targetWerewolfModel,limit=1,distance=..10] at @s anchored eyes
