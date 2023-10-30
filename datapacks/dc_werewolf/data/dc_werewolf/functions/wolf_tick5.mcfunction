@@ -27,9 +27,9 @@ execute unless score @s dc_werewolfRage matches 48.. if entity @s[tag=dc_werewol
 function dc_werewolf:meter/display_meter
 
 # Check conditions to leave werewolf form
-execute if data entity @s SelectedItem run tag @s add dc_werewolfCancel
 execute if score @s dc_health matches ..0 run tag @s add dc_werewolfCancel
-execute if predicate dc_werewolf:wearing_armor run tag @s add dc_werewolfCancel
+execute if predicate dc_werewolf:wearing_equipment run function dc_werewolf:handle_equipment
+execute if predicate dc_werewolf:has_weakness run tag @s add dc_werewolfCancel
 execute if entity @s[tag=dc_werewolfCancel] run function dc_werewolf:untransform_wolf
 
 # Cleanup

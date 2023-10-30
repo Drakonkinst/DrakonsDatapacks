@@ -6,6 +6,8 @@ execute unless entity @a[tag=dc_targetWerewolf,limit=1] run tag @s add dc_should
 execute if entity @a[tag=dc_targetWerewolf,limit=1,scores={dc_health=0}] run function dc_werewolf:model/model_kill
 execute if entity @a[tag=dc_targetWerewolf,limit=1,nbt={HurtTime:9s}] run function dc_werewolf:model/model_damage
 
+execute if entity @s[tag=dc_werewolfAngryModel] if data entity @s {AngerTime:0} run data modify entity @s AngerTime set value 2147483647
+
 # Movement
 tp @s @a[tag=dc_targetWerewolf,limit=1]
 
