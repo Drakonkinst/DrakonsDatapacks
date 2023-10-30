@@ -8,6 +8,9 @@ execute if entity @a[tag=dc_targetWerewolf,limit=1,nbt={HurtTime:9s}] run functi
 
 execute if entity @s[tag=dc_werewolfAngryModel] if data entity @s {AngerTime:0} run data modify entity @s AngerTime set value 2147483647
 
+execute store result score #OnFire dc_value as @a[tag=dc_targetWerewolf,limit=1] if predicate drakoncore:on_fire
+execute if score #OnFire dc_value matches 1 run data modify entity @s Fire set value 5s
+
 # Movement
 tp @s @a[tag=dc_targetWerewolf,limit=1]
 
