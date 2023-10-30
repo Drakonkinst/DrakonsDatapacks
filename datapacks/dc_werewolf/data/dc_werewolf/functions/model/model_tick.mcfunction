@@ -11,8 +11,25 @@ execute if entity @s[tag=dc_werewolfAngryModel] if data entity @s {AngerTime:0} 
 execute store result score #OnFire dc_value as @a[tag=dc_targetWerewolf,limit=1] if predicate drakoncore:on_fire
 execute if score #OnFire dc_value matches 1 run data modify entity @s Fire set value 5s
 
+# Track sitting still
+execute store result score #IsSneaking dc_value as @a[tag=dc_targetWerewolf,limit=1] if predicate drakoncore:is_sneaking
+execute store result score #SleepTimer dc_value run data get entity @a[tag=dc_targetWerewolf,limit=1] SleepTimer
+execute store result score #IsMoving dc_value if entity @a[tag=dc_targetWerewolf,limit=1,distance=0.05..]
+
+# Do not count as moving if sleeping
+execute if score #SleepTimer dc_value matches 1.. run scoreboard players set #IsMoving dc_value 0
+
+# Increment sitting timer
+execute unless score #IsMoving dc_value matches 1 run scoreboard players add @s dc_werewolfSit 1
+execute if score #IsMoving dc_value matches 1 unless score @s dc_werewolfSit matches ..-1 run scoreboard players reset @s dc_werewolfSit
+
+# Sit or unsit
+execute if entity @s[tag=dc_werewolfSit] run function dc_werewolf:model/check_unsit
+execute unless score #IsMoving dc_value matches 1 unless entity @s[tag=dc_werewolfSit] run function dc_werewolf:model/check_sit
+
 # Movement
 tp @s @a[tag=dc_targetWerewolf,limit=1]
+execute if score #SleepTimer dc_value matches 1.. at @s run tp @s ~ ~-0.05 ~
 
 # Cleanup
 execute if entity @s[tag=dc_shouldDelete] run function dc_werewolf:model/model_clear

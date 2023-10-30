@@ -9,4 +9,5 @@ execute unless entity @s[tag=dc_werewolfTransformed] if score @s dc_werewolfRage
 execute unless entity @s[tag=dc_werewolfTransformed] run function dc_werewolf:untransformed_tick5
 
 # Transformation logic
+tag @s remove dc_werewolfSit
 execute if entity @s[tag=dc_werewolfTransformed] run function dc_werewolf:wolf_tick5
