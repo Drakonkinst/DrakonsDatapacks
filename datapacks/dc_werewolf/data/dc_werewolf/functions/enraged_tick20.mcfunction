@@ -1,0 +1,1 @@
+execute if entity @s[tag=!dc_werewolfTargetFound] facing entity @e[type=!#drakoncore:not_mob,type=!wolf,distance=..4,tag=!dc_werewolf,tag=!dc_werewolfModel,limit=1,sort=nearest] feet run function dc_werewolf:autoattack_turn

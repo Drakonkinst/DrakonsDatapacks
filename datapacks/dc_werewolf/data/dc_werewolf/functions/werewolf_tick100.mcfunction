@@ -3,3 +3,5 @@ execute if score @s dc_werewolfRage matches 60.. run scoreboard players set @s d
 
 # Decay over time
 execute if score @s dc_werewolfRage matches 1.. run scoreboard players remove @s dc_werewolfRage 1
+
+execute if score @s dc_werewolfRage matches 1.. if predicate dc_werewolf:is_day if predicate drakoncore:under_sky run scoreboard players remove @s dc_werewolfRage 1
