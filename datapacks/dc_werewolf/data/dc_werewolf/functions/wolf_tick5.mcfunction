@@ -10,7 +10,10 @@ scoreboard players operation #CurrentId dc_playerId = @s dc_playerId
 execute store success score #ShouldUseAngryModel dc_value if score @s dc_werewolfRage matches 48..
 execute as @e[type=wolf,tag=dc_werewolfModel,distance=..10] if score @s dc_playerId = #CurrentId dc_playerId run function dc_werewolf:model/validate_model
 execute unless entity @e[type=wolf,tag=dc_targetWerewolfModel,limit=1,distance=..10] run function dc_werewolf:model/summon_wolf_model
+
+# Update state
 execute if entity @e[type=wolf,tag=dc_targetWerewolfModel,limit=1,distance=..10,tag=dc_werewolfSit] run tag @s add dc_werewolfSit
+execute if entity @e[type=wolf,tag=dc_targetWerewolfModel,limit=1,distance=..10,tag=dc_leashedWerewolf] run effect give @s levitation 1 0 true
 
 # Add default attribute modifiers
 function dc_werewolf:buffs/apply_default_buffs

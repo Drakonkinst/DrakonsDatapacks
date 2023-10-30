@@ -6,5 +6,9 @@ data modify entity @s Invulnerable set value 1b
 scoreboard players operation @s dc_playerId = #CurrentId dc_playerId
 effect give @s minecraft:regeneration infinite 5 true
 
+# Will not move on its own
+attribute @s minecraft:generic.movement_speed base set 0
+attribute @s minecraft:generic.attack_damage base set 0
+
 # Should only be running this in the transform tick, so add target
 tag @s add dc_targetWerewolfModel

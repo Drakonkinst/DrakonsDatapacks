@@ -28,9 +28,16 @@ execute if entity @s[tag=dc_werewolfSit] run function dc_werewolf:model/check_un
 execute unless score #IsMoving dc_value matches 1 unless entity @s[tag=dc_werewolfSit] run function dc_werewolf:model/check_sit
 
 # Movement
-tp @s @a[tag=dc_targetWerewolf,limit=1]
-# Offset when sleeping to fix height difference
-execute if score #SleepTimer dc_value matches 1.. at @s run tp @s ~ ~-0.05 ~
+execute unless data entity @s Leash.UUID run function dc_werewolf:model/normal_movement
+execute if data entity @s Leash.UUID if entity @s[tag=dc_werewolfSit] run function dc_werewolf:model/normal_movement
+execute if data entity @s Leash.UUID unless entity @s[tag=dc_werewolfSit] run function dc_werewolf:model/leashed_movement
+
+# If leashed in rage mode, break it by assigning it to the utility armor stand,
+# which should always be out of reach
+execute if data entity @s Leash.UUID if score @a[tag=dc_targetWerewolf,limit=1] dc_werewolfRage matches 48.. run data modify entity @s Leash.UUID set from entity @e[type=minecraft:armor_stand,x=-1,y=-129,z=-1,dx=1,dy=1,dz=1,tag=dc_utility,limit=1] UUID
+
+# Don't let the player breed .-.
+data modify entity @s InLove set value 0
 
 # Cleanup
 execute if entity @s[tag=dc_shouldDelete] run function dc_werewolf:model/model_clear
