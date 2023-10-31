@@ -1,6 +1,6 @@
 tag @s remove dc_werewolfTransformed
 tag @s remove dc_werewolfCancel
-scoreboard players reset @s dc_werewolfSprint
+scoreboard players reset @s dc_werewolfSitSprint
 scoreboard players reset @s dc_werewolfChange
 function dc_werewolf:buffs/clear_all_buffs
 

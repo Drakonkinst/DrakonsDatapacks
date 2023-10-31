@@ -6,7 +6,7 @@ scoreboard players reset #InBoat dc_value
 execute on vehicle if entity @s[type=#drakoncore:boats] run scoreboard players set #InBoat dc_value 1
 
 # Check if player is looking at a boat
-execute if predicate dc_boats:holding_lead unless score #InBoat dc_value matches 1 run function dc_boats:look_detection/check_looking_at_boat
+execute if predicate dc_boats:holding_lead unless score #InBoat dc_value matches 1 if entity @e[type=#drakoncore:boats,distance=..10,limit=1] run function dc_boats:look_detection/check_looking_at_boat
 execute if entity @s[tag=dc_awaitingBoatLead,tag=!dc_lookingAtBoat] run function dc_boats:look_detection/deinit_player_interact
 execute if entity @s[tag=dc_lookingAtBoat] run function dc_boats:display_prompt
 tag @s remove dc_lookingAtBoat

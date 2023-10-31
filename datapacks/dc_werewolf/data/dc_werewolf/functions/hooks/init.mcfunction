@@ -5,14 +5,15 @@ team modify dc_werewolf collisionRule pushOwnTeam
 team modify dc_werewolf friendlyFire false
 team modify dc_werewolf seeFriendlyInvisibles false
 
-scoreboard objectives add dc_werewolfSprint dummy "Duration Sprinted As Wolf"
+# Used for:
+# - Werewolf players: Duration sprinted in wolf form
+# - Werewolf models: Duration sitting still
+scoreboard objectives add dc_werewolfSitSprint dummy "Werewolf Duration Sitting or Sprinting"
+# Used for:
+# - Werewolf players: Howling timer
+# - Werewolf models: Cooldown for being fed by other players
+scoreboard objectives add dc_werewolfActionCooldown dummy "Werewolf Action Cooldown"
 
 scoreboard objectives add dc_werewolfRage dummy "Werewolf Rage Buildup"
 scoreboard objectives add dc_werewolfBones dummy "Werewolf Stored Bones"
 scoreboard objectives add dc_werewolfChange dummy "Werewolf Transformation Progress"
-
-# Note: This scoreboard is only used by the model, not the werewolf. So we can
-# reuse another scoreboard if we're trying to minimize the scoreboard count.
-scoreboard objectives add dc_werewolfSit dummy "Werewolf Sitting Still Progress"
-
-scoreboard objectives add dc_werewolfEat dummy "Werewolf Eating Cooldown"

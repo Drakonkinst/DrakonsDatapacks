@@ -20,8 +20,8 @@ execute store result score #IsMoving dc_value if entity @a[tag=dc_targetWerewolf
 execute if score #SleepTimer dc_value matches 1.. run scoreboard players set #IsMoving dc_value 0
 
 # Increment sitting timer
-execute unless score #IsMoving dc_value matches 1 run scoreboard players add @s dc_werewolfSit 1
-execute if score #IsMoving dc_value matches 1 unless score @s dc_werewolfSit matches ..-1 run scoreboard players reset @s dc_werewolfSit
+execute unless score #IsMoving dc_value matches 1 run scoreboard players add @s dc_werewolfSitSprint 1
+execute if score #IsMoving dc_value matches 1 unless score @s dc_werewolfSitSprint matches ..-1 run scoreboard players reset @s dc_werewolfSitSprint
 
 # Sit or unsit
 execute if entity @s[tag=dc_werewolfSit] run function dc_werewolf:model/check_unsit
@@ -34,13 +34,13 @@ execute if score #SleepTimer dc_value matches 1.. at @s run tp @s ~ ~-0.05 ~
 
 # Don't let the player breed .-.
 # Eating mechanic
-execute unless score @s dc_werewolfEat matches 0.. run scoreboard players set @s dc_werewolfEat 0
-execute if score @s dc_werewolfEat matches 1.. run scoreboard players remove @s dc_werewolfEat 1
+execute unless score @s dc_werewolfActionCooldown matches 0.. run scoreboard players set @s dc_werewolfActionCooldown 0
+execute if score @s dc_werewolfActionCooldown matches 1.. run scoreboard players remove @s dc_werewolfActionCooldown 1
 execute store result score #LoveTicks dc_value run data get entity @s InLove
 execute if score #LoveTicks dc_value matches 1.. run function dc_werewolf:interact/eat
 
-# Break all leashes that manage to attach to the wolf
-execute if data entity @s Leash run data modify entity @s Leash.UUID set from entity @e[type=minecraft:armor_stand,x=-1,y=-129,z=-1,dx=1,dy=1,dz=1,tag=dc_utility,limit=1] UUID
+# Break all leashes that manage to attach to the wolf if in enraged mode
+execute if data entity @s[tag=dc_werewolfAngryModel] Leash run data modify entity @s Leash.UUID set from entity @e[type=minecraft:armor_stand,x=-1,y=-129,z=-1,dx=1,dy=1,dz=1,tag=dc_utility,limit=1] UUID
 
 # Cleanup
 execute if entity @s[tag=dc_shouldDelete] run function dc_werewolf:model/model_clear

@@ -1,9 +1,9 @@
 # Sprinting Logic
 execute store result score #IsSprinting dc_value if predicate drakoncore:is_sprinting
-execute if score #IsSprinting dc_value matches 1 run scoreboard players add @s dc_werewolfSprint 1
-execute unless score #IsSprinting dc_value matches 1 run scoreboard players reset @s dc_werewolfSprint
-execute if score @s dc_werewolfSprint matches 15..29 run effect give @s speed 1 0 true
-execute if score @s dc_werewolfSprint matches 30.. run effect give @s speed 1 1 true
+execute if score #IsSprinting dc_value matches 1 run scoreboard players add @s dc_werewolfSitSprint 1
+execute unless score #IsSprinting dc_value matches 1 run scoreboard players reset @s dc_werewolfSitSprint
+execute if score @s dc_werewolfSitSprint matches 15..29 run effect give @s speed 1 0 true
+execute if score @s dc_werewolfSitSprint matches 30.. run effect give @s speed 1 1 true
 
 # Detect wolf model or summon if needed
 scoreboard players operation #CurrentId dc_playerId = @s dc_playerId
