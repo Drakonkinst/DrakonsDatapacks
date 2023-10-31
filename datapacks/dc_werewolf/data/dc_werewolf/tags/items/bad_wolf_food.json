@@ -1,0 +1,19 @@
+{
+    "description": "Food a werewolf can be fed by other players, but inflicts hunger too.",
+    "values": [
+        "minecraft:pufferfish",
+        "minecraft:golden_carrot",
+        "minecraft:baked_potato",
+        "minecraft:beetroot",
+        "minecraft:bread",
+        "minecraft:carrot",
+        "minecraft:apple",
+        "minecraft:chorus_fruit",
+        "minecraft:dried_kelp",
+        "minecraft:melon",
+        "minecraft:pumpkin_pie",
+        "minecraft:sweet_berries",
+        "minecraft:cookie",
+        "minecraft:glow_berries"
+    ]
+}
