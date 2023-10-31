@@ -70,7 +70,7 @@ SERVER_DATAPACKS = {
     "dc_vampire",
     "dc_witch",
     "dc_umbrella",
-    "dc_werewolf"
+    "dc_werewolf",
     
     # Custom
     "dc_world_reset",
