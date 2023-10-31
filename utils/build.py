@@ -102,6 +102,7 @@ BUILD_TARGETS = {
         # Add new datapacks to this list
         "includeOnly": [
             *SERVER_DATAPACKS,
+            "dc_werewolf"
             # "dc_new_datapack"
         ]
     },

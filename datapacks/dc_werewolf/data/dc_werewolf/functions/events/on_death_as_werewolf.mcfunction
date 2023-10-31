@@ -1,0 +1,1 @@
+function dc_werewolf:untransform_wolf

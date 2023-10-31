@@ -1,0 +1,11 @@
+{
+    "values": [
+        "#drakoncore:skeletons",
+        "minecraft:allay",
+        "minecraft:vex",
+        "minecraft:blaze",
+        "minecraft:ghast",
+        "minecraft:iron_golem",
+        "minecraft:snow_golem"
+    ]
+}

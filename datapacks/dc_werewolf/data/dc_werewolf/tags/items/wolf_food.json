@@ -1,0 +1,22 @@
+{
+    "description": "Food a werewolf can be fed by other players. Includes more than wolves normally can eat.",
+    "values": [
+        "minecraft:cod",
+        "minecraft:salmon",
+        "minecraft:cooked_cod",
+        "minecraft:cooked_salmon",
+        "minecraft:tropical_fish",
+        "minecraft:cooked_cod",
+        "minecraft:chicken",
+        "minecraft:cooked_chicken",
+        "minecraft:beef",
+        "minecraft:cooked_beef",
+        "minecraft:rabbit",
+        "minecraft:cooked_rabbit",
+        "minecraft:porkchop",
+        "minecraft:cooked_porkchop",
+        "minecraft:mutton",
+        "minecraft:cooked_mutton",
+        "minecraft:rotten_flesh"
+    ]
+}
