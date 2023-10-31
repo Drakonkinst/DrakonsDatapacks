@@ -6,4 +6,4 @@ playsound minecraft:entity.ender_dragon.growl player @a ~ ~ ~ 1 0
 effect give @s darkness 2 0 true
 
 # Ensure they stay enraged a bit longer upon entering the state
-scoreboard players add @s dc_werewolfRage 6
+scoreboard players add @s dc_werewolfRage 12

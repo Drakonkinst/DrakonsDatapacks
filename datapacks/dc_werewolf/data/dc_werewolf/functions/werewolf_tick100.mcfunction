@@ -1,5 +1,5 @@
-# Caps at 60 * 5 = 300 seconds (5 minutes) of duration, or 10 medium mob kills
-execute if score @s dc_werewolfRage matches 60.. run scoreboard players set @s dc_werewolfRage 60
+# Caps at 96 * 5 = 480 seconds (8 minutes) of duration, or 80 medium mob kills
+execute if score @s dc_werewolfRage matches 96.. run scoreboard players set @s dc_werewolfRage 96
 
 # Decay over time
 execute if score @s dc_werewolfRage matches 1.. run scoreboard players remove @s dc_werewolfRage 1

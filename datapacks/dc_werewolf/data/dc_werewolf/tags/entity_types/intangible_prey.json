@@ -4,6 +4,8 @@
         "minecraft:allay",
         "minecraft:vex",
         "minecraft:blaze",
-        "minecraft:ghast"
+        "minecraft:ghast",
+        "minecraft:iron_golem",
+        "minecraft:snow_golem"
     ]
 }
