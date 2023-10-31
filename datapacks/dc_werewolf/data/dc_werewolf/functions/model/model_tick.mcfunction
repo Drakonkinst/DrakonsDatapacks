@@ -25,7 +25,7 @@ execute if score #IsMoving dc_value matches 1 unless score @s dc_werewolfSitSpri
 
 # Sit or unsit
 execute if entity @s[tag=dc_werewolfSit] run function dc_werewolf:model/check_unsit
-execute unless score #IsMoving dc_value matches 1 unless entity @s[tag=dc_werewolfSit] run function dc_werewolf:model/check_sit
+execute unless score #IsMoving dc_value matches 1 unless entity @s[tag=dc_werewolfSit] unless predicate drakoncore:not_on_solid_ground run function dc_werewolf:model/check_sit
 
 # Movement
 tp @s @a[tag=dc_targetWerewolf,limit=1]

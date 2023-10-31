@@ -38,5 +38,11 @@ execute if predicate dc_werewolf:wearing_equipment run function dc_werewolf:hand
 execute if predicate dc_werewolf:has_weakness run tag @s add dc_werewolfCancel
 execute if entity @s[tag=dc_werewolfCancel] run function dc_werewolf:untransform_wolf
 
+execute store result score #LookUp dc_value run data get entity @s Rotation[1]
+execute if score @s dc_werewolfActionCooldown matches ..-1 run scoreboard players add @s dc_werewolfActionCooldown 1
+execute if score #LookUp dc_value matches ..-60 unless score @s dc_werewolfActionCooldown matches ..-1 if predicate drakoncore:is_sneaking if entity @s[tag=dc_werewolfSit] run function dc_werewolf:howl/increment_howl_progress
+execute unless entity @s[tag=dc_werewolfHowlCharging] if score @s dc_werewolfActionCooldown matches 1.. run function dc_werewolf:howl/reset_howl_progress
+tag @s remove dc_werewolfHowlCharging
+
 # Cleanup
 tag @e[type=wolf] remove dc_targetWerewolfModel
