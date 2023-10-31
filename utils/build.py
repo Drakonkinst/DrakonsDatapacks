@@ -70,6 +70,7 @@ SERVER_DATAPACKS = {
     "dc_vampire",
     "dc_witch",
     "dc_umbrella",
+    "dc_werewolf"
     
     # Custom
     "dc_world_reset",
@@ -102,7 +103,6 @@ BUILD_TARGETS = {
         # Add new datapacks to this list
         "includeOnly": [
             *SERVER_DATAPACKS,
-            "dc_werewolf"
             # "dc_new_datapack"
         ]
     },
