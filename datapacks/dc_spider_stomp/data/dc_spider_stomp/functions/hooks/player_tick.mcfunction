@@ -1,5 +1,5 @@
 # Runs 20 times per second on each player
-execute store result score #IsFalling dc_value unless predicate drakoncore:on_ground run data get entity @s FallDistance
+execute store result score #IsFalling dc_value run data get entity @s FallDistance
 
 # Check if falling at least one full block
 # Must have something in boots slot
