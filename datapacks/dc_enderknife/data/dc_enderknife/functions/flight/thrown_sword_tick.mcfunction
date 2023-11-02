@@ -30,7 +30,7 @@ scoreboard players set #HitMob dc_value 0
 execute unless block ~ ~ ~ #dc_enderknife:passable run function dc_enderknife:drop/check_damage
 
 # On hit entity events - never hit the sword thrower
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=!#dc_enderknife:non_damageable,tag=!dc_thrownSword,tag=!dc_currentSwordThrower,tag=!dc_marker,dx=1,dz=1,dy=1] unless score @s dc_damageDelay matches 1.. run function dc_enderknife:damage/on_hit
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=!#dc_enderknife:non_damageable,tag=!dc_thrownSword,tag=!dc_currentSwordThrower,tag=!dc_marker,dx=1,dz=1,dy=1,tag=!dc_hasDamageDelay] run function dc_enderknife:damage/on_hit
 
 # Particles and effects
 execute if entity @s[tag=dc_swordFireAspect] run particle minecraft:flame ~ ~0.5 ~ 0 0 0 0 1 force

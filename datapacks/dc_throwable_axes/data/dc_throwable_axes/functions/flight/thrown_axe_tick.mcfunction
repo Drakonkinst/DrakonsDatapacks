@@ -30,7 +30,7 @@ execute unless entity @s[tag=dc_recallAxe] if block ~ ~ ~ #dc_throwable_axes:sin
 execute unless entity @s[tag=dc_recallAxe] unless block ~ ~ ~ #dc_throwable_axes:passable run function dc_throwable_axes:drop/check_damage
 
 # On hit entity events - never hit the axe thrower
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=!#dc_throwable_axes:non_damageable,tag=!dc_thrownAxe,tag=!dc_currentAxeThrower,tag=!dc_marker,dx=1,dz=1,dy=1] unless score @s dc_damageDelay matches 1.. run function dc_throwable_axes:damage/on_hit
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=!#dc_throwable_axes:non_damageable,tag=!dc_thrownAxe,tag=!dc_currentAxeThrower,tag=!dc_marker,dx=1,dz=1,dy=1,tag=!dc_hasDamageDelay] run function dc_throwable_axes:damage/on_hit
 
 # Particles and effects
 execute if entity @s[tag=dc_axeFireAspect] run particle minecraft:flame ~ ~0.5 ~ 0 0 0 0 1 force

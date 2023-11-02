@@ -32,4 +32,4 @@ execute unless entity @s[type=player,tag=dc_enderman] unless entity @s[type=ende
 # Immune to other axe throw damage (and
 # anything else that uses this scoreboard)
 # for 5 ticks
-scoreboard players set @s dc_damageDelay 5
+function dc_throwable_axes:add_dmg_delay

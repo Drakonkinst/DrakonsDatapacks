@@ -4,4 +4,4 @@
 
 execute as @e[type=item_display,tag=dc_thrownSword] at @s run function dc_enderknife:flight/thrown_sword_tick
 execute as @e[type=item_display,tag=dc_thrownSword] at @s run function dc_enderknife:flight/thrown_sword_tick
-execute as @e[type=!#dc_enderknife:non_damageable,scores={dc_damageDelay=0..}] run function dc_enderknife:check_dmg_delay
+execute as @e[type=!#dc_enderknife:non_damageable,tag=dc_hasDamageDelay] run function dc_enderknife:check_dmg_delay

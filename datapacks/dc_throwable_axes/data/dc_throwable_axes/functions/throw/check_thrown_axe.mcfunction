@@ -10,5 +10,5 @@ execute on origin if entity @s[gamemode=creative] run scoreboard players set #Is
 execute at @s summon item_display run function dc_throwable_axes:throw/setup_thrown_axe
 
 playsound minecraft:item.trident.throw player @a ~ ~ ~ 1 0.85
-scoreboard players set @a[tag=dc_axeThrower,limit=1] dc_damageDelay 5
+execute as @a[tag=dc_axeThrower,limit=1] run function dc_enderknife:add_dmg_delay
 kill @s
