@@ -76,8 +76,6 @@ SERVER_DATAPACKS = {
     "dc_world_reset",
     "dc_worlds_collide",
     
-    "dc_hi"
-    
     # Seasonal
     # "dc_valentines", # Valentines
     # "dc_easter_hunt", # Easter
