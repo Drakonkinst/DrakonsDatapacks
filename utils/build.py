@@ -76,6 +76,8 @@ SERVER_DATAPACKS = {
     "dc_world_reset",
     "dc_worlds_collide",
     
+    "dc_hi"
+    
     # Seasonal
     # "dc_valentines", # Valentines
     # "dc_easter_hunt", # Easter
@@ -124,6 +126,7 @@ buildTarget = "standard"
 buildSettings = None
 optimize = False
 noResources = True
+notFoundDatapacks = []
 
 # Zip the directory at the given path and place it in output folder
 def zipDatapackFolder(path, fileName, outPath):
@@ -209,13 +212,16 @@ def isDatapackFolder(folder):
     return False
     
 def isValidDatapack(path, fileName):
+    global notFoundDatapacks
     if not isDatapackFolder(path):
         return False
     if fileName in IGNORE_DATAPACKS:
         return False
     includeOnlyFilter = buildSettings.get("includeOnly")
-    if includeOnlyFilter is not None and fileName not in includeOnlyFilter:
-        return False
+    if includeOnlyFilter is not None:
+        if fileName not in includeOnlyFilter:
+            return False
+        notFoundDatapacks.remove(fileName)
     return True
 
 def zipDatapacksInFolder(folder, outFile):
@@ -261,7 +267,7 @@ def buildResourcePack(outPath):
     return len(dirs)
 
 def main():
-    global buildTarget, buildSettings, optimize, noResources
+    global buildTarget, buildSettings, optimize, noResources, notFoundDatapacks
     start = time.time()
     
     args = sys.argv[1:]
@@ -291,6 +297,13 @@ def main():
         print("Unknown build target:", buildTarget)
         return
     
+    # Optimized builds can take a while
+    if optimize:
+        print("Generating optimized build. This might take a while!")
+        
+    if buildSettings.get("includeOnly") is not None:
+        notFoundDatapacks.extend(buildSettings["includeOnly"])
+        
     numZipped = 0
     numResourcePacksMerged = 0
     try:
@@ -305,6 +318,9 @@ def main():
     print("Built", numZipped, "datapack(s) in", round((end - start), 4), "seconds")
     if numResourcePacksMerged > 0:
         print("* Also merged", numResourcePacksMerged, "resource pack(s)")
+        
+    if len(notFoundDatapacks) > 0:
+        print("Warning:", len(notFoundDatapacks), "datapack(s) specified in includeOnly but could not be found:", ",".join(notFoundDatapacks))
     
 if __name__ == '__main__':
     main()
