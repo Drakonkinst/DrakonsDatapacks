@@ -50,7 +50,7 @@ SERVER_DATAPACKS = {
     "dc_spider_stomp",
     "dc_spyglass_study",
     "dc_throwable_axes",
-    "dc_throwable_potato",
+    "dc_throwable_bombs",
     "dc_throwable_torch",
     "dc_tool_embed",
     "dc_universal_dyeing",

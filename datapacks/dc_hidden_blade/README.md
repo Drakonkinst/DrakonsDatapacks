@@ -17,6 +17,6 @@ An unenchanted Hidden Blade deals up to **51 damage** (more than 2.5x of a playe
 
 Achieving maximum damage is extremely tricky, as players must land a precise strike while slowed and falling a great distance from above. Combine with **Feather Falling**, **Hay Bales**, **Water**, or other cushioning blocks to mitigate fall damage. You can also **enchant** the Hidden Blade to deal even more damage!
 
-Pair with **[Throwable Bombs](https://github.com/Drakonkinst/DrakonsDatapacks/tree/master/datapacks/dc_throwable_potato)** to escape the scene with Smoke Bombs, or try out the **[Assassin Versus Hunters](https://github.com/Drakonkinst/DrakonsDatapacks/tree/master/datapacks/dc_manhunt_assassin)** gamemode to have a manhunt!
+Pair with **[Throwable Bombs](https://github.com/Drakonkinst/DrakonsDatapacks/tree/master/datapacks/dc_throwable_bombs)** to escape the scene with Smoke Bombs, or try out the **[Assassin Versus Hunters](https://github.com/Drakonkinst/DrakonsDatapacks/tree/master/datapacks/dc_manhunt_assassin)** gamemode to have a manhunt!
 
 This item is currently obtainable **only to server operators**, by running `/function dc_hidden_blade:give`. In addition, the **Book of Assassins** serves as a guidebook on how to use the Blade and can be given with `/function dc_hidden_blade:give_assassin_book`.

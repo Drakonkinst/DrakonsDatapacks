@@ -6,4 +6,4 @@ execute if entity @s[type=#dc_polar_bear:threats] run scoreboard players set #Tr
 execute unless entity @s[type=#dc_polar_bear:threats] run scoreboard players set #TrackingType dc_value 1
 
 # Debug visualization that can be managed in config
-execute if score #SHOW_AI dc_value matches 1 run effect give @s glowing 1 0 true
+execute if score #dc_gamerule_polarBearsShowAI dc_value matches 1 run effect give @s glowing 1 0 true
