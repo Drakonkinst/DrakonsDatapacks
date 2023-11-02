@@ -13,8 +13,22 @@ Admins may enable or disable any specific bomb types through the `/trigger confi
 
 ## Bomb Types
 
-* **Smoke Bombs**: Upon impact, gives all players within the radius Blindness and emits a **smoke screen** for 5 seconds that obscures vision. Only the players within immediate radius upon impact are given Blindness, so players (including the thrower) can enter the smoke screen afterwards without being blinded. In addition, the Smoke Bomb can be conserved if picked up before the smoke screen duration ends. Craft using **no item** (Small Ball Explosion) as the special ingredient.
-* **Fire Bombs**: Upon impact, sets nearby blocks on fire. Craft using a **Fire Charge** (Large Ball Explosion) as the special ingredient.
-* **Redstone Bombs**: Upon impact, **fries Redstone circuitry** by breaking Redstone Dust, Redstone Torches, Redstone Repeaters, and Redstone Comparators in a small area. For example, this can be used to disable Redstone traps, or open Redstone Doors. Craft with a **Gold Nugget** (Star-Shaped Explosion) as the special ingredient.
-* **Blast Bombs**: Upon impact, creates a **high knockback** explosion that does not damage mobs or the environment, which can be useful for displacement or traversal. Craft using a **Feather** (Burst Explosion) as the special ingredient.
-* **Explosive Bombs**: **Explodes** on impact. Craft using any **player or mob head** (Creeper-Shaped Explosion) as the special ingredient.
+### Smoke Bombs
+
+Upon impact, gives all players within the radius Blindness and emits a **smoke screen** for 5 seconds that obscures vision. Only the players within immediate radius upon impact are given Blindness, so players (including the thrower) can enter the smoke screen afterwards without being blinded. In addition, the Smoke Bomb can be conserved if picked up before the smoke screen duration ends. Craft using **no item** (Small Ball Explosion) as the special ingredient.
+
+### Fire Bombs
+
+Upon impact, sets nearby blocks on fire. Craft using a **Fire Charge** (Large Ball Explosion) as the special ingredient.
+
+### Redstone Bombs
+
+Upon impact, **fries Redstone circuitry** by breaking Redstone Dust, Redstone Torches, Redstone Repeaters, and Redstone Comparators in a small area. For example, this can be used to disable Redstone traps, or open Redstone Doors. Craft with a **Gold Nugget** (Star-Shaped Explosion) as the special ingredient.
+
+### Blast Bombs
+
+Upon impact, creates a **high knockback** explosion that does not damage mobs or the environment, which can be useful for displacement or traversal. Craft using a **Feather** (Burst Explosion) as the special ingredient.
+
+### Explosive Bombs
+
+**Explodes** on impact. Craft using any **player or mob head** (Creeper-Shaped Explosion) as the special ingredient.
