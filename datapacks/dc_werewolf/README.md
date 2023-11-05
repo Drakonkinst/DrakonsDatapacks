@@ -68,12 +68,12 @@ Rage **drains over time** by 1 segment per 30 seconds. Being under sunlight make
 
 There are **three stages** of Rage, each providing more powers:
 
-- **Calm** (0-3 Rage Segments)
+- **Calm** (0-3 Rage Segments):
   - The default stage.
-- **Excited** (4-7 Rage Segments)
+- **Excited** (4-7 Rage Segments):
   - **Regeneration I** in both forms.
   - In Wolf Form, gain +1 additional **armor** shirt (7 total).
-- **Enraged**: (8-9 Rage Segments):
+- **Enraged** (8-9 Rage Segments):
   - **Forcibly transformed into Demonic Wolf Form**.
   - In addition to all bonuses provided by the **Excited** stage, gain **Night Vision** in both forms.
   - In Human Form (possible under the effects of Weakness), gain +20% speed.

@@ -34,7 +34,7 @@ Then, the items may be applied using custom **anvil forging**: drop the Axe and 
 
 The **Throwing Grip**, which grants the Throwing enchantment, is designed to be accessible from a relatively early stage.
 
-> **Recipe**: 2x Leather, 1x Nether Quartz, 1x Feather, and 1x Stick. 
+> **Recipe**: 2x Leather, 1x Nether Quartz, 1x Feather, and 1x Stick.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/11655960/230741369-167794cb-f1a5-4a05-8f57-fe0c350185a4.png">
@@ -61,6 +61,5 @@ This datapack synergizes with **[Tool Embed](https://github.com/Drakonkinst/Drak
 > **Note**:
 >
 > **For server administrators**: You can get a pre-made Leviathan Axe to play around with using `/function dc_throwable_axes:give/leviathan_axe`!
-> 
-> You can also apply Throwing and Recalling using the provided item modifiers. For example, to enchant the axe in your hand with Throwing or Recalling, use `/item modify entity @s weapon dc_throwable_axes:enchant_throwing` and  `/item modify entity @s weapon dc_throwable_axes:enchant_recalling`, respectively. 
-
+>
+> You can also apply Throwing and Recalling using the provided item modifiers. For example, to enchant the axe in your hand with Throwing or Recalling, use `/item modify entity @s weapon dc_throwable_axes:enchant_throwing` and  `/item modify entity @s weapon dc_throwable_axes:enchant_recalling`, respectively.
