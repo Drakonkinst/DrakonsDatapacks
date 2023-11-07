@@ -29,6 +29,12 @@ execute unless score @s dc_werewolfRage matches 48.. if entity @s[tag=dc_werewol
 execute if score @s dc_werewolfRage matches 1.. run function dc_werewolf:meter/display_meter
 execute unless score @s dc_werewolfRage matches 1.. unless entity @s[tag=dc_werewolfSit] run function dc_werewolf:meter/display_meter
 
+# Prevent being the controller of any vehicle
+tag @s add dc_vehicleAnchor
+execute on vehicle on controller if entity @s[tag=dc_vehicleAnchor] run ride @s dismount
+execute on vehicle if entity @s[type=!#dc_werewolf:can_ride] run ride @a[tag=dc_vehicleAnchor,limit=1] dismount
+tag @s remove dc_vehicleAnchor
+
 # Auto-attack
 execute if score @s dc_werewolfRage matches 48.. run function dc_werewolf:enraged_tick5
 

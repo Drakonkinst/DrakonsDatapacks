@@ -41,6 +41,8 @@ In Wolf Form, you play as a Wolf that can blend in seamlessly with other Wolves.
 
 You can **sit down** while standing still by **sneaking**. If you sneak for 5 seconds or stand still for 10 seconds, you will continue to sit without needing to hold any button (until you move again).
 
+You cannot control vehicles and mounts, though you can ride in ones that support more than one passenger (Boats and Camels).
+
 You can also be **fed by other players** if they interact with you while holding food. You gain **2 drumsticks** regardless of the food given, though non-meat food alsos inflict a **minor Hunger effect**.
 
 While in **[Wolf Form](#wolf-form)**, you also have the following abilities:

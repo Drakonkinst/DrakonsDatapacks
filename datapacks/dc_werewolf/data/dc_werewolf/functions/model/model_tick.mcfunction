@@ -16,8 +16,18 @@ execute store result score #IsSneaking dc_value as @a[tag=dc_targetWerewolf,limi
 execute store result score #SleepTimer dc_value run data get entity @a[tag=dc_targetWerewolf,limit=1] SleepTimer
 execute store result score #IsMoving dc_value if entity @a[tag=dc_targetWerewolf,limit=1,distance=0.05..]
 
-# Do not count as moving if sleeping
+# Prevent from entering any vehicle
+tag @s add dc_vehicleAnchor
+execute on vehicle on passengers if entity @s[tag=dc_vehicleAnchor] run ride @s dismount
+tag @s remove dc_vehicleAnchor
+
+# Check vehicle to determine offset
+scoreboard players set #VehicleType dc_value 0
+execute as @a[tag=dc_targetWerewolf,limit=1] on vehicle run function dc_werewolf:model/get_vehicle_type
+
+# Do not count as moving if sleeping or in vehicle
 execute if score #SleepTimer dc_value matches 1.. run scoreboard players set #IsMoving dc_value 0
+execute if score #VehicleType dc_value matches 1.. run scoreboard players set #IsMoving dc_value 0
 
 # Increment sitting timer
 execute unless score #IsMoving dc_value matches 1 run scoreboard players add @s dc_werewolfSitSprint 1
@@ -28,9 +38,17 @@ execute if entity @s[tag=dc_werewolfSit] run function dc_werewolf:model/check_un
 execute unless score #IsMoving dc_value matches 1 unless entity @s[tag=dc_werewolfSit] unless predicate drakoncore:not_on_solid_ground run function dc_werewolf:model/check_sit
 
 # Movement
+
 tp @s @a[tag=dc_targetWerewolf,limit=1]
+
 # Offset when sleeping to fix height difference
 execute if score #SleepTimer dc_value matches 1.. at @s run tp @s ~ ~-0.05 ~
+
+# Offset in a boat (passenger only)
+execute if score #VehicleType dc_value matches 1 at @s run tp @s ~ ~0.7 ~
+
+# Offset in a camel (passenger only)
+execute if score #VehicleType dc_value matches 2 at @s run tp @s ~ ~0.55 ~
 
 # Don't let the player breed .-.
 # Eating mechanic
