@@ -29,7 +29,7 @@
         }
     },
     "result": {
-        "item": "minecraft:glass_pane",
+        "id": "minecraft:glass_pane",
         "count": 8
     },
     "group": ""

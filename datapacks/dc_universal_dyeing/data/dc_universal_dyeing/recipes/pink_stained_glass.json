@@ -28,7 +28,7 @@
         }
     },
     "result": {
-        "item": "minecraft:pink_stained_glass",
+        "id": "minecraft:pink_stained_glass",
         "count": 8
     },
     "group": "universal_dyeing_stained_glass"

@@ -12,7 +12,7 @@
         "###"
     ],
     "result": {
-        "count": 6,
-        "item": "minecraft:mud_brick_stairs"
+        "id": "minecraft:mud_brick_stairs",
+        "count": 6
     }
 }

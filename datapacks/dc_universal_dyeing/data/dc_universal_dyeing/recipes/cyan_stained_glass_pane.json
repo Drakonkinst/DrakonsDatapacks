@@ -28,7 +28,7 @@
         }
     },
     "result": {
-        "item": "minecraft:cyan_stained_glass_pane",
+        "id": "minecraft:cyan_stained_glass_pane",
         "count": 8
     },
     "group": "universal_dyeing_stained_glass_pane"

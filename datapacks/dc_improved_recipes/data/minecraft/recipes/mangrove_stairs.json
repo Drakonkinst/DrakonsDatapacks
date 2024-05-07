@@ -12,7 +12,7 @@
         }
     },
     "result": {
-        "item": "minecraft:mangrove_stairs",
+        "id": "minecraft:mangrove_stairs",
         "count": 6
     },
 	"group": "wooden_stairs"

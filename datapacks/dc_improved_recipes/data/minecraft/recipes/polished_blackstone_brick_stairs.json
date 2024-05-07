@@ -12,7 +12,7 @@
         }
     },
     "result": {
-        "item": "minecraft:polished_blackstone_brick_stairs",
+        "id": "minecraft:polished_blackstone_brick_stairs",
         "count": 6
     },
 	"group": "wooden_stairs"

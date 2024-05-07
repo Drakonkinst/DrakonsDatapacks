@@ -14,7 +14,7 @@
     	]
     },
     "result": {
-        "item": "minecraft:deepslate_brick_stairs",
+        "id": "minecraft:deepslate_brick_stairs",
         "count": 6
     }
 }

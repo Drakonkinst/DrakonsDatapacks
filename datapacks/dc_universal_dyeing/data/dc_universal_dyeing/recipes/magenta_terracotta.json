@@ -28,7 +28,7 @@
         }
     },
     "result": {
-        "item": "minecraft:magenta_terracotta",
+        "id": "minecraft:magenta_terracotta",
         "count": 8
     },
     "group": "universal_dyeing_terracotta"

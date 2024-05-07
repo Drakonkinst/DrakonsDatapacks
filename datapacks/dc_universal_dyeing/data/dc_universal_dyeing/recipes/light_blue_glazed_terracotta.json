@@ -28,7 +28,7 @@
         }
     },
     "result": {
-        "item": "minecraft:light_blue_glazed_terracotta",
+        "id": "minecraft:light_blue_glazed_terracotta",
         "count": 8
     },
     "group": "universal_dyeing_glazed_terracotta"

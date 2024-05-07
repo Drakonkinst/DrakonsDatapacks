@@ -12,7 +12,7 @@
         }
     },
     "result": {
-        "item": "minecraft:acacia_stairs",
+        "id": "minecraft:acacia_stairs",
         "count": 6
     },
 	"group": "wooden_stairs"

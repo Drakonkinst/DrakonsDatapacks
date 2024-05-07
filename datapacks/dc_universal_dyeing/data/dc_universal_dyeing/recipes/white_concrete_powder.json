@@ -28,7 +28,7 @@
         }
     },
     "result": {
-        "item": "minecraft:white_concrete_powder",
+        "id": "minecraft:white_concrete_powder",
         "count": 8
     },
     "group": "universal_dyeing_concrete_powder"

@@ -12,7 +12,7 @@
         }
     },
     "result": {
-        "item": "minecraft:prismarine_stairs",
+        "id": "minecraft:prismarine_stairs",
         "count": 6
     },
 	"group": "prismarine_stairs"

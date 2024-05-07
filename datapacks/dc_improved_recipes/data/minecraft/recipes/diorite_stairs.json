@@ -12,7 +12,7 @@
         }
     },
     "result": {
-        "item": "minecraft:diorite_stairs",
+        "id": "minecraft:diorite_stairs",
         "count": 6
     }
 }

@@ -12,7 +12,7 @@
         }
     },
     "result": {
-        "item": "minecraft:cherry_stairs",
+        "id": "minecraft:cherry_stairs",
         "count": 6
     },
 	"group": "wooden_stairs"

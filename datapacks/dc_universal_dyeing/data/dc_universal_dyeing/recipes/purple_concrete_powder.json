@@ -28,7 +28,7 @@
         }
     },
     "result": {
-        "item": "minecraft:purple_concrete_powder",
+        "id": "minecraft:purple_concrete_powder",
         "count": 8
     },
     "group": "universal_dyeing_concrete_powder"
