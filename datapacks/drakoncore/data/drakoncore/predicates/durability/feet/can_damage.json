@@ -7,7 +7,7 @@
                 "predicates": {
                     "minecraft:damage": {
                         "durability": {
-                            "max": 0
+                            "min": 1
                         }
                     }
                 }

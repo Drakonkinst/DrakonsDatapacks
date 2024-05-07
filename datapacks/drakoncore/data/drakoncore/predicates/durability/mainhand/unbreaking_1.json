@@ -5,12 +5,14 @@
         "predicate": {
             "equipment": {
                 "mainhand": {
-                    "enchantments": [
-                        {
-                            "enchantment": "minecraft:unbreaking",
-                            "levels": 1
-                        }
-                    ]
+                    "predicates": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 1
+                            }
+                        ]
+                    }
                 }
             }
         }

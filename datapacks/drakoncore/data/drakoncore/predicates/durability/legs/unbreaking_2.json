@@ -5,12 +5,14 @@
         "predicate": {
             "equipment": {
                 "legs": {
-                    "enchantments": [
-                        {
-                            "enchantment": "minecraft:unbreaking",
-                            "levels": 2
-                        }
-                    ]
+                    "predicates": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 2
+                            }
+                        ]
+                    }
                 }
             }
         }

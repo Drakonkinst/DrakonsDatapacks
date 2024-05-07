@@ -1,2 +1,2 @@
 # Attempts to damage entity's legs slot
-execute if data entity @s Inventory[{Slot:101b}].tag.Damage if predicate drakoncore:durability/legs/should_damage run function drakoncore:internal/durability/legs/modify
+execute if predicate drakoncore:durability/legs/can_damage if predicate drakoncore:durability/legs/should_damage run function drakoncore:internal/durability/legs/modify

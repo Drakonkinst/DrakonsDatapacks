@@ -3,11 +3,11 @@
     "entity": "this",
     "predicate": {
         "equipment": {
-            "feet": {
+            "offhand": {
                 "predicates": {
                     "minecraft:damage": {
                         "durability": {
-                            "max": 0
+                            "min": 1
                         }
                     }
                 }
