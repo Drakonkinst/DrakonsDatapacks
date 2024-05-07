@@ -2,6 +2,7 @@
     "description": "Passive mobs as listed on Minecraft Wiki, including unused mobs",
     "values": [
         "minecraft:allay",
+        "minecraft:armadillo",
         "minecraft:axolotl",
         "minecraft:bat",
         "minecraft:camel",

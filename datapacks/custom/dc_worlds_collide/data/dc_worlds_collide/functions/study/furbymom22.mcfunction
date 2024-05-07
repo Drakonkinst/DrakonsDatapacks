@@ -1,6 +1,5 @@
 # Meow
-scoreboard players set #RandomMax dc_value 3
-function drakoncore:api/random_max
+execute store result score #Random dc_value run random value 0..2
 execute if score #Random dc_value matches 0 run playsound minecraft:entity.cat.ambient player @a ~ ~ ~ 1 0
 execute unless score #Random dc_value matches 0 run playsound minecraft:entity.cat.ambient player @a ~ ~ ~ 1 1
 

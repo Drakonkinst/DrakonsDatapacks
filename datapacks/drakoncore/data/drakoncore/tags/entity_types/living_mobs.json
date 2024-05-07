@@ -2,6 +2,7 @@
     "description": "All mobs considered not undead",
     "values": [
         "minecraft:player",
+        "minecraft:armadillo",
         "minecraft:bat",
         "minecraft:camel",
         "minecraft:cat",
