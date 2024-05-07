@@ -8,11 +8,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Stone Egg (#37)\\\"}\"},SkullOwner:{Id:[I;796473757,1308970562,-1918389582,1843245742],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUxMzk1MjAyNWEyMzI0YTY2NmY3ZWRmNjUzNTgzMjVhYzYzYmFhMzc5OTAyZTM5MGZjMjcyMDE0NjMxOTNlNyJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Best not to bite into this one.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"37/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -22,11 +22,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Sky Egg (#38)\\\"}\"},SkullOwner:{Id:[I;-1525161334,-443858712,-1371976962,-1347265159],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVmZjI1MzIwYTg0MjUwOWI3ZWU1YTIzNjczZjY4NTI5MWM0NjcyYjgzNGQ5YjU3N2U4NjJhOTIwOTgzYzEwYiJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"What do you mean, \\\\\\\"made of sky?\\\\\\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"38/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -36,11 +36,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Water Egg (#39)\\\"}\"},SkullOwner:{Id:[I;2146333835,146622468,-1313288367,-664040621],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRkYWU1MDc2NTcyZmMzMWNmYzdmY2RhMGZkNWI3ZWJmNGFlMWQ1NmE5YjYyNWJkNTU2ZGYxZjA5NWU5YTc3ZiJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Something's sloshing inside.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"39/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -50,11 +50,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Wood Egg (#40)\\\"}\"},SkullOwner:{Id:[I;269396793,1107184843,-1435592946,795504273],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE2YWNlYTBiMjk3NjEyMmUzY2Y1YWZhNjIyMGNhMTU1MTc2MWFkMGJjNTRmYTBkNmVjZWQxMDU0ODIzY2FjMiJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Smells like freshly sawed planks.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"40/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -64,11 +64,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Earth Egg (#41)\\\"}\"},SkullOwner:{Id:[I;1081761,-70956002,-1917395874,938762527],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3MmZlNTExMjRmZGUyOTczNDU2MzkzZGU3YTFlYjhjMTA3NzQ1MWU3NDEyOTlhZTg4NThiMzkwNzE2ZTgwZSJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Your planet probably started as one of these!\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"41/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -78,11 +78,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Leaf Egg (#42)\\\"}\"},SkullOwner:{Id:[I;1317362015,2019642453,-1818045800,-675580499],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhNjA1MWY3ZjZmNDM5ZDhmMjE0YzIzNGU4ZTJjNDc3NjMwMDUyNDMyZTQyNjA3ZjA0MDRiODQwYjUzY2VhYiJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Don't you just want to dive face-first into it?\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"42/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -92,11 +92,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Vine Egg (#43)\\\"}\"},SkullOwner:{Id:[I;311810249,1347437220,-1392073324,-284284643],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJhNTc3ZmZiOWJlYzkwY2YwMDcxZDMzNjllYjU2ODA3MTIzMjI2Y2JiZDNkYWM1YjQ1NjNjOWVkMzI5M2UzNCJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"When dropped, still good for the next 6 seconds.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"43/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -106,11 +106,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Blackstone Egg (#44)\\\"}\"},SkullOwner:{Id:[I;1693708284,-311669852,-2046263601,511494903],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNhN2JmZDI1MWUyMjMwNDE1Y2RhMzk0ODBmNGQ1NDE4MzEzNDJiYmRjNzA3MWE0NWRmNTQzNWFjMTEzMjgyZSJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Crunchy.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"44/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -120,11 +120,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Herobrine Egg (#61)\\\"}\"},SkullOwner:{Id:[I;-894178107,225723110,-1100098508,1132266628],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBjNmJhMTE5YmU4ZWVkOGJmMDdhNzBlYWYzYzQzZjkyYTQ2YzQzNDY0OTA4NjZhNzRiMzJhMTQ0Y2Q0YTEwZiJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"A strange figure just handed me this one day.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"61/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -134,11 +134,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Zombie Egg (#62)\\\"}\"},SkullOwner:{Id:[I;547214113,1493847132,-1595514023,-2067545671],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjgzNTAzYmU0NmNlMmU1Yzk4OTAwN2JjODMxODQzNDM0NTJkZDZkYWM1ZWQxNDVmMjQyNjc1YzNmMTdiOGYwYyJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Made with green food coloring and love.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"62/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -148,11 +148,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Eggdog (#63)\\\"}\"},SkullOwner:{Id:[I;2065950522,-1876540531,-1761198765,725765512],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFlZWFjZWQ0NGEyYjA1ZThhZjQ1MjAxNzY0MjlkOWRjOTk1ZDEwZWI1YTI3M2UyMTRmODc4OTMzYzQ3ZTczNyJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"It's an egg! It's a dog!\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"63/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -162,11 +162,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Pufferfish Egg (#64)\\\"}\"},SkullOwner:{Id:[I;126714974,-2085401648,-1369807467,1205252684],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUyMmE0ZTM5NTM3YTA0OWVhZWQ4NDcyZmY3NTAwZDRlZmE0ZmQ0NGVhOGNjNjQwMjQxNTk5MmUyZTc1ZGQxIn19fQ==\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Spines not included.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"64/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -176,11 +176,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Surprise Creeper Egg (#65)\\\"}\"},SkullOwner:{Id:[I;-1540798364,-82423838,-1218981600,-1036259955],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMwZDA0NDNhZGQ0OTA0N2YzNDg2NDRhYjJlNTYzNjE3ZTc5ZjI1N2I3MmY4NzM4N2UwNGRkZDZiMzAxODdmOSJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"This creeper showed up for a party, and never made it home.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"65/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -190,11 +190,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Slime Egg (#66)\\\"}\"},SkullOwner:{Id:[I;153548701,179586927,-1074818084,-1379101222],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMyYjE5Yzg3YTQ4MjY1MWRiOGNkMDdiMzliYWY0ZWEyYjQwNjllZWNlMWQ5MTlkZGVkNjg0ODM1MDQ2MWMxMSJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Very bouncy.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"66/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -204,11 +204,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Skeleton Egg (#67)\\\"}\"},SkullOwner:{Id:[I;-1882759898,-810596993,-1371373214,-1294286308],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGIyMjM2MjcwN2EyMzk5YTQ0OTYwOTFmNGMwYWQzZmZiMGYyOTYzYWE4OTI2YmQ5MWI0NjUwMjkzMDQwMWI0ZSJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Disclaimer: Not actually a human skull.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"67/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -218,11 +218,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Creepy Creeper Egg (#68)\\\"}\"},SkullOwner:{Id:[I;544369521,2113160064,-1514720998,-1045517783],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjVkYmVjNTI0YTk1ZGVhNGQ0ZDU4MDJjOTViMGNmNWVhZmViZDMxYTk4NzY3NzI3MTZhNDg2MmQ2Yzg4YSJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Caught this one outside my front porch.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"68/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -232,11 +232,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Diamond Egg (#69)\\\"}\"},SkullOwner:{Id:[I;-1181211237,288051096,-1454396524,-851453834],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxMDU1ZDcyZTBhYThhMTYyYjQwNDczZTMwNzQ4ZjczMzExNjcwMGIwNGJlNmFjOWExZTgxNjFjYTc3YWYwYyJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Nice.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"69/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -246,11 +246,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Emerald Egg (#70)\\\"}\"},SkullOwner:{Id:[I;-325861964,-1287306106,-2057803046,165640677],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU3MzJhZjdkZDljMTNmNmIxZWI4YjcxYmYzNzNiYmUwMmI4YWViM2ZjZjY5YjNlYjQwZDZkMjliNGZmODQyMCJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Villagers aren't a fan of the chocolate insides.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"70/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -260,11 +260,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Gold Egg (#71)\\\"}\"},SkullOwner:{Id:[I;825136382,1829063987,-1926977488,-195794051],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUxNTk5ZjY2ZTgzZGE1NTVjZjliOGI3ZTVhMzc5ZDBkZWFiMjFjMmVlZTkwOWQxODM3MzIzZGIwODkzYmYzOCJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Piglins love these!\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"71/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -274,11 +274,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Iron Egg (#72)\\\"}\"},SkullOwner:{Id:[I;285665203,1068583350,-1452503605,419396161],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM5YTFjOTBhMzY3YzQ0ZmFhNDlkMGUyNzM0ODc3NzBmMmUzZjgzZGNiMWViYTZkNzU4YjQ3MzBhZTVmOTY4OCJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Starting to have doubts that these are all eggs...\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"72/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -288,11 +288,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Lapis Egg (#73)\\\"}\"},SkullOwner:{Id:[I;1387960673,-1192343204,-1960664890,-956136616],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI0YzdlYTVhYzhkNmM2MDE5NDZkZTFlYjVjMjUzMTU1NTU1YmQ1MTVkOWI2NWUzOTU0NzQ0ZmExOWI1ZTg4MiJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"If only there were a better use for these...\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"73/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -302,11 +302,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Redstone Egg (#74)\\\"}\"},SkullOwner:{Id:[I;1884549114,-2012460004,-1080137930,-1684878886],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVkYzUwZmYzNTExNTFiZjU0ZDFlYjIxMDVmZjQxNTg3YjA4YWM3MWNjOGIwZDUzMDk4ZTBkNTMxOWRlMDkyYyJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"This one's actually made of sweetberry juice.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"74/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]
@@ -316,11 +316,11 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{display:{Name:\"{\\\"color\\\":\\\"blue\\\",\\\"italic\\\":false,\\\"text\\\":\\\"Ruby Egg (#75)\\\"}\"},SkullOwner:{Id:[I;1109992979,2091076501,-1448501864,-68036493],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y4N2ZjNWNiYjIzMzc0M2E4MmZiMGZhNTFmZTczOTQ4N2YyOWJjYzAxYzkwMjY2MjFlY2VmYWQxOTdmNGZiMSJ9fX0=\"}]}}}"
                         },
                         {
-                            "function": "minecraft:set_nbt",
+                            "function": "minecraft:set_custom_data",
                             "tag": "{EasterEgg:1b,display:{Lore:[\"[{\\\"text\\\": \\\"Made from a rare gem, buried long ago.\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"\\\", \\\"italic\\\": false, \\\"color\\\": \\\"dark_purple\\\"}]\", \"[{\\\"text\\\": \\\"Easter Egg Hunt 2023\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\", \"[{\\\"text\\\": \\\"75/210\\\", \\\"italic\\\": false, \\\"color\\\": \\\"light_purple\\\"}]\"]}}"
                         }
                     ]

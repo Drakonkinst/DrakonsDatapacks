@@ -4,8 +4,10 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "tag": "minecraft:swords",
-                "nbt": "{Throwable:1b}"
+                "items": "#minecraft:swords",
+                "predicates": {
+                    "custom_data": "{Throwable:1b}"
+                }
             }
         }
     }

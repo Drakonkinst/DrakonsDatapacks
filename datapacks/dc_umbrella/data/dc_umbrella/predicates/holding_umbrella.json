@@ -7,7 +7,9 @@
             "predicate": {
                 "equipment": {
                     "offhand": {
-                        "nbt": "{Umbrella:1b}"
+                        "predicates": {
+                            "custom_data": "{Umbrella:1b}"
+                        }
                     }
                 }
             }
@@ -18,7 +20,9 @@
             "predicate": {
                 "equipment": {
                     "mainhand": {
-                        "nbt": "{Umbrella:1b}"
+                        "predicates": {
+                            "custom_data": "{Umbrella:1b}"
+                        }
                     }
                 }
             }

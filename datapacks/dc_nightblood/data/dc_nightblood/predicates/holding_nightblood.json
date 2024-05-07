@@ -4,10 +4,10 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "items": [
-                    "minecraft:netherite_sword"
-                ],
-                "nbt": "{Nightblood:1b}"
+                "items": "minecraft:netherite_sword",
+                "predicates": {
+                    "custom_data": "{Nightblood:1b}"
+                }
             }
         }
     }

@@ -2,6 +2,6 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "nbt": "{Age:0s,Item:{id:\"minecraft:diamond_axe\",tag:{Throwable:1b}}}"
+        "nbt": "{Age:0s,Item:{id:\"minecraft:diamond_axe\",components:{\"minecraft:custom_data\":{Throwable:1b}}}}"
     }
 }

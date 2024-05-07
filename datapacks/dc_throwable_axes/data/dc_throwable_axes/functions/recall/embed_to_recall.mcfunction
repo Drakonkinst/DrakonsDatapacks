@@ -11,8 +11,8 @@ tag @s add dc_noDamageThrow
 data modify entity @s Rotation set from entity @a[tag=dc_currentAxeThrower,limit=1] Rotation
 
 # Add enchantment tags
-execute if data entity @s item.tag.Enchantments[{id:"minecraft:fire_aspect"}] run tag @s add dc_axeFireAspect
-execute if data entity @s ThrownItemData.tag.Enchantments[{id:"minecraft:sharpness"}] run tag @s add dc_axeSharpness
+execute if data entity @s item.components."minecraft:enchantments".levels."minecraft:fire_aspect" run tag @s add dc_axeFireAspect
+execute if data entity @s ThrownItemData.components."minecraft:enchantments".levels."minecraft:sharpness" run tag @s add dc_axeSharpness
 
 # Modify transformation to match standard thrown axes
 #data modify entity @s interpolation_duration set value 0

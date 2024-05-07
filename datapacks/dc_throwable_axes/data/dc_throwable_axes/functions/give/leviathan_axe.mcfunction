@@ -1,1 +1,1 @@
-give @s diamond_axe{display:{Name:'{"text":"Leviathan Axe","color":"gold","italic":false}',Lore:['{"text":"Throwing","color":"gold","italic":false}','{"text":"Recalling","color":"gold","italic":false}']},Unbreakable:1b,Throwable:1b,Returning:1b,Enchantments:[{}]} 1
+give @s diamond_axe[unbreakable={},custom_data={Throwable:1b,Returning:1b},enchantment_glint_override=true,item_name='{"color":"gold","italic":false,"text":"Leviathan Axe"}',lore=['{"color":"gold","italic":false,"text":"Throwing"}','{"color":"gold","italic":false,"text":"Recalling"}']] 1

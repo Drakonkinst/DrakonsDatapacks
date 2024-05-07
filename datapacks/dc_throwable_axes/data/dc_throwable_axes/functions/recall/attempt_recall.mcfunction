@@ -3,15 +3,15 @@ scoreboard players operation #CurrentId dc_playerId = @s dc_playerId
 scoreboard players reset #MatchingAxeFound dc_value
 
 # Thrown axes
-execute as @e[type=item_display,tag=dc_thrownAxe,tag=!dc_recallAxe,distance=..250] if data entity @s item.tag.Returning if score @s dc_playerId = #CurrentId dc_playerId run function dc_throwable_axes:recall/tag_item_display
+execute as @e[type=item_display,tag=dc_thrownAxe,tag=!dc_recallAxe,distance=..250] if data entity @s item.components."minecraft:custom_data".Returning if score @s dc_playerId = #CurrentId dc_playerId run function dc_throwable_axes:recall/tag_item_display
 execute as @e[type=item_display,tag=dc_thrownAxe,tag=dc_matchingAxe] at @s run function dc_throwable_axes:recall/axe_to_recall
 
 # Embedded axes, ignoring ones you're already right next to
-execute as @e[type=item_display,tag=dc_te_model,distance=1.1..250] if data entity @s item.tag.Returning if score @s dc_playerId = #CurrentId dc_playerId run function dc_throwable_axes:recall/tag_item_display
+execute as @e[type=item_display,tag=dc_te_model,distance=1.1..250] if data entity @s item.components."minecraft:custom_data".Returning if score @s dc_playerId = #CurrentId dc_playerId run function dc_throwable_axes:recall/tag_item_display
 execute as @e[type=item_display,tag=dc_te_model,tag=dc_matchingAxe] at @s run function dc_throwable_axes:recall/embed_to_recall
 
 # Item axes
-execute as @e[type=item,distance=..250] if data entity @s Item.tag.Throwable if data entity @s Item.tag.Returning if data entity @s Item.tag.Thrower run function dc_throwable_axes:recall/tag_item_if_match
+execute as @e[type=item,distance=..250] if data entity @s Item.components."minecraft:custom_data".Throwable if data entity @s Item.components."minecraft:custom_data".Returning if data entity @s Item.components."minecraft:custom_data".Thrower run function dc_throwable_axes:recall/tag_item_if_match
 execute as @e[type=item,tag=dc_matchingAxe] at @s run function dc_throwable_axes:recall/item_to_recall
 
 # Play sound when recall is initiated

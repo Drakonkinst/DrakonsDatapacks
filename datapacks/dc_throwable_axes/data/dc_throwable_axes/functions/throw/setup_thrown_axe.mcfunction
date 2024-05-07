@@ -9,8 +9,8 @@ data modify entity @s transformation set value {scale:[0.8f,0.8f,0.8f],left_rota
 # Set base rotation to match player
 data modify entity @s Rotation set from entity @a[tag=dc_axeThrower,limit=1] Rotation
 
-execute if data storage dc_throwable_axes:item_data ThrownItemData.tag.Enchantments[{id:"minecraft:fire_aspect"}] run tag @s add dc_axeFireAspect
-execute if data storage dc_throwable_axes:item_data ThrownItemData.tag.Enchantments[{id:"minecraft:sharpness"}] run tag @s add dc_axeSharpness
+execute if data storage dc_throwable_axes:item_data ThrownItemData.components."minecraft:enchantments".levels."minecraft:fire_aspect" run tag @s add dc_axeFireAspect
+execute if data storage dc_throwable_axes:item_data ThrownItemData.components."minecraft:enchantments".levels."minecraft:sharpness" run tag @s add dc_axeSharpness
 
 # Add tag to begin movement
 tag @s add dc_thrownAxe

@@ -4,8 +4,10 @@
     "predicate": {
         "equipment": {
             "offhand": {
-                "tag": "minecraft:swords",
-                "nbt": "{Blinking:1b}"
+                "items": "#minecraft:swords",
+                "predicates": {
+                    "custom_data": "{Blinking:1b}"
+                }
             }
         }
     }

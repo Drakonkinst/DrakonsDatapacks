@@ -2,6 +2,6 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "nbt": "{item:{tag:{Returning:1b}}}"
+        "nbt": "{item:{components:{\"minecraft:custom_data\":{Returning:1b}}}}"
     }
 }

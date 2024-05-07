@@ -4,7 +4,9 @@
     "predicate": {
         "equipment": {
             "feet": {
-                "nbt": "{LongFallBoots:1b}"
+                "predicates": {
+                    "custom_data": "{LongFallBoots:1b}"
+                }
             }
         }
     }

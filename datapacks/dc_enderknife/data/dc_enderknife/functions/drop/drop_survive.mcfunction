@@ -8,5 +8,5 @@ execute store success score #Exists dc_value run function dc_tool_embed:hooks/mo
 
 execute unless score #HitMob dc_value matches 1.. if score #Exists dc_value matches 1.. run function dc_enderknife:drop/special_embed
 
-execute unless score #Exists dc_value matches 1.. run function dc_enderknife:drop/drop
+execute unless score #HitMob dc_value matches 1.. unless score #Exists dc_value matches 1.. run function dc_enderknife:drop/drop
 execute if score #HitMob dc_value matches 1.. run function dc_enderknife:drop/drop

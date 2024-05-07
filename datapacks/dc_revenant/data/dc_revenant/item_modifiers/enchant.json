@@ -1,6 +1,6 @@
 [
     {
-        "function": "minecraft:set_nbt",
+        "function": "minecraft:set_custom_data",
         "tag": "{Trim:{material:\"minecraft:quartz\",pattern:\"minecraft:tide\"}}"
     },
     {

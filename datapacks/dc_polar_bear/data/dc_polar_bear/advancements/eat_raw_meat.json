@@ -4,10 +4,10 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": [
-                        "minecraft:beef"
-                    ],
-                    "nbt": "{PolarBearMeat:1b}"
+                    "items": "minecraft:beef",
+                    "predicates": {
+                        "custom_data": "{PolarBearMeat:1b}"
+                    }
                 }
             }
         }

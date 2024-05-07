@@ -4,10 +4,10 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "items": [
-                    "minecraft:iron_sword"
-                ],
-                "nbt": "{HiddenBlade:1b}"
+                "items": "minecraft:iron_sword",
+                "predicates": {
+                    "custom_data": "{HiddenBlade:1b}"
+                }
             }
         }
     }

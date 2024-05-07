@@ -2,6 +2,6 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "nbt": "{item:{tag:{Blinking:1b}}}"
+        "nbt": "{item:{components:{\"minecraft:custom_data\":{Blinking:1b}}}}"
     }
 }

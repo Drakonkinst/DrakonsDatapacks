@@ -2,6 +2,6 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "nbt": "{Item:{tag:{ThrowingHilt:1b}}}"
+        "nbt": "{Item:{components:{\"minecraft:custom_data\":{ThrowingHilt:1b}}}}"
     }
 }

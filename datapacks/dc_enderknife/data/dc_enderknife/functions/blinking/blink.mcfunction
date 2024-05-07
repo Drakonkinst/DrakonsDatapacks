@@ -7,4 +7,4 @@ execute at @a[tag=dc_currentSwordThrower,limit=1] run function dc_enderknife:bli
 
 execute unless score #IsBroken dc_value matches 1 as @s run function dc_enderknife:drop/drop_blinking
 
-execute as @a[tag=dc_currentSwordThrower,limit=1] run function dc_enderknife:blinking/blink_sideeffects
+execute as @a[tag=dc_currentSwordThrower,limit=1] run function dc_enderknife:blinking/blink_side_effects

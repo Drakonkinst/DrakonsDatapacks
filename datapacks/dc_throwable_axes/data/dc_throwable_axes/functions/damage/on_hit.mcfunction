@@ -2,7 +2,7 @@
 # Should be done instead of dealing damage in case entity dies
 scoreboard players set #FireDuration dc_value 0
 # Fire should last for 80 ticks * Fire Aspect enchantment level
-execute store result score #FireDuration dc_value run data get storage dc_throwable_axes:axe_data FlyingAxe.tag.Enchantments[{id:"minecraft:fire_aspect"}].lvl 80
+execute store result score #FireDuration dc_value run data get storage dc_throwable_axes:axe_data FlyingAxe.components."minecraft:enchantments".levels."minecraft:fire_aspect" 80
 execute if score #FireDuration dc_value matches 1.. run execute store result entity @s Fire short 1 run scoreboard players get #FireDuration dc_value
 
 # If Enderman, dodge the attack instead

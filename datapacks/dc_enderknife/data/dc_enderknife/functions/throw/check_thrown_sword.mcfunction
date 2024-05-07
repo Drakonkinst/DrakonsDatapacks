@@ -1,6 +1,6 @@
 # Running as thrown item
 data modify storage dc_enderknife:item_data ThrownItemData set from entity @s Item
-data modify storage dc_enderknife:item_data ThrownItemData.tag.Thrower set from entity @s Thrower
+data modify storage dc_enderknife:item_data ThrownItemData.components."minecraft:custom_data".Thrower set from entity @s Thrower
 execute on origin run scoreboard players operation #ThrowerId dc_playerId = @s dc_playerId
 
 # Mark sword as no damage if thrower is in creative

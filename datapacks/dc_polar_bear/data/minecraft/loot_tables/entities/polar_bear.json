@@ -9,7 +9,7 @@
           "name": "minecraft:beef",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{PolarBearMeat:1b}",
               "conditions": [
                 {
