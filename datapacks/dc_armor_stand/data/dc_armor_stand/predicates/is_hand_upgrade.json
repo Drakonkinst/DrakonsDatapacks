@@ -3,7 +3,7 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-            "nbt": "{Item:{id:\"minecraft:stick\",Count:2b},OnGround:1b}"
+            "nbt": "{Item:{id:\"minecraft:stick\",count:2},OnGround:1b}"
         }
     }
 ]
