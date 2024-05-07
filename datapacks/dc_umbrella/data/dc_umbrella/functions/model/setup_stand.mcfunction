@@ -1,2 +1,2 @@
-data merge entity @s {Marker:1b,Invisible:1b,Tags:["dc_umbrellaStand"],HandItems:[{id:"minecraft:stick",Count:1b},{}],Pose:{RightArm:[260f,0f,0f]},Small:1b}
+data merge entity @s {Marker:1b,Invisible:1b,Tags:["dc_umbrellaStand"],HandItems:[{id:"minecraft:stick",count:1},{}],Pose:{RightArm:[260f,0f,0f]},Small:1b}
 scoreboard players operation @s dc_playerId = #CurrentId dc_playerId

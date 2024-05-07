@@ -1,8 +1,21 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "type": "minecraft:item",
-        "nbt": "{Item:{id:\"minecraft:torch\",Count:1b},OnGround:1b}"
-    }
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:torch\",count:1},OnGround:1b}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:soul_torch\",count:1},OnGround:1b}"
+            }
+        }
+    ]
 }
