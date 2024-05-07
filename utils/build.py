@@ -32,10 +32,10 @@ SERVER_DATAPACKS = {
     "dc_hats",
     "dc_improved_recipes",
     "dc_improved_squids",
-    # "dc_mob_eat",
+    "dc_mob_eat",
     "dc_more_recipes",
     "dc_parachute",
-    # "dc_pet_finder",
+    "dc_pet_finder",
     # "dc_pet_transfer",
     # "dc_player_revive",
     # "dc_polar_bear",
@@ -56,7 +56,7 @@ SERVER_DATAPACKS = {
     "dc_universal_dyeing",
     # "dc_villager_fix",
     # "dc_wishing_well", # Easter - this is always on since it allows Easter Eggs to be broken
-    # "dc_xp_storage",
+    "dc_xp_storage",
     
     # # Custom Items
     # "dc_hidden_blade",

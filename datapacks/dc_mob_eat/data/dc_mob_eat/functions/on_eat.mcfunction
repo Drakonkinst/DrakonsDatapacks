@@ -8,6 +8,6 @@ data modify entity @s InLove set value 0
 # https://minecraft.fandom.com/wiki/Regeneration
 # https://rgbcolorpicker.com/0-1
 # Cannot play multiple in a single command, so play it three times
-particle minecraft:entity_effect ~ ~ ~ 0.804 0.361 0.671 1 0 normal
-particle minecraft:entity_effect ~ ~0.5 ~ 0.804 0.361 0.671 1 0 normal
-particle minecraft:entity_effect ~ ~1 ~ 0.804 0.361 0.671 1 0 normal
+particle minecraft:entity_effect{color:[0.804,0.361,0.671,1.0]} ~ ~ ~ 0 0 0 1 0 normal
+particle minecraft:entity_effect{color:[0.804,0.361,0.671,1.0]} ~ ~0.5 ~ 0 0 0 1 0 normal
+particle minecraft:entity_effect{color:[0.804,0.361,0.671,1.0]} ~ ~1 ~ 0 0 0 1 0 normal
