@@ -55,7 +55,7 @@ SERVER_DATAPACKS = {
     # "dc_tool_embed",
     "dc_universal_dyeing",
     # "dc_villager_fix",
-    # "dc_wishing_well", # Easter - this is always on since it allows Easter Eggs to be broken
+    # # "dc_wishing_well", # Easter - this is always on since it allows Easter Eggs to be broken
     "dc_xp_storage",
     
     # # Custom Items
@@ -76,7 +76,8 @@ SERVER_DATAPACKS = {
     
     # Seasonal
     "dc_valentines", # Valentines
-    "dc_easter_hunt", # Easter
+    # Lost the script to generate this database, am very sad. Will have to come back to this next year :)
+    # "dc_easter_hunt", # Easter
     "dc_christmas_horde", # Christmas
 }
 
