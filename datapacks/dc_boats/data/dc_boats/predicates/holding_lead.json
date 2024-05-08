@@ -7,9 +7,7 @@
       "predicate": {
         "equipment": {
           "offhand": {
-            "items": [
-              "minecraft:lead"
-            ]
+            "items": "minecraft:lead"
           }
         }
       }
@@ -20,9 +18,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "items": [
-              "minecraft:lead"
-            ]
+            "items": "minecraft:lead"
           }
         }
       }

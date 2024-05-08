@@ -45,7 +45,7 @@ SERVER_DATAPACKS = {
     # "dc_rocket_travel",
     # "dc_roomba",
     # "dc_shiny_toe",
-    # "dc_sniffer_riding",
+    "dc_sniffer_riding",
     "dc_speed_paths",
     "dc_spider_stomp",
     "dc_spyglass_study",
@@ -54,7 +54,7 @@ SERVER_DATAPACKS = {
     "dc_throwable_torch",
     # "dc_tool_embed",
     "dc_universal_dyeing",
-    # "dc_villager_fix",
+    "dc_villager_fix",
     # # "dc_wishing_well", # Easter - this is always on since it allows Easter Eggs to be broken
     "dc_xp_storage",
     

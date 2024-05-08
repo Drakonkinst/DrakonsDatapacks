@@ -7,7 +7,7 @@
             "predicate": {
                 "equipment": {
                     "offhand": {
-                        "tag": "minecraft:sniffer_food"
+                        "items": "#minecraft:sniffer_food"
                     }
                 }
             }
@@ -18,7 +18,7 @@
             "predicate": {
                 "equipment": {
                     "mainhand": {
-                        "tag": "minecraft:sniffer_food"
+                        "items": "#minecraft:sniffer_food"
                     }
                 }
             }
