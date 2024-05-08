@@ -26,7 +26,7 @@ SERVER_DATAPACKS = {
     "drakoncore", # Core pack required for most datapacks to function
     
     "dc_armor_stand",
-    # "dc_arrow_salvage",
+    "dc_arrow_salvage",
     # "dc_boats",
     "dc_enderknife",
     "dc_hats",
