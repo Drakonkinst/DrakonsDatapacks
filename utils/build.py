@@ -75,9 +75,9 @@ SERVER_DATAPACKS = {
     # "dc_worlds_collide",
     
     # Seasonal
-    # "dc_valentines", # Valentines
-    # "dc_easter_hunt", # Easter
-    # "dc_christmas_horde", # Christmas
+    "dc_valentines", # Valentines
+    "dc_easter_hunt", # Easter
+    "dc_christmas_horde", # Christmas
 }
 
 # Tasks
