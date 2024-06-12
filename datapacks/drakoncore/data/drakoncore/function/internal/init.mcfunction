@@ -23,6 +23,8 @@ scoreboard objectives add config trigger "DrakonCore Config"
 
 # Defining constants
 scoreboard players set #2 dc_value 2
+scoreboard players set #100 dc_value 100
+scoreboard players set #600 dc_value 600
 scoreboard players set #256 dc_value 256
 scoreboard players set #65536 dc_value 65536
 scoreboard players set #16777216 dc_value 16777216
