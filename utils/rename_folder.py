@@ -12,10 +12,17 @@ replace_map = {
     "predicates": "predicate",
     "item_modifiers": "item_modifier",
     "functions": "function",
-    "tags/functions": "tags/function",
+}
+tag_dirname = "tags"
+replace_map_for_tags = {
+    "items": "item",
+    "blocks": "block",
+    "entity_types": "entity_type",
+    "fluids": "fluid",
+    "game_events": "game_event"
 }
 
-def rename_invalid(root):
+def rename_invalid(root, is_tag_folder = False):
     total = 0
     for dirname in os.listdir(root):
         path = os.path.join(root, dirname)
@@ -27,8 +34,13 @@ def rename_invalid(root):
             dirname = replace_map[old_dirname]
             os.rename(old_dirname, dirname)
             total += 1
+        elif is_tag_folder and dirname in replace_map_for_tags:
+            old_dirname = dirname
+            dirname = replace_map_for_tags[old_dirname]
+            os.rename(old_dirname, dirname)
+            total += 1
         os.chdir(dirname)
-        total += rename_invalid(".")
+        total += rename_invalid(".", dirname == tag_dirname)
         os.chdir("..")
     return total
 

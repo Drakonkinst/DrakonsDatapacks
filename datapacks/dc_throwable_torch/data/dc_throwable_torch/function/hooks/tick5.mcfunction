@@ -1,2 +1,2 @@
 # Can prevent torches from being placed on a list transparent blocks later
-execute as @e[type=item,tag=!dc_torchOnGround,predicate=dc_throwable_torch:is_throwable_torch] at @s if block ~ ~ ~ #drakoncore:air unless block ~ ~-1 ~ #drakoncore:non_solid run function dc_throwable_torch:check_torch
+execute as @e[type=item,tag=!dc_torchOnGround,predicate=dc_throwable_torch:is_throwable_torch] at @s if block ~ ~ ~ #minecraft:air unless block ~ ~-1 ~ #drakoncore:non_solid run function dc_throwable_torch:check_torch

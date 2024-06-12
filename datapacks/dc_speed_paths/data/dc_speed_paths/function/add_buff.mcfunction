@@ -1,2 +1,2 @@
-attribute @s minecraft:generic.movement_speed modifier add 466383e9-b824-4a3e-8cf5-26e56635156d "Speed Path" 0.3 add_multiplied_total
+attribute @s minecraft:generic.movement_speed modifier add dc_speed_path:speed_path 0.3 add_multiplied_total
 tag @s add dc_onSpeedPath
