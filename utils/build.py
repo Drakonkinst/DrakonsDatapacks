@@ -38,7 +38,7 @@ SERVER_DATAPACKS = {
     "dc_pet_finder",
     # "dc_pet_transfer",
     # "dc_player_revive",
-    # "dc_polar_bear",
+    "dc_polar_bear",
     # "dc_repairable_tridents",
     "dc_restful_sleep",
     # "dc_revenant",

@@ -4,7 +4,7 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "tag": "dc_werewolf:bad_wolf_food"
+                "items": "#dc_werewolf:bad_wolf_food"
             }
         }
     }

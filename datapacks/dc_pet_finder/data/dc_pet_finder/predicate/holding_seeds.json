@@ -4,7 +4,7 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "tag": "dc_pet_finder:seeds"
+                "items": "#dc_pet_finder:seeds"
             }
         }
     }

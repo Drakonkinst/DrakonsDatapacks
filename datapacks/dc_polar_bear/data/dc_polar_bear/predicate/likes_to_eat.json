@@ -4,7 +4,7 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "tag": "dc_polar_bear:likes_to_eat"
+                "items": "#dc_polar_bear:likes_to_eat"
             }
         }
     }
