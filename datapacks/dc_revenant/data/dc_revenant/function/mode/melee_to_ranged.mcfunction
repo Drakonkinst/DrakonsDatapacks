@@ -1,6 +1,6 @@
-item replace entity @s weapon.mainhand with bow{Enchantments:[{id:"minecraft:power",lvl:1s}]} 1
+item replace entity @s weapon.mainhand with minecraft:bow[minecraft:enchantments={levels:{"minecraft:power":1}}]
 execute on target run effect give @s darkness 3 0 true
-data merge entity @s {Attributes:[{Name:generic.movement_speed,Base:0.4}]}
+attribute @s minecraft:generic.movement_speed base set 0.4
 tag @s remove dc_revenantMelee
 
 playsound minecraft:entity.warden.heartbeat hostile @a ~ ~ ~ 0.75 1

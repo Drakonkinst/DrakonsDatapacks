@@ -39,9 +39,9 @@
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:generic.movement_speed",
-                                    "name": "",
+                                    "id": "dc_shiny_toe:boots",
                                     "amount": 0.7,
-                                    "operation": "multiply_base",
+                                    "operation": "add_multiplied_base",
                                     "slot": "feet"
                                 }
                             ]

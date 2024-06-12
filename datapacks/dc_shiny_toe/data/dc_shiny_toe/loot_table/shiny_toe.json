@@ -93,9 +93,14 @@
                     "condition": "minecraft:killed_by_player"
                 },
                 {
-                    "condition": "minecraft:random_chance_with_looting",
-                    "chance": 0.025,
-                    "looting_multiplier": 0.01
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchanted_chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.035,
+                        "per_level_above_first": 0.01
+                    },
+                    "enchantment": "minecraft:looting",
+                    "unenchanted_chance": 0.025
                 }
             ]
         },
@@ -137,9 +142,14 @@
                     "condition": "minecraft:killed_by_player"
                 },
                 {
-                    "condition": "minecraft:random_chance_with_looting",
-                    "chance": 0.085,
-                    "looting_multiplier": 0.01
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchanted_chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.095,
+                        "per_level_above_first": 0.01
+                    },
+                    "enchantment": "minecraft:looting",
+                    "unenchanted_chance": 0.085
                 }
             ]
         },
@@ -181,9 +191,14 @@
                     "condition": "minecraft:killed_by_player"
                 },
                 {
-                    "condition": "minecraft:random_chance_with_looting",
-                    "chance": 0.085,
-                    "looting_multiplier": 0.01
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchanted_chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.095,
+                        "per_level_above_first": 0.01
+                    },
+                    "enchantment": "minecraft:looting",
+                    "unenchanted_chance": 0.085
                 }
             ]
         },
@@ -225,9 +240,14 @@
                     "condition": "minecraft:killed_by_player"
                 },
                 {
-                    "condition": "minecraft:random_chance_with_looting",
-                    "chance": 0.085,
-                    "looting_multiplier": 0.01
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchanted_chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.095,
+                        "per_level_above_first": 0.01
+                    },
+                    "enchantment": "minecraft:looting",
+                    "unenchanted_chance": 0.085
                 }
             ]
         },
@@ -269,9 +289,9 @@
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:generic.movement_speed",
-                                    "name": "",
+                                    "id": "dc_shiny_toe:boots",
                                     "amount": 0.7,
-                                    "operation": "multiply_base",
+                                    "operation": "add_multiplied_base",
                                     "slot": "feet"
                                 }
                             ]
@@ -284,9 +304,14 @@
                     "condition": "minecraft:killed_by_player"
                 },
                 {
-                    "condition": "minecraft:random_chance_with_looting",
-                    "chance": 0.025,
-                    "looting_multiplier": 0.01
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchanted_chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.035,
+                        "per_level_above_first": 0.01
+                    },
+                    "enchantment": "minecraft:looting",
+                    "unenchanted_chance": 0.025
                 }
             ]
         },
@@ -312,9 +337,14 @@
                     "condition": "minecraft:killed_by_player"
                 },
                 {
-                    "condition": "minecraft:random_chance_with_looting",
-                    "chance": 0.085,
-                    "looting_multiplier": 0.01
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchanted_chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.095,
+                        "per_level_above_first": 0.01
+                    },
+                    "enchantment": "minecraft:looting",
+                    "unenchanted_chance": 0.085
                 }
             ]
         },
@@ -335,9 +365,14 @@
                             "condition": "minecraft:killed_by_player"
                         },
                         {
-                            "condition": "minecraft:random_chance_with_looting",
-                            "chance": 0.025,
-                            "looting_multiplier": 0.01
+                            "condition": "minecraft:random_chance_with_enchanted_bonus",
+                            "enchanted_chance": {
+                                "type": "minecraft:linear",
+                                "base": 0.035,
+                                "per_level_above_first": 0.01
+                            },
+                            "enchantment": "minecraft:looting",
+                            "unenchanted_chance": 0.025
                         }
                     ]
                 }

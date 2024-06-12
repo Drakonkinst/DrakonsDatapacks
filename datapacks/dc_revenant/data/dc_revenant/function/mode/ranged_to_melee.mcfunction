@@ -1,6 +1,6 @@
-item replace entity @s weapon.mainhand with iron_sword{Enchantments:[{id:"minecraft:knockback",lvl:3s}]} 1
+item replace entity @s weapon.mainhand with minecraft:iron_sword[minecraft:enchantments={levels:{"minecraft:knockback":3}}]
 execute on target run effect give @s darkness 3 0 true
-data merge entity @s {Attributes:[{Name:generic.movement_speed,Base:0.25}]}
+attribute @s minecraft:generic.movement_speed base set 0.25
 tag @s add dc_revenantMelee
 
 playsound minecraft:entity.warden.heartbeat hostile @a ~ ~ ~ 0.75 1
