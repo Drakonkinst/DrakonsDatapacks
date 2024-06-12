@@ -2,6 +2,8 @@
     "description": "Hostile mobs as listed on Minecraft Wiki, including bosses and unused mobs",
     "values": [
         "minecraft:blaze",
+        "minecraft:bogged",
+        "minecraft:breeze",
         "minecraft:creeper",
         "minecraft:drowned",
         "minecraft:elder_guardian",

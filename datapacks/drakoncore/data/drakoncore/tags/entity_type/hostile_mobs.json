@@ -2,6 +2,8 @@
     "description": "Mobs considered worthy enemies of the player, including both hostile and some neutral mobs",
     "values": [
         "minecraft:blaze",
+        "minecraft:bogged",
+        "minecraft:breeze",
         "minecraft:cave_spider",
         "minecraft:creeper",
         "minecraft:drowned",

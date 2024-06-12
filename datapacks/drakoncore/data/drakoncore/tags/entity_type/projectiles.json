@@ -14,6 +14,8 @@
         "minecraft:ender_pearl",
         "minecraft:potion",
         "minecraft:experience_bottle",
-        "minecraft:firework_rocket"
+        "minecraft:firework_rocket",
+        "minecraft:wind_charge",
+        "minecraft:breeze_wind_charge"
     ]
 }

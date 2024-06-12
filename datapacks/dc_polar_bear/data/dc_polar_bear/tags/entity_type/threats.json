@@ -15,6 +15,8 @@
         "minecraft:silverfish",
         "minecraft:slime",
         "minecraft:witch",
-        "minecraft:zoglin"
+        "minecraft:zoglin",
+        "minecraft:breeze",
+        "minecraft:bogged"
     ]
 }
