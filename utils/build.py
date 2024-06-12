@@ -52,7 +52,7 @@ SERVER_DATAPACKS = {
     "dc_throwable_axes",
     # "dc_throwable_bombs",
     "dc_throwable_torch",
-    # "dc_tool_embed",
+    "dc_tool_embed",
     "dc_universal_dyeing",
     "dc_villager_fix",
     # # "dc_wishing_well", # Easter - this is always on since it allows Easter Eggs to be broken
