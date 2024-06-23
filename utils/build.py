@@ -60,7 +60,7 @@ SERVER_DATAPACKS = {
     # # Custom Items
     "dc_hidden_blade",
     # "dc_long_fall",
-    # "dc_nightblood",
+    "dc_nightblood",
     
     # # Playable Classes
     "dc_enderman",

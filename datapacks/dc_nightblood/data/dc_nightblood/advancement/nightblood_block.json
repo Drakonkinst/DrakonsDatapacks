@@ -8,7 +8,7 @@
                     "type": {
                         "direct_entity": {
                             "type": "minecraft:player",
-                            "nbt": "{SelectedItem:{tag:{Nightblood:1b}},Tags:[\"dc_nbActive\"]}"
+                            "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{Nightblood:1b}}},Tags:[\"dc_nbActive\"]}"
                         }
                     }
                 }
