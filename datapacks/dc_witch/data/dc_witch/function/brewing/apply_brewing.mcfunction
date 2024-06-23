@@ -28,6 +28,10 @@ execute if predicate dc_witch:potion/bad_luck run data modify entity @e[type=ite
 execute if predicate dc_witch:potion/slow_falling run data modify entity @e[type=item,tag=dc_targetPotion,limit=1] Item.components."minecraft:potion_contents".custom_effects append value {id:"minecraft:slow_falling",amplifier:0,duration:2400}
 execute if predicate dc_witch:potion/conduit_power run data modify entity @e[type=item,tag=dc_targetPotion,limit=1] Item.components."minecraft:potion_contents".custom_effects append value {id:"minecraft:conduit_power",amplifier:0,duration:2400}
 execute if predicate dc_witch:potion/dolphins_grace run data modify entity @e[type=item,tag=dc_targetPotion,limit=1] Item.components."minecraft:potion_contents".custom_effects append value {id:"minecraft:dolphins_grace",amplifier:0,duration:2400}
+execute if predicate dc_witch:potion/wind_charged run data modify entity @e[type=item,tag=dc_targetPotion,limit=1] Item.components."minecraft:potion_contents".custom_effects append value {id:"minecraft:wind_charged",amplifier:0,duration:600}
+execute if predicate dc_witch:potion/weaving run data modify entity @e[type=item,tag=dc_targetPotion,limit=1] Item.components."minecraft:potion_contents".custom_effects append value {id:"minecraft:weaving",amplifier:0,duration:600}
+execute if predicate dc_witch:potion/oozing run data modify entity @e[type=item,tag=dc_targetPotion,limit=1] Item.components."minecraft:potion_contents".custom_effects append value {id:"minecraft:oozing",amplifier:0,duration:600}
+execute if predicate dc_witch:potion/infested run data modify entity @e[type=item,tag=dc_targetPotion,limit=1] Item.components."minecraft:potion_contents".custom_effects append value {id:"minecraft:infested",amplifier:0,duration:600}
 
 # Extra potion types
 # Warped fungus gives Hero of the Village, which is consumed to restore spell cooldowns
