@@ -6,7 +6,7 @@ The **Witch Playable Class** adds a playable class to the game, the **Witch**. W
 
 Like all playable classes, this class can only be granted by server operators. Grant this class with `dc_witch` tag, which can be added with `/tag <player> add dc_witch` and removed with `/tag <player> remove dc_witch`.
 
-> **Warning**: The Witch's **Stellavoca** spell applies low durations of Night Vision, which causes the sky to flash similar to strobe lights. To avoid this effect per-player, server operators can add the tag `dc_noStrobe` with `/tag <player> add dc_noStrobe` to opt the player out of the flashing lights. However, the player loses 10 additional seconds of Night Vision.
+> **Warning**: The Witch's **Stellavoca** spell applies low durations of Night Vision, which causes the sky to flash similar to strobe lights. This effect ends early by default to avoid this, but server operators can add the tag `dc_noStrobe` with `/tag <player> add dc_allowStrobe` to opt the player in to extend Night Vision's duration by approximately 10 seconds.
 
 ## Abilities
 
