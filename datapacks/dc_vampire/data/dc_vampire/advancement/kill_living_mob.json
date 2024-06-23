@@ -3,9 +3,15 @@
         "requirement": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
-                "player": {
-                    "nbt": "{Tags:[\"dc_vampire\"]}"
-                },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"dc_vampire\"]}"
+                        }
+                    }
+                ],
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",

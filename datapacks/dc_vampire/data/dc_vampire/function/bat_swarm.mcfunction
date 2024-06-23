@@ -11,6 +11,6 @@ damage @s 16 minecraft:starve
 tag @s remove dc_castBatSwarm
 
 # Effects
-particle minecraft:dust 1 0 0 10 ~ ~1 ~ 0.4 0.4 0.4 0 15
+particle minecraft:dust{scale:4,color:[1,0,0]} ~ ~1 ~ 0.4 0.4 0.4 0 15
 playsound minecraft:entity.bat.takeoff player @a ~ ~ ~ 1 1
 playsound minecraft:entity.bat.loop player @a ~ ~ ~ 0.1 1

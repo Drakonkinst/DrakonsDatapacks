@@ -1,4 +1,4 @@
-particle minecraft:dust 0 0 0 4 ~ ~.5 ~ .4 .75 .4 0 40
+particle minecraft:dust{scale:4,color:[0,0,0]} ~ ~.5 ~ .4 .75 .4 0 40
 playsound minecraft:entity.ender_dragon.hurt player @a ~ ~ ~ 1 0.5
 playsound minecraft:entity.blaze.hurt player @a ~ ~ ~ 0.6 1
 playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 0.8

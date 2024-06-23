@@ -13,7 +13,7 @@ effect give @s minecraft:slow_falling 1 0 true
 tag @s add dc_vampireFloat
 
 # Effects
-execute at @s run particle minecraft:dust 1 0 0 10 ~ ~1 ~ 0.4 0.4 0.4 0 15
+execute at @s run particle minecraft:dust{scale:4,color:[1,0,0]} ~ ~1 ~ 0.4 0.4 0.4 0 15
 execute at @s run playsound minecraft:entity.ender_dragon.flap player @a ~ ~ ~ 1 2
 
 execute at @s as @e[type=#drakoncore:vanilla/all_mobs,distance=..128,tag=dc_persistentTemp] run function dc_vampire:persistent/remove_persistent

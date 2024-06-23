@@ -3,46 +3,52 @@
         "requirement": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
-                "player": {
-                    "nbt": "{Tags:[\"dc_vampire\"]}"
-                },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"dc_vampire\"]}"
+                        }
+                    }
+                ],
                 "damage": {
                     "blocked": false,
                     "type": {
                         "tags": [
                             {
-                                "id": "is_drowning",
+                                "id": "minecraft:is_drowning",
                                 "expected": false
                             },
                             {
-                                "id": "is_explosion",
+                                "id": "minecraft:is_explosion",
                                 "expected": false
                             },
                             {
-                                "id": "is_fall",
+                                "id": "minecraft:is_fall",
                                 "expected": false
                             },
                             {
-                                "id": "is_fire",
+                                "id": "minecraft:is_fire",
                                 "expected": false
                             },
                             {
-                                "id": "is_freezing",
+                                "id": "minecraft:is_freezing",
                                 "expected": false
                             },
                             {
-                                "id": "is_lightning",
+                                "id": "minecraft:is_lightning",
                                 "expected": false
                             },
                             {
-                                "id": "is_projectile",
+                                "id": "minecraft:is_projectile",
                                 "expected": false
                             }
                         ],
                         "direct_entity": {
                             "equipment": {
                                 "mainhand": {
-                                    "tag": "dc_vampire:wooden_tools"
+                                    "items": "#dc_vampire:wooden_tools"
                                 }
                             }
                         }

@@ -1,5 +1,4 @@
 {
-    "comment": "This advancement does not currently work due to https://bugs.mojang.com/browse/MC-261395, but should be used in the future to detect whether vampire bats are dealing damage",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:player_hurt_entity",
