@@ -1,5 +1,5 @@
 playsound minecraft:entity.ender_dragon.flap player @s ~ ~ ~ 10 .7
-kill @e[type=armor_stand,tag=dc_rocketEngine,limit=1,sort=nearest]
+kill @n[type=armor_stand,tag=dc_rocketEngine]
 
 # Teleport go brrr
 tag @s add dc_rocketPlayer

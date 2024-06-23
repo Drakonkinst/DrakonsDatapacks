@@ -1,7 +1,7 @@
 tag @e[type=marker,tag=dc_rocketLocation,tag=dc_editing,limit=1] remove dc_editing
 execute unless entity @e[type=marker,tag=dc_rocketLocation,limit=1] run tellraw @s {"text":"No locations found!","color":"red"}
-tag @e[type=marker,tag=dc_rocketLocation,limit=1,sort=nearest] add dc_editing
-execute if entity @e[type=marker,tag=dc_rocketLocation,tag=dc_editing,limit=1] run tellraw @s ["",{"text":"Now editing ","color":"green"},{"selector":"@e[type=marker,tag=dc_rocketLocation,tag=dc_editing,limit=1,sort=nearest]","color":"green"}]
+tag @n[type=marker,tag=dc_rocketLocation] add dc_editing
+execute if entity @e[type=marker,tag=dc_rocketLocation,tag=dc_editing,limit=1] run tellraw @s ["",{"text":"Now editing ","color":"green"},{"selector":"@n[type=marker,tag=dc_rocketLocation,tag=dc_editing]","color":"green"}]
 
 # Usage guide
 tellraw @s {"text":"Please run the following commands to set this location up. Make sure it is within the world spawn chunks.","color":"green"}

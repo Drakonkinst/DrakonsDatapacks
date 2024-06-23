@@ -1,4 +1,4 @@
-tag @a[distance=..1,limit=1,tag=!dc_rocketDeny,tag=!dc_rocketLaunching,gamemode=!spectator,sort=nearest] add dc_rocketPlayer
+tag @p[distance=..1,tag=!dc_rocketDeny,tag=!dc_rocketLaunching,gamemode=!spectator] add dc_rocketPlayer
 
 # TODO: Rocket payment
 tag @s add dc_rocketSuccess

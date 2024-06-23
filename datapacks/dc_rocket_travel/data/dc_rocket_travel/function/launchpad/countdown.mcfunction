@@ -1,6 +1,6 @@
 # Runs on player counting down to rocket launch
 
-execute at @e[tag=dc_launchpad,limit=1,sort=nearest] run tp @s ~ ~ ~
+execute at @n[tag=dc_launchpad] run tp @s ~ ~ ~
 execute if score @s dc_rocketCountdown matches 18 run playsound minecraft:entity.ender_dragon.growl master @a ~ ~-5 ~ 0.1 0
 execute if score @s dc_rocketCountdown matches 16 run title @s title ["",{"text":"Launching in 4...","color":"white"}]t
 execute if score @s dc_rocketCountdown matches 12 run title @s title ["",{"text":"Launching in 3...","color":"yellow"}]

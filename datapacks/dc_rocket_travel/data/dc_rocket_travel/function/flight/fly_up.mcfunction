@@ -1,4 +1,4 @@
-tag @e[type=armor_stand,tag=dc_rocketEngine,distance=..30,limit=1,sort=nearest] add dc_targetEngine
+tag @n[type=armor_stand,tag=dc_rocketEngine,distance=..30] add dc_targetEngine
 execute at @e[type=armor_stand,tag=dc_targetEngine,limit=1] run tp @s ~ ~ ~0.3
 effect give @e[type=armor_stand,tag=dc_targetEngine,limit=1] minecraft:levitation 1 25 true
 execute unless entity @e[type=armor_stand,tag=dc_targetEngine,limit=1] run function dc_rocket_travel:flight/end_travel

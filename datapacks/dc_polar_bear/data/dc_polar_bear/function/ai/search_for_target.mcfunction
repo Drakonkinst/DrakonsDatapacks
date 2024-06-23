@@ -7,10 +7,10 @@ tag @s remove dc_aggroPrey
 execute unless score #AggroType dc_value matches 1.. as @e[type=#dc_polar_bear:threats,distance=..8,sort=furthest] unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] run function dc_polar_bear:ai/aggro_threat
 
 # Aggro at nearby prey, as long as it's not currently eating
-execute unless score #AggroType dc_value matches 1.. unless score @s dc_polarBearEat matches 1.. as @e[type=#dc_polar_bear:prey,distance=..12,sort=nearest,limit=1] run function dc_polar_bear:ai/aggro_prey
+execute unless score #AggroType dc_value matches 1.. unless score @s dc_polarBearEat matches 1.. as @n[type=#dc_polar_bear:prey,distance=..12] run function dc_polar_bear:ai/aggro_prey
 
 # Aggro at nearby favorite prey, as long as it's not currently eating
-execute unless score #AggroType dc_value matches 1.. unless score @s dc_polarBearEat matches 1.. as @e[type=#dc_polar_bear:favorite_prey,distance=..20,sort=nearest,limit=1] run function dc_polar_bear:ai/aggro_prey
+execute unless score #AggroType dc_value matches 1.. unless score @s dc_polarBearEat matches 1.. as @n[type=#dc_polar_bear:favorite_prey,distance=..20] run function dc_polar_bear:ai/aggro_prey
 
 # If targeting prey, check if the target is too deep
 execute if score #AggroType dc_value matches 1 run function dc_polar_bear:ai/check_prey_too_deep

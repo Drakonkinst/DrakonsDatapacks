@@ -1,7 +1,7 @@
 title @s title ""
 tellraw @s ["",{"text":"[","color":"gray"},{"text":"Launchpad Terminal","color":"dark_aqua"},{"text":"] ","color":"gray"},{"text":"Have a safe journey!","color":"white"}]
 tag @s add dc_rocketInFlight
-tag @e[type=marker,limit=1,tag=dc_startingLaunch,tag=dc_launchpad,sort=nearest] remove dc_startingLaunch
+tag @n[type=marker,tag=dc_startingLaunch,tag=dc_launchpad] remove dc_startingLaunch
 
 # Lights & Sounds!
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 4
