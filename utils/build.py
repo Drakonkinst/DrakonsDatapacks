@@ -55,7 +55,6 @@ SERVER_DATAPACKS = {
     "dc_tool_embed",
     "dc_universal_dyeing",
     "dc_villager_fix",
-    # # "dc_wishing_well", # Easter - this is always on since it allows Easter Eggs to be broken
     "dc_xp_storage",
     
     # # Custom Items
@@ -64,7 +63,7 @@ SERVER_DATAPACKS = {
     # "dc_nightblood",
     
     # # Playable Classes
-    # "dc_enderman",
+    "dc_enderman",
     # "dc_vampire",
     # "dc_witch",
     # "dc_umbrella",
@@ -75,10 +74,13 @@ SERVER_DATAPACKS = {
     # "dc_worlds_collide",
     
     # Seasonal
-    "dc_valentines", # Valentines
+    # "dc_valentines", # Valentines
+    # "dc_christmas_horde", # Christmas
+    
+    # Distabled
     # Lost the script to generate this database, am very sad. Will have to come back to this next year :)
+    # "dc_wishing_well", # Easter - this is always on since it allows Easter Eggs to be broken
     # "dc_easter_hunt", # Easter
-    "dc_christmas_horde", # Christmas
 }
 
 # Tasks
