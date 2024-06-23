@@ -3,7 +3,7 @@
         "function": "dc_werewolf:events/on_hit"
     },
     "criteria": {
-        "enderman_player_hurt": {
+        "entity_hurt_player": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "player": [
