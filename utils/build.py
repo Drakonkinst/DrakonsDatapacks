@@ -58,7 +58,7 @@ SERVER_DATAPACKS = {
     "dc_xp_storage",
     
     # # Custom Items
-    # "dc_hidden_blade",
+    "dc_hidden_blade",
     # "dc_long_fall",
     # "dc_nightblood",
     
