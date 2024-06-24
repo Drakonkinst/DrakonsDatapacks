@@ -1,6 +1,6 @@
+clear @s
 advancement revoke @s everything
 recipe take @s *
-clear @s
 scoreboard players reset @s dc_storedXP
 xp set @s 0 levels
 xp set @s 0 points

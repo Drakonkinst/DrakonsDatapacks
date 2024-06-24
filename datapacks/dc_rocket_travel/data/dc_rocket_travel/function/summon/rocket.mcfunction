@@ -1,1 +1,1 @@
-summon armor_stand ~ ~ ~-0.3 {CustomName:"\"Rocket Engine\"",Invulnerable:1b,ArmorItems:[{},{},{},{id:"player_head",count:1,tag:{SkullOwner:{Id:[I;-946787358,2132364827,-1869290969,-4651234],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4NTZhOGYzN2I2YzMxNDY4NTRmMmNhYTcxMDFiOWRkNTkyZjQ2NjlhM2M3NWY5NDFlMjg1OTU1MmJkMWFlOCJ9fX0="}]}}}}],Pose:{Head:[90f,0f,90f]},Invisible:1b,Tags:["dc_rocketEngine"],Motion:[0.0,5.0,0.0]}
+execute summon armor_stand run function dc_rocket_travel:flight/setup_rocket

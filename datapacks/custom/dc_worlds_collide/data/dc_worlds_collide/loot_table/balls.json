@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "entity": "this",
+          "lore": [
+            {
+              "text": "A strange, spherical object",
+              "color": "light_purple",
+              "italic": false
+            },
+            {
+              "text": "collected from some poor",
+              "color": "light_purple",
+              "italic": false
+            },
+            {
+              "text": "creature.",
+              "color": "light_purple",
+              "italic": false
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "Lore Item",
+              "color": "dark_purple",
+              "italic": false
+            }
+          ],
+          "mode": "append"
+        },
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "target": "item_name",
+          "name": {
+            "text": "Balls",
+            "color": "green",
+            "italic": false
+          }
+        },
+        {
+          "function": "minecraft:set_count",
+          "count": 2
+        },
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": "{Balls:1b}"
+        }
+      ]
+    }
+  ]
+}

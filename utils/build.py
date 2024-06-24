@@ -36,13 +36,13 @@ SERVER_DATAPACKS = {
     "dc_more_recipes",
     "dc_parachute",
     "dc_pet_finder",
-    # "dc_pet_transfer",
-    # "dc_player_revive",
+    "dc_pet_transfer",
+    "dc_player_revive",
     "dc_polar_bear",
     "dc_repairable_tridents",
     "dc_restful_sleep",
     "dc_revenant",
-    # "dc_rocket_travel",
+    "dc_rocket_travel",
     "dc_roomba",
     "dc_shiny_toe",
     "dc_sniffer_riding",
@@ -70,8 +70,8 @@ SERVER_DATAPACKS = {
     "dc_werewolf",
     
     # # Custom
-    # "dc_world_reset",
-    # "dc_worlds_collide",
+    "dc_world_reset",
+    "dc_worlds_collide",
     
     # Seasonal
     # "dc_valentines", # Valentines

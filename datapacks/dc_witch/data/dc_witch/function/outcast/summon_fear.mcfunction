@@ -1,2 +1,2 @@
 # Duration: -1 is the same thing as infinite duration
-summon husk ~ ~5 ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,IsBaby:1b,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:-1,ShowParticles:0b}],Team:"no_collision",Tags:["dc_outcastFear","dc_marker"]}
+summon husk ~ ~5 ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,IsBaby:1b,active_effects:[{id:"minecraft:invisibility",show_icon:0b,show_particles:0b,duration:-1}],Team:"no_collision",Tags:["dc_outcastFear","dc_marker"]}

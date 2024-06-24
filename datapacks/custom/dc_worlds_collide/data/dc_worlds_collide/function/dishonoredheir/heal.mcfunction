@@ -1,4 +1,4 @@
-clear @s minecraft:heart_of_the_sea{Balls:1b} 2
+clear @s minecraft:heart_of_the_sea[custom_data={Balls:1b}] 2
 effect clear @s minecraft:slowness
 effect clear @s minecraft:nausea
 effect clear @s minecraft:poison

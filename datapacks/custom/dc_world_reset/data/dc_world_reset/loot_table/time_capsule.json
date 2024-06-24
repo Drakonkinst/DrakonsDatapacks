@@ -113,7 +113,8 @@
                             "color": "aqua",
                             "italic": false
                         }
-                    ]
+                    ],
+                    "mode": "append"
                 },
                 {
                     "function": "minecraft:set_name",

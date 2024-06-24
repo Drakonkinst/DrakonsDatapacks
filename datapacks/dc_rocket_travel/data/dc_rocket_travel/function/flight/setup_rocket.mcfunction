@@ -1,0 +1,3 @@
+tp ~ ~ ~-0.3
+item replace entity @s armor.head with minecraft:player_head[minecraft:profile={id:[-946787358,2132364827,-1869290969,-4651234],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY4NTZhOGYzN2I2YzMxNDY4NTRmMmNhYTcxMDFiOWRkNTkyZjQ2NjlhM2M3NWY5NDFlMjg1OTU1MmJkMWFlOCJ9fX0="}]}]
+data merge entity @s {CustomName:"\"Rocket Engine\"",Invulnerable:1b,Pose:{Head:[90f,0f,90f]},Invisible:1b,Tags:["dc_rocketEngine"],Motion:[0.0,5.0,0.0]}
