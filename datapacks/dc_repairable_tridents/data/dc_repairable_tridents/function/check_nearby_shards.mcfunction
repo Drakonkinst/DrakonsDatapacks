@@ -1,6 +1,6 @@
 # Locate at least one prismarine shard in the same block
 # If one is found, also check the nearest player
-execute as @e[type=item,distance=..1,predicate=dc_repairable_tridents:is_prismarine_shard,limit=1] run tag @s add dc_prismarineShard
+execute as @n[type=item,distance=..1,predicate=dc_repairable_tridents:is_prismarine_shard] run tag @s add dc_prismarineShard
 execute if entity @e[type=item,tag=dc_prismarineShard,limit=1] as @p[distance=..5] unless entity @s[level=..0,gamemode=!creative] run tag @s add dc_anvilCrafting
 
 # If all requirements met, dc_anvilCrafting will exist
